@@ -1,1 +1,1 @@
-plotly.graph_objects
+plotly
