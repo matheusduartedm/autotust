@@ -5,10 +5,12 @@ import streamlit as st
 import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
+from collections import defaultdict
 
 
 class Generator:
     def __init__(self):
+        self.type = ""
         self.name = ""
         self.must = {}
         self.bus = {}
@@ -94,12 +96,16 @@ def load_base(DB_PATH):
 
                     if len(line) > 0:
                         name = line[0:32].strip()
-                        if name not in generators:
-                            generator = Generator()
-                            generator.name = name
-                            generators[name] = generator
-                        generators[name].must[year] = float(line[32:41])
-                        generators[name].bus[year] = int(line[70:75])
+                        if len(line) > 0:
+                            name = line[0:32].strip()
+                            if name not in generators:
+                                generator = Generator()
+                                generator.name = name
+                                generator.type = name[0:3]
+                                generators[name] = generator
+                            generators[name].must[year] = float(line[32:41])
+                            generators[name].bus[year] = int(line[70:75])
+
 
         if os.path.exists(tuh_file):
             with open(tuh_file, "r") as file:
@@ -266,29 +272,62 @@ def create_dashboard():
     elif tab == "Assumptions":
         st.write("# Assumptions")
         st.write("### GER File")
+
         if generators.values():
-            must_total_years = list(generators.values())[0].must.keys()  # Get the list of years
+            # Get the list of years
+            must_total_years = list(generators.values())[0].must.keys()
+            
+            # Create a dictionary to store MUST values by type
+            must_values_by_type = defaultdict(lambda: defaultdict(int))
+
+            # Iterate over all generators and add MUST values to the corresponding type and year
+            for generator in generators.values():
+                for year in must_total_years:
+                    must_values_by_type[generator.type][year] += generator.must.get(year, 0)
+
+            # Calculate the total MUST values for each year
+            must_total_values = {year: sum(values[year] for values in must_values_by_type.values()) for year in must_total_years}
+
+            # Get the list of types in reverse sorted order
+            types_sorted = sorted(must_values_by_type.keys(), reverse=True)  # Reverse order
+
+            # Plot a separate bar for each type
+            fig_must_total = go.Figure()
+            for type_ in types_sorted:
+                must_values = must_values_by_type[type_]
+                fig_must_total.add_trace(go.Bar(
+                    x=list(must_total_years),
+                    y=[value / 1e3 for value in must_values.values()],  # Convert to GW
+                    text=[f"{float(value/1e3):4.2f} GW" for value in must_values.values()],
+                    textposition='inside',
+                    name=type_
+                ))
+
+            # Add total values as a separate trace
+            fig_must_total.add_trace(go.Scatter(
+                x=list(must_total_years),
+                y=[value / 1e3 for value in must_total_values.values()],  # Convert to GW
+                mode='text',
+                text=[f"{float(value/1e3):4.2f} GW" for value in must_total_values.values()],
+                textposition='top center',
+                showlegend=False  # Do not show this trace in the legend
+            ))
+
+            fig_must_total.update_layout(
+                title="MUST by Year",
+                xaxis_title="<b>Year</b>",
+                xaxis=dict(
+                    tickmode='linear',
+                    dtick=1
+                ),
+                title_x=0.5,
+                barmode='stack'  # Stack bars for different types
+            )
+            fig_must_total.update_yaxes(visible=False)
+            st.plotly_chart(fig_must_total)
+
         else:
-            print("O dicionário 'generators' está vazio.")
-            must_total_years = []  # Assign an empty list
-        must_total_values = {year: sum(generator.must.get(year, 0) for generator in generators.values()) for year in must_total_years}
-        fig_must_total = go.Figure(data=[go.Bar(
-            x=list(must_total_years), 
-            y=list(must_total_values.values()), 
-            text=[f"{float(value/1e3):4.2f} GW" for value in must_total_values.values()],
-            textposition='outside'
-        )])
-        fig_must_total.update_layout(
-            title="MUST by Year", 
-            xaxis_title="<b>Year</b>", 
-            xaxis=dict(
-                tickmode='linear',
-                dtick=1
-            ),
-            title_x=0.5
-        )
-        fig_must_total.update_yaxes(visible=False)
-        st.plotly_chart(fig_must_total)
+            st.write("O dicionário 'generators' está vazio.")
 
         st.write("### R61 File")
         # Display the RAP data
