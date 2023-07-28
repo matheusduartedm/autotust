@@ -165,7 +165,14 @@ def load_base(DB_PATH):
     return generators, r61_data
 
 
-def create_dashboard(generators, r61_data):
+def create_dashboard():
+    BASE_DIR = r"cases"
+    base_options = [name for name in os.listdir(BASE_DIR) if os.path.isdir(os.path.join(BASE_DIR, name))]
+    base_selection = st.sidebar.selectbox("Select case:", base_options)
+    CASE_PATH = os.path.join(BASE_DIR, base_selection)
+
+    generators, r61_data = load_base(CASE_PATH)
+
     # Sidebar
     st.sidebar.title("Navigation")
     tab_names = ["Assumptions", "Results"]
