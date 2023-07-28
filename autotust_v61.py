@@ -259,7 +259,10 @@ def create_dashboard(generators, r61_data):
     elif tab == "Assumptions":
         st.write("# Assumptions")
         st.write("### GER File")
-        must_total_years = list(generators.values())[0].must.keys()  # Get the list of years
+        if generators.values():
+            must_total_years = list(generators.values())[0].must.keys()  # Get the list of years
+        else:
+            print("O dicionário 'generators' está vazio.")
         must_total_values = {year: sum(generator.must.get(year, 0) for generator in generators.values()) for year in must_total_years}
         fig_must_total = go.Figure(data=[go.Bar(
             x=list(must_total_years), 
