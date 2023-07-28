@@ -5,162 +5,162 @@
                USINA                   TUST      MUST         EUST      UF     TUST      MUST      Ciclo        EUST      CEG
                                     R$/kW.mes     MW       1000R$/ano       Desconto  Equivalent Após Julho 1000R$/ano
  X--------------------------------X-----------X---------X-------------X---X----------X----------X----------X-----------X--------X
-  EOL ITAUNA I                          11.174    18.029        2417.5  RN                             58.3       1410. 050124-7
-  EOL ITAUNA II                         11.174    24.088        3229.9  RN                             58.3       1884. 050125-5
-  EOL ITAUNA III                        11.174    42.031        5635.9  RN                             58.3       3288. 050126-3
-  EOL SAO DOMINGOS I                    11.174    29.767        3991.4  RN                             58.3       2328. 050096-8
-  EOL SAO DOMINGOS II                   11.174    29.910        4010.6  RN                             58.3       2340. 050097-6
-  EOL SAO DOMINGOS III                  11.174    17.871        2396.3  RN                             58.3       1398. 050098-4
-  EOL SAO DOMINGOS IV                   11.174    23.860        3199.4  RN                             58.3       1866. 050099-2
-  EOL SAO DOMINGOS V                    11.174    12.130        1626.5  RN                             58.3        949. 050100-0
-  EOL SERRA DA BORBOREMA I               9.839    42.082        4968.4  PB                             33.3       1656. 044988-1
-  EOL SERRA DA BORBOREMA II              9.839    48.082        5676.7  PB                             33.3       1892. 044989-0
-  EOL SERRA DA BORBOREMA III             9.839    35.999        4250.2  PB                             33.3       1417. 044990-3
-  EOL SERRA DA BORBOREMA IV              9.839    41.903        4947.2  PB                             33.3       1649. 044991-1
-  EOL SERRA DA BORBOREMA V               9.839     35.94        4243.2  PB                             33.3       1414. 044992-0
-  EOL SERRA DA PALMEIRA I               10.384     36.00        4485.8  PB                             58.3       2617. 049818-1
-  EOL SERRA DA PALMEIRA II              10.384     30.00        3738.1  PB                             50.0       1869. 049819-0
-  EOL SERRA DA PALMEIRA III             10.384     24.00        2990.5  PB                             50.0       1495. 049820-3
-  EOL SERRA DA PALMEIRA IV              10.384     30.00        3738.1  PB                             33.3       1246. 049821-1
-  EOL SERRA DA PALMEIRA IX              10.384     24.00        2990.5  PB                             66.7       1994. 049826-2
-  EOL SERRA DA PALMEIRA V               10.384     36.00        4485.8  PB                             66.7       2991. 049822-0
-  EOL SERRA DA PALMEIRA VI              10.384     24.00        2990.5  PB                             25.0        748. 049823-8
-  EOL SERRA DA PALMEIRA VII             10.384     30.00        3738.1  PB                             25.0        935. 049824-6
-  EOL SERRA DA PALMEIRA VIII            10.384     24.00        2990.5  PB                             41.7       1246. 049825-4
-  EOL SERRA DA PALMEIRA X               10.384     30.00        3738.1  PB                             58.3       2181. 049827-0
-  EOL SERRA DA PALMEIRA XI              10.384     24.00        2990.5  PB                             75.0       2243. 049828-9
-  EOL SERRA DA PALMEIRA XII             10.384     24.00        2990.5  PB                             83.3       2492. 049829-7
-  EOL SERRA DA PALMEIRA XIII            10.384     42.00        5233.4  PB                             16.7        872. 049830-0
-  EOL SERRA DA PALMEIRA XIV             10.384     24.00        2990.5  PB                             58.3       1744. 049831-9
-  EOL SERRA DA PALMEIRA XIX             10.384     30.00        3738.1  PB                              8.3        312. 049836-0
-  EOL SERRA DA PALMEIRA XV              10.384     36.00        4485.8  PB                             75.0       3364. 049832-7
-  EOL SERRA DA PALMEIRA XVI             10.384     24.00        2990.5  PB                             83.3       2492. 049833-5
-  EOL SERRA DA PALMEIRA XVII            10.384     30.00        3738.1  PB                             66.7       2492. 049834-3
-  EOL SERRA DA PALMEIRA XVIII           10.384     18.00        2242.9  PB                             75.0       1682. 049835-1
-  EOL SERRA DA PALMEIRA XX              10.384     24.00        2990.5  PB                              8.3        249. 049837-8
-  EOL VENTOS DE SANTO ANTONIO 01        10.424     45.00        5628.8  RN                             58.3       3283. 047205-0
-  EOL VENTOS DE SANTO ANTONIO 04        10.985     68.20        8990.2  BA                             58.3       5244. 047208-5
-  EOL VENTOS DE SANTO ANTONIO 05        10.985     68.20        8990.2  BA                             58.3       5244. 051592-2
-  EOL VENTOS DE SANTO ANTONIO 06        10.985     68.20        8990.2  BA                             58.3       5244. 051593-0
-  EOL VENTOS DE SANTO ANTONIO 07        10.985     74.40        9807.5  BA                             58.3       5721. 051594-9
-  EOL VENTOS DE SANTO ANTONIO 08        10.985     74.40        9807.5  BA                             58.3       5721. 051595-7
-  UFV ARINOS 24                         10.848    41.244        5368.9  MG                             91.7       4921. 050843-8
-  UFV ARINOS 32                         10.848    48.118        6263.7  MG                             83.3       5220. 051753-4
-  UFV ASSU SOL II                       11.246    39.553        5337.7  RN                             91.7       4893. 046924-6
-  UFV ASSU SOL III                      11.246    39.553        5337.7  RN                             91.7       4893. 046925-4
-  UFV ASSU SOL IX                       11.246     48.75        6578.9  RN                             75.0       4934. 047381-2
-  UFV ASSU SOL V                        11.246    39.553        5337.7  RN                              8.3        445. 046927-0
-  UFV ASSU SOL VI                       11.246     48.75        6578.9  RN                             83.3       5482. 047378-2
-  UFV ASSU SOL VII                      11.246     48.75        6578.9  RN                             75.0       4934. 047379-0
-  UFV ASSU SOL X                        11.246     48.75        6578.9  RN                             58.3       3838. 047382-0
-  UFV ASSU SOL XI                       11.246     48.75        6578.9  RN                             66.7       4386. 047383-9
-  UFV ASSU SOL XII                      11.246     48.75        6578.9  RN                             58.3       3838. 047384-7
-  UFV ASSU SOL XIII                     11.246     48.75        6578.9  RN                             41.7       2741. 047385-5
-  UFV ASSU SOL XIV                      11.246     48.75        6578.9  RN                             50.0       3289. 047386-3
-  UFV ASSU SOL XV                       11.246     48.75        6578.9  RN                             50.0       3289. 047387-1
-  UFV ASSU SOL XVI                      11.246     48.75        6578.9  RN                             33.3       2193. 047388-0
-  UFV AURORA 75                         10.701    41.244        5296.2  MG                             58.3       3089. 049469-0
-  UFV BARRO ALTO I                       7.632     49.55        4538.0  GO                             41.7       1891. 052318-6
-  UFV BARRO ALTO II                      7.632     49.55        4538.0  GO                             41.7       1891. 052319-4
-  UFV BARRO ALTO III                     7.632     49.55        4538.0  GO                             41.7       1891. 052320-8
-  UFV BARRO ALTO IV                      7.632     49.55        4538.0  GO                             41.7       1891. 052321-6
-  UFV BARRO ALTO IX                      7.632     49.55        4538.0  GO                             41.7       1891. 052326-7
-  UFV BARRO ALTO V                       7.632     49.55        4538.0  GO                             41.7       1891. 052322-4
-  UFV BARRO ALTO VI                      7.632     49.55        4538.0  GO                             41.7       1891. 052323-2
-  UFV BARRO ALTO VII                     7.632     49.55        4538.0  GO                             41.7       1891. 052324-0
-  UFV BARRO ALTO VIII                    7.632     49.55        4538.0  GO                             41.7       1891. 052325-9
-  UFV BOM LUGAR IV                      10.393     35.03        4368.9  CE                             66.7       2913. 035645-0
-  UFV BOM LUGAR IX                      10.393     35.03        4368.9  CE                             66.7       2913. 035675-1
-  UFV BOM LUGAR V                       10.393     35.03        4368.9  CE                             66.7       2913. 035680-8
-  UFV BOM LUGAR VI                      10.393    33.968        4236.4  CE                             66.7       2824. 035672-7
-  UFV BOM LUGAR VII                     10.393     35.03        4368.9  CE                             66.7       2913. 035676-0
-  UFV BOM LUGAR VIII                    10.393     35.03        4368.9  CE                             66.7       2913. 035679-4
-  UFV CASCUDO 1                         11.116     29.25        3901.6  CE                             41.7       1626. 045063-4
-  UFV CASCUDO 2                         11.116     29.25        3901.6  CE                             41.7       1626. 045064-2
-  UFV CASCUDO 3                         11.116     29.25        3901.6  CE                             41.7       1626. 045065-0
-  UFV CASCUDO 4                         11.116     29.25        3901.6  CE                             41.7       1626. 045066-9
-  UFV CASCUDO 5                         11.116     29.25        3901.6  CE                             41.7       1626. 045067-7
-  UFV CASCUDO 6                         11.116     29.25        3901.6  CE                             41.7       1626. 045068-5
-  UFV CASCUDO 7                         11.116     29.25        3901.6  CE                             41.7       1626. 045069-3
-  UFV GRAVIOLA 1                        11.197     74.00        9942.7  PI                             58.3       5800. 036925-0
-  UFV GRAVIOLA 2                        11.197     74.00        9942.7  PI                             58.3       5800. 036926-8
-  UFV GRAVIOLA 3                        11.197     74.00        9942.7  PI                             58.3       5800. 037745-7
-  UFV GRAVIOLA 4                        11.197     74.00        9942.7  PI                             58.3       5800. 037746-5
-  UFV LAGOINHA I                        10.968    41.244        5428.5  CE                             58.3       3167. 049620-0
-  UFV LAGOINHA II                       10.968    41.244        5428.5  CE                             58.3       3167. 049621-9
-  UFV LAGOINHA III                      10.968    41.244        5428.5  CE                             58.3       3167. 049622-7
-  UFV LAGOINHA IV                       10.968    41.244        5428.5  CE                             58.3       3167. 051636-8
-  UFV LINS 01                           10.674     90.00       11527.6  CE                             83.3       9606. 049926-9
-  UFV LINS 02                           10.674     92.00       11783.8  CE                             83.3       9820. 049927-7
-  UFV LUZEIRO 1                         10.953     24.00        3154.4  BA                             58.3       1840. 046525-9
-  UFV LUZEIRO 2                         10.953     24.00        3154.4  BA                             58.3       1840. 046526-7
-  UFV LUZEIRO 3                         10.953     24.00        3154.4  BA                             58.3       1840. 046527-5
-  UFV LUZEIRO 4                         10.953     24.00        3154.4  BA                             58.3       1840. 046528-3
-  UFV LUZEIRO 5                         10.953     24.00        3154.4  BA                             58.3       1840. 046529-1
-  UFV LUZEIRO 6                         10.953     21.00        2760.1  BA                             58.3       1610. 046530-5
-  UFV MISSAGRA I                        10.622    48.118        6133.4  BA                             58.3       3578. 050289-8
-  UFV MISSAGRA II                       10.622    48.118        6133.4  BA                             58.3       3578. 050290-1
-  UFV MISSAGRA III                      10.622    48.118        6133.4  BA                             58.3       3578. 050291-0
-  UFV ORQUIDEA I                        10.622     47.50        6054.6  BA                             58.3       3532. 046733-2
-  UFV ORQUIDEA II                       10.622     30.00        3824.0  BA                             58.3       2231. 046734-0
-  UFV ORQUIDEA III                      10.622     30.00        3824.0  BA                             58.3       2231. 046735-9
-  UFV ORQUIDEA IV                       10.622     30.00        3824.0  BA                             58.3       2231. 046736-7
-  UFV ORQUIDEA V                        10.622     30.00        3824.0  BA                             58.3       2231. 046737-5
-  UFV ORQUIDEA VI                       10.622     30.00        3824.0  BA                             58.3       2231. 046738-3
-  UFV PANORAMA 01                       10.447     100.0       12536.4  PI                             83.3      10447. 049401-1
-  UFV PANORAMA 02                       10.447     100.0       12536.4  PI                             83.3      10447. 049402-0
-  UFV PANORAMA 03                       10.447     100.0       12536.4  PI                             83.3      10447. 049403-8
-  UFV SANTA LUZIA 15                    10.837     49.30        6411.2  PB                              8.3        534. 049699-5
-  UFV SOLAR IRAPURU I                   10.701    48.118        6178.9  MG                             33.3       2060. 046577-1
-  UFV SOLAR IRAPURU II                  10.701    48.118        6178.9  MG                             33.3       2060. 046578-0
-  UFV SOLAR IRAPURU III                 10.701    48.118        6178.9  MG                             33.3       2060. 046579-8
-  UFV SOLAR IRAPURU IV                  10.701    48.118        6178.9  MG                             33.3       2060. 049053-9
-  UFV SOLAR IRAPURU V                   10.701    48.118        6178.9  MG                             33.3       2060. 049054-7
-  UFV SOLAR IRAPURU VI                  10.701    48.118        6178.9  MG                             33.3       2060. 049055-5
-  UFV SOLAR IRAPURU VII                 10.701    48.118        6178.9  MG                             33.3       2060. 049056-3
-  UFV SOLIDAO 1                         10.701    47.067        6044.0  MG                             58.3       3526. 047438-0
-  UFV SOLIDAO 10                        10.701    47.067        6044.0  MG                             58.3       3526. 044538-0
-  UFV SOLIDAO 11                        10.701    47.067        6044.0  MG                             58.3       3526. 044539-8
-  UFV SOLIDAO 12                        10.701    47.067        6044.0  MG                             58.3       3526. 044540-1
-  UFV SOLIDAO 2                         10.701    47.067        6044.0  MG                             58.3       3526. 047439-8
-  UFV SOLIDAO 3                         10.701    47.067        6044.0  MG                             58.3       3526. 047440-1
-  UFV SOLIDAO 4                         10.701    47.067        6044.0  MG                             58.3       3526. 047441-0
-  UFV SOLIDAO 5                         10.701    33.620        4317.2  MG                             58.3       2518. 047442-8
-  UFV SOLIDAO 6                         10.701    47.067        6044.0  MG                             58.3       3526. 047443-6
-  UFV SOLIDAO 7                         10.701    47.067        6044.0  MG                             58.3       3526. 047444-4
-  UFV SOLIDAO 8                         10.701    47.067        6044.0  MG                             58.3       3526. 047445-2
-  UFV SOLIDAO 9                         10.701    47.067        6044.0  MG                             58.3       3526. 044545-2
-  UFV TIMBAUBA I                        10.829    40.895        5314.3  CE                             66.7       3543. 047292-1
-  UFV TIMBAUBA II                       10.829    35.560        4621.0  CE                             66.7       3081. 047293-0
-  UFV TIMBAUBA III                      10.829    39.120        5083.6  CE                             66.7       3389. 047294-8
-  UFV TIMBAUBA IV                       10.829    40.895        5314.3  CE                             66.7       3543. 047295-6
-  UFV VISTA ALEGRE I                    10.701    41.244        5296.2  MG                             58.3       3089. 046553-4
-  UFV VISTA ALEGRE II                   10.701    41.244        5296.2  MG                             58.3       3089. 046554-2
-  UFV VISTA ALEGRE III                  10.701    41.244        5296.2  MG                             58.3       3089. 046555-0
-  UFV VISTA ALEGRE IV                   10.701    41.244        5296.2  MG                             58.3       3089. 046556-9
-  UFV VISTA ALEGRE IX                   10.701    41.244        5296.2  MG                             58.3       3089. 046561-5
-  UFV VISTA ALEGRE V                    10.701    41.244        5296.2  MG                             58.3       3089. 046557-7
-  UFV VISTA ALEGRE VI                   10.701    41.244        5296.2  MG                             58.3       3089. 046558-5
-  UFV VISTA ALEGRE VII                  10.701    41.244        5296.2  MG                             58.3       3089. 046559-3
-  UFV VISTA ALEGRE VIII                 10.701    41.244        5296.2  MG                             58.3       3089. 046560-7
-  UFV VISTA ALEGRE X                    10.701    41.244        5296.2  MG                             58.3       3089. 046562-3
-  UFV VISTA ALEGRE XI                   10.701    41.244        5296.2  MG                             58.3       3089. 049655-3
-  UFV VISTA ALEGRE XII                  10.701    41.244        5296.2  MG                             58.3       3089. 049656-1
-  UFV VISTA ALEGRE XIII                 10.701    41.244        5296.2  MG                             58.3       3089. 049657-0
-  UFV VISTA ALEGRE XIV                  10.701    41.244        5296.2  MG                             58.3       3089. 049658-8
-  UFV VISTA ALEGRE XV                   10.701    41.244        5296.2  MG                             58.3       3089. 049659-6
-  UFV ZEBU I                            10.380    30.268        3770.2  BA                             33.3       1257. 037861-5
-  UFV ZEBU II                           10.380    24.737        3081.3  BA                             33.3       1027. 037862-3
-  UFV ZEBU III                          10.380    44.250        5511.8  BA                             33.3       1837. 038296-5
-  UFV ZEBU IV                           10.380    46.862        5837.2  BA                             33.3       1946. 038297-3
-  UFV ZEBU IX                           10.380    14.289        1779.9  BA                             33.3        593. 044546-0
-  UFV ZEBU V                            10.380    30.268        3770.2  BA                             33.3       1257. 044547-9
-  UFV ZEBU VI                           10.380    24.737        3081.3  BA                             33.3       1027. 044548-7
-  UFV ZEBU VII                          10.380    35.800        4459.3  BA                             33.3       1486. 044549-5
-  UFV ZEBU VIII                         10.380    41.331        5148.2  BA                             33.3       1716. 044550-9
-  UTE NOVO TEMPO BARCARENA               8.084    614.50       59615.1  PA                             58.3      34775. 037898-4
+  EOL ITAUNA I                          10.830    18.029        2343.0  RN                             58.3       1367. 050124-7
+  EOL ITAUNA II                         10.830    24.088        3130.4  RN                             58.3       1826. 050125-5
+  EOL ITAUNA III                        10.830    42.031        5462.2  RN                             58.3       3186. 050126-3
+  EOL SAO DOMINGOS I                    10.830    29.767        3868.4  RN                             58.3       2257. 050096-8
+  EOL SAO DOMINGOS II                   10.830    29.910        3887.0  RN                             58.3       2267. 050097-6
+  EOL SAO DOMINGOS III                  10.830    17.871        2322.5  RN                             58.3       1355. 050098-4
+  EOL SAO DOMINGOS IV                   10.830    23.860        3100.8  RN                             58.3       1809. 050099-2
+  EOL SAO DOMINGOS V                    10.830    12.130        1576.4  RN                             58.3        920. 050100-0
+  EOL SERRA DA BORBOREMA I               9.578    42.082        4836.7  PB                             33.3       1612. 044988-1
+  EOL SERRA DA BORBOREMA II              9.578    48.082        5526.3  PB                             33.3       1842. 044989-0
+  EOL SERRA DA BORBOREMA III             9.578    35.999        4137.5  PB                             33.3       1379. 044990-3
+  EOL SERRA DA BORBOREMA IV              9.578    41.903        4816.1  PB                             33.3       1605. 044991-1
+  EOL SERRA DA BORBOREMA V               9.578     35.94        4130.7  PB                             33.3       1377. 044992-0
+  EOL SERRA DA PALMEIRA I               10.108     36.00        4366.5  PB                             58.3       2547. 049818-1
+  EOL SERRA DA PALMEIRA II              10.108     30.00        3638.8  PB                             50.0       1819. 049819-0
+  EOL SERRA DA PALMEIRA III             10.108     24.00        2911.0  PB                             50.0       1456. 049820-3
+  EOL SERRA DA PALMEIRA IV              10.108     30.00        3638.8  PB                             33.3       1213. 049821-1
+  EOL SERRA DA PALMEIRA IX              10.108     24.00        2911.0  PB                             66.7       1941. 049826-2
+  EOL SERRA DA PALMEIRA V               10.108     36.00        4366.5  PB                             66.7       2911. 049822-0
+  EOL SERRA DA PALMEIRA VI              10.108     24.00        2911.0  PB                             25.0        728. 049823-8
+  EOL SERRA DA PALMEIRA VII             10.108     30.00        3638.8  PB                             25.0        910. 049824-6
+  EOL SERRA DA PALMEIRA VIII            10.108     24.00        2911.0  PB                             41.7       1213. 049825-4
+  EOL SERRA DA PALMEIRA X               10.108     30.00        3638.8  PB                             58.3       2123. 049827-0
+  EOL SERRA DA PALMEIRA XI              10.108     24.00        2911.0  PB                             75.0       2183. 049828-9
+  EOL SERRA DA PALMEIRA XII             10.108     24.00        2911.0  PB                             83.3       2426. 049829-7
+  EOL SERRA DA PALMEIRA XIII            10.108     42.00        5094.3  PB                             16.7        849. 049830-0
+  EOL SERRA DA PALMEIRA XIV             10.108     24.00        2911.0  PB                             58.3       1698. 049831-9
+  EOL SERRA DA PALMEIRA XIX             10.108     30.00        3638.8  PB                              8.3        303. 049836-0
+  EOL SERRA DA PALMEIRA XV              10.108     36.00        4366.5  PB                             75.0       3275. 049832-7
+  EOL SERRA DA PALMEIRA XVI             10.108     24.00        2911.0  PB                             83.3       2426. 049833-5
+  EOL SERRA DA PALMEIRA XVII            10.108     30.00        3638.8  PB                             66.7       2426. 049834-3
+  EOL SERRA DA PALMEIRA XVIII           10.108     18.00        2183.3  PB                             75.0       1637. 049835-1
+  EOL SERRA DA PALMEIRA XX              10.108     24.00        2911.0  PB                              8.3        243. 049837-8
+  EOL VENTOS DE SANTO ANTONIO 01        10.097     45.00        5452.3  RN                             58.3       3181. 047205-0
+  EOL VENTOS DE SANTO ANTONIO 04        10.896     68.20        8917.5  BA                             58.3       5202. 047208-5
+  EOL VENTOS DE SANTO ANTONIO 05        10.896     68.20        8917.5  BA                             58.3       5202. 051592-2
+  EOL VENTOS DE SANTO ANTONIO 06        10.896     68.20        8917.5  BA                             58.3       5202. 051593-0
+  EOL VENTOS DE SANTO ANTONIO 07        10.896     74.40        9728.2  BA                             58.3       5675. 051594-9
+  EOL VENTOS DE SANTO ANTONIO 08        10.896     74.40        9728.2  BA                             58.3       5675. 051595-7
+  UFV ARINOS 24                         11.011    41.244        5449.8  MG                             91.7       4996. 050843-8
+  UFV ARINOS 32                         11.011    48.118        6358.1  MG                             83.3       5298. 051753-4
+  UFV ASSU SOL II                       10.901    39.553        5174.2  RN                             91.7       4743. 046924-6
+  UFV ASSU SOL III                      10.901    39.553        5174.2  RN                             91.7       4743. 046925-4
+  UFV ASSU SOL IX                       10.901     48.75        6377.3  RN                             75.0       4783. 047381-2
+  UFV ASSU SOL V                        10.901    39.553        5174.2  RN                              8.3        431. 046927-0
+  UFV ASSU SOL VI                       10.901     48.75        6377.3  RN                             83.3       5314. 047378-2
+  UFV ASSU SOL VII                      10.901     48.75        6377.3  RN                             75.0       4783. 047379-0
+  UFV ASSU SOL X                        10.901     48.75        6377.3  RN                             58.3       3720. 047382-0
+  UFV ASSU SOL XI                       10.901     48.75        6377.3  RN                             66.7       4252. 047383-9
+  UFV ASSU SOL XII                      10.901     48.75        6377.3  RN                             58.3       3720. 047384-7
+  UFV ASSU SOL XIII                     10.901     48.75        6377.3  RN                             41.7       2657. 047385-5
+  UFV ASSU SOL XIV                      10.901     48.75        6377.3  RN                             50.0       3189. 047386-3
+  UFV ASSU SOL XV                       10.901     48.75        6377.3  RN                             50.0       3189. 047387-1
+  UFV ASSU SOL XVI                      10.901     48.75        6377.3  RN                             33.3       2126. 047388-0
+  UFV AURORA 75                         10.855    41.244        5372.2  MG                             58.3       3134. 049469-0
+  UFV BARRO ALTO I                       7.941     49.55        4721.6  GO                             41.7       1967. 052318-6
+  UFV BARRO ALTO II                      7.941     49.55        4721.6  GO                             41.7       1967. 052319-4
+  UFV BARRO ALTO III                     7.941     49.55        4721.6  GO                             41.7       1967. 052320-8
+  UFV BARRO ALTO IV                      7.941     49.55        4721.6  GO                             41.7       1967. 052321-6
+  UFV BARRO ALTO IX                      7.941     49.55        4721.6  GO                             41.7       1967. 052326-7
+  UFV BARRO ALTO V                       7.941     49.55        4721.6  GO                             41.7       1967. 052322-4
+  UFV BARRO ALTO VI                      7.941     49.55        4721.6  GO                             41.7       1967. 052323-2
+  UFV BARRO ALTO VII                     7.941     49.55        4721.6  GO                             41.7       1967. 052324-0
+  UFV BARRO ALTO VIII                    7.941     49.55        4721.6  GO                             41.7       1967. 052325-9
+  UFV BOM LUGAR IV                      10.090     35.03        4241.6  CE                             66.7       2828. 035645-0
+  UFV BOM LUGAR IX                      10.090     35.03        4241.6  CE                             66.7       2828. 035675-1
+  UFV BOM LUGAR V                       10.090     35.03        4241.6  CE                             66.7       2828. 035680-8
+  UFV BOM LUGAR VI                      10.090    33.968        4113.0  CE                             66.7       2742. 035672-7
+  UFV BOM LUGAR VII                     10.090     35.03        4241.6  CE                             66.7       2828. 035676-0
+  UFV BOM LUGAR VIII                    10.090     35.03        4241.6  CE                             66.7       2828. 035679-4
+  UFV CASCUDO 1                         10.758     29.25        3776.1  CE                             41.7       1573. 045063-4
+  UFV CASCUDO 2                         10.758     29.25        3776.1  CE                             41.7       1573. 045064-2
+  UFV CASCUDO 3                         10.758     29.25        3776.1  CE                             41.7       1573. 045065-0
+  UFV CASCUDO 4                         10.758     29.25        3776.1  CE                             41.7       1573. 045066-9
+  UFV CASCUDO 5                         10.758     29.25        3776.1  CE                             41.7       1573. 045067-7
+  UFV CASCUDO 6                         10.758     29.25        3776.1  CE                             41.7       1573. 045068-5
+  UFV CASCUDO 7                         10.758     29.25        3776.1  CE                             41.7       1573. 045069-3
+  UFV GRAVIOLA 1                        11.002     74.00        9769.8  PI                             58.3       5699. 036925-0
+  UFV GRAVIOLA 2                        11.002     74.00        9769.8  PI                             58.3       5699. 036926-8
+  UFV GRAVIOLA 3                        11.002     74.00        9769.8  PI                             58.3       5699. 037745-7
+  UFV GRAVIOLA 4                        11.002     74.00        9769.8  PI                             58.3       5699. 037746-5
+  UFV LAGOINHA I                        10.615    41.244        5253.7  CE                             58.3       3065. 049620-0
+  UFV LAGOINHA II                       10.615    41.244        5253.7  CE                             58.3       3065. 049621-9
+  UFV LAGOINHA III                      10.615    41.244        5253.7  CE                             58.3       3065. 049622-7
+  UFV LAGOINHA IV                       10.615    41.244        5253.7  CE                             58.3       3065. 051636-8
+  UFV LINS 01                           10.383     90.00       11213.4  CE                             83.3       9345. 049926-9
+  UFV LINS 02                           10.383     92.00       11462.6  CE                             83.3       9552. 049927-7
+  UFV LUZEIRO 1                         10.942     24.00        3151.4  BA                             58.3       1838. 046525-9
+  UFV LUZEIRO 2                         10.942     24.00        3151.4  BA                             58.3       1838. 046526-7
+  UFV LUZEIRO 3                         10.942     24.00        3151.4  BA                             58.3       1838. 046527-5
+  UFV LUZEIRO 4                         10.942     24.00        3151.4  BA                             58.3       1838. 046528-3
+  UFV LUZEIRO 5                         10.942     24.00        3151.4  BA                             58.3       1838. 046529-1
+  UFV LUZEIRO 6                         10.942     21.00        2757.5  BA                             58.3       1609. 046530-5
+  UFV MISSAGRA I                        10.673    48.118        6162.7  BA                             58.3       3595. 050289-8
+  UFV MISSAGRA II                       10.673    48.118        6162.7  BA                             58.3       3595. 050290-1
+  UFV MISSAGRA III                      10.673    48.118        6162.7  BA                             58.3       3595. 050291-0
+  UFV ORQUIDEA I                        10.673     47.50        6083.5  BA                             58.3       3549. 046733-2
+  UFV ORQUIDEA II                       10.673     30.00        3842.2  BA                             58.3       2241. 046734-0
+  UFV ORQUIDEA III                      10.673     30.00        3842.2  BA                             58.3       2241. 046735-9
+  UFV ORQUIDEA IV                       10.673     30.00        3842.2  BA                             58.3       2241. 046736-7
+  UFV ORQUIDEA V                        10.673     30.00        3842.2  BA                             58.3       2241. 046737-5
+  UFV ORQUIDEA VI                       10.673     30.00        3842.2  BA                             58.3       2241. 046738-3
+  UFV PANORAMA 01                       10.394     100.0       12473.0  PI                             83.3      10394. 049401-1
+  UFV PANORAMA 02                       10.394     100.0       12473.0  PI                             83.3      10394. 049402-0
+  UFV PANORAMA 03                       10.394     100.0       12473.0  PI                             83.3      10394. 049403-8
+  UFV SANTA LUZIA 15                    10.553     49.30        6243.2  PB                              8.3        520. 049699-5
+  UFV SOLAR IRAPURU I                   10.855    48.118        6267.6  MG                             33.3       2089. 046577-1
+  UFV SOLAR IRAPURU II                  10.855    48.118        6267.6  MG                             33.3       2089. 046578-0
+  UFV SOLAR IRAPURU III                 10.855    48.118        6267.6  MG                             33.3       2089. 046579-8
+  UFV SOLAR IRAPURU IV                  10.855    48.118        6267.6  MG                             33.3       2089. 049053-9
+  UFV SOLAR IRAPURU V                   10.855    48.118        6267.6  MG                             33.3       2089. 049054-7
+  UFV SOLAR IRAPURU VI                  10.855    48.118        6267.6  MG                             33.3       2089. 049055-5
+  UFV SOLAR IRAPURU VII                 10.855    48.118        6267.6  MG                             33.3       2089. 049056-3
+  UFV SOLIDAO 1                         10.855    47.067        6130.7  MG                             58.3       3576. 047438-0
+  UFV SOLIDAO 10                        10.855    47.067        6130.7  MG                             58.3       3576. 044538-0
+  UFV SOLIDAO 11                        10.855    47.067        6130.7  MG                             58.3       3576. 044539-8
+  UFV SOLIDAO 12                        10.855    47.067        6130.7  MG                             58.3       3576. 044540-1
+  UFV SOLIDAO 2                         10.855    47.067        6130.7  MG                             58.3       3576. 047439-8
+  UFV SOLIDAO 3                         10.855    47.067        6130.7  MG                             58.3       3576. 047440-1
+  UFV SOLIDAO 4                         10.855    47.067        6130.7  MG                             58.3       3576. 047441-0
+  UFV SOLIDAO 5                         10.855    33.620        4379.1  MG                             58.3       2554. 047442-8
+  UFV SOLIDAO 6                         10.855    47.067        6130.7  MG                             58.3       3576. 047443-6
+  UFV SOLIDAO 7                         10.855    47.067        6130.7  MG                             58.3       3576. 047444-4
+  UFV SOLIDAO 8                         10.855    47.067        6130.7  MG                             58.3       3576. 047445-2
+  UFV SOLIDAO 9                         10.855    47.067        6130.7  MG                             58.3       3576. 044545-2
+  UFV TIMBAUBA I                        10.543    40.895        5173.9  CE                             66.7       3449. 047292-1
+  UFV TIMBAUBA II                       10.543    35.560        4498.9  CE                             66.7       2999. 047293-0
+  UFV TIMBAUBA III                      10.543    39.120        4949.3  CE                             66.7       3300. 047294-8
+  UFV TIMBAUBA IV                       10.543    40.895        5173.9  CE                             66.7       3449. 047295-6
+  UFV VISTA ALEGRE I                    10.855    41.244        5372.2  MG                             58.3       3134. 046553-4
+  UFV VISTA ALEGRE II                   10.855    41.244        5372.2  MG                             58.3       3134. 046554-2
+  UFV VISTA ALEGRE III                  10.855    41.244        5372.2  MG                             58.3       3134. 046555-0
+  UFV VISTA ALEGRE IV                   10.855    41.244        5372.2  MG                             58.3       3134. 046556-9
+  UFV VISTA ALEGRE IX                   10.855    41.244        5372.2  MG                             58.3       3134. 046561-5
+  UFV VISTA ALEGRE V                    10.855    41.244        5372.2  MG                             58.3       3134. 046557-7
+  UFV VISTA ALEGRE VI                   10.855    41.244        5372.2  MG                             58.3       3134. 046558-5
+  UFV VISTA ALEGRE VII                  10.855    41.244        5372.2  MG                             58.3       3134. 046559-3
+  UFV VISTA ALEGRE VIII                 10.855    41.244        5372.2  MG                             58.3       3134. 046560-7
+  UFV VISTA ALEGRE X                    10.855    41.244        5372.2  MG                             58.3       3134. 046562-3
+  UFV VISTA ALEGRE XI                   10.855    41.244        5372.2  MG                             58.3       3134. 049655-3
+  UFV VISTA ALEGRE XII                  10.855    41.244        5372.2  MG                             58.3       3134. 049656-1
+  UFV VISTA ALEGRE XIII                 10.855    41.244        5372.2  MG                             58.3       3134. 049657-0
+  UFV VISTA ALEGRE XIV                  10.855    41.244        5372.2  MG                             58.3       3134. 049658-8
+  UFV VISTA ALEGRE XV                   10.855    41.244        5372.2  MG                             58.3       3134. 049659-6
+  UFV ZEBU I                            10.140    30.268        3683.0  BA                             33.3       1228. 037861-5
+  UFV ZEBU II                           10.140    24.737        3010.0  BA                             33.3       1003. 037862-3
+  UFV ZEBU III                          10.140    44.250        5384.3  BA                             33.3       1795. 038296-5
+  UFV ZEBU IV                           10.140    46.862        5702.2  BA                             33.3       1901. 038297-3
+  UFV ZEBU IX                           10.140    14.289        1738.7  BA                             33.3        580. 044546-0
+  UFV ZEBU V                            10.140    30.268        3683.0  BA                             33.3       1228. 044547-9
+  UFV ZEBU VI                           10.140    24.737        3010.0  BA                             33.3       1003. 044548-7
+  UFV ZEBU VII                          10.140    35.800        4356.1  BA                             33.3       1452. 044549-5
+  UFV ZEBU VIII                         10.140    41.331        5029.1  BA                             33.3       1676. 044550-9
+  UTE NOVO TEMPO BARCARENA               8.138    614.50       60012.5  PA                             58.3      35007. 037898-4
  X--------------------------------X-----------X---------X-------------X---X----------X----------X----------X-----------X--------X
-                                                                   .00            .00        .00  383540.30         .00
+                                                                   .00            .00        .00  380808.72         .00
 
  **  Usinas com repasse de MUST parcial                         
 

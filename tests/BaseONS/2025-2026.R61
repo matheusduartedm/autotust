@@ -1,6 +1,6 @@
  PROGRAMA NODAL - SIMULAÇÃO DE TARIFAS DE USO DO SISTEMA ELÉTRICO - v6.1(07/23)  
 
- 2023 ONS * CICLO 2025-2026 * (Simulação realizada em 27/07/2023 - 16:32:07)                                                                                                                             
+ 2023 ONS * CICLO 2025-2026 * (Simulação realizada em 27/07/2023 - 18:42:43)                                                                                                                             
 
 
             Geração             Consumo             Consumo_P          Consumo_FP             Total            %P                                               
@@ -25,7 +25,7 @@
     Parcela de ajuste nas TUSTg:                               0,000 R$/kW.mês                                                                                  
 
     Risco:               5,00 %                                                                                                                                 
-    IAT:                 0,00 %                                                                                                                                 
+    IAT:                 2,98 %                                                                                                                                 
     PTC:                80,00 %                                                                                                                                 
     PDR:                70,00 %                                                                                                                                 
 
@@ -34,13 +34,13 @@
     Parcela aditiva para o segmento consumo devido a envoltória:    0,000 R$/kW.mês                                                                             
 
 
-    Repasse da geração com TUST estabilizada/controlada para o consumo de:              437.023.898,32 R$/ano
-    Parcela de ajuste nas TUST no segmento consumo nos postos tarifários Ponta e Fora Ponta:     0,163 R$/kW.mês
+    Repasse da geração com TUST estabilizada/controlada para o consumo de:              432.969.371,74 R$/ano
+    Parcela de ajuste nas TUST no segmento consumo nos postos tarifários Ponta e Fora Ponta:     0,161 R$/kW.mês
 
     EUST após ajuste na TUST da Geração e do Consumo (R$/ano)                                                                                                   
 
               Geração     Consumo Ponta     Consumo ForaP             Total                                                                                     
  --------------------------------------------------------------------------                                                                                     
-    20.862.182.207,61 10.479.737.916,33 11.232.891.712,77 42.574.811.836,71
+    20.865.278.764,20 10.477.780.973,27 11.230.792.093,48 42.573.851.830,95
  -------------------------------------------------------------------------- 
-    20.862.182.207,61 10.479.737.916,33 11.232.891.712,77 42.574.811.836,71 (Incluindo parcelas da TUSDg)  
+    20.865.278.764,20 10.477.780.973,27 11.230.792.093,48 42.573.851.830,95 (Incluindo parcelas da TUSDg)  

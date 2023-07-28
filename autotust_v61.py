@@ -370,9 +370,7 @@ def _write_param61(params, file_path):
 				param_file.write(f"{value}")
 			elif 6 <= iparam <= 10:
 				param_file.write(f"{value:05.1f}\n")
-			elif iparam == 11:
-				param_file.write(f"{value}")
-			elif iparam <= 12:
+			elif iparam <= 11:
 				param_file.write(f"{value:013.2f}\n")
 			else:
 				param_file.write(f"{value:05.2f}\n")
