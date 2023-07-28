@@ -1,6 +1,6 @@
 import autotust_v61
 
-CASE_PATH = r"BaseONS"
+CASE_PATH = r"BaseEPE"
 
 generators, r61_data = autotust_v61.load_base(CASE_PATH)
 
