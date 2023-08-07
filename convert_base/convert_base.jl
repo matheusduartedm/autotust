@@ -170,11 +170,21 @@ function convert_dc(tust_path, cycles)
 
         for i in first_line_index+2:final_line_index-2
             line = aneel_lines[i]
-            if length(line) >= 78 && line[1:1]!="("
+            if length(line) >= 20 && line[1:1]!="("
                 de = line[1:5]
-                nome_de = df_dc[findfirst(isequal(de), df_dc[:,"NUMBER"]),"NAME"]
+                index = findfirst(isequal(de), df_dc[:,"NUMBER"])
+                if index === nothing
+                    nome_de = ""
+                else
+                    nome_de = df_dc[index,"NAME"]
+                end
                 para = line[11:15]
-                nome_para = df_dc[findfirst(isequal(para), df_dc[:,"NUMBER"]),"NAME"]
+                index = findfirst(isequal(para), df_dc[:,"NUMBER"])
+                if index === nothing
+                    nome_para = ""
+                else
+                    nome_para = df_dc[index,"NAME"]
+                end
                 circ = line[16:17]
                 est = line[18:18]
                 push!(col_de, de)

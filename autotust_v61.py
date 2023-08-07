@@ -13,14 +13,12 @@ class Generator:
         self.type = ""
         self.name = ""
         self.must = {}
+        self.s = {}
+        self.d = {}
+        self.ceg = ""
+        self.cegnucleo = 0
         self.bus = {}
         self.tust = {}
-
-    def __str__(self):
-        return f"<{self.name}>,<{self.must}>,<{self.bus}>,<{self.tust}>"
-    
-    def __repr__(self):
-        return self.__str__()
 
     def set_tust(self, year, value):
         self.tust[year] = value
@@ -57,11 +55,12 @@ def _load_r61_data(r61_file):
         teu_values = []
         for i in range(17, 20):
             if i < len(lines):
-                teu_str = lines[i][8:14].replace(",", ".")
-                teu_values.append(float(teu_str) if teu_str.strip() not in ["", "------"] else None)
+                teu_str = lines[i][7:14].replace(",", ".")
+                teu_values.append(float(teu_str) if teu_str.strip().strip('-') != "" else None)
+
             else:
                 teu_values.append(None)
-        # Add teufp if it's missing
+
         if len(lines) < 20:
             teu_values.append(None)
         data["teug"] = teu_values[0]
@@ -69,6 +68,39 @@ def _load_r61_data(r61_file):
         data["teufp"] = teu_values[2]
 
     return data
+
+
+def load_ger(DB_PATH, year):
+    ger_file = DB_PATH + f"\\{year}-{year+1}.GER"
+    if os.path.exists(ger_file):
+        generators = {}
+        duplicated_generators = {}
+        with open(ger_file, "r") as file:
+            for line in file:
+                if _is_comment(line):
+                    continue
+
+                if len(line) > 0:
+                    name = line[0:32].strip()
+                    generator = Generator()
+                    generator.name = name
+                    generator.type = name[0:3]
+                    generator.ceg = line[52:62].strip()
+                    if generator.ceg[-7:][:5].strip():
+                        generator.cegnucleo = int(generator.ceg[-7:][:5]) if generator.ceg[-7:][:5].isdigit() else generator.ceg[-7:][:5]
+
+                    if name not in generators:
+                        generators[name] = generator
+                    else:
+                        if name not in duplicated_generators:
+                            duplicated_generators[name] = [generators[name]]
+
+                    generator.d[year] = line[42:43].strip()
+                    generator.s[year] = line[44:45].strip()
+                    generator.must[year] = float(line[32:41].strip())
+                    generator.bus[year] = int(line[70:75].strip())
+
+        return generators, duplicated_generators
 
 
 def load_base(DB_PATH):
@@ -102,9 +134,15 @@ def load_base(DB_PATH):
                                 generator = Generator()
                                 generator.name = name
                                 generator.type = name[0:3]
+                                generator.ceg = line[52:62].strip()
+                                if generator.ceg[-7:][:5].strip():
+                                    generator.cegnucleo = int(generator.ceg[-7:][:5]) if generator.ceg[-7:][:5].isdigit() else generator.ceg[-7:][:5]
                                 generators[name] = generator
-                            generators[name].must[year] = float(line[32:41])
-                            generators[name].bus[year] = int(line[70:75])
+                            generators[name].d[year] = line[42:43].strip()
+                            generators[name].s[year] = line[44:45].strip()
+                            generators[name].must[year] = float(line[32:41].strip())
+                            generators[name].bus[year] = int(line[70:75].strip())
+                print(f"Geradores carregados para o ano {year}-{year+1}.")
 
 
         if os.path.exists(tuh_file):
@@ -139,8 +177,6 @@ def load_base(DB_PATH):
             year_data = _load_r61_data(r61_file)
             for key in r61_data.keys():
                 r61_data[key][year] = year_data[key]
-
-        print(f"Geradores carregados para o ano {year}-{year+1}.")
     
     generators = sorted(generators.items(), key=lambda x: x[0])
     generators = dict(generators)
