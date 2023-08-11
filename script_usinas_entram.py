@@ -4,8 +4,8 @@ import autotust_v61 as tust
 
 # INPUTS
 DB_PATH = r'D:\dev\auto_tust\cases\BasePSR'
-ralie_df = pd.read_excel('ralie-usina.xlsx').set_index('IdeNucleoCEG')
-ralie_unidade_df = pd.read_excel('ralie-unidade-geradora.xlsx').set_index('IdeNucleoCEG')
+ralie_df = pd.read_excel('inputs\ralie-usina.xlsx').set_index('IdeNucleoCEG')
+ralie_unidade_df = pd.read_excel('inputs\ralie-unidade-geradora.xlsx').set_index('IdeNucleoCEG')
 
 # INICIANDO VARIÁVEIS
 years = range(2023, 2032)

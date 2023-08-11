@@ -1,0 +1,600 @@
+ PROGRAMA NODAL - SIMULAÇÃO DE TARIFAS DE USO DO SISTEMA ELÉTRICO - v6.0(07/22)  
+
+ 2022 ONS * CICLO 2022-2023 * (Simulação realizada em 07/07/2022 - 07:47:42)                                                                                                                             
+
+ PARCELAS TUSDg E MUSD DE USINAS (R$/kW.mês)
+
+ X--------------------------------X---------------X--------X--X--------X
+               USINA               Parcelas TUSDg    MUSD   UF   CEG
+                                      T      ONS     (MW)
+ X--------------------------------X-------X-------X--------X--X--------X
+
+  PCH HENRIQUE KOTZIAN                       0.180    13.00 RS 029246-0
+  PCH JORGE DREHER                           0.180    17.87 RS 029245-1
+  UHE JACUI                                  0.180   180.00 RS 001217-3
+  UHE CANASTRA                               0.143    44.00 RS 000635-1
+  UTE CAMBARA                                0.131    47.00 RS 033883-4 
+  EOL AMPARO                                 0.188    22.50 SC 029069-6
+  EOL AQUIBATA                               0.188    30.00 SC 029052-1
+  EOL BOM JARDIM                             0.188    30.00 SC 029062-9
+  EOL CAMPO BELO                             0.188    10.50 SC 029065-3
+  EOL CASCATA                                0.188     6.00 SC 029054-8
+  EOL CRUZ ALTA                              0.188    30.00 SC 029070-0
+  EOL PULPITO                                0.188    30.00 SC 029051-3
+  EOL RIO DO OURO                            0.188    30.00 SC 029055-6
+  EOL SALTO                                  0.188    30.00 SC 029056-4
+  EOL SANTO ANTONIO                          0.188     3.00 SC 029053-0
+  PCH ADO POPINHAKI                          0.412    22.60 SC 031598-2
+  PCH AGUAS DA SERRA                         0.180   22.488 SC 035496-1
+  PCH ALTO BENEDITO NOVO I                   0.188    15.00 SC 028802-0
+  PCH ANGELINA                               0.188    26.27 SC 002133-4
+  PCH CAPIVARI                               0.389    18.09 SC 000659-9
+  PCH COQUEIRAL                              0.188    3.164 SC 029769-0
+  PCH JOAO BORGES                            0.188    19.00 SC 029332-6
+  PCH LACERDOPOLIS                           0.180     9.60 SC 037820-8
+  PCH MOINHO                                 0.188    13.50 SC 029725-9
+  PCH NOVA FATIMA                            0.188     4.10 SC 029139-0
+  PCH OURO                                   0.188    16.00 SC 028968-0
+  PCH PERY                                   0.187    25.60 SC 002045-1
+  PCH RIO FORTUNA                            0.188     6.85 SC 029140-4
+  PCH SALTO GOES                             0.188    20.00 SC 030338-0
+  PCH SANTA ANA                              0.188    6.304 SC 029778-0
+  PCH SANTA ROSA 28844                       0.188     6.50 SC 028844-6
+  PCH SAO CARLOS                             0.355    15.18 SC 033762-5
+  PCH TUPITINGA                              0.188    24.00 SC 035764-2
+(  PCH ALTO ALEGRE                                     17.40 SC 037173-4              
+(  PCH PIRA                                           23.071 SC 034669-1              
+  UHE QUEBRA QUEIXO                          0.188   120.00 SC 002167-9
+  UHE SALTO PILAO                            0.187   188.00 SC 028564-1
+  UTE COGERACAO LAGES                        0.188    26.00 SC 028745-8
+  UTE JORGE LACERDA A                        0.188    90.09 SC 001260-2
+  UTE RE TG 100 02 01                        0.180   84.769 SC 056139-8
+  PCH ALTO SUCURIU                           0.170    29.00 MS 028817-9
+  PCH BURITI                                 0.173    30.00 MS 028753-9
+  PCH COSTA RICA                             0.167    15.81 MS 000872-9
+  PCH PARAISO I                              0.170    21.38 MS 027587-5
+  PCH PLANALTO                               0.168    16.83 MS 028737-7
+  PCH PORTO DAS PEDRAS                       0.173    28.03 MS 028995-7
+  PCH RETIRO VELHO                           0.168    18.00 MS 028771-7
+  PCH VERDE 4                                0.287    18.55 MS 029260-0
+  PCH VERDE 4A                               0.286    27.44 MS 029261-3
+  UHE MIMOSO                                 0.180    29.35 MS 028012-7
+  UHE SAO DOMINGOS                           0.141    47.40 MS 028761-0
+  UTE ANGELICA                               0.177    70.00 MS 029670-8
+  UTE CAARAPO                                0.177    57.00 MS 030104-3
+  UTE INPASA DOURADOS                        0.180    26.00 MS 050519-6
+  UTE LDC BIOENERGIA RIO BRILHANTE           0.174    56.00 MS 029718-6
+  UTE MONTEVERDE                             0.177    14.50 MS 029990-1
+  UTE PASSA TEMPO                            0.180    50.00 MS 028111-5
+  PCH ARTURO ANDREOLI                        0.246   29.072 PR 001278-5
+  PCH BELA VISTA 29576                       0.188    28.99 PR 029576-0
+  PCH BOA VISTA II (COPEL)                   0.188    24.00 PR 000273-9
+  PCH CANHADAO                               0.246    10.00 PR 032511-0
+  PCH CANTU 2                                0.411    19.55 PR 029180-3
+  PCH CAVERNOSO II                           0.246    19.00 PR 030458-1
+  PCH CONFLUENCIA                            0.373    27.00 PR 029068-0
+  PCH DOIS SALTOS                            0.188    30.00 PR 033975-0
+  PCH FORQUILHA                              0.165     5.50 PR 035801-0
+  PCH FOZ DO ESTRELA                         0.353    29.48 PR 028998-0
+  PCH INVERNADINHA                           0.165    18.00 PR 035800-2
+  PCH LUCIA CHEROBIM                         0.302    28.00 PR 028419-0
+  PCH LUDESA                                 0.246    30.00 PR 028801-2
+  PCH MACACOS                                0.246     9.90 PR 035006-0
+  PCH NOVO HORIZONTE                         0.246    23.00 PR 028782-2
+  PCH SANTA LUZIA ALTO                       0.246    28.50 PR 029652-0
+  PCH VICTOR BAPTISTA ADAMI                  0.246    25.00 PR 029072-6
+  UHE FUNDAO                                 0.246  120.168 PR 028360-6
+  UHE SANTA BRANCA (COPEL)                   0.411    60.57 PR 035290-0
+  UHE SANTA CLARA 28361                      0.241  120.168 PR 028361-4
+  UHE TIBAGI MONTANTE                        0.373    36.00 PR 032923-0
+  UTE ALTO ALEGRE - UJU                      0.246    20.00 PR 028367-3
+  UTE BIO COOPCANA                           0.246    30.00 PR 028148-4
+  UTE DESTILARIA MELHORAMENTOS               0.188    26.30 PR 028074-7
+  UTE FIGUEIRA                               0.246    18.00 PR 000955-5
+  UTE SANTA TEREZINHA                        0.246    29.94 PR 028149-2
+  UTE SANTA TEREZINHA PARANACITY             0.246    26.00 PR 028139-5
+  UTE UFL                                    0.246    30.00 PR 031034-4
+  UTE UJU BIO                                0.180    34.50 PR 051729-1
+  UTE USACIGA                                0.246    23.30 PR 029144-7
+  UTE USI                                    0.246    30.00 PR 029575-2
+  UTE USI BIO                                0.246    10.00 PR 031968-6
+  PCH ANHANGUERA                             0.180    22.68 SP 028734-2
+  PCH ELOY CHAVES                            0.180   18.935 SP 027108-0
+  PCH PALMEIRAS                              0.180    16.00 SP 028800-4
+  PCH PINHAL                                 0.180    6.777 SP 027228-0
+  PCH RETIRO                                 0.180    15.60 SP 028738-5
+  UFV GUAIMBE 1                              0.374    30.00 SP 032326-8
+  UFV GUAIMBE 2                              0.374    30.00 SP 032327-6
+  UFV GUAIMBE 3                              0.374    30.00 SP 032328-4
+  UFV GUAIMBE 4                              0.374    30.00 SP 032329-2
+  UFV GUAIMBE 5                              0.374    30.00 SP 032330-6
+  UHE BARIRI (A.S.LIMA)                      0.180   135.28 SP 000203-8
+  UHE BARRA BONITA                           0.180   139.23 SP 000208-9
+  UHE CACONDE                                0.246    79.50 SP 000588-6
+  UHE CANOAS I                               0.188    81.40 SP 000647-5
+  UHE CANOAS II                              0.188    71.00 SP 027092-0
+  UHE EUCLIDES DA CUNHA                      0.246   107.59 SP 000923-7
+  UHE IBITINGA                               0.180   129.94 SP 001097-9
+  UHE LIMOEIRO (A.S.OLIVEIRA)                0.246    31.64 SP 001328-5
+  UHE OURINHOS                               0.246    41.00 SP 027872-6
+  UHE PORTO COLOMBIA                         0.180   316.00 MG 002117-2
+  UHE PROMISSAO                              0.180   261.06 SP 002158-0
+  UHE SALTO GRANDE (LN GARCEZ-GP)            0.188    73.30 SP 002648-4
+  UTE AGUA BONITA                            0.188    15.00 SP 027891-2
+  UTE ALTA MOGIANA                           0.180    29.50 SP 000060-4
+  UTE BARRA BIOENERGIA                       0.180    83.70 SP 030047-0
+  UTE BARRA GRANDE (SP)                      0.180    46.00 SP 027055-5
+  UTE BARRA GRANDE 2                         0.235    70.00 SP 051532-9
+  UTE BELA VISTA 27917                       0.180    25.00 SP 027917-0
+  UTE BIOENERGIA MOCOCA                      0.188    40.00 SP 040824-7
+  UTE BIOGAS BONFIM                          0.411    19.80 SP 035109-1
+  UTE BIOLINS                                0.180    18.00 SP 030125-6
+  UTE BONFIM                                 0.180    84.10 SP 029665-1
+  UTE BRANCO PERES                           0.188    10.00 SP 027947-1
+  UTE BROTAS                                 0.180    30.00 SP 030782-3
+  UTE BROTAS II                              0.180    30.00 SP 034649-0
+  UTE CANAA                                  0.188    20.00 SP 029138-2
+  UTE CATANDUVA                              0.188    28.58 SP 028042-9
+  UTE CERRADAO                               0.180    25.00 MG 029709-7
+  UTE CERRADAO 2                             0.180    40.00 MG 038336-8
+  UTE CEVASA                                 0.180    28.00 SP 028458-0
+  UTE CLEALCO QUEIROZ                        0.180    29.00 SP 030036-5
+  UTE COCAL                                  0.188    25.00 SP 027974-9
+  UTE COLOMBO ARIRANHA                       0.180    14.00 SP 000796-0
+  UTE COLOMBO ARIRANHA 2                     0.180    30.00 SP 031112-0
+  UTE COLORADO                               0.180    30.00 SP 028094-1
+  UTE COSTA PINTO                            0.180    49.50 SP 028221-9
+  UTE DA MATA                                0.180    30.00 SP 029774-7
+  UTE DA MATA II                             0.180    30.00 SP 035773-0
+  UTE DA PEDRA                               0.180    50.00 SP 030453-0
+  UTE DECASA                                 0.188    23.00 SP 028051-8
+  UTE ENERGETICA ALTA MOGIANA                0.180    38.00 SP 049301-5
+  UTE EQUIPAV I                              0.180     7.00 SP 028101-8
+  UTE EQUIPAV II                             0.180    29.00 SP 029765-8
+  UTE ESTER                                  0.180    28.00 SP 000912-1
+  UTE GUAIRA - SP                            0.180    30.00 SP 030026-8
+  UTE GUARANI - TANABI                       0.180    30.00 SP 030095-0
+  UTE GUARANI - TANABI 2                     0.411    29.00 SP 031445-5
+  UTE GUARANI CRUZ ALTA                      0.180    29.00 SP 027796-7
+  UTE GUARANI CRUZ ALTA 2                    0.374    19.00 SP 033380-8
+  UTE IBITIUVA                               0.180    30.00 SP 027768-1
+  UTE IPAUSSU BIOENERGIA                     0.246    51.50 SP 030199-0
+  UTE MANDU                                  0.180    59.00 SP 027787-8
+  UTE MARACAI                                0.188    29.50 SP 001405-2
+  UTE MOGIANA BIOENERGIA                     0.180    29.50 SP 030447-6
+  UTE MP PAULINIA                            0.180    15.79 SP 055998-9
+  UTE NARDINI                                0.180    31.00 SP 001528-8
+  UTE PITANGUEIRAS                           0.180    41.00 SP 028859-4
+  UTE POTIRENDABA                            0.180    26.00 SP 029655-4
+  UTE QUATA                                  0.180    25.00 SP 028288-0
+  UTE RAFARD                                 0.180    33.50 SP 002903-3
+  UTE RUETTE                                 0.180    18.00 SP 027345-7
+  UTE SANTA ADELIA                           0.180    23.50 SP 027343-0
+  UTE SANTA CANDIDA I                        0.180    21.50 SP 027767-3
+  UTE SANTA CANDIDA II                       0.411    30.00 SP 031739-0
+  UTE SANTA CRUZ AB                          0.180    50.00 SP 001609-8
+  UTE SANTA ELISA                            0.180    30.00 SP 028232-4
+  UTE SANTA FE 27922                         0.180     8.00 SP 027922-6
+  UTE SANTA ISABEL                           0.188    24.00 SP 028401-7
+  UTE SANTO ANGELO                           0.411    30.00 MG 029116-1
+  UTE SAO FRANCISCO                          0.180    19.00 SP 027335-0
+  UTE SAO JOSE 2                             0.353    33.00 SP 037515-2
+  UTE SAO JOSE COLINA                        0.180    53.00 SP 028975-2
+  UTE SAO JOSE ESTIVA                        0.188    25.00 SP 027814-9
+  UTE SAO JOSE MACATUBA                      0.180    53.00 SP 026847-0
+  UTE SAO MARTINHO                           0.180    30.00 SP 026874-7
+  UTE SAO MARTINHO BIOENERGIA                0.180    39.90 SP 032371-3
+  UTE SAO MARTINHO ENERGIA                   0.180    30.00 SP 030994-0
+  UTE UFA                                    0.188    15.00 SP 028366-5
+  UTE UNIVALEM BIOENERGIA                    0.180    29.00 SP 030264-3
+  UTE VALE DO ROSARIO                        0.180    63.00 SP 002958-0
+  UTE VERTENTE                               0.180    27.50 SP 029270-2
+  UTE VIRALCOOL                              0.180    24.00 SP 003035-0
+  UTE VIRALCOOL 2                            0.180    29.00 SP 030851-0
+  PCH ANNA MARIA                             0.246     1.64 MG 000104-0
+  PCH BONFANTE                               0.188    19.00 RJ 000291-7
+  PCH GUARY                                  0.246     5.32 MG 001078-2
+  PCH IVAN BOTELHO I (PONTE)                 0.246    25.00 MG 027534-4
+  PCH IVAN BOTELHO II (PALESTINA)            0.246    12.60 MG 027727-4
+  PCH IVAN BOTELHO III (TRIUNFO)             0.246    24.40 MG 027532-8
+  PCH JOAO CAMILO PENA                       0.246    22.00 MG 000473-1
+  PCH LAJES (FONTES VELHA)                   0.188    16.70 RJ 001306-4
+  PCH MONTE SERRAT                           0.188    25.00 RJ 001498-2
+  PCH PARACAMBI                              0.188    25.00 RJ 001959-3
+  PCH SANTA FE 28752                         0.188    30.00 RJ 028752-0
+  PCH TULIO CORDEIRO DE MELO                 0.246    16.50 MG 001047-2
+  PCH ZE TUNIN                               0.246     8.10 MG 030597-9
+  UHE BARRA DO BRAUNA                        0.246    39.50 MG 000215-1
+  UHE FONTES NOVA                            0.188  129.171 RJ 000973-3
+  UHE FUNIL - RJ                             0.188   204.00 RJ 027118-7
+  UHE ILHA DOS POMBOS                        0.188  185.125 RJ 001113-4
+  UHE ITAOCARA I                             0.374    150.0 RJ 027969-2
+  UHE NILO PECANHA                           0.188  376.923 RJ 001536-9
+  UHE PEREIRA PASSOS                         0.188   99.212 RJ 002043-5
+  UHE SIMPLICIO                              0.180   322.50 RJ 029458-6
+  UTE BARBOSA L.S. (ELETROBOLT)              0.188   379.00 RJ 027952-8
+  UTE CAMPOS                                 0.180    31.00 RJ 027935-8
+  UTE GOV.LEONEL BRIZOLA (TERMORIO           0.188  1036.40 RJ 027888-2
+  UTE JUIZ DE FORA - EMG                     0.246    42.50 MG 001276-9
+  UTE SANTA CRUZ                             0.188   691.00 RJ 027243-4
+  PCH CABOCLO                                0.180    3.815 MG 000345-0
+  PCH CACHOEIRA DOS PRAZERES                 0.180     1.75 MG 000526-6
+  PCH FUMACA                                 0.180     9.70 MG 027957-9
+  PCH FUNIL 27066                            0.180     3.55 MG 027066-0
+  PCH FURQUIM                                0.180    5.875 MG 028175-1
+  PCH NINHO DA AGUIA                         0.180    10.00 MG 027576-0
+  PCH SALTO 27719                            0.180     4.21 MG 027719-3
+  UHE CAMARGOS                               0.180   44.744 MG 000608-4
+  UHE FUNIL - MG                             0.180   180.00 MG 001006-5
+  UHE ITUTINGA                               0.180   50.672 MG 001197-5
+  UHE PICADA                                 0.180    49.00 MG 002053-2
+  UHE RISOLETA NEVES (CANDONGA)              0.180   140.00 MG 000641-6
+  UHE SOBRAGI                                0.180    59.50 MG 002757-0
+  UTE AURELIANO CHAVES (IBIRITE)             0.180   230.00 MG 001096-0
+  UTE JUIZ DE FORA - CEMIG                   0.180    41.50 MG 001276-9
+  UTE LDC BIOENERGIA LAGOA DA PRAT           0.180    30.00 MG 029717-8
+  UTE REGAP                                  0.180    10.00 MG 028596-0
+  PCH FRANCISCO GROSS                        0.225    28.97 ES 028380-0
+  PCH SAO JOAQUIM                            0.197    21.00 ES 027985-4
+  PCH SAO PEDRO                              0.096    30.00 ES 028986-8
+  PCH SAO SIMAO                              0.225    27.00 ES 028171-9
+  UHE MASCARENHAS - ENERGEST                 0.265   196.42 ES 001432-0
+  UHE SUICA                                  0.248    33.87 ES 002781-2
+  UTE ALCON                                  0.288    30.00 ES 029150-1
+  UTE ARCEL                                  0.288   29.999 ES 000127-9
+  UTE LASA                                   0.156    25.00 ES 029107-2
+  UTE LUIZ OSCAR ROD. DE MELO                0.286   198.80 ES 030054-3
+  UTE SOL                                    0.186    90.00 ES 029273-7
+  PCH AGUA BRAVA                             0.411    13.05 MT 029045-9
+  PCH AGUA PRATA                             0.411    13.30 MT 029044-0
+  PCH ALTO GUAPORE 2                         0.241     7.00 MT 035646-8
+  PCH BARUITO                                0.170    18.00 MT 000233-0
+  PCH BELEZA                                 0.180     6.50 MT 037309-5
+  PCH BOCAIUVA                               0.180    29.50 MT 029184-6
+  PCH CASCA III                              0.180    12.42 MT 000688-2
+  PCH GARGANTA JARARACA                      0.170    29.30 MT 028918-3
+  PCH INXU                                   0.170    21.55 MT 030642-8
+  PCH JOSE GELASIO                           0.180   23.166 MT 028845-4
+  PCH JUI 117                        8.342   0.327    25.00 MT 034966-6
+  PCH LAJARI                                 0.374    20.88 MT 033386-7
+  PCH PAMPEANA                               0.180    28.00 MT 029376-8
+  PCH RIO CLARO (ANTIGA PERDIDOS)            0.353    28.00 MT 037328-1
+  PCH RONDONOPOLIS                           0.180    26.21 MT 028848-9
+  PCH SACRE II                               0.180    30.00 MT 028796-2
+  PCH SANTA GABRIELA                         0.180    24.00 MT 028996-5
+  PCH SAO LOURENCO                           0.178    29.10 MT 028825-0
+  PCH SAO TADEU                              0.180    17.89 MT 028806-3
+  PCH SETE QUEDAS                            0.178    22.00 MT 028853-5
+  PCH TERRA SANTA                            0.180    27.40 MT 029367-9
+  UHE JUBA I                                 0.180    42.00 MT 001268-8
+  UHE JUBA II                                0.180    42.00 MT 001269-6
+  UTE F&S AGRI SOLUTIONS                     0.180   16.793 MT 034035-9
+  UTE FENIX                                  0.180    27.00 MT 029649-0
+  UTE INPASA                                 0.180    10.00 MT 040821-2
+  UTE NOVO MILENIO                           0.180     8.00 MT 035588-7
+  PCH BRACO NORTE III                        0.180   14.037 MT 027176-4
+  PCH BRACO NORTE IV                         0.180   13.977 MT 028772-5
+  PCH CABECA DE BOI                          0.226    29.43 MT 029733-0
+  PCH DA FAZENDA                             0.225   26.487 MT 029734-8
+  UHE SALTO APIACAS                          0.228   44.145 MT 031401-3
+  PCH PARANATINGA II                         0.117    29.02 MT 028832-2
+  UHE CORUMBA III                            0.188    86.50 GO 028352-5
+  UHE CORUMBA IV                             0.188   124.50 GO 027795-9
+  PCH AGROTRAFO                              0.246   14.031 TO 000031-0
+  PCH AGUA LIMPA                             0.246    14.00 TO 028447-5
+  PCH AREIA                                  0.246    11.40 TO 028446-7
+  UFV SOL MAIOR II                           0.412     5.00 TO 033608-4
+  UTE ITAFOS                                 0.133     2.00 TO 030893-0
+  UTE PEDRO AFONSO                           0.179    40.00 TO 030518-9
+  PCH CACHOEIRA DA LIXA - BA                 0.165    14.80 BA 028999-0
+  PCH COLINO 1 - BA                          0.165    11.00 BA 029004-1
+  PCH COLINO 2 - BA                          0.165    16.00 BA 028997-3
+  UHE FUNIL - BA                             0.124   29.961 BA 027046-6
+  UTE SUZANO MUCURI                          0.154    50.00 BA 000187-2
+  PCH BOA SORTE - TO                         0.072    15.90 BA 029060-2
+  PCH DOIDO                                  0.073     6.00 BA 031244-4
+  PCH LAGOA GRANDE - TO                      0.072    24.30 BA 029057-2
+  PCH PIARUCUM                               0.073    10.00 BA 032551-1
+  PCH PORTO FRANCO - TO                      0.072    29.71 BA 029059-9
+  PCH RIACHO PRETO - TO                      0.072     9.30 BA 029058-0
+  UTE SYKUE I                                0.082    28.50 BA 029634-1
+  PCH ANTONIO BRENNAND(ALTO JAURU)   4.929   0.140    20.00 MT 000077-9
+  PCH ESTIVADINHO 3                  5.513   0.235     9.90 MT 033415-4
+  PCH FIGUEIROPOLIS                  4.981   0.141    19.30 MT 029145-5
+  PCH INDIAVAI                       4.929   0.140    28.00 MT 027370-8
+  PCH NOVA GUAPORE                   9.870   0.411   13.958 MT 034705-1
+  PCH OMBREIRAS                      4.929   0.140    26.00 MT 027216-7
+  PCH SALTO 28203                    4.981   0.141    19.00 MT 028203-0
+  PCH SALTO CORGAO                   5.305   0.150    27.00 MT 027326-0
+  UHE GUAPORE                        4.949   0.140   120.00 MT 001066-9
+  UHE JAURU (CINCO ESTRELAS)         4.953   0.140    12.15 MT 001245-9
+  UHE JAURU (QUEIROZ GALVAO)         4.953   0.140   103.50 MT 001245-9
+  PCH AUTODROMO                              0.180    24.00 RS 029071-8
+  PCH BOA FE                                 0.180    24.00 RS 029063-7
+  PCH CAZUZA FERREIRA                        0.411     9.10 RS 000735-8
+  PCH JARDIM                                 0.180     9.00 RS 030887-0
+  PCH LINHA APARECIDA                        0.246    24.92 RS 030636-3
+  PCH LINHA JACINTO                          0.246   17.407 RS 030637-1
+  PCH MORRO GRANDE                           0.180     9.80 RS 030950-8
+  PCH SANTA CAROLINA                         0.404    10.50 RS 030723-8
+  PCH SAO PAULO                              0.180    16.00 RS 029067-0
+  UHE MONJOLINHO                             0.180    74.00 RS 028562-5
+  UTE FURLAN AVARE                           0.240    15.00 SP 031189-8
+  UTE RIO PARDO                              0.239    25.00 SP 030065-9
+  PCH MALAGONE                               0.180    19.00 MG 029646-5
+  PCH MATA VELHA                             0.411    24.00 MG 028607-9
+  PCH SERRA DAS AGULHAS                      0.363   29.774 MG 031207-0
+  PCH UNAI BAIXO                             0.180    26.00 MG 028673-7
+  UFV ARAXA 1                                0.180    44.22 MG 040851-4
+  UFV ARAXA 2                                0.180    44.22 MG 040852-2
+  UFV COROMANDEL 1                           0.180    30.00 MG 033203-8
+  UFV COROMANDEL 2                           0.180    30.00 MG 033202-0
+  UFV FRANCISCO SA 1                         0.353    29.99 MG 033236-4
+  UFV FRANCISCO SA 2                         0.353    29.99 MG 033237-2
+  UFV FRANCISCO SA 3                         0.353    29.99 MG 033238-0
+  UFV GSII SOLAR 1                           0.180    25.00 MG 045722-1
+  UFV GSII SOLAR 2                           0.180    25.00 MG 045723-0
+  UFV GSII SOLAR 3                           0.180    30.00 MG 045724-8
+  UFV GUIMARANIA 1                   2.219   0.411    31.00 MG 034073-1
+  UFV GUIMARANIA 2                   2.219   0.411    31.00 MG 034074-0
+  UFV JAIBA N                                0.180    19.85 MG 043149-4
+  UFV JAIBA NE1                              0.180    39.80 MG 043161-3
+  UFV JAIBA NO1                              0.180    39.80 MG 043160-5
+  UFV JAIBA O                                0.180    19.85 MG 043159-1
+  UFV JAIBA SE1                              0.180    39.80 MG 043162-1
+  UFV PARACATU 1                     2.381   0.411    32.90 MG 033999-7
+  UFV PARACATU 2                     2.160   0.411    32.90 MG 034000-6
+  UFV PARACATU 3                     2.381   0.411    32.90 MG 033990-3
+  UFV PARACATU 4                     2.381   0.411    32.90 MG 033991-1
+  UFV PIRAPORA 10                    2.160   0.411    30.00 MG 033193-7
+  UFV PIRAPORA 2                     2.160   0.411    30.00 MG 033185-6
+  UFV PIRAPORA 3                     2.160   0.411    30.00 MG 033186-4
+  UFV PIRAPORA 4                     2.160   0.411    30.00 MG 033187-2
+  UFV PIRAPORA 5                     2.160   0.411    30.00 MG 033188-0
+  UFV PIRAPORA 6                     2.160   0.411    30.00 MG 033189-9
+  UFV PIRAPORA 7                     2.160   0.411    30.00 MG 033190-2
+  UFV PIRAPORA 9                     2.160   0.411    30.00 MG 033192-9
+  UFV SAO JOAO 1                             0.180    30.00 MG 047281-6
+  UFV SAO JOAO 2                             0.180    30.00 MG 047282-4
+  UFV SAO JOAO 3                             0.180    30.00 MG 047283-2
+  UFV SAO JOAO 4                             0.180    30.00 MG 047284-0
+  UFV SAO JOAO 5                             0.180    30.00 MG 047285-9
+  UFV SAO JOAO 6                             0.180    30.00 MG 047286-7
+  UFV SAO JOAO 7                             0.180    30.00 MG 047287-5
+  UFV SOL DE VARZEA 1                        0.180    44.22 MG 043167-2
+  UFV SOL DE VARZEA 2                        0.180    44.22 MG 043168-0
+  UFV SOLAR JAIBA 3                          0.353    33.00 MG 034392-7
+  UFV SOLAR JAIBA 4                          0.353    33.00 MG 034394-3
+  UFV SOLAR JAIBA 9                          0.353    22.50 MG 035805-3
+  UFV VAZANTE 1                              0.374    27.00 MG 032339-0
+  UFV VAZANTE 2                              0.374    27.00 MG 032340-3
+  UFV VAZANTE 3                              0.180    27.00 MG 032341-1
+  UHE AMADOR AGUIAR I (C.BRANCO I)           0.180   230.80 MG 027483-6
+  UHE AMADOR AGUIAR II(C.BRANCO II           0.180   207.20 MG 027484-4
+  UHE BATALHA                                0.180    49.45 MG 029454-3
+  UHE IGARAPAVA                              0.180   207.72 MG 001098-7
+  UHE MASCARENHAS DE MORAES(PEIX.)           0.180   150.00 MG 002038-9
+  UHE MIRANDA                                0.180  403.713 MG 001469-9
+  UHE QUEIMADO                               0.163   105.00 MG 002176-8
+  UHE RETIRO BAIXO                           0.180    79.00 MG 029457-8
+  UTE BEVAP                                  0.180    32.50 MG 030063-2
+  UTE CET (BIOENERGETICA AROEIRA)            0.180     1.50 MG 030313-5
+  UTE DELTA                                  0.180    50.00 MG 028219-7
+  UTE DVPA                                   0.180    20.00 MG 030266-0
+  UTE ENERGETICA TUPACIGUARA                 0.353    30.00 MG 038176-4
+  UTE ENERVALE                               0.180    27.50 MG 030850-1
+  UTE ITUIUTABA                              0.180    30.00 MG 030094-2
+  UTE LD CELULOSE                            0.180    95.00 MG 040854-9
+  UTE SANTA JULIANA                          0.180    30.00 MG 030166-3
+  UTE SANTA VITORIA                          0.171    35.00 MG 031268-1
+  UTE SAO JUDAS TADEU                        0.180    30.00 MG 029759-3
+  UTE VALE DO PONTAL                         0.142    22.50 MG 030371-2
+  UTE VALE DO PONTAL 2                       0.343    23.00 MG 038172-1
+  UTE VALE DO TIJUCO I                       0.180    30.00 MG 030034-9
+  UTE VALE DO TIJUCO II              2.596   0.447    30.00 MG 030473-5
+  UTE WD                                     0.180    35.00 MG 029122-6
+  PCH BOA VISTA II                           0.374   29.701 MG 033465-0
+  PCH DORES DE GANHAES                       0.246   13.181 MG 028781-4
+  PCH FORTUNA II                             0.255    8.456 MG 028426-2
+  PCH JACARE                                 0.255    8.856 MG 028749-0
+  PCH MUCURI                                 0.180    18.81 MG 028842-0
+  PCH PAIOL                                  0.180    20.00 MG 028670-2
+  PCH SENHORA DO PORTO                       0.249   11.616 MG 028735-0
+  UHE SANTA CLARA 2699                       0.180    60.00 MG 002699-9
+  UTE UT UGPU ITABIRITO                      0.180     3.30 MG 032658-5
+  PCH CARANGOLA                              0.180    15.00 MG 027731-2
+  UHE SALTO GRANDE - MG                      0.180  101.004 MG 027210-8
+  EOL FAZENDA ROSARIO                        0.188     9.20 RS 030343-7
+  EOL FAZENDA ROSARIO 2                      0.188    23.00 RS 030478-6
+  EOL FAZENDA ROSARIO 3                      0.188    16.10 RS 030334-8
+  EOL PALMARES                               0.188     9.20 RS 028855-1
+  EOL MANGUE SECO I                  2.107   0.180    25.30 RN 030285-6
+  EOL MANGUE SECO II                 2.107   0.180    25.46 RN 030284-8
+  EOL MANGUE SECO III                2.107   0.180    25.70 RN 030281-3
+  EOL MANGUE SECO V                  2.107   0.180    25.42 RN 030290-2
+  EOL SANTA ROSA E MUNDO NOVO I              0.353    32.39 RN 035210-1
+  EOL SANTA ROSA E MUNDO NOVO II             0.353    28.46 RN 035211-0
+  EOL SANTA ROSA E MUNDO NOVO III            0.353    32.09 RN 035212-8
+  EOL SANTA ROSA E MUNDO NOVO IV             0.355    32.09 RN 037663-9
+  EOL SANTA ROSA E MUNDO NOVO V              0.355    24.32 RN 037664-7
+  UFV ASSU V                         2.107   0.180    34.00 RN 034184-3
+  PCH CIDEZAL                        9.137   0.158   16.773 MT 028836-5
+  PCH DIVISA                         9.137   0.158    10.80 MT 029048-3
+  PCH ILHA COMPRIDA                  9.137   0.158    19.91 MT 028835-7
+  PCH PARECIS                        9.137   0.158   15.171 MT 028819-5
+  PCH RONDON                         9.137   0.158   12.772 MT 002547-0
+  PCH SAPEZAL                        9.137   0.158   15.771 MT 028821-7
+  PCH SEGREDO                        9.137   0.158   25.868 MT 028822-5
+  PCH TELEGRAFICA                    9.137   0.158   29.772 MT 028820-9
+  EOL CORREDOR DO SENANDES II                0.124    20.80 RS 030842-0
+  EOL CORREDOR DO SENANDES III               0.124    26.05 RS 030819-6
+  EOL CORREDOR DO SENANDES IV                0.124    28.66 RS 030840-4
+  EOL VENTO ARAGANO I                        0.124    28.66 RS 030833-1
+  EOL VENTOS DA BAHIA II                     0.180    26.21 BA 031758-6
+  EOL VENTOS DA BAHIA IV                     0.411    11.65 BA 031770-5
+  EOL VENTOS DA BAHIA VIII                   0.180    26.21 BA 031771-3
+  UFV BOM NOME 1-5                           0.183    50.00 PE 042927-9
+  UFV BOM NOME 1-6                           0.183    50.00 PE 042928-7
+  UFV BRIGIDA 1                              0.175    31.50 PE 034169-0
+  UFV BRIGIDA 2                              0.175    31.50 PE 034234-3
+  UFV SAO PEDRO E PAULO I                    0.353   26.671 PE 031870-1
+  UFV SAO PEDRO E PAULO V                    0.180   26.671 PE 034186-0
+  UFV SAO PEDRO E PAULO VI                   0.180   22.429 PE 034188-6
+  UFV SAO PEDRO E PAULO VIII                 0.180    5.672 PE 046834-7
+  UFV SOLAR SALGUEIRO                        0.353    30.00 PE 033606-8
+  UFV SOLAR SALGUEIRO II                     0.353    30.00 PE 034160-6
+  UFV SOLAR SALGUEIRO III                    0.353    30.00 PE 034105-3
+(                                     
+(REVISÃO TARIFARIA 2023-2024          
+(                                     
+(ENEL SP                              
+(   
+(  PCH RASGAO                                 0.287    22.00 SP 002187-3                       
+(  UTE FERNANDO GASPARIAN (N.PIRAT)           0.287   185.00 SP 028191-3      
+(  UTE SAO JOAO BIOGAS                        0.287    21.50 SP 028648-6
+(  PCH PIRAPORA                               0.287    25.00 SP 029721-6             
+(                                     
+(EQUATORIAL PARA                             
+(   
+(  PCH SALTO BURITI                           0.288    10.00 MT 028671-0
+(  PCH SALTO CURUA                            0.288    30.00 MT 028672-9
+(  UHE CURUA-UNA                              0.106    30.30 PA 027130-6
+(  PCH SALTO TRES DE MAIO                     0.288    20.00 MT 028653-2
+(  UTE FLORAPLAC                              0.252    15.90 PA 032116-8
+(                                     
+(ELEKTRO                            
+(   
+(  UHE JUPIA                                  0.288   219.80 SP 001282-3
+(  UHE NOVA AVANHANDAVA                       0.288   341.16 SP 001552-0            
+(  UHE PARAIBUNA                              0.288    84.30 SP 027122-5          
+(  UTE MOGI                                   0.246     4.50 SP 028076-3                    
+(  UTE CRESCIUMAL                             0.288    20.00 SP 027059-8                
+(  UTE FBA GASA - ANDRADINA                   0.246    50.00 SP 027950-1
+(  UTE FERRARI - PIRASSUNUNGA                 0.288    55.00 SP 028058-5  
+(  UTE INTERLAGOS                             0.288    27.00 SP 029461-6
+(  UTE L.CARLOS PRESTES (T.LAGOAS)            0.288   360.00 SP 027975-7  
+(  UTE NOBLE ENERGIA                          0.288    28.58 SP 030004-7
+  UTE NOBLE ENERGIA II                       0.448    28.00 SP 030271-6
+(  UTE NOROESTE PAULISTA                      0.288    28.58 SP 029775-5         
+(  UTE BALDIN                                 0.288    28.50 SP 030169-8               
+  UTE PARANAPANEMA                           0.448    30.00 SP 030561-8               
+(  UTE ELDORADO BRASIL                        0.246    50.00 SP 030583-9          
+(  UTE VCP-MS                                 0.288    50.00 SP 029694-5                     
+  UTE MERIDIANO                              0.448    28.58 SP 030303-8                   
+(  UHE ROSANA                                 0.288   351.60 SP 002555-0
+(  UTE ALCIDIA                                0.288    27.00 SP 027913-7                     
+(  UTE PIONEIROS II                           0.180    22.00 SP 029642-2              
+(  UTE RIO VERMELHO                           0.288    30.00 SP 030543-0
+(  UTE RIO VERMELHO 2                         0.288    30.00 SP 031793-4
+  UTE RIO VERMELHO 3                         0.302    14.20 SP 035093-4                 
+(  UTE COCAL II                               0.288    80.00 SP 029713-5
+(  UTE COLOMBO SANTA ALBERTINA                0.288    21.00 SP 030267-8
+(  UTE CONQUISTA DO PONTAL                    0.288    70.00 SP 030024-1                      
+(  UTE IPE                                    0.288    25.00 SP 030268-6
+(  UTE MOEMA                                  0.288    30.00 SP 027886-6                                 
+(  UTE SAO JOAO DA BOA VISTA                  0.288    50.00 SP 027709-6
+(  UTE SAO LUIZ                               0.288    50.00 SP 026869-0     
+(  UTE TERMOVERDE CAIEIRAS                    0.288    27.50 SP 031436-6     
+(  UTE PIONEIROS                              0.288    17.00 SP 028047-0               
+(  UTE VIRALCOOL CASTILHO                     0.288    28.00 SP 030445-0
+(  UTE VISTA ALEGRE - ELEKTRO                 0.288    30.00 SP 028462-9   
+(  PCH SAN JUAN                               0.288     4.87 SP 002688-3                 
+  UFV DRACENA 1                              0.375    27.00 SP 032312-8
+  UFV DRACENA 2                              0.375    27.00 SP 032313-6
+  UFV DRACENA 4                              0.375    27.00 SP 032315-2                 
+(  UFV BOA HORA 1                             0.246    23.04 SP 034161-4
+(  UFV BOA HORA 2                             0.246    23.04 SP 034162-2
+(  UFV BOA HORA 3                             0.246    23.04 SP 034163-0                 
+(  UTE FIBRIA 2                               0.288    140.0 SP 037624-8                     
+  UFV AGUA VERMELHA IV                       0.355    15.00 SP 034206-8
+  UFV AGUA VERMELHA V                        0.353    30.00 SP 034207-6
+  UFV AGUA VERMELHA VI                       0.353    30.00 SP 034208-4        
+  UTE VALE DO PARANA                         0.411    30.00 SP 035073-7               
+  UTE ONCA PINTADA                           0.287    50.00 SP 035085-0               
+(  UFV PEREIRA BARRETO I                      0.246    41.49 SP 034361-0
+(  UFV PEREIRA BARRETO II                     0.246    41.49 SP 034362-0
+(  UFV PEREIRA BARRETO III                    0.246    41.49 SP 034363-0
+(  UFV PEREIRA BARRETO IV                     0.246    41.49 SP 034364-0
+(  UFV PEREIRA BARRETO V                      0.246    36.48 SP 034365-0        
+(  UTE BVE BELA VISTA ENERGETICA              0.180    30.00 SP 037341-9  
+(  UFV PEDRANOPOLIS 1                         0.180    29.20 SP 034358-7
+(  UFV PEDRANOPOLIS 2                         0.180    29.20 SP 034359-5
+(  UFV PEDRANOPOLIS 3                         0.180    29.20 SP 034360-9
+(  UFV CASTILHO I                             0.180    50.00 SP 034108-8
+(  UFV CASTILHO II                            0.180     5.00 SP 034112-6
+(  UFV CASTILHO III                           0.180    50.00 SP 034110-0
+(  UFV CASTILHO IV                            0.180    50.00 SP 034111-8
+(  UFV CASTILHO V                             0.180    50.00 SP 034109-6        
+(           
+( EQUATORIAL GO      
+(   
+(  PCH GALHEIROS I                            0.331    11.55 GO 030312-7
+(  PCH MOSQUITAO                              0.331    30.00 GO 028541-2
+  PCH RENIC                                  0.412   15.832 GO 029663-5 
+(  PCH QUEIXADA                               0.331    30.00 GO 030272-4             
+(  PCH SANTO ANTONIO DO CAIAPO                0.331    30.00 GO 029119-6
+  PCH TAMBORIL 29648                         0.412    15.80 GO 029648-1
+(  PCH SAO DOMINGOS II                        0.331    24.00 GO 028388-6
+  PCH TAMBORIL 35113                         0.389    15.80 GO 035113-0
+(  PCH VERDE 8                                0.331    30.00 GO 030973-0
+(  PCH YPE                                    0.331    30.00 GO 031327-0                                           
+(  UHE CACHOEIRA DOURADA                      0.331   141.41 GO 000528-2
+(  UHE ESPORA                                 0.317    32.01 GO 000908-3
+(  UTE BOA VISTA - CELG                       0.331    28.50 GO 029588-4
+(  UTE CACHOEIRA DOURADA                      0.331    29.00 GO 030033-0    
+(  UTE DAIA (ANAPOLIS)                        0.331    44.30 GO 028612-5  
+(  UTE ITUMBIARA (CIBA)                       0.331    39.60 GO 030090-0
+(  UTE QUIRINOPOLIS - CELG                    0.331     25.0 GO 029268-0          
+(  UHE SERRA DO FACAO                         0.323   202.40 GO 028355-0          
+(  UTE XAVANTES(ARUANA)                       0.331   53.598 GO 028654-0          
+(  UTE VALE DO VERDAO                         0.148    35.00 GO 028116-6           
+(                    
+( EDP SÃO PAULO      
+(                    
+(  UHE JAGUARI                                0.301    27.30 SP 027131-4
+(  UHE SANTA BRANCA                           0.301    57.00 SP 002696-4       
+(  PCH LAVRINHAS                              0.061    30.00 SP 029114-5
+(  PCH QUELUZ                                 0.061    30.00 SP 029115-3      
+(                    
+( CPFL - PIRATININGA 
+(                    
+(  UHE HENRY BORDEN                           0.288    49.00 SP 001084-7
+(  UTE NEGRO DE FUMO                          0.288    18.00 SP 000825-7  
+(  UTE PETROCOQUE                             0.246    11.80 SP 031229-0      
+(                     
+( ENERGISA RONDONIA   
+(                     
+(  PCH CESAR FILHO                    8.608   0.219     7.00 RO 031050-6
+(  PCH PRIMAVERA                      8.608   0.219    26.00 RO 028840-3
+(  UHE RONDON II                      8.349   0.213    70.00 RO 027448-8    
+(                        
+( EQUATORIAL PIAUI       
+(                        
+  EOL DELTA DO PARNAIBA                      0.421    30.00 PI 030838-2
+  EOL PORTO DAS BARCAS                       0.421    20.00 PI 030827-7
+  EOL PORTO DO DELTA                 0.477   0.406    30.00 PI 030639-8
+  EOL PORTO SALGADO                          0.421    20.00 PI 030830-7
+(  EOL TESTA BRANCA I                 0.392   0.246    22.00 PI 031666-0
+(  EOL TESTA BRANCA III               0.392   0.246    22.00 PI 033479-0 
+(                                                                                                                      
+(CEA                                                                                                   
+(      
+(  UHE COARACY NUNES                          0.142    78.00 AP 000783-8                               
+(
+ X--------------------------------X-------X-------X--------X--X--------X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

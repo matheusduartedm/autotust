@@ -70,6 +70,69 @@ def _load_r61_data(r61_file):
     return data
 
 
+class Bus:
+    def __init__(self):
+        self.num = 0
+        self.name = ""
+        self.area = 0
+        self.circuits = {}
+
+
+def load_dc(DB_PATH, year):
+    dc_file = DB_PATH + f"\\{year}-{year+1}.DC"
+    
+    if os.path.exists(dc_file):
+        buses = {}
+        found_dbar = False
+        found_dlin = False
+        
+        with open(dc_file, "r") as file:
+            for line in file:
+                stripped_line = line.strip()
+
+                if stripped_line == "DBAR":
+                    found_dbar = True
+                    continue
+                
+                elif stripped_line == "DLIN":
+                    found_dlin = True
+                    continue
+                
+                if stripped_line == "99999":
+                    found_dbar = found_dlin = False
+                
+                if not found_dbar and not found_dlin:
+                    continue
+                
+                if _is_comment(line):
+                    continue
+
+                if len(stripped_line) > 0:
+                    if found_dbar:
+                        bus = Bus()
+                        bus.num = int(line[0:5].strip())
+                        bus.name = line[10:22].strip()
+                        bus.area = int(line[76:78].strip())
+                        buses[bus.num] = bus
+                    elif found_dlin:
+                        from_bus = int(line[0:5].strip())
+                        to_bus = int(line[10:15].strip())
+                        
+                        if from_bus in buses:
+                            if year not in buses[from_bus].circuits:
+                                buses[from_bus].circuits[year] = []
+                            if to_bus not in buses[from_bus].circuits[year]:
+                                buses[from_bus].circuits[year].append(to_bus)
+                        
+                        if to_bus in buses:
+                            if year not in buses[to_bus].circuits:
+                                buses[to_bus].circuits[year] = []
+                            if from_bus not in buses[to_bus].circuits[year]:
+                                buses[to_bus].circuits[year].append(from_bus)
+
+        return buses
+
+
 def load_ger(DB_PATH, year):
     ger_file = DB_PATH + f"\\{year}-{year+1}.GER"
     if os.path.exists(ger_file):

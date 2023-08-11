@@ -1,4 +1,3 @@
-import pandas as pd
 from openpyxl import Workbook
 import autotust_v61 as tust
 
@@ -19,7 +18,8 @@ for year in years:
         must = generator.must.get(year, 0)
         s = generator.s.get(year, 0)
         d = generator.d.get(year, 0)
-        row = [generator.type, generator.name, must, s, d, generator.ceg, generator.cegnucleo]
+        bus = generator.bus.get(year, 0)
+        row = [generator.type, generator.name, must, s, d, bus, generator.ceg, generator.cegnucleo]
         total_must += must
         rows.append(row)
 
@@ -38,7 +38,7 @@ for data in summary_data:
 
 for data in yearly_data:
     ws_year = wb.create_sheet(title=str(data['year']))
-    header = ['type', 'name', 'must', 's', 'd', 'ceg', 'cegnucleo']
+    header = ['type', 'name', 'must', 's', 'd', 'bus', 'ceg', 'cegnucleo']
     ws_year.append(header)
     for row in data['rows']:
         ws_year.append(row)
