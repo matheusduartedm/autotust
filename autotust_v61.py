@@ -19,12 +19,21 @@ class Generator:
         self.cegnucleo = 0
         self.bus = {}
         self.tust = {}
+        self.uf = ""
 
     def set_tust(self, year, value):
         self.tust[year] = value
 
     def get_tust(self, year):
         return self.tust.get(year)
+
+
+class Bus:
+    def __init__(self):
+        self.num = 0
+        self.name = ""
+        self.area = 0
+        self.circuits = {}
 
 
 def _is_comment(line):
@@ -68,14 +77,6 @@ def _load_r61_data(r61_file):
         data["teufp"] = teu_values[2]
 
     return data
-
-
-class Bus:
-    def __init__(self):
-        self.num = 0
-        self.name = ""
-        self.area = 0
-        self.circuits = {}
 
 
 def load_dc(DB_PATH, year):
@@ -227,10 +228,12 @@ def load_base(DB_PATH):
                     if len(line) > 0:
                         name = line[3:35].strip()
                         tust = float(line[96:102])
-
+                        uf = line[51:53].strip()
                         if name in generators:
                             generator = generators[name]
                             generators[name].tust[year] = tust
+                            generators[name].uf = generators[name].uf if generators[name].uf else uf
+
 
                         else:
                             print(f"Gerador {name} não encontrado na lista de geradores.")
@@ -245,7 +248,7 @@ def load_base(DB_PATH):
     generators = dict(generators)
 
     # Adicionar anos extras para o dashboard
-    extra_years = range(2031, 2040)
+    extra_years = range(2032, 2040)
     for name in generators:
         generator = generators[name]
         for year in extra_years:
@@ -278,13 +281,55 @@ def create_dashboard():
 
     generators, r61_data = load_base(CASE_PATH)
 
+    ss = {
+        'AP': 'N', 'AM': 'N', 'PA': 'N', 'RR': 'N', 'TO': 'N','MA': 'N', 
+        'AL': 'NE', 'BA': 'NE', 'CE': 'NE', 'PB': 'NE', 'PE': 'NE', 'PI': 'NE', 'RN': 'NE', 'SE': 'NE',
+        'ES': 'SE', 'MG': 'SE', 'RJ': 'SE', 'SP': 'SE', 'GO': 'SE', 'MS': 'SE', 'MT': 'SE', 'DF': 'SE', 'AC': 'SE', 'RO': 'SE',
+        'PR': 'S', 'RS': 'S', 'SC': 'S'
+    }
+
     # Sidebar
     st.sidebar.title("Navigation")
-    tab_names = ["Assumptions", "Results"]
+    tab_names = ["General Results", "Assumptions", "Results"]
     tab = st.sidebar.radio("", tab_names)
     generator_ids = list(generators.keys())
 
-    if tab == "Results":
+    if tab == "General Results":
+        st.write("# General Results")
+        
+        total_tust_by_ss = defaultdict(lambda: defaultdict(float))
+        generator_count_by_ss = defaultdict(int)
+        
+        # Calculando o total de TUST e contagem de geradores por subsistema
+        for generator in generators.values():
+            subsistema = ss.get(generator.uf, '')
+            generator_count_by_ss[subsistema] += 1
+            for year, tust in generator.tust.items():
+                total_tust_by_ss[subsistema][year] += tust
+        
+        # Exibindo os totais de TUST por subsistema
+        st.write("## Totais de TUST por Subsistema")
+        for subsistema, tusts in total_tust_by_ss.items():
+            st.write(f"Subsistema: {subsistema}")
+            for year, value in tusts.items():
+                st.write(f"Ano: {year}, Total TUST: {value}")
+        
+        # Calculando e exibindo a média de TUST por subsistema
+        avg_tust_by_ss = {}
+        for subsistema, tusts in total_tust_by_ss.items():
+            avg_tust_by_ss[subsistema] = {year: value / generator_count_by_ss[subsistema] for year, value in tusts.items()}
+        
+        fig = go.Figure()
+        for subsistema, avg_tusts in avg_tust_by_ss.items():
+            years = list(avg_tusts.keys())
+            values = list(avg_tusts.values())
+            fig.add_trace(go.Scatter(x=years, y=values, mode='markers+lines', name=subsistema))
+        
+        fig.update_layout(title="TUST Média por Subsistema", xaxis_title='Ano', yaxis_title='TUST Média [R$/kW.month - ref. Jun/2023]')
+        st.plotly_chart(fig)
+
+
+    elif tab == "Results":
         st.write("# Results")
         generator_id = st.selectbox("Select the generator: ", generator_ids)
         if generator_id in generators:

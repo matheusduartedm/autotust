@@ -1,0 +1,25 @@
+ PROGRAMA NODAL - SIMULAÇÃO DE TARIFAS DE USO DO SISTEMA ELÉTRICO - v6.1(07/23)  
+
+ ** EPE CICLO 23-32 ** CARGA MÁXIMA ** CT26-32 (Simulação realizada em 23/08/2023 - 10:33:19)                                                                                                            
+                                                             
+ SUMÁRIO DA REDE ELÉTRICA
+
+ BARRAS:                  12032
+ CIRCUITOS:               16808
+ ELEMENTOS NA TRANSMISSÃO: 2298
+ USINAS:                   3082
+
+
+ CAPACIDADE INSTALADA (MW)          : 186.048,9                                                                                                                                                         
+ CARGA CONTRATADA - PONTA (MW)      : 115.881,9                                                                                                                                                         
+ CARGA CONTRATADA - FORA PONTA (MW) :       0,0                                                                                                                                                         
+
+ 
+ SUMÁRIO NO CÁLCULO DA TUST-RB -------------
+
+ Receita anual a ser recuperada com a TUST-RB(1000 R$) =     46.475.182,88                                                                                                                              
+ 
+ Proporção de rateio da receita = Geração ( 50.0%)  Carga ( 50.0%)
+ Ponderação de Beta pelo fluxo GER. ( % ) = Mínima  (   .0 ) Máxima (100.0 )
+ Ponderação de Beta pelo fluxo CAR. ( % ) = Mínima  (   .0 ) Máxima (100.0 )
+

@@ -5,19 +5,19 @@
                USINA                   TUST      MUST         EUST      UF     TUST      MUST      Ciclo        EUST      CEG
                                     R$/kW.mes     MW       1000R$/ano       Desconto  Equivalent Após Julho 1000R$/ano
  X--------------------------------X-----------X---------X-------------X---X----------X----------X----------X-----------X--------X
-  EOL VENTOS DE SANTA ROSALIA 05        10.960     42.00        5524.0  CE                             66.7       3683. 049895-5
-  EOL VENTOS DE SANTA ROSALIA 06        10.960     42.00        5524.0  CE                             66.7       3683. 049896-3
-  EOL VENTOS DE SANTA ROSALIA 07        10.960     42.00        5524.0  CE                             66.7       3683. 049897-1
-  UFV CRUZEIRO DO SUL I                  7.593     49.80        4537.8  GO                             83.3       3781. 051068-8
-  UFV CRUZEIRO DO SUL II                 7.593     49.80        4537.8  GO                             83.3       3781. 051069-6
-  UFV TURVANIA I                         5.879     49.80        3513.3  GO                             83.3       2928. 054841-3
-  UFV TURVANIA II                        5.879     49.80        3513.3  GO                             83.3       2928. 054842-1
-  UFV TURVANIA III                       5.879     49.80        3513.3  GO                             83.3       2928. 054843-0
-  UFV TURVANIA IV                        5.879     49.80        3513.3  GO                             83.3       2928. 054844-8
-  UFV TURVANIA V                         5.879     49.80        3513.3  GO                             83.3       2928. 054845-6
-  UFV TURVANIA VI                        5.879     31.00        2187.0  GO                             83.3       1822. 054846-4
+  EOL VENTOS DE SANTA ROSALIA 05        12.144     42.00        6120.6  CE                             66.7       4080. 049895-5
+  EOL VENTOS DE SANTA ROSALIA 06        12.144     42.00        6120.6  CE                             66.7       4080. 049896-3
+  EOL VENTOS DE SANTA ROSALIA 07        12.144     42.00        6120.6  CE                             66.7       4080. 049897-1
+  UFV CRUZEIRO DO SUL I                  9.103     49.80        5440.2  GO                             83.3       4533. 051068-8
+  UFV CRUZEIRO DO SUL II                 9.103     49.80        5440.2  GO                             83.3       4533. 051069-6
+  UFV TURVANIA I                         8.110     49.80        4846.5  GO                             83.3       4039. 054841-3
+  UFV TURVANIA II                        8.110     49.80        4846.5  GO                             83.3       4039. 054842-1
+  UFV TURVANIA III                       8.110     49.80        4846.5  GO                             83.3       4039. 054843-0
+  UFV TURVANIA IV                        8.110     49.80        4846.5  GO                             83.3       4039. 054844-8
+  UFV TURVANIA V                         8.110     49.80        4846.5  GO                             83.3       4039. 054845-6
+  UFV TURVANIA VI                        8.110     31.00        3016.9  GO                             83.3       2514. 054846-4
  X--------------------------------X-----------X---------X-------------X---X----------X----------X----------X-----------X--------X
-                                                                   .00            .00        .00   10328.85         .00
+                                                                   .00            .00        .00   12475.59         .00
 
  **  Usinas com repasse de MUST parcial                         
 

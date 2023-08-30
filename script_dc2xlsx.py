@@ -3,7 +3,7 @@ from openpyxl import Workbook
 import autotust_v61 as tust
 
 # INPUTS
-DB_PATH = r'D:\dev\auto_tust\cases\BasePSR'
+DB_PATH = r'D:\dev\auto_tust\cases\BasePSR_RedeEPE_2022'
 
 # INICIANDO VARIÁVEIS
 years = range(2023, 2032)

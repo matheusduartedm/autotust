@@ -1,0 +1,1493 @@
+ PROGRAMA NODAL - SIMULAÇÃO DE TARIFAS DE USO DO SISTEMA ELÉTRICO - v6.1(07/23)  
+
+ ** EPE CICLO 22-31 ** CARGA MÁXIMA ** CT30-31 (Simulação realizada em 28/08/2023 - 18:36:38)                                                                                                            
+
+ RELATÓRIO DE TUST CONTROLADA PARA SEGMENTO CONSUMO - Horário de Ponta - P (R$/kW/mês)                                                                                                                  
+
+ X----------------------------------------------------------------------------X--------------------X                                                                                                    
+                   BARRA                                                      X    TUST - RB       X                                                                                                    
+   NUM.                            NOME                                       X     P   |          X                                                                                                    
+ X-----X----------------------------------------------------------------------X---------X----------X                                                                                                    
+
+   2840 AGUA AZUL - 138                                                           17.210                                 
+  30951 AGUA AZUL - 440                                                           16.918                                 
+   1206 AG.LINDAS230                                                              13.793                                 
+   1943 ANGRA AMPLA - 138                                                         14.363                                 
+    151 ACU II - 138                                                              12.112                                 
+    251 ACU II - 230                                                              12.112                                 
+  11265 ACU III - 230                                                             12.314                                 
+  11565 ACU III - 500                                                             12.449                                 
+    600 ABAIXADORA - 69                                                           13.091                                 
+   7747 ABDON BATISTA - 230                                                       15.654                                 
+   7744 ABDON BATISTA - 525                                                       16.185                                 
+   9590 ABUNA - 13,8                                                              21.289                                 
+   9636 ABUNA - 138                                                               21.289                                 
+   9537 ABUNA - 230                                                               21.289                                 
+    559 ACAILANDIA - 500                                                          13.008                                 
+  55412 ACARAU II – 230                                                           13.396                                 
+  12907 ACARAT CE - 230                                                           13.391                                 
+  12902 ACARAT-CE500                                                              13.364                                 
+   4475 ACESITA - 230                                                             15.735                                 
+   3155 EMPLAL - 138                                                              14.005                                 
+   3730 ADRIANOPOLIS - 138                                                        15.055                                 
+   3729 ADRIANOPOLIS - 345                                                        14.997                                 
+   3728 ADRIANOPOLIS - 500                                                        14.623                                 
+   3031 AGUAI - 138                                                               16.361                                 
+   1637 AIMORES - 230                                                             13.533                                 
+   2336 AJINOMOTO VAL - 138                                                       14.458                                 
+  18761 ALAGOINHA 2 - 69                                                          15.889                                 
+  11760 ALAGOAS 2 - 230                                                           15.889                                 
+   7591 ALEGRETE2 - 69                                                            16.765                                 
+   9002 ALEGRETE2 - 230                                                           16.765                                 
+  56095 ALEX - 230                                                                12.246                                 
+    862 ALTAMIRA - 69                                                             14.028                                 
+    362 ALTAMIRA - 230                                                            14.028                                 
+   2219 AMPARO - 138                                                              16.986                                 
+  46950 ANASTACIO - 138                                                           15.707                                 
+   7758 ANASTACIO - 230                                                           15.871                                 
+   2770 ANDIRA LESTE - 230                                                        16.382                                 
+   6834 ANDIRA LESTE - 138                                                        16.523                                 
+   3132 ANDRADINA - 138                                                           14.055                                 
+    540 ANGELIM - 500                                                             13.865                                 
+    640 ANGELIM - 69                                                              14.011                                 
+    240 ANGELIM - 230                                                             14.011                                 
+   3746 ANGRA 1 - 138                                                             14.150                                 
+   3745 ANGRA - 500                                                               13.787                                 
+   1185 ANHANGUERA - 69                                                           14.670                                 
+   1171 ANHANGUERA - 138                                                          14.656                                 
+   1172 ANHANGUERA GO - 230                                                       14.670                                 
+   2901 ANHANGUERA SP - 230                                                       19.746                                 
+   2900 ANHANGUERA - 345                                                          19.403                                 
+   2958 APARECIDA - 88                                                            15.405                                 
+   2957 APARECIDA - 230                                                           15.405                                 
+   2758 ALTA PAULISTA - 400                                                       14.453                                 
+   6818 APUCARANA - 138                                                           16.743                                 
+   6601 APUCARANA - 230                                                           16.845                                 
+  58771 LAGOA BARRO - 230                                                         12.427                                 
+  11619 AQUIRAZ II - 69                                                           14.451                                 
+  11219 AQUIRAZ - 230                                                             14.451                                 
+   2329 ARACATUBA - 138                                                           14.912                                 
+   1647 ARACUAI 2 - 138                                                           11.552                                 
+   1522 ARACUAI - 230                                                             11.589                                 
+  17502 ARAPIRACA III - 69                                                        17.664                                 
+  11242 ARAPIRACA III - 230                                                       17.664                                 
+   3033 ARARAS 2 - 138                                                            16.211                                 
+   5203 ARARAQUARA 2 - 440                                                        14.880                                 
+   5202 ARARAQUARA 2 - 500                                                        14.375                                 
+   2631 ARARAQUARA CTP - 138                                                      15.350                                 
+   2630 ARARAQUARA - 440                                                          15.359                                 
+   3852 ARARAQUARA - 500                                                          14.614                                 
+   2673 ARARAS SP - 440                                                           16.325                                 
+   3032 ARARAS 1 - 138                                                            16.179                                 
+  38907 ARAXA 3 - 138                                                             13.494                                 
+  38906 ARAXA 3 - 345                                                             13.531                                 
+  12203 ARCOVERDE II - 230                                                        13.836                                 
+  47083 AREIA - 13,8                                                              16.035                                 
+   6826 AREIA - 138                                                               15.999                                 
+   7749 AREIA - 230                                                               16.010                                 
+   7748 AREIA - 525                                                               15.833                                 
+  39813 ARINOS 2 - 500                                                            12.138                                 
+   9642 ARIQUEMES - 69                                                            20.272                                 
+   9520 ARIQUEMES - 230                                                           20.272                                 
+   3034 A.NOGUEIRA - 138                                                          16.455                                 
+   3082 ARUJA 2 - 138                                                             17.345                                 
+    302 MOXOTO - 230                                                              12.708                                 
+   2624 ASSIS - 440                                                               15.193                                 
+   4282 ASSIS - 525                                                               15.475                                 
+   4006 ASSIS I - 88                                                              16.138                                 
+   2626 ASSIS 2 - 230                                                             15.583                                 
+   4008 ASSIS III - 88                                                            15.651                                 
+   3083 ATIBAIA 1 - 138                                                           17.569                                 
+   2677 ATIBAIA 2 - 345                                                           17.870                                 
+   3107 ATIBAIA 3 - 138                                                           17.479                                 
+   7923 ATLANTIDA 2 - 230                                                         17.011                                 
+   2358 AUXILIADORA - 138                                                         17.610                                 
+   2786 AVARE - 230                                                               18.268                                 
+   2617 AGUA VERMELHA - 500                                                       13.564                                 
+   2619 AGUA VERMELHA - 138                                                       13.801                                 
+   2618 AGUA VERMELHA - 440                                                       13.686                                 
+   3947 BARRO ALTO - 230                                                          11.877                                 
+   3605 BARRO BRANCO - 345                                                        14.968                                 
+   4297 B. DOS COQUEIROS - 230                                                    11.601                                 
+    629 UB.ESPERANCA - 69                                                         13.755                                 
+    229 B.ESPERANCA - 230                                                         13.755                                 
+   4288 B. FLUMINENSE - 500                                                       14.196                                 
+   7304 BARRA GRANDE - 230                                                        15.215                                 
+   6608 BAIXO IGUACU PR - 230                                                     14.822                                 
+   2639 BOM JARDIM - 138                                                          16.938                                 
+  15203 BOM JESUS II - 69                                                         13.529                                 
+  11050 B.JESUS II - 230                                                          13.529                                 
+    620 BOM NOME - 69                                                             12.728                                 
+    120 BOM NOME - 138                                                            12.728                                 
+   1331 BARRA PEIXE - 138                                                         14.924                                 
+   3236 BARRA PEIXE - 230                                                         14.826                                 
+  13103 BACAB - MA - 500                                                          13.341                                 
+   9010 BAGE 2 - 230                                                              16.381                                 
+   2732 BAGUACU - 138                                                             14.912                                 
+   2733 BAGUACU - 440                                                             14.976                                 
+   1645 BAGUARI - 230                                                             13.647                                 
+   2922 B. SANTISTA - 88                                                          18.600                                 
+   2920 B. SANTISTA - 230                                                         18.964                                 
+   2919 B. SANTISTA - 345                                                         18.600                                 
+  10410 BALBINA - 230                                                             15.947                                 
+    607 BALSAS - 69                                                               13.117                                 
+    215 BALSAS - 230                                                              13.117                                 
+    622 BANABUIU - 69                                                             13.546                                 
+    222 BANABUIU - 230                                                            13.546                                 
+   3332 ECH BANDEIRAN - 88                                                        19.596                                 
+   3909 BANDEIRANTE GO - 345                                                      13.792                                 
+   2934 BANDEIRANTE SP - 345                                                      19.596                                 
+   1667 BARBACENA 2 - 138                                                         15.224                                 
+   1480 BARBACENA - 345                                                           15.277                                 
+   2869 BARIRI - 138                                                              16.180                                 
+   1547 BARREIRO 1 - 138                                                          14.692                                 
+  11286 BARREIRAS II - 230                                                        13.884                                 
+    686 BARREIRAS - 69                                                            14.336                                 
+    186 BARREIRAS - 138                                                           14.474                                 
+    286 BARREIRAS - 230                                                           14.336                                 
+   1482 BARREIRO - 345                                                            14.793                                 
+    846 BARREIRAS - 500                                                           12.420                                 
+   4019 BASTOS - 138                                                              14.665                                 
+   6903 BATEIAS - 138                                                             17.065                                 
+   6627 BATEIAS - 230                                                             16.940                                 
+   3696 BATEIAS 3 - 500                                                           16.427                                 
+   6628 BATEIAS - 525                                                             16.317                                 
+   2629 BAURU - 138                                                               16.034                                 
+   2628 BAURU SP - 440                                                            16.022                                 
+   2871 BARRA BONITA - 138                                                        16.774                                 
+   1612 BARAO DE COCAIS 3 - 230                                                   15.473                                 
+   1485 B.DESPACHO - 500                                                          13.655                                 
+   2810 BERTIOGA II - 138                                                         18.061                                 
+   3084 BERTIOGA 1 - 138                                                          18.192                                 
+   3106 BERTIOGA 3 - 138                                                          17.871                                 
+   3213 BERTIOGA 4 - 138                                                          18.004                                 
+    529 B.ESPERANCA - 500                                                         12.895                                 
+  15029 B. ESPERANCA - 69                                                         14.056                                 
+  26457 BETIM 6 - 138                                                             14.536                                 
+  26454 BETIM 6 -345                                                              14.548                                 
+   7740 BAIXO IGUACU SC - 230                                                     17.708                                 
+   7741 BIGUACU--525                                                              16.838                                 
+   7742 BIGUACU - 138                                                             17.820                                 
+   1057 BIRITIBA - 138                                                            17.545                                 
+   2347 BIRIGUI 3 - 138                                                           14.713                                 
+   2638 BOM JARDIM - 440                                                          16.699                                 
+    385 B.J.LAPA II - 230                                                         12.374                                 
+    585 BJLAPAII - 500                                                            12.312                                 
+    685 B.J.LAPA II - 69                                                          12.374                                 
+    285 B.J.LAPA - 230                                                            12.374                                 
+  35351 BRASILIA LESTE - 500                                                      13.202                                 
+   7735 BLUMENAU - 138                                                            17.633                                 
+   7734 BLUMENAU - 230                                                            17.492                                 
+   7733 BLUMENAU - 525                                                            16.851                                 
+   1058 BOISSUCANGA - 138                                                         17.688                                 
+   2604 BOITUVA 2 - 138                                                           19.049                                 
+    220 BOM NOME - 230                                                            12.728                                 
+    243 BONGI - 230                                                               16.020                                 
+    643 BONGI - 69                                                                16.020                                 
+   4027 BORBOREMA - 138                                                           15.551                                 
+   2778 BOTUCATU - 138                                                            17.743                                 
+   2777 BOTUCATU - 230                                                            18.035                                 
+   3301 BRASNORTE - 138                                                           14.616                                 
+   3936 BRASILIA GERAL - 230                                                      14.627                                 
+   3920 BRAS. SUL - 230                                                           14.218                                 
+   3919 BRAS. SUL -345                                                            13.695                                 
+   3981 BRA. PAULISTA - 138                                                       17.310                                 
+   3300 BRASNORTE - 230                                                           14.519                                 
+   1653 BRAUNAS - 138                                                             14.109                                 
+   1654 BRAUNAS - 161                                                             13.971                                 
+   1600 BRAUNA - 230                                                              13.971                                 
+   4272 BRISAMAR - 138                                                            14.714                                 
+    205 BROT.MACAUBAS - 230                                                       11.953                                 
+  29851 BROTAS - 138                                                              16.218                                 
+    376 BRUMADO II - 230                                                          15.240                                 
+    676 BRUMADO II - 69                                                           15.240                                 
+  18553 BRUMADO II - 138                                                          15.240                                 
+   3183 BURI - 138                                                                19.348                                 
+  12318 BURITIRAMA - 500                                                          12.267                                 
+  38913 HELIO VALGAS MG - 345                                                     11.990                                 
+   9266 CRUZ ALTA 2 - 230                                                         16.422                                 
+   4481 CANA BRAVA - 230                                                          11.641                                 
+   6862 C.COMPRIDO - 69                                                           17.354                                 
+   6615 C.COMPRIDO - 230                                                          17.141                                 
+    670 CIC. DANTAS - 69                                                          14.035                                 
+    270 CIC.DANTAS - 230                                                          14.035                                 
+  11461 CAMPO FORMOSO - 230                                                       12.511                                 
+   9021 C.INDUSTRIAL - 138                                                        16.958                                 
+   9020 C.INDUSTRIAL - 230                                                        16.883                                 
+   3245 C. MAGALHAES - 138                                                        15.361                                 
+   6910 C.MOURAO - 138                                                            16.149                                 
+    636 COELHO NETO - 69                                                          15.677                                 
+    236 COELHO NETO - 230                                                         15.730                                 
+    653 CUR.NOVOS II - 69                                                         12.844                                 
+  11253 CURRAIS NOVOS II - 230                                                    12.844                                 
+   3721 C. PAULISTA - 138                                                         14.106                                 
+   3720 C. PAULISTA - 500                                                         14.033                                 
+  38871 CACU - 230                                                                11.601                                 
+   2650 CABREUVA - 138                                                            17.309                                 
+   2649 CABREUVA - 230                                                            18.326                                 
+   2647 CABREUVA - 440                                                            17.254                                 
+   8139 CACHOEIRINHA 3 - 138                                                      17.020                                 
+   2877 CACONDE - 138                                                             15.619                                 
+  58008 CAETES II - 230                                                           13.836                                 
+  32972 MELHORAMENTOS - 138                                                       17.370                                 
+   8332 CRUZ ALTA 1 - 69                                                          16.422                                 
+  51457 CAMAQUA 3 - 230                                                           16.614                                 
+    574 CAMACARI - 500                                                            14.728                                 
+    284 CAMACARI IV - 230                                                         15.527                                 
+    584 CAMACARI IV - 500                                                         14.764                                 
+   9030 CAMAQUA - 230                                                             16.764                                 
+   2452 CAMPINAS - 138                                                            16.817                                 
+   3701 CAMPINAS - 345                                                            17.041                                 
+   3700 CAMPINAS - 500                                                            15.695                                 
+  38951 CAMPOS 2 - 500                                                            14.039                                 
+   9015 CAMPO BOM - 230                                                           17.621                                 
+   3786 CAMPOS - 138                                                              13.925                                 
+   3785 CAMPOS - 345                                                              13.823                                 
+   1335 CANARANA CMT - 138                                                        16.716                                 
+  38873 CANARANA CMT - 230                                                        17.240                                 
+   7600 CANDELARIA 2 - 69                                                         15.982                                 
+   9283 CANDELARIA 2 - 230                                                        15.982                                 
+   9040 CANDIOTA 2 - 230                                                          16.081                                 
+   7753 CANDIOTA 2 - 525                                                          16.113                                 
+  50209 CANDIOTA - 230                                                            16.081                                 
+   9045 CANOA 1 - 230                                                             17.107                                 
+   9050 CANOAS 2 - 230                                                            16.286                                 
+   6100 CANOINHAS ESU - 138                                                       18.335                                 
+   7778 CANOINHA - 230                                                            18.371                                 
+   2623 CAPIVARA - 138                                                            14.676                                 
+  51699 CAPIVARI SUL - 138                                                        16.613                                 
+  50215 CAPIVARI-230                                                              16.613                                 
+  50212 CAPIVARI-525                                                              16.477                                 
+   2622 CAPIVARA - 440                                                            14.728                                 
+   3135 CARDOSO - 138                                                             14.014                                 
+   1192 CARAJAS GO - 138                                                          14.696                                 
+   1202 CARAJAS GO - 230                                                          14.732                                 
+    916 CARAJAS PA - 230                                                          13.772                                 
+   2966 CARBOCLORO - 230                                                          19.091                                 
+   6894 CASCAVEL - 138                                                            16.321                                 
+   6624 CASCAVEL - 230                                                            16.223                                 
+  44905 CASCAVEL NORT - 138                                                       16.233                                 
+  44900 CASCAVEL NORT - 230                                                       16.318                                 
+   6625 CASCAVEL OESTE - 230                                                      15.989                                 
+   6626 CASCAVOE - 525                                                            15.619                                 
+   6850 CAMPO ASSOBIO - 13,8                                                      17.503                                 
+   7204 CAMPO ASSOBIO - 138                                                       17.468                                 
+   6762 CAMPO ASSOBIO - 230                                                       17.503                                 
+    800 CASTANHAL - 138                                                           15.655                                 
+    235 CASTANHA - 230                                                            15.655                                 
+  51704 CASTERTECH - 230                                                          17.211                                 
+  33337 CASTILHO 2 - 138                                                          13.995                                 
+   3153 CASTILHO - 138                                                            13.995                                 
+   7023 CASTRO NORTE - 230                                                        17.503                                 
+   6859 CASTRO NORTE - 138                                                        17.495                                 
+   2704 CATANDUVA - 138                                                           15.115                                 
+    672 CATU - 69                                                                 16.068                                 
+    272 CATU - 230                                                                16.091                                 
+    618 CAUIPE - 69                                                               14.565                                 
+    218 CAIUPE - 230                                                              14.565                                 
+  19110 CAXIAS II - 69                                                            16.464                                 
+   8059 CAXIAS SUL 2 - 69                                                         17.219                                 
+   9062 CAXIAS SUL 2 - 230                                                        17.219                                 
+   8060 CAXIAS SUL 5 - 69                                                         17.219                                 
+   9065 CAXIAS 5 -230                                                             17.143                                 
+   8066 CAXIAS 6 - 69                                                             17.191                                 
+   9066 CAXIAS 6 - 230                                                            17.191                                 
+  46948 CAXIAS - 230                                                              16.837                                 
+  46947 CAXIAS NORTE - 525                                                        16.442                                 
+   9060 CAXIAS NORTE - 230                                                        17.035                                 
+   7751 CAXIAS RS - 525                                                           16.546                                 
+   4532 CBA - 230                                                                 18.326                                 
+   2672 CBA TERM - 440                                                            17.902                                 
+  44659 CURITIBA CENTRO - 138 (69kV)                                              17.569                                 
+   7299 CBA LESTE - 230                                                           16.864                                 
+   7300 CBA LESTE - 525                                                           16.431                                 
+  44656 CURITIBA NORT - 138                                                       17.223                                 
+  44655 CURITIBA NORT - 230                                                       17.296                                 
+   7367 CAMPO BOM - 23                                                            17.621                                 
+   2803 CAPAO BONITO - 138                                                        19.675                                 
+   2802 CAPAO BONITO - 230                                                        20.167                                 
+  28812 CASA BRANCA 5 - 138                                                       15.644                                 
+   2071 CASA BRANCA - 138                                                         15.642                                 
+   6851 C.COMPRIDO - 13,8                                                         17.141                                 
+   1152 C. DOURADA - 138                                                          12.941                                 
+   1153 CACHOEIRA DOURADA - 230                                                   12.362                                 
+  32963 JARINU 2 - 138                                                            17.187                                 
+   3215 CEDASA - 138                                                              16.294                                 
+   2944 CENTRO-CTR - 88                                                           20.663                                 
+   2941 TR.CENTRO 1 - 230                                                         20.351                                 
+   2942 TR.CENTRO 2 - 230                                                         20.351                                 
+   2943 CENTRO - 230                                                              20.663                                 
+   3204 CERQUILHO 2 - 138                                                         18.959                                 
+  44913 FERRO LIGAS - 138                                                         18.966                                 
+  44906 CERQUILHO 3 - 230                                                         19.152                                 
+   2784 CERQUILHO - 88                                                            17.501                                 
+  32983 PPE-INVEX - 138                                                           18.959                                 
+   3189 CESARIO LANGE - 138                                                       19.004                                 
+   8561 C.G.IMBIRUSSU - 138                                                       15.179                                 
+  39849 CAMPO GRANDE2 - 138                                                       15.114                                 
+  39850 CAMPO GRANDE II - 230                                                     15.085                                 
+  11244 CAMPINA GRANDE II - 230                                                   13.819                                 
+    682 C.GRANDE II - 69                                                          13.819                                 
+  12244 CAMPINA GRANDE III - 230                                                  13.626                                 
+    544 CAMPINA GRANDE III - 500                                                  13.219                                 
+  15230 CHAPADA I - 138                                                           12.336                                 
+  58208 CHAPADA 1 PI - 230                                                        12.336                                 
+  58217 CHAPADA 2 PI - 230                                                        12.420                                 
+  58227 CHAPADA 3 PI - 230                                                        12.274                                 
+  13020 CHAPADINHA II - 230                                                       15.384                                 
+  38853 CHAPADAO - 230                                                            13.841                                 
+   7882 CHARQUEADAS 3 - 230                                                       16.700                                 
+   7780 CHARQUEADAS (SE) - 230                                                    16.892                                 
+   2773 CHAVANTES - 230                                                           16.940                                 
+   6867 C.I.CURITIBA - 69                                                         17.341                                 
+   6617 C.IND. CURITIBA - 230                                                     17.240                                 
+   4582 CLAUDIA - 500                                                             11.823                                 
+    274 CAMACARI II - 230                                                         15.502                                 
+   7776 C.MOURAO - 230                                                            16.028                                 
+  11246 CEAMIRIM - 230                                                            12.995                                 
+  11546 CEA.MIRIM II - 500                                                        12.823                                 
+  12201 CURRAL NOVO PIAUI - 230                                                   12.180                                 
+  12501 CURRAL NOVO PIAUI - 500                                                   12.277                                 
+   7723 CAMPOS NOVOS - 230                                                        15.318                                 
+   7736 CAMPOS NOVOS - 525                                                        16.005                                 
+   7728 C.NOVOS - 138                                                             15.434                                 
+   4403 UTE COCAL - 88                                                            15.435                                 
+  33072 COCAL 2 - 138                                                             14.644                                 
+  40663 CODEMI GO- 230                                                            11.804                                 
+   5201 C.PORTO VELHO - 500                                                        8.009                                 
+   7850 CERRO CHATO - 230                                                         16.198                                 
+   5199 C.PORTO VELHO - 230                                                       20.087                                 
+   9805 COLINAS--138                                                              12.929                                 
+  41172 COLIDER - 500                                                             11.823                                 
+    591 COLINAS - 500                                                             12.785                                 
+   4320 COMPERJ - 345                                                             14.864                                 
+   3190 CONCHAS - 88                                                              17.501                                 
+   3035 CONCHAL - 138                                                             16.544                                 
+   7917 ENSEAD-SC2 - 30                                                           18.000                                 
+   3036 CORDEIROPOLIS - 138                                                       16.306                                 
+    633 COREMAS - 69                                                              13.647                                 
+    233 SE COREMAS II - 230                                                       13.647                                 
+   1238 CORUMBA - 138                                                             13.454                                 
+  49051 CORUMBA - 138                                                             15.967                                 
+   3908 CORUMBA - 345                                                             13.344                                 
+  38851 CORUMBA 2 - 30                                                            16.003                                 
+    679 COTEGIPE - 69                                                             15.899                                 
+    279 COTEGIPE - 230                                                            15.805                                 
+  11033 COTEMINAS - 230                                                           14.008                                 
+   1291 COXIPO - 138                                                              15.810                                 
+   3276 COXIPO - 230                                                              15.987                                 
+   1616 CONSE. PENA - 230                                                         13.779                                 
+  33037 CPKELCCO - 138                                                            16.324                                 
+  11217 CRATO 2 - 230                                                             13.060                                 
+   3064 CRESCIUMAL - 138                                                          16.097                                 
+  10405 CRISTIANO ROCHA - 230                                                     16.254                                 
+   3108 CRUZACO - 138                                                             17.471                                 
+   4283 CUIABA - 230                                                              15.796                                 
+   4284 CUIABA - 500                                                              15.402                                 
+   7739 CURITIBA - 230                                                            17.074                                 
+   7732 CURITIBA - 525                                                            16.399                                 
+    619 DELM. GOUVEIA- 69                                                         15.160                                 
+    219 DELM. GOUVEIA - 230                                                       15.160                                 
+    281 D.PITUACU - 230                                                           15.981                                 
+  29974 DA MATA  - 138                                                            14.400                                 
+   4361 DARDANELOS - 230                                                          13.434                                 
+   2384 DOIS CORREGOS - 138                                                       16.537                                 
+   2791 DECASA - 88                                                               15.877                                 
+   2458 DESCALVADO - 138                                                          15.732                                 
+   7746 DESTERRO - 138                                                            18.597                                 
+   7745 DESTERRO - 230                                                            18.817                                 
+   9090 DONA FRANCISCA - 230                                                      15.202                                 
+   6925 D.S.J.PINHAIS - 69                                                        17.391                                 
+   6761 D. INDUSTRIAL SJP - 230                                                   17.360                                 
+  39051 DIANOPOLIS II - 138                                                       13.433                                 
+   6926 D.S.J.PINHAIS - 13,8                                                      17.360                                 
+   2664 JANDIRA - 440                                                             17.913                                 
+  29883 DOOSAN DABO - 138                                                         16.347                                 
+  46854 DOURADOS 2 - 138                                                          14.838                                 
+   7771 DOURADOS 2 - 230                                                          14.778                                 
+   7757 DOURADOS - 230                                                            14.827                                 
+  51003 J. BOTANICO 2 - 230                                                       17.704                                 
+  51002 J. BOTANICO 1 - 230                                                       17.500                                 
+   8108 PORTO ALEGRE8 - 69                                                        17.017                                 
+   2751 DRACENA - 138                                                             14.456                                 
+   2923 DOMENICO RANGONI - 345                                                    18.598                                 
+   8529 DOURADOS - 138                                                            14.838                                 
+  28817 DURATEX ITAP - 138                                                        19.373                                 
+   3061 TRW AUTOMOTI. - 138                                                       16.484                                 
+    687 ELISEU MARTINS - 69                                                       13.174                                 
+    287 E. MARTIN - 230                                                           13.174                                 
+   2940 EDGARD SOUZA - 88                                                         19.159                                 
+   2939 EDGARD SOUZA - 230                                                        19.159                                 
+  38862 EDEIA - 230                                                               12.508                                 
+   9097 ELDORADO - 230                                                            16.982                                 
+    214 EMBASA - 230                                                              16.445                                 
+   1744 EMBORCACAO - 138                                                          13.231                                 
+   1509 EMBORCACAO - 500                                                          13.239                                 
+  32955 EMBRAMACO - 138                                                           16.293                                 
+   2561 EMBRAPORT - 138                                                           18.473                                 
+   2646 EMBU-GUACU - 138                                                          18.279                                 
+   2645 EMBU-GUACU - 345                                                          18.754                                 
+   2643 EMBU-GUACU - 440                                                          18.100                                 
+  19069 ENCRUZO NOVO - 69                                                         15.786                                 
+  13230 ENCRUZO - 230                                                             15.786                                 
+   3994 ENEIDA - 138                                                              14.539                                 
+   3946 ESTREITO - 345                                                            14.028                                 
+   4302 ESTREITO - 500                                                            14.142                                 
+    169 EUNAPOLIS - 138                                                           15.647                                 
+    269 EUNAPOLI - 230                                                            15.549                                 
+  12546 EXTREMOZ II - 230                                                         13.352                                 
+  12246 EXTREMOZ II - 69                                                          13.352                                 
+   8220 FOZ CHAPECO - 138                                                         14.974                                 
+   7306 FOZ DO CHAPECO - 230                                                      14.886                                 
+   6653 FCHOPIM--230                                                              14.510                                 
+   4321 F.DIAS - 440                                                              16.111                                 
+   4322 F.DIAS - 500                                                              15.183                                 
+   2750 FLOR.PAULISTA - 138                                                       14.495                                 
+   8061 FARROUPILHA - 69                                                          17.130                                 
+   7782 FARROUPILHA - 230                                                         17.130                                 
+   6955 FOZ DO CHOPIM - 138                                                       14.919                                 
+   9541 FEIJO - 230                                                               24.051                                 
+   3137 FERNANDOPOLIS - 138                                                       14.037                                 
+   9095 FIBR-F RS - 230                                                           17.037                                 
+   6957 FIGUEIRA - 138                                                            17.121                                 
+   6651 FIGUEIRA - 230                                                            17.103                                 
+   1174 FIRMINOPOLIS - 138                                                        12.657                                 
+   1194 FIRMINOPOLIS - 230                                                        12.440                                 
+    212 FLORESTA II - 230                                                         12.618                                 
+   3089 FRANCISCO MOR - 138                                                       17.376                                 
+  21049 FORD - 230                                                                16.124                                 
+   7743 FORQUILINHA - 230                                                         17.551                                 
+    325 FORTALEZA II - 230                                                        14.385                                 
+    525 FORTALEZA II - 500                                                        13.404                                 
+    625 FORTALEZA - 69                                                            14.439                                 
+    225 FORTALEZA - 230                                                           14.439                                 
+   3642 F.IGUACU - 765                                                            15.854                                 
+   6964 F.IGUACUNORTE - 138                                                       19.106                                 
+   6652 F.IGUACUNORTE - 230                                                       19.430                                 
+   3090 FRANCO DA ROC - 138                                                       17.375                                 
+    876 FUNIL - 13,8                                                              18.161                                 
+    976 FUNIL - 138                                                               18.161                                 
+    276 FUNIL - 230                                                               18.257                                 
+   3808 FURNAS - 345                                                              14.318                                 
+    675 G.MANGABEIRA - 69                                                         15.751                                 
+    275 G. MANGABEIRA - 230                                                       15.751                                 
+  58405 MLGICO CE - 230                                                           13.155                                 
+   8720 GARABI 1 - 525                                                            16.048                                 
+   8721 GARABI 2 - 525                                                            16.048                                 
+    349 GARANHUNS II - 230                                                        13.836                                 
+    549 GARANHUNS - 500                                                           13.527                                 
+   8058 GARIBALDI 1 - 69                                                          17.507                                 
+   9100 GARIBALDI - 230                                                           17.507                                 
+  46942 GASPAR 2 -230                                                             17.590                                 
+   7713 GASPAR 2 - 525                                                            16.878                                 
+   4533 GERDAU SP - 440                                                           17.563                                 
+   2676 GETULINA - 138                                                            15.242                                 
+   2675 GETULINA - 440                                                            15.281                                 
+  11051 GILBUES - 230                                                             12.575                                 
+    836 GILBUES II - 500                                                          12.387                                 
+  15205 GILBUES II - 69                                                           12.575                                 
+   1026 GLEBA - 138                                                               17.475                                 
+  23321 GOIANIA LESTE - 230                                                       15.198                                 
+    647 GOIANINHA - 69                                                            14.921                                 
+    247 GOIANINHA - 230                                                           14.921                                 
+  11260 Gentio do Ouro II - 230                                                   11.766                                 
+  11560 Gentio do Ouro II - 500                                                   12.201                                 
+   6981 PARIGOT SOUZA - 138                                                       16.025                                 
+   6663 PARIGOT SOUZA - 230                                                       15.620                                 
+   6721 GUARAPUAVA OESTE - 138                                                    16.130                                 
+   7021 GUARAPUAVA OESTE - 230                                                    16.099                                 
+   3760 GRAJAU - 138                                                              14.994                                 
+   3759 GRAJAU - 500                                                              14.965                                 
+   6664 GRALHA AZUL - 230                                                         16.600                                 
+   8100 GRAVATAI2 - 69                                                            17.017                                 
+   7750 GRAVATAI - 525                                                            16.368                                 
+   9110 GRAVATA2 - 230                                                            16.878                                 
+   7924 GRAVATAI3 - 230                                                           16.997                                 
+   3091 GUARUJA 1 - 138                                                           18.438                                 
+   9451 GUAIBA 2 - 69                                                             16.629                                 
+  50214 GUAIBA3 - 230                                                             16.592                                 
+  50213 GUAIBA3 - 525                                                             16.135                                 
+   9120 GUAIBA - 230                                                              16.612                                 
+   6984 GUAIRA - 138                                                              16.033                                 
+   6665 GUAIRA F -230                                                             15.844                                 
+   6630 GUAIRA F - 525                                                            15.791                                 
+    690 GUAMA - 69                                                                14.759                                 
+    390 GUAMA - 230                                                               14.759                                 
+   3093 GUARUJA 2 - 138                                                           18.430                                 
+   3092 D.QUIMICA ELK - 138                                                       18.436                                 
+   2332 GUARANI - 138                                                             14.695                                 
+   8200 GUARITA - 69                                                              15.796                                 
+   9130 GUARITA - 230                                                             15.829                                 
+  32970 GUARUJA 3 - 138                                                           18.439                                 
+  33025 GUARUJA 4 - 138                                                           18.440                                 
+   3831 GUARULHOS - 345                                                           19.353                                 
+  33018 CUTRALE COL. - 138                                                        18.436                                 
+   1638 GUILMAN - 230                                                             14.128                                 
+  39040 GURUPI - 230                                                              13.025                                 
+   5002 GURUPI - 500                                                              12.618                                 
+   2720 GV - 230                                                                  16.256                                 
+   1618 G.VALADARES 2 - 138                                                       14.046                                 
+   1619 VALADARES - 230                                                           14.037                                 
+  38921 VALADARES 6 - 500                                                         13.679                                 
+   3384 HENRY BORDEN - 230                                                        19.100                                 
+   2090 CEMIRIM - 138                                                             16.607                                 
+  44652 HUBNER - 230                                                              17.557                                 
+  38856 ILHA SOLTEIRA 2 - 230                                                     13.731                                 
+  38876 ILHA SOLTEIRA 2 - 440                                                     13.776                                 
+   2612 ILHA SOLTEIRA - 138                                                       13.950                                 
+   2611 ILHA SOLTEIRA - 440                                                       13.776                                 
+   2377 IACANGA - 138                                                             15.703                                 
+   2461 IBITINGA-SE - 138                                                         15.764                                 
+    365 IBIAPINA II – 230                                                         13.503                                 
+    188 IBICOARA - 138                                                            14.118                                 
+    288 IBICOARA - 230                                                            14.118                                 
+    588 IBICOARA - 500                                                            13.365                                 
+   7011 IBIPORA - 138                                                             16.947                                 
+   6680 IBIPORA - 230                                                             17.207                                 
+   4017 IBIRAREMA - 88                                                            15.936                                 
+   2707 IBITINGA - 138                                                            15.717                                 
+   3691 IBIUNA - 345                                                              18.869                                 
+   3690 IBIUNA - 500                                                              17.430                                 
+    617 ICO - 69                                                                  13.987                                 
+    217 ICO - 230                                                                 13.987                                 
+    394 IGAPORA II - 230                                                          12.138                                 
+  11394 IGAPORA III - 230                                                         12.219                                 
+  11594 IGAPORA III - 500                                                         12.405                                 
+   7714 IGUATEMI 2 MS - 230                                                       15.954                                 
+   9061 IJUI 2 - 69                                                               16.582                                 
+   9264 IJUI 2 - 230                                                              16.582                                 
+   7918 CAIACA-SC - 230                                                           18.441                                 
+   7755 IMBIRUSSU - 230                                                           15.153                                 
+    639 IMPERATRIZ - 69                                                           13.698                                 
+    239 IMPERATRIZ - 230                                                          13.698                                 
+    539 IMPERATRIZ - 500                                                          12.950                                 
+   7904 INDAIAL - 230                                                             17.714                                 
+  38855 INOCENCIA - 230                                                           13.765                                 
+    936 INTEGRADORA - 500                                                         13.664                                 
+   2930 INTERNATIONAL 2 - 230                                                     18.774                                 
+   2929 INTERNATIONAL - 345                                                       19.120                                 
+   1622 IPATINGA 1 - 138                                                          14.392                                 
+   1623 IPATINGA I - 230                                                          14.414                                 
+   2682 UTE IPAUSSU - 88                                                          16.991                                 
+   2333 IPORA - 138                                                               14.653                                 
+   6649 F.IGUACU - 500                                                            15.810                                 
+   3037 IRACEMAPOLIS1 - 138                                                       16.317                                 
+   1521 IRAPE - 230                                                               11.330                                 
+   1510 IRAPE - 345                                                               10.836                                 
+   6722 IRATI NORTE - 138                                                         16.583                                 
+   7022 IRATI NORTE - 230                                                         16.646                                 
+    683 IRECE - 69                                                                13.064                                 
+    183 IRECE - 138                                                               13.064                                 
+    283 IRECE - 230                                                               13.064                                 
+   7827 ITA SC - 230                                                              15.359                                 
+   7722 ITA - 525                                                                 15.545                                 
+    671 ITABAIANA - 69                                                            15.093                                 
+    271 ITABAIANA - 230                                                           15.093                                 
+   3664 ITABERA - 765                                                             16.905                                 
+   1626 ITABIRA 2 - 230                                                           14.527                                 
+   1484 ITABIRITO - 345                                                           14.798                                 
+   1483 ITABIRITO - 500                                                           13.886                                 
+   1620 ITABIRA 4 - 230                                                           14.827                                 
+  26513 ITABIRA 5 - 230                                                           14.099                                 
+  26510 ITABIRA 5 - 500                                                           13.506                                 
+    345 ITABUNA - 230                                                             21.562                                 
+    913 ITACAIUNAS - 230                                                          13.646                                 
+    912 ITACAIUNAS - 500                                                          12.965                                 
+    213 ITAGIPA - 230                                                             17.324                                 
+   4292 ITAGUACU - 230                                                            11.879                                 
+   4293 ITAGUACU - 500                                                            13.057                                 
+   2499 ITAIPAVA - 138                                                            14.881                                 
+   2195 ITAI 2 - 138                                                              18.605                                 
+   7903 ITAJAI 2 - 230                                                            17.761                                 
+   7731 ITAJAI - 230                                                              17.925                                 
+   6269 ITAJAI - 138                                                              17.808                                 
+   7712 ITAJAI 2 - 525                                                            16.913                                 
+   1873 ITAJUBA 3 - 138                                                           14.298                                 
+   1486 ITAJU3-5-500                                                              14.244                                 
+   3209 ITANHAEM 2 - 138                                                          18.826                                 
+  32986 ITANHAEM 3 - 138                                                          18.906                                 
+   1252 ITAPACI--138                                                              13.224                                 
+   1235 ITAPACI - 230                                                             13.224                                 
+   2781 ITAPETININGA2 - 138                                                       19.366                                 
+  28811 ITAPETININGA9 - 138                                                       19.326                                 
+    263 ITAPEBI SE - 230                                                          14.364                                 
+   2967 ITAPETI - 230                                                             18.499                                 
+   2913 ITAPETI - 345                                                             18.473                                 
+  32991 CIMENTO MARINGA - 138                                                     19.339                                 
+   3194 ITARARE 2 - 138                                                           19.339                                 
+   4289 ITARARE 2 - 230                                                           19.256                                 
+   2575 ITATIBA - 138                                                             16.103                                 
+   3717 ITATIBA - 500                                                             15.943                                 
+   9140 ITAUBA - 230                                                              15.048                                 
+    665 ITABAIANINHA - 69                                                         15.237                                 
+    265 ITBNINHA - 230                                                            15.237                                 
+   1406 ITIQUIRA - 230                                                            15.480                                 
+   3214 ITIRAPINA 2 - 138                                                         15.996                                 
+  33016 HONDA ELK - 138                                                           15.989                                 
+   3862 ITUMBIARA - 230                                                           13.726                                 
+   3861 ITUMBIARA - 345                                                           13.483                                 
+   3860 ITUMBIARA - 500                                                           13.171                                 
+   3807 ITUTINGA - 345                                                            15.015                                 
+   1874 ITUTINGA-SE - 138                                                         15.017                                 
+   7760 IVAIPORA E - 525                                                          15.801                                 
+   3654 IVAIPORA - 765                                                            16.011                                 
+   8571 IVINHEMA 2 - 138                                                          14.280                                 
+  38858 IVINHEMA - 230                                                            14.280                                 
+  10511 JORG.TEIXEIRA - 138                                                       16.801                                 
+  10510 J.TEIXEIRA - 230                                                          16.814                                 
+  12602 JABOATAO II - 69                                                          14.984                                 
+  12202 JABOATAO D -230                                                           14.984                                 
+   3770 JACAREPAGUA - 138                                                         15.098                                 
+    680 JACARACANGA - 69                                                          15.691                                 
+    280 JACARACANGA - 230                                                         15.691                                 
+   3769 JACAREPAGUA - 345                                                         15.379                                 
+   1316 JACIARA CMT - 138                                                         15.607                                 
+   1945 JACUACANGA - 138                                                          14.396                                 
+   9150 JACUI - 138                                                               15.522                                 
+  56101 JAGUARUANA - 230                                                          12.732                                 
+  56100 JAGUARUANA - 500                                                          12.812                                 
+   2087 ANTARTICA JAG - 138                                                       16.607                                 
+  28818 JAGUARIUNA 5 - 138                                                        16.607                                 
+    207 JAGUARARI-SE - 230                                                        13.253                                 
+   1746 JAGUARA-SE - 138                                                          13.657                                 
+   1511 JAGUARA - 345                                                             13.681                                 
+   1488 JAGUARA - 500                                                             13.860                                 
+   7028 JAGUARIAIVA - 138                                                         17.939                                 
+   6688 JAGUARIAIVA - 230                                                         18.040                                 
+   2077 JAGUARIUNA - 138                                                          16.607                                 
+  38972 JAIBA - 138                                                               10.259                                 
+  38971 JAIBA - 230                                                               10.026                                 
+   2700 JALES - 138                                                               13.960                                 
+   1710 JANAUBA 3 - 138                                                           10.792                                 
+   1708 JANAUBA 3 - 230                                                           10.650                                 
+  38900 JANAUBA 3 - 500                                                           12.357                                 
+  56104 JANDAIA CE - 230                                                          11.729                                 
+    673 JARDIM SE - 69                                                            14.851                                 
+    273 JARDIM SE - 230                                                           14.851                                 
+    573 JARDIM - 500                                                              14.071                                 
+   3095 JARINU 1 - 138                                                            17.176                                 
+   9661 JARU - 138                                                                20.554                                 
+   9525 JARU - 230                                                                20.554                                 
+  38854 JATAI - 230                                                               13.599                                 
+   2385 JAU - 138                                                                 16.467                                 
+   1344 JAURU - 138                                                               15.842                                 
+   3288 JAURU - 230                                                               15.853                                 
+   3286 JAURU - 500                                                               15.627                                 
+  33034 JBS ANDRADINA - 138                                                       14.047                                 
+    360 J. CAMARA II - 230                                                        12.611                                 
+  12321 J. CAMARA III - 230                                                       12.609                                 
+    523 J. CAMARA III - 500                                                       12.712                                 
+   1650 JECEABA - 345                                                             15.056                                 
+   1673 JUIZ DE FORA1 - 138                                                       15.278                                 
+   1489 JUIZ DE FORA - 345                                                        15.313                                 
+   9646 JI PARANA - 69                                                            19.795                                 
+   9632 JI PARANA - 138                                                           19.795                                 
+   9530 JI PARANA - 230                                                           19.795                                 
+   7800 JORGE LACERDA A - 230                                                     16.470                                 
+   7802 JORGE LACERDA C - 230                                                     16.455                                 
+   7804 U.JLACERDA-A - 69                                                         16.607                                 
+   7803 U.JLACERDA-A - 138                                                        16.632                                 
+   1613 MONLEVADE 2 - 230                                                         15.618                                 
+  26915 J. MONLEVADE 4 - 69                                                       14.961                                 
+   1609 MONLEVADE 4 - 230                                                         15.146                                 
+  39111 JOAO NEIVA 2 - 138                                                        14.281                                 
+  39311 J.NEIVA 2 - 345                                                           14.199                                 
+  39511 J.NEIVA 2 - 500                                                           13.928                                 
+   7777 JOINV.NORTE - 138                                                         18.013                                 
+   7770 JOINV. NOR - 230                                                          18.033                                 
+   7981 JOINVILLE SUL - 138                                                       17.773                                 
+   7980 JOINVILLE SUL - 230                                                       17.460                                 
+   7711 JOINVILLE SUL - 525                                                       16.745                                 
+    654 JOAIRAM - 69                                                              15.403                                 
+    254 JOAIRAM - 230                                                             15.403                                 
+   7796 JOINVILLE - 69                                                            18.050                                 
+   7795 JOINVILLE - 138                                                           18.007                                 
+   7794 JOINVILLE - 230                                                           18.191                                 
+  12699 JOAO PESSOA 2 - 69                                                        14.840                                 
+  12999 JOAO PESSOA II - 230                                                      14.840                                 
+  12998 JOAO PESSOA II - 500                                                      13.285                                 
+   7990 JARAGUA DO SUL - 230                                                      18.007                                 
+   3302 JUBA - 138                                                                15.298                                 
+    602 JUAZEIRO II - 69                                                          13.044                                 
+    202 JUAZEIRO II - 230                                                         13.044                                 
+  18586 JUAZEIRO III - 69                                                         13.776                                 
+  11282 JUAZEIRO III - 230                                                        13.776                                 
+  11582 JUAZEIRO III - 500                                                        12.711                                 
+   3280 JUBA - 230                                                                15.298                                 
+   1376 JUINA - 138                                                               14.246                                 
+   3290 JUINA - 230                                                               14.004                                 
+   2614 JUPIA - 138                                                               14.006                                 
+   2613 JUPIA - 440                                                               14.009                                 
+   3195 JUQUIA - 138                                                              19.190                                 
+   2775 JURUMIRIM - 230                                                           18.062                                 
+  10000 JURUPARI-230                                                              13.338                                 
+  10009 JURUPARI-500                                                              13.196                                 
+  19523 JURUTI - 138                                                              14.506                                 
+  13501 JURUTI - 230                                                              14.506                                 
+  26470 PRES. JUSCELINO - 345                                                     13.765                                 
+  26465 PRES. JUSCELINO - 500                                                     13.188                                 
+   7042 KLABIN - 230                                                              17.934                                 
+    505 LUIS GONZAGA - 500                                                        13.086                                 
+   1675 LAFAIETE 1 - 138                                                          15.147                                 
+   1491 LAFAIETE - 345                                                            15.319                                 
+   7725 LAGES----230                                                              16.550                                 
+   3618 LAGOS - 138                                                               14.307                                 
+   3616 LAGOS - 345                                                               14.300                                 
+  38950 LAGOS - 500                                                               14.133                                 
+   7577 LAJEADO 2 - 69                                                            18.213                                 
+   7631 LAJEADO 3 - 69                                                            18.149                                 
+  51020 LAJEADO 3 - 230                                                           18.149                                 
+   9165 LAJEADO 2 - 230                                                           18.213                                 
+    393 LAJEADO - 230                                                             12.454                                 
+    593 LAJEADO - 500                                                             12.668                                 
+  10019 LARANJAL - 69                                                             13.421                                 
+  10018 LARANJAL - 230                                                            13.421                                 
+   2852 AJINOMOTO BIO - 138                                                       18.618                                 
+    656 LDOCARRO-069                                                              14.400                                 
+    256 LAGOA DO CARRO - 230                                                      14.400                                 
+   3809 L.C.BARRETO - 345                                                         13.776                                 
+  10111 LECHUGA - 138                                                             16.461                                 
+  10110 LECHUGA - 230                                                             16.420                                 
+  10012 LECHUGA - 500                                                             15.361                                 
+   3038 LEME 2 - 138                                                              15.917                                 
+   2916 LESTE - 88                                                                19.100                                 
+   2915 LESTE - 345                                                               19.100                                 
+   8130 L.GRANDE - 138                                                            16.661                                 
+   7781 LAJEADO GRANDE - 230                                                      16.661                                 
+  21037 LIBRA - 230                                                               13.546                                 
+   3042 LIMEIRA 4 - 138                                                           16.324                                 
+   2881 LIMEIRA I - 138                                                           16.325                                 
+   3041 LIMEIRA 3 - 138                                                           16.323                                 
+   3063 CONPACEL - 138                                                            16.368                                 
+  33019 MASTERFOODS - 138                                                         16.698                                 
+   4317 LINHARES - 138                                                            14.406                                 
+  38888 LINHARES 2 - 230                                                          14.480                                 
+   9172 RIVERA - 230                                                              16.161                                 
+   7379 LIVRAMENTO 2 - 69                                                         16.161                                 
+  50211 LIVRAMENTO 3 - 230                                                        16.199                                 
+   7381 LIVRAMENTO 2 - 13,8                                                       16.161                                 
+   9170 LIVRAMENTO 2 - 230                                                        16.161                                 
+  32966 AJINOMOTO INT - 138                                                       16.377                                 
+   6606 LONDRINA SUL - 138                                                        16.771                                 
+    364 LAGOA NOVA II - 230                                                       12.652                                 
+   7055 LONDRINA COT - 138                                                        16.807                                 
+   6699 LONDRC-PR230                                                              16.716                                 
+   7763 LONDRIN E - 230                                                           16.365                                 
+   7762 LONDRINA - 525                                                            15.720                                 
+   2956 LORENA SP - 230                                                           14.688                                 
+   3702 LORENA SP - 500                                                           13.300                                 
+   3196 LARANJAL PAUL - 138                                                       18.618                                 
+   3307 L. DO RIO VERDE - 230                                                     15.459                                 
+  25735 LUCAS R.VERDE - 138                                                       15.459                                 
+   4306 LUZIANIA - 138                                                            13.174                                 
+   4300 LUZIANIA - 500                                                            13.073                                 
+   8358 L.VERMELHA 2 - 138                                                        15.983                                 
+   9180 L.VERMELHA - 230                                                          15.983                                 
+   2661 MOGI MIRIM II - 138                                                       16.603                                 
+   2659 M. MIRIM 3 - 440                                                          16.805                                 
+   3784 MACAE MERCHAN - 345                                                       13.814                                 
+  50220 MACAMBARA 3 - 230                                                         16.745                                 
+   7578 MACAMBARA - 69                                                            16.880                                 
+   9184 MACAMBARA - 230                                                           16.880                                 
+  10017 MACAPA - 230                                                              13.774                                 
+  12259 MACEIO II - 230                                                           15.768                                 
+    259 MACEIO - 230                                                              15.807                                 
+   7719 MACHADINHO - 525                                                          15.732                                 
+   2814 MAIRIPORA - 138                                                           17.407                                 
+  38909 M A DE MINAS 2 -138                                                       13.270                                 
+  38902 M.ALEGRE 2 - 345                                                          13.397                                 
+  10402 MANAUS - 69                                                               16.933                                 
+  10400 MANAUS - 230                                                              17.072                                 
+   3962 MANSO - 230                                                               15.613                                 
+   1056 MANUEL AREIAS - 138                                                       17.378                                 
+    699 MARABA - 69                                                               13.550                                 
+    299 MARABA - 230                                                              13.550                                 
+    599 MARABA - 500                                                              12.929                                 
+  11618 MARACANAU - 69                                                            14.793                                 
+  11218 MARACANAU - 230                                                           14.793                                 
+   1053 MARESIAS - 138                                                            17.642                                 
+   4598 MARIMBII-500                                                              14.172                                 
+   3854 MARIMBONDO - 345                                                          13.637                                 
+   3853 MARIMBONDO - 500                                                          14.047                                 
+   7081 MARINGA - 138                                                             16.588                                 
+   6708 MARINGA - 230                                                             16.836                                 
+  19760 MARITUBA - 69                                                             14.577                                 
+  14302 MARITUBA - 230                                                            14.577                                 
+  14102 MARITUBA - 500                                                            13.933                                 
+   3988 MARTINOPOLIS - 88                                                         14.843                                 
+   1062 MASSAGUACU - 138                                                          17.350                                 
+   3563 MASCARENHAS - 138                                                         14.158                                 
+   3562 MASCARENHAS - 230                                                         13.891                                 
+   3811 M. MORAES - 138                                                           14.183                                 
+   3810 MASCARENHAS DE MORAES - 345                                               14.146                                 
+    677 MATATU - 69                                                               16.268                                 
+    277 MATATU - 230                                                              16.313                                 
+   6715 MAUA - 230                                                                17.118                                 
+  10504 MAUA III - 138                                                            17.007                                 
+  10500 MAUA 3 - 230                                                              17.023                                 
+    355 MORRO DO CHAPEU II - 230                                                  13.010                                 
+    555 MORRO DO CHAPEU II - 500                                                  13.164                                 
+   1817 MONTESCLAROS2 - 138                                                       11.596                                 
+   1493 MONTES CLAROS - 345                                                       11.679                                 
+   7307 MONTE CLARO - 230                                                         16.704                                 
+   3640 MARGEM PR - 500                                                           18.869                                 
+   7079 MEDIANEIRA - 138                                                          18.384                                 
+  44925 MEDIANEIRA - 230                                                          18.587                                 
+   1630 MESQUITA - 230                                                            14.205                                 
+   1494 MESQUITA - 500                                                            13.739                                 
+    342 MESSIAS 2 - 230                                                           15.585                                 
+    542 MESSIAS - 500                                                             14.822                                 
+   2938 M. FORNASARO - 88                                                         19.415                                 
+   2937 M. FORNASARO - 345                                                        19.415                                 
+   3046 MOGI GUACU 2 - 138                                                        16.551                                 
+   3052 ENERGYWORKS - 138                                                         16.534                                 
+   3045 MAHLE ELK - 138                                                           16.500                                 
+  11567 MILAGRE 2 - 500                                                           12.588                                 
+    621 MILAGRES - 69                                                             12.890                                 
+    221 MILAGRES II - 230                                                         12.890                                 
+    521 MILAGRES 500                                                              12.625                                 
+   3208 MIRACATU - 138                                                            19.120                                 
+    910 MIRACEMA - 13,8                                                           12.831                                 
+    911 MIRACEMA - 138                                                            12.824                                 
+    571 MIRACEMA - 500                                                            12.710                                 
+    693 MIRAMAR - 69                                                              14.975                                 
+    293 MIRAMAR--230                                                              14.975                                 
+    631 MIRANDA II - 69                                                           14.101                                 
+    131 MIRANDA II - 138                                                          14.101                                 
+    231 MIRANDA - 230                                                             14.101                                 
+    565 MIRANDA II - 500                                                          13.262                                 
+   3143 MIRANDOPOLIS1 - 138                                                       14.225                                 
+   2392 MIRASSOL II - 138                                                         14.752                                 
+   2670 MIRASSOL II - 440                                                         14.792                                 
+    261 MRRII----230                                                              14.681                                 
+    650 MIRUEIRA - 69                                                             15.810                                 
+    250 MIRUEIRA - 230                                                            15.810                                 
+   8090 MISSOES - 69                                                              16.656                                 
+   9188 MISSOES - 230                                                             16.656                                 
+   3047 MOGI MIRIM 1 - 138                                                        16.596                                 
+   8771 MARMELEIRO 2 - 525                                                        15.462                                 
+   2819 MANOEL NOBREGA - 230                                                      19.172                                 
+   2072 MOCOCA - 138                                                              15.245                                 
+  28769 MOCOCA 4 - 138                                                            15.619                                 
+  32952 GUARIROBA 1 - 138                                                         13.994                                 
+   3044 MOGI GUACU I - 138                                                        16.578                                 
+   3834 MOGI - 345                                                                18.493                                 
+   2953 MOGI - 88                                                                 19.000                                 
+   2952 MOGI FCE - 230                                                            19.000                                 
+  33000 INTERNATIONAL - 138                                                       16.578                                 
+  33012 D.CENTER ITAU - 138                                                       16.607                                 
+  32993 LUK - 138                                                                 16.707                                 
+   2806 MONGAGUA - 138                                                            18.779                                 
+  19546 ONCA PUMA - 138                                                           15.266                                 
+  13002 ONCA PUMA - 230                                                           15.266                                 
+    224 MOSSORO II - 230                                                          12.632                                 
+  56265 MOSSORO IV - 230                                                          12.635                                 
+    601 MOXOTO - 69                                                               13.107                                 
+  30649 MORRO AGUDO - 138                                                         14.575                                 
+  38874 M. AGUDO - 00                                                             14.496                                 
+   3345 MIGUEL REALE - 20                                                         19.877                                 
+   2906 REALEZA - 345                                                             19.878                                 
+   2683 M.RONDON SP - 440                                                         14.097                                 
+   1947 MURIQUI - 138                                                             14.589                                 
+    648 MUSSURE II - 69                                                           15.331                                 
+    248 MUSSURE II - 230                                                          15.331                                 
+  38974 MUTUM MG - 500                                                            13.880                                 
+  56739 MONTE VERDE - 500                                                         12.255                                 
+   1380 NOVA MUTUM - 69                                                           14.987                                 
+   4325 NOVA IGUACU - 138                                                         14.637                                 
+   4328 N.IGUACU - 345                                                            15.034                                 
+   4326 N.IGUACU - 500                                                            14.636                                 
+   4058 NILO PECANHA - 138                                                        14.578                                 
+   9195 NOVA PRATA 2 - 230                                                        16.901                                 
+   7921 N.S. RITA - 230                                                           16.602                                 
+   7752 N.S. RITA - 525                                                           16.137                                 
+    268 NARANDIBA - 230                                                           16.446                                 
+    646 NATAL II - 69                                                             13.748                                 
+    246 NATAL II - 230                                                            13.748                                 
+    746 NATAL III - 69                                                            13.635                                 
+    346 NATAL III - 230                                                           13.635                                 
+   1631 NOVA ERA II - 230                                                         14.424                                 
+   1566 NEVES 1 - 138                                                             13.643                                 
+   1496 NEVES - 345                                                               14.241                                 
+   1497 NEVES - 500                                                               13.615                                 
+   3953 NIQUELANDIA - 230                                                         11.804                                 
+   1492 NOVA LIMA 6 - 345                                                         14.750                                 
+   9517 NMPARANA-230                                                              20.975                                 
+   3304 NOVA MUTUM - 230                                                          14.982                                 
+   1351 NOBRES - 138                                                              15.581                                 
+   3297 NOBRES - 230                                                              15.613                                 
+  58170 NOVA OLINDA - 500                                                         12.419                                 
+   2911 NORDESTE - 345                                                            18.985                                 
+  12249 NORFIL - 230                                                              15.304                                 
+   2904 NORTE - 345                                                               19.479                                 
+   3303 V. GRANDE MT - 230                                                        16.122                                 
+   4059 N.PECANH-230                                                              14.601                                 
+   8143 N.PETROPOLIS2 - 69                                                        17.341                                 
+   8135 NOVA PETROPOLIS 2 - 230                                                   17.341                                 
+  38908 NOVA PONTE - 345                                                          13.351                                 
+   1512 NOVA PONTE - 500                                                          13.545                                 
+  11673 N.S.SOCORRO - 69                                                          15.043                                 
+  11273 N.S.SOCORRO - 230                                                         15.043                                 
+   2642 OESTE - 88                                                                17.668                                 
+   2641 OESTE - 440                                                               17.688                                 
+  11473 OLINDINA - 69                                                             14.795                                 
+    472 DER.OLD 1- 230                                                            14.795                                 
+    582 JEREMOABO - 500                                                           14.075                                 
+   1680 OURO PRETO 2 - 138                                                        14.282                                 
+   1498 OURO PRETO 2 - 345                                                        14.684                                 
+   1499 OURO PRETO 2 - 500                                                        13.931                                 
+  10998 ORIXIMINA - 138                                                           14.040                                 
+  14000 ORIXIMINA - 230                                                           14.266                                 
+  10011 ORIXIMINA - 500                                                           14.040                                 
+  51508 OSORIO 2 - 69                                                             16.924                                 
+  50216 OSORIO 3 - 230                                                            16.603                                 
+   9192 OSORIO 2 - 230                                                            16.924                                 
+   4002 OSVALDO CRUZ - 138                                                        14.605                                 
+  11261 OUROLANDIA II - 230                                                       12.424                                 
+  11561 OUROLANDIA II - 500                                                       12.615                                 
+   9634 PIMENTA BUENO - 138                                                       19.013                                 
+   9534 P.BUENO - 230                                                             19.013                                 
+    638 P.DUTRA - 69                                                              14.866                                 
+    238 P.DUTRA - 230                                                             14.866                                 
+    538 P.DUTRA - 500                                                             13.183                                 
+   2874 P.FERREIRA - 138                                                          15.700                                 
+   2147 PADRE FIALHO - 138                                                        14.891                                 
+   2154 P.FIALHO - 345                                                            14.945                                 
+  10419 P.FIGUEIREDO - 230                                                        16.098                                 
+   7126 POSTO FISCAL - 138                                                        16.965                                 
+   6731 POSTO FISCAL - 230                                                        17.232                                 
+    615 PORTO FRANCO - 69                                                         15.087                                 
+    115 PORTO FRANCO - 138                                                        14.991                                 
+   7128 PONTA G NORTE - 138                                                       17.045                                 
+   6732 P.GROSSA N - 230                                                          16.974                                 
+   7129 PONTA G SUL - 138                                                         17.064                                 
+   6733 P. GROSSA PR - 230                                                        17.083                                 
+   1030 PORTO NOVO - 138                                                          17.413                                 
+   2663 P. PRIMAVERA - 138                                                        13.943                                 
+   4290 NOVA P.PRIMAVERA - 230                                                    14.143                                 
+   2074 NOVA P.PRIMAVERA - 440                                                    13.848                                 
+   9250 PASSO REAL - 230                                                          15.451                                 
+   3999 PRE.VENCESLAU - 138                                                       14.412                                 
+    820 PACATUBA - 69                                                             13.625                                 
+    823 PACABA CE - 230                                                           13.625                                 
+    822 PACABA CE - 500                                                           13.284                                 
+    200 PAULO AFONSO 1 - 230                                                      12.983                                 
+    300 PAULO AFONSO 2 - 230                                                      12.867                                 
+    500 PAULO AFONSO - 500                                                        13.247                                 
+  51005 PARANAVAI NORTE - 230                                                     17.416                                 
+   9210 PORTO ALEGRE 10 - 230                                                     17.718                                 
+  51004 PORTO ALEGRE 12 - 230                                                     17.613                                 
+   9213 PORTO ALEGRE 13 - 230                                                     17.270                                 
+   9388 PORTOALEGRE13 - 13,8                                                      17.270                                 
+   9204 PORTO ALEGRE 4 - 230                                                      17.439                                 
+   9218 PORTOALEGRE6 - 69                                                         17.302                                 
+   9206 PORTO ALEGRE 6 - 230                                                      17.215                                 
+   9208 PORTO ALEGRE 8 - 230                                                      17.227                                 
+   9220 PORTO ALEGRE9 - 69                                                        17.265                                 
+   9209 PORTO ALEGRE 9 - 230                                                      17.184                                 
+   7808 PALHOCA--230                                                              18.236                                 
+   7809 PALHOCA ESU - 138                                                         18.130                                 
+  13499 PALMAS - 138                                                              13.190                                 
+  13500 PALMAS - 230                                                              13.252                                 
+   1187 PALMEIRAS - 230                                                           12.951                                 
+   2769 PALMITAL - 88                                                             16.262                                 
+  38832 PARACATU 4 - 138                                                          12.797                                 
+   1523 PARACATU 4 - 500                                                          12.854                                 
+   2762 MARACAI - 88                                                              15.444                                 
+   2761 N.PARA PTA - 230                                                          15.519                                 
+    290 PARAISO RN - 230                                                          12.951                                 
+   1162 PARANAIBA - 230                                                           14.080                                 
+   4314 PARECIS--230                                                              12.816                                 
+   3348 PARELHEIROS - 138                                                         18.348                                 
+  10567 PARINTINS - 138                                                           14.711                                 
+  13550 PARINTINS - 230                                                           14.711                                 
+  12904 PARNAIBA III - 138                                                        13.530                                 
+  12903 PNBIII PI - 230                                                           13.530                                 
+  12901 PNBIII-PI500                                                              13.385                                 
+   7122 PATO BRANCO - 138                                                         15.364                                 
+   6730 P.BRANCO - 230                                                            15.296                                 
+    260 PAU FERRO - 230                                                           14.415                                 
+    566 P. FERRO - 500                                                            13.687                                 
+   3145 PEREIRA BARR. - 138                                                       13.952                                 
+   3851 P. COLOMBIA - 138                                                         13.652                                 
+   3842 P.COLOMBIA - 345                                                          13.310                                 
+   3144 PALMEIRA OES - 138                                                        13.957                                 
+  11225 PECEM II - 230                                                            13.139                                 
+  11525 PECEM II - 500                                                            13.255                                 
+   2078 ETU PEDREIRA - 138                                                        16.607                                 
+   5004 PEIXE 2 - 500                                                             12.613                                 
+   5007 PEIXE - 500                                                               12.615                                 
+   9228 PELOTAS3 - 138                                                            16.833                                 
+   9230 PELOTA-3-230                                                              16.893                                 
+   2338 PENAPOLIS - 138                                                           15.030                                 
+   2709 PENAPOLIS 1 - 138                                                         15.012                                 
+    658 PENEDO - 69                                                               16.496                                 
+    258 PENEDO - 230                                                              16.496                                 
+    630 PERITORO - 69                                                             15.973                                 
+    230 PERITORO-230                                                              15.973                                 
+  44653 PEROXIDOS - 230                                                           17.370                                 
+   2805 PERUIBE - 138                                                             18.953                                 
+   1640 PORTO ESTRELA - 230                                                       13.891                                 
+   1023 PETROM - 138                                                              17.550                                 
+   1323 PETROVINA - 138                                                           15.437                                 
+    315 P.FRANCO - 230                                                            15.087                                 
+   8300 U.PASSO FUNDO - 138                                                       14.847                                 
+   7812 PASSO FUNDO - 230                                                         14.847                                 
+   7090 PONTA G NORTE - 34,5                                                      16.974                                 
+   7091 PONTA G SUL - 34,5                                                        17.083                                 
+   7020 PONTA GROSSA PR - 230                                                     16.664                                 
+   7015 PONTA GROSSA PR - 525                                                     16.257                                 
+  44654 PONTA G NORTE - 13,8                                                      16.974                                 
+    634 PICI II - 69                                                              14.873                                 
+    234 PICI - 230                                                                14.873                                 
+    695 PICOS - 69                                                                12.583                                 
+    295 PICOS - 230                                                               12.583                                 
+   6868 PILARZINHO - 69                                                           17.409                                 
+   6618 PILARZINHO - 230                                                          17.320                                 
+    146 PILOES - 138                                                              13.338                                 
+   1780 PIMENTA - 138                                                             14.391                                 
+   1500 PIMENTA - 345                                                             14.424                                 
+  11595 PINDAI II - 230                                                           12.153                                 
+  46851 PINHALZINHO 2 - 230                                                       15.312                                 
+   2249 PINHAL - 138                                                              16.389                                 
+  46852 PINHALZINHO 2 - 138                                                       15.282                                 
+   3178 PIONEIROS-ELK - 138                                                       13.954                                 
+   2449 PIRACICABA - 138                                                          16.240                                 
+   2669 PIRACICABA - 440                                                          16.104                                 
+   2756 PIRAJU - 230                                                              17.395                                 
+    388 PIRAJA - 230                                                              15.976                                 
+   1824 PIRAPORA 2 - 138                                                          11.990                                 
+   1524 PIRAPORA II - 345                                                         12.129                                 
+   1525 PIRAPORA 2 - 500                                                          12.913                                 
+    649 PIRAPAMA II - 69                                                          14.760                                 
+    249 PIRAPAMA II - 230                                                         14.760                                 
+   3146 PIRAPOZINHO 1 - 138                                                       14.598                                 
+   3049 PIRASSUNUNGA1 - 138                                                       15.896                                 
+   3050 PIRASSUNUNGA2 - 138                                                       15.687                                 
+   2971 PIRATININGA 2 - 345                                                       19.257                                 
+   2949 PIRATININGA - 88                                                          18.563                                 
+   2948 PIRATININGA - 230                                                         18.564                                 
+   1213 PIRINEUS CELG - 138                                                       14.896                                 
+   3978 PIRINEUS - 230                                                            14.896                                 
+  35370 PIRINEUS - 345                                                            13.947                                 
+    627 PIRIPIRI - 69                                                             13.939                                 
+    127 PIRIPIRI - 138                                                            13.939                                 
+    227 PIRIPIRI-230                                                              13.939                                 
+   2946 PIRITUBA - 230                                                            19.816                                 
+   2947 PIRITUBA - 88                                                             19.816                                 
+  32967 PETROBRAS ELK - 138                                                       15.741                                 
+  56065 PITOMBEIRA - 230                                                          12.771                                 
+    678 PITUACU - 69                                                              16.108                                 
+    278 PITUACU - 230                                                             15.976                                 
+   1155 PLANALTO-230                                                              13.454                                 
+   9234 P.MEDICI - 138                                                            16.130                                 
+   9233 P.MEDICI - 230                                                            15.986                                 
+    909 POÇÔES II - 138                                                           14.474                                 
+    209 POCOES - 230                                                              14.474                                 
+  18612 POCIII-BA230                                                              14.372                                 
+  11612 POCOES II - 500                                                           13.659                                 
+   3818 POCOS CALDAS - 138                                                        16.162                                 
+   3817 P.CALDAS - 345                                                            16.160                                 
+   3816 P.CALDAS - 500                                                            14.539                                 
+  33015 VIDROPORTO - 138                                                          15.700                                 
+   1051 POLIMIX - 138                                                             17.403                                 
+    681 POLO - 69                                                                 16.021                                 
+    381 POLO - 230                                                                16.021                                 
+   9245 P.PETROQUIMIC - 230                                                       16.643                                 
+  38975 PPARA2 MG - 500                                                           13.670                                 
+   7580 P.PETROQUIMIC - 69                                                        16.669                                 
+   2752 P. PRUDENTE 2 - 138                                                       14.580                                 
+   1154 PARQUE EMAS - 138                                                         15.297                                 
+   4586 PARANAITA - 500                                                           11.227                                 
+  26050 PARANAITA - 138                                                           12.235                                 
+  38872 PARTINGA - 230                                                            15.329                                 
+   4594 PARTINGA - 500                                                            12.665                                 
+   2609 PROCTER GAMBL - 138                                                       16.976                                 
+   2705 PROMISSAO - 138                                                           15.104                                 
+   3993 PRE.PRUDENTE4 - 138                                                       14.574                                 
+   3992 PRE.PRUDENTE5 - 138                                                       14.549                                 
+   6607 PARANAVAI NORTE - 138                                                     16.448                                 
+   9639 PORTO VELHO - 69                                                          20.600                                 
+   9510 PORTO VELHO - 230                                                         20.655                                 
+  47120 POVO NOVO - 230                                                           16.049                                 
+  47121 POVO NOVO - 525                                                           15.901                                 
+   2218 QUIMICA AMPAR - 138                                                       16.992                                 
+  12312 QUEIMADA NOVA II - 500                                                    12.256                                 
+   9262 QUINTA - 138                                                              16.630                                 
+   9261 QUINTA---230                                                              16.559                                 
+  38861 QUIRINOPOLIS - 230                                                        11.415                                 
+    516 QUIXADA--500                                                              12.927                                 
+  11014 QUIXERE - 230                                                             12.666                                 
+   9658 RIO BRANCO 1 - 69                                                         22.271                                 
+   9542 RIO BRANCO 1 – 138                                                        22.281                                 
+   9538 R.BRANCO - 230                                                            22.281                                 
+  58245 RIO ALTO PB - 230                                                         13.500                                 
+   1159 RIO DOS BOIS - 138                                                        13.756                                 
+    587 RIO DAS EGUAS - 500                                                       12.498                                 
+    242 RIO LARGO II - 230                                                        16.340                                 
+  39113 RIO NOVO SUL - 138                                                        14.267                                 
+  39313 RIO NOVO SUL - 345                                                        14.266                                 
+  39514 RIO NOVO SUL - 500                                                        14.130                                 
+   2633 RIBEIRAOPRETO - 138                                                       14.886                                 
+   2632 RIBEIRAO PRETO - 440                                                      14.831                                 
+   3955 RIO VERDE FUR - 138                                                       14.499                                 
+   4014 RANCHARIA - 88                                                            15.015                                 
+   7901 RATONES - 138                                                             18.429                                 
+   7900 RATONES - 230                                                             18.448                                 
+  38857 RIO BRILHANTE - 230                                                       14.592                                 
+   2872 RIO CLARO-I - 138                                                         16.284                                 
+   1167 RIO CLARO 2 - 230                                                         15.502                                 
+   3054 RIO CLARO 2 - 138                                                         16.182                                 
+   3055 RIO CLARO 3 - 138                                                         16.274                                 
+   1158 RIO CLARO - 138                                                           15.233                                 
+  33001 TIGRE ELK - 138                                                           16.182                                 
+   7169 REALEZA - 138                                                             15.169                                 
+  44920 REALEZA - 230                                                             15.275                                 
+    541 RECIFE II - 500                                                           14.315                                 
+   2804 REGISTRO - 138                                                            19.316                                 
+    387 RIO DAS EGUAS - 230                                                       14.052                                 
+   6747 REPAR - 230                                                               16.937                                 
+   2820 REPLAN - 440                                                              16.750                                 
+  28508 RESENDE - 138                                                             14.325                                 
+   3782 RESENDE - 500                                                             14.258                                 
+  51367 RESTINGA - 69                                                             17.216                                 
+  51001 RESTINGA-230                                                              17.198                                 
+  11188 RIO FORMOSO 2 - 138                                                       14.490                                 
+  11388 RIO FORMOSO II -230                                                       14.490                                 
+    657 RIB.GONCALVES - 69                                                        12.581                                 
+    210 RIB.GONCALVES - 230                                                       12.581                                 
+    536 RIB.GONCALVES - 500                                                       12.507                                 
+  18510 RIO GRANDE II - 138                                                       15.818                                 
+  11287 RIO GRANDE - 230                                                          15.967                                 
+  57481 RIACHAO II - 230                                                          13.352                                 
+   4286 RIBEIRAO-230                                                              14.710                                 
+   4287 RIBEIRAO-500                                                              13.355                                 
+    752 RIBEIRAO - 69                                                             15.691                                 
+    252 RIBEIRAO 230                                                              15.691                                 
+   4307 RIBPRETO-500                                                              14.470                                 
+  32968 DELTA ELK - 138                                                           16.309                                 
+   7790 RIO DO SUL - 230                                                          17.602                                 
+   3954 R.VERDE - 230                                                             14.555                                 
+   1317 RONDONOPOLIS1 - 138                                                       15.491                                 
+   3260 RONDONOPOLIS - 230                                                        15.480                                 
+   2754 ROSANA - 138                                                              13.943                                 
+   2746 ROSANA SP - 230                                                           13.848                                 
+   1029 RIO PARDO - 138                                                           17.499                                 
+   2917 RAM REBERT F - 345                                                        19.304                                 
+    560 RUROPOLIS - 138                                                           17.750                                 
+    563 RUROPOLIS - 13,8                                                          17.750                                 
+    363 RUROPOLIS - 230                                                           17.745                                 
+    223 RUSSAS II - 230                                                           12.882                                 
+    623 RUSSAS II - 69                                                            12.882                                 
+  38996 R. VERDE GO - 230                                                         13.621                                 
+   4285 R.VERDE NORTE - 500                                                       13.602                                 
+  31102 RIO VERMELHO - 138                                                        14.471                                 
+    664 STO.A.JESUS - 69                                                          15.643                                 
+    264 SA. JESUS - 230                                                           15.643                                 
+   7922 SAGESUL - 230                                                             16.347                                 
+   2653 SANTO ANGELO - 345                                                        18.210                                 
+   2635 SANTA BARBARA - 138                                                       16.320                                 
+   2634 SANTA BARBARA - 440                                                       16.266                                 
+    103 SR.BONFIM II - 138                                                        13.123                                 
+    203 SENHOR DO BONFIM II - 230                                                 13.123                                 
+   9272 SAO BORJA - 230                                                           17.176                                 
+   2873 SAO CARLOS II - 138                                                       15.829                                 
+   6755 SALTO CAXIAS - 525                                                        15.025                                 
+   3780 SANTA CRUZ - 138                                                          14.771                                 
+    645 SANTA CRUZ II - 69                                                        13.113                                 
+    637 S.JOAO PIAUI - 69                                                         12.475                                 
+    237 SAO JOAO DO PIAUI - 230                                                   12.475                                 
+    537 SAO JOAO DO PIAUI - 500                                                   12.437                                 
+   3748 SAO JOSE - 500                                                            14.734                                 
+   2955 S.JOSE CAMPOS - 88                                                        18.273                                 
+   2954 SAO JOSE - 230                                                            18.270                                 
+   9286 SANTA MARIA 3 - 230                                                       16.206                                 
+    152 SAN.MATOS II - 138                                                        12.112                                 
+   3897 UHE S.DA MESA - 138                                                       11.641                                 
+   3896 SAO SALVADOR - 230                                                        11.641                                 
+   3983 STA.TEREZINHA - 138                                                       17.271                                 
+   1610 SABARA 3 - 230                                                            14.550                                 
+    564 S.ANTON LOPES - 500                                                       13.087                                 
+   4319 SALTO GO - 230                                                            11.601                                 
+   2681 SALTO - 440                                                               17.166                                 
+   3877 SAMAMBAIA - 138                                                           13.497                                 
+   3876 SAMAMBAIA - 345                                                           13.533                                 
+   3875 SAMAMBAIA - 500                                                           13.122                                 
+   9506 SAMUEL - 230                                                              20.308                                 
+   7765 SANTO ANGELO - 525                                                        16.048                                 
+   2651 SANTO ANGELO - 44                                                         17.486                                 
+   8335 SANTO ANGELO 1 - 69                                                       16.464                                 
+   8260 SANTO ANGELO2 - 69                                                        16.464                                 
+   9265 SANTO ANGELO 2 - 230                                                      16.464                                 
+  11201 SANTANA II AL - 230                                                       13.906                                 
+  19519 SANT. ARAGUAIA - 138                                                      15.882                                 
+  19520 SANTANA PA - 230                                                          15.868                                 
+    289 SAPEACU - 230                                                             15.001                                 
+    589 SAPEACU - 500                                                             14.222                                 
+   2884 S.ANT.POSSE 1 - 138                                                       16.607                                 
+   7188 SARANDI - 138                                                             16.411                                 
+   6754 SARANDI 2 - 230                                                           16.197                                 
+   6710 SARANDI - 525                                                             15.724                                 
+  26461 SARZEDO--345                                                              14.568                                 
+   7596 SAO BORJA2 - 69                                                           17.176                                 
+   2468 SAO CARLOS - 138                                                          15.803                                 
+   7582 SCHARLAU - 138                                                            17.026                                 
+   9276 SCHARLAU 2 - 230                                                          17.090                                 
+    204 SCHINCARIOLMA - 230                                                       16.464                                 
+    372 SCHINCARIOL BA - 230                                                      16.119                                 
+   3057 S.C.PALMEIRAS - 138                                                       15.671                                 
+   7583 SANTA CRUZ1 - 69                                                          16.690                                 
+  59190 SOL DO SERTAO - 500                                                       12.204                                 
+   1695 SANT.DUMONT 2 - 138                                                       15.222                                 
+   1481 SANT.DUMONT 2 - 345                                                       15.136                                 
+  35352 BRAS. LESTE - 138                                                         13.300                                 
+   1092 BRAS. SUL - 138                                                           13.571                                 
+   6757 SALTO SEGREDO - 525                                                       13.773                                 
+   8688 SELVIRIA - 138                                                            13.956                                 
+   3212 STA GERTRUDES - 138                                                       16.295                                 
+   1748 SAO GOTARDO 2 - 138                                                       12.759                                 
+   1502 SAO GOTARDO - 345                                                         12.618                                 
+   1503 SAO GOTARDO - 500                                                         13.478                                 
+   1783 S. G. DO PARA - 138                                                       13.857                                 
+   1504 SAO GONCALO - 500                                                         13.727                                 
+   2771 SALTO GRANDE - 230                                                        16.431                                 
+  10220 STA RITA 3 - 500                                                          14.810                                 
+  10221 STA RITA 4 - 500                                                          14.810                                 
+  10218 STA RITA 1 - 500                                                          14.698                                 
+  10219 STA RITA 2 - 500                                                          14.698                                 
+   7823 SIDEROPOLIS 2 - 230                                                       16.998                                 
+   7759 SIDEROPOLIS 2 - 525                                                       16.554                                 
+   7824 SIDEROPOLIS - 230                                                         17.139                                 
+  42541 SIDROLANDIA - 138                                                         15.340                                 
+  38852 SIDROLANDIA - 230                                                         15.391                                 
+   1024 SIFAO - 138                                                               17.812                                 
+  14921 SILVANIA - 500                                                            13.255                                 
+  10007 SILVES - 138                                                              14.810                                 
+  10010 SILVES - 500                                                              14.810                                 
+  56110 INACIO-RN230                                                              12.384                                 
+   3322 SINOP MT - 230                                                            12.898                                 
+  41171 SINOP - 500                                                               11.777                                 
+   4590 SINOP MT - 500                                                            12.050                                 
+   1419 SINOP - 138                                                               12.858                                 
+   3100 SANTA ISABEL1 - 88                                                        18.102                                 
+   3056 S.J.B.VISTAII - 138                                                       16.167                                 
+   3749 SAO JOSE - 138                                                            14.701                                 
+   2073 S.J.RIOPARDO - 138                                                        15.619                                 
+   2703 S.J.RIO PRETO - 138                                                       14.736                                 
+   1582 SETE LAGOAS 4 - 138                                                       13.885                                 
+   1505 S.LAGOA 4 - 345                                                           13.981                                 
+    632 SAO LUIS I - 69                                                           14.209                                 
+    232 SAO LUIS I - 230                                                          14.388                                 
+    332 SAO LUIS II - 230                                                         13.728                                 
+    532 SAO LUIS 2 MA - 500                                                       13.384                                 
+    814 SAO LUIS III - 69                                                         14.115                                 
+    914 SAO LUIS III - 230                                                        14.080                                 
+  13102 SAO LUIS IV - 69                                                          13.674                                 
+  13101 SAO LUIS IV - 230                                                         13.592                                 
+  13100 SAO LUIS 4 MA - 500                                                       13.390                                 
+  11500 SANTA LUZIA II - 500                                                      12.775                                 
+  41173 S.MANOEL - 500                                                            11.039                                 
+   7585 SANTA MARIA 3 - 69                                                        16.206                                 
+   9284 SANTA MARIA 3 - 138                                                       16.136                                 
+   8292 SANTA MARTA – 69                                                          16.986                                 
+   8290 SANTA MARTA - 138                                                         16.986                                 
+  39112 SAO MATEUS 2 - 138                                                        14.740                                 
+  39212 SAO MATEUS 2 - 230                                                        14.827                                 
+   6763 S.MATEUS SUL - 230                                                        17.141                                 
+  32964 ELFUSA ELK - 138                                                          16.199                                 
+   3895 SERRA DA MESA - 500                                                       12.574                                 
+   4298 S.MESA 2 - 500                                                            12.648                                 
+   7207 SANTA MONICA - 69                                                         17.429                                 
+   6764 SANTA MONICA - 230                                                        17.346                                 
+    326 SOBRAL III - 230                                                          13.615                                 
+    526 SOBRALIII500                                                              13.368                                 
+    206 SOBRADINHO - 230                                                          12.657                                 
+    506 SOBRADINHO - 500                                                          12.559                                 
+    626 SOBRAL II - 69                                                            14.133                                 
+    226 SOBRAL II - 230                                                           14.133                                 
+   2680 SOLVAY - 440                                                              17.804                                 
+   3310 SORRISO - 230                                                             14.484                                 
+   7820 SALTO OSORIO - 230                                                        13.996                                 
+  19547 SERRA PELADA - 138                                                        13.168                                 
+   4986 SERRA PELADA - 500                                                        12.982                                 
+  44846 SANTAQUITERIA - 13,8                                                      17.472                                 
+   6861 SANTAQUITERIA - 69                                                        17.460                                 
+  44841 SANTAQUITERIA - 230                                                       17.472                                 
+    745 SANTA RITA II - 69                                                        15.105                                 
+    245 SANTA RITA 2 - 230                                                        15.105                                 
+   8285 SANTA ROSA1 – 69                                                          16.544                                 
+   3058 SANTA RITA - 138                                                          15.559                                 
+   7766 SALTO SANTIAGO - 525                                                      15.431                                 
+   1514 SAO SIMAO - 500                                                           13.151                                 
+    192 SANTA MARIA - 138                                                         16.049                                 
+    292 SANTA MARIA - 230                                                         16.049                                 
+   9304 SANTA ROSA - 230                                                          16.544                                 
+   2960 SANTA CABECA - 88                                                         14.719                                 
+   2959 SANTA CABECA - 230                                                        14.719                                 
+   9280 SANTA CRUZ 1 - 230                                                        16.690                                 
+   9290 SANTA MARTA - 230                                                         16.986                                 
+    353 SUAPE II - 230                                                            14.571                                 
+    543 SUAPE II - 500                                                            14.326                                 
+   5876 SUAPE III - 69                                                            14.594                                 
+    253 SUAPE III - 230                                                           14.594                                 
+   2926 SUL - 345                                                                 18.603                                 
+   2637 SUMARE - 138                                                              16.401                                 
+   2636 SUMARE - 440                                                              16.440                                 
+   7587 S.VICENTE SUL - 69                                                        16.956                                 
+   9306 S.VICENTE - 230                                                           16.956                                 
+   8772 S V PALMAR 2 - 525                                                        15.375                                 
+   9452 S V PALMAR 2 - 138                                                        15.375                                 
+    162 T.FREITAS CBA - 138                                                       15.605                                 
+    262 T. FREITA II - 230                                                        15.602                                 
+   2616 TRES IRMAOS - 138                                                         13.904                                 
+   3669 TIJUCO PRETO - 500                                                        18.116                                 
+   3668 TIJUCO PRETO - 765                                                        17.908                                 
+  59421 TABOCAS DO BREJO VELHO - 230                                              12.573                                 
+    655 TACAIMBO - 69                                                             14.499                                 
+    255 TACAIMBO - 230                                                            14.499                                 
+  11281 TACARATU - 230                                                            12.625                                 
+  32965 TAMBAU ELK - 138                                                          15.559                                 
+  30161 GUARA. TANABI - 138                                                       14.413                                 
+  13015 TAPAJOS - 138                                                             17.789                                 
+  13014 TAPAJOS - 230                                                             17.797                                 
+   8280 TAPERA 2 - 69                                                             17.343                                 
+   9310 TAPERA - 230                                                              17.343                                 
+   1587 TAQUARIL - 138                                                            14.496                                 
+   1635 TAQUARIL - 230                                                            14.676                                 
+   1508 TAQUARIL - 345                                                            14.650                                 
+  48370 TAQUARA - 138                                                             17.422                                 
+   9314 TAQUARA - 230                                                             17.514                                 
+   2620 TAQUARACU - 440                                                           14.407                                 
+   2621 TAQUARUCU - 138                                                           14.394                                 
+   3200 TATUI 1 - 88                                                              19.366                                 
+   3201 TATUI 2 - 138                                                             19.108                                 
+  32985 SANT.TEXTIL - 138                                                         19.159                                 
+    616 TAUA II - 69                                                              13.447                                 
+    216 TAUA - 230                                                                13.447                                 
+   2658 TAUBATE - 138                                                             16.003                                 
+   2657 TAUBATE - 230                                                             17.227                                 
+   2656 TAUBATE - 440                                                             15.877                                 
+   2655 TAUBATE - 500                                                             15.509                                 
+   2525 TECUMSEH 1 - 138                                                          15.807                                 
+    628 TERESINA - 69                                                             15.042                                 
+    228 TERESINA - 230                                                            15.042                                 
+  15056 TERESINA II - 69                                                          14.469                                 
+    328 TERESINA II - 230                                                         14.469                                 
+    528 TERESINA II - 500                                                         13.459                                 
+  11100 TERESINA III - 230                                                        14.706                                 
+  12912 TIANGD CE - 230                                                           13.452                                 
+  12905 TIANGD CE - 500                                                           13.406                                 
+   2780 TIETE - 138                                                               18.849                                 
+  26460 TIMOTEO 2 - 230                                                           14.760                                 
+   1646 TIMOTEO - 230                                                             15.290                                 
+   2615 TRES IRMAOS - 440                                                         13.743                                 
+   2716 TRES LAGOAS 1 - 138                                                       14.020                                 
+   1827 TRES MARIAS - 138                                                         10.617                                 
+   1516 TRES MARIAS - 230                                                         10.151                                 
+   1515 TRES MARIAS - 345                                                         11.876                                 
+    666 TOMBA - 69                                                                16.544                                 
+    266 TOMBA - 230                                                               16.544                                 
+  19699 TOME ACU - 138                                                            17.030                                 
+  13023 TOME ACU - 230                                                            17.030                                 
+  51693 TORRES 2 - 230                                                            17.486                                 
+  51543 TORRES 2- 69                                                              17.484                                 
+  11666 TOUROS - 230                                                              12.664                                 
+   4437 TOYOTA - 230                                                              19.184                                 
+  41175 TELPIRES - 500                                                            11.072                                 
+   3670 TIJUCO PRETO - 345                                                        18.471                                 
+   3671 TIJUCO PRETO 2 - 345                                                      18.500                                 
+    561 TRANSAMAZONIC - 34,5                                                      17.089                                 
+    361 TRANSAMAZONIC - 230                                                       17.089                                 
+  30295 TRIANON - 138                                                             14.912                                 
+   4304 TRINDADE - 230                                                            14.382                                 
+   4303 TRINDADE - 500                                                            13.745                                 
+   4291 TERMINAL RIO - 500                                                        14.461                                 
+   7533 TRIUNFO - 69                                                              16.779                                 
+  32998 PETRO ATIBAIA - 138                                                       17.558                                 
+   6528 TUBARAO SUL – 138                                                         16.966                                 
+   7830 TUBARAO SUL - 230                                                         16.938                                 
+    597 TUCURUI - 500                                                             12.729                                 
+    596 TUCURUI 2 - 500                                                           12.794                                 
+    697 TUCURUI - 69                                                              13.541                                 
+    696 TUCURUI - 138                                                             13.541                                 
+    297 TUCURUI - 230                                                             13.541                                 
+   2562 T.ULTRAFERTIL - 138                                                       18.552                                 
+   4020 TUPA - 138                                                                14.728                                 
+   3150 UBARANA - 69                                                              15.107                                 
+   3101 UBATUBA 2 - 138                                                           17.350                                 
+  44849 UBERABA - 13,8                                                            17.875                                 
+   6863 UBERABA - 69                                                              17.557                                 
+   6616 UBERABA - 230                                                             17.875                                 
+   3995 ALTO ALEGRE - 138                                                         14.529                                 
+   6870 UMBARA - 69                                                               17.303                                 
+   6619 UMBARA - 230                                                              17.075                                 
+  44850 UMUARAMA - 138                                                            16.370                                 
+   7000 UMUARAMA SUL - 230                                                        16.421                                 
+   1055 BARRA DO UNA - 138                                                        17.772                                 
+  30158 UTE UNIVALEM - 138                                                        14.460                                 
+   9330 URUGUAINA 5 - 230                                                         17.058                                 
+   4028 URUPES 2 - 138                                                            15.113                                 
+    691 UTINGA - 69                                                               14.790                                 
+    291 UTINGA - 230                                                              14.790                                 
+   9340 URUGUAIANA - 230                                                          17.041                                 
+   6724 U. VITORIA NORTE - 138                                                    16.462                                 
+   7024 U. VITORIA NORTE - 230                                                    16.496                                 
+   9345 V.AIRES - 230                                                             17.352                                 
+    698 VILA DO CONDE - 69                                                        14.798                                 
+    298 V. CONDE 4 - 230                                                          14.798                                 
+    598 VILA DO CONDE - 500                                                       13.876                                 
+   3783 VENDA PEDRAS - 345                                                        14.942                                 
+   2581 MANAH - 138                                                               18.581                                 
+  27913 VARGINHA 4 - 138                                                          14.996                                 
+  27910 VARGINHA 4 - 345                                                          14.964                                 
+   3171 V.CEL.PAPEL - 138                                                         14.025                                 
+   3579 VERONA - 138                                                              14.582                                 
+   3580 VERONA - 230                                                              14.631                                 
+   1518 VESPASIANO 2 - 500                                                        13.539                                 
+  32996 VAL. GENTIL 1 - 138                                                       14.106                                 
+   1517 VOLTA GRANDE - 345                                                        13.277                                 
+   1295 VZ.GRANDE CMT - 138                                                       15.851                                 
+   3060 VAR.GRANDE 1 - 138                                                        16.001                                 
+   9386 VIAMAO 3 - 69                                                             17.114                                 
+   9350 PONTAL - 230                                                              16.994                                 
+   3444 VIANA - 138                                                               14.474                                 
+   3795 VIANA - 345                                                               14.453                                 
+   3849 VIANA 2 - 500                                                             13.983                                 
+   3848 VIANA 2 - 345                                                             14.323                                 
+   7779 VIDEIRA - 230                                                             15.775                                 
+   1021 AVILLAR - 230                                                             18.778                                 
+   2343 VILA VENTURA - 138                                                        14.891                                 
+   9652 VILHENA - 69                                                              18.031                                 
+   9535 VILHENA - 230                                                             18.031                                 
+   8012 VINHEDOS - 69                                                             17.146                                 
+  51600 VINHEDOS - 230                                                            17.146                                 
+   3796 VITORIA - 345                                                             14.855                                 
+   8328 VILA MARIA – 138                                                          16.541                                 
+   8321 VILA MARIA – 230                                                          16.541                                 
+   2478 VW SAO CARLOS - 138                                                       15.811                                 
+  40664 N.TOCA GO - 230                                                           11.804                                 
+   3156 VOTUPORANGA 1 - 138                                                       14.155                                 
+   2701 VOTUPORANGA 2 - 138                                                       14.141                                 
+  33035 VOTUPORANGA 3 - 138                                                       14.129                                 
+   1831 VARZEA PALMA 1 - 138                                                      11.849                                 
+   1519 VARZEA PALMA 1 - 345                                                      11.979                                 
+   2708 VALPARAISO - 138                                                          14.446                                 
+   3168 VALE PARANA - 138                                                         13.955                                 
+   2008 VENDA PEDRAS - 138                                                        14.988                                 
+   6490 XANXERE ESU - 138                                                         15.194                                 
+   7826 XANXERE - 230                                                             15.135                                 
+   1182 XAVANTES - 138                                                            14.673                                 
+   1183 XAVANTES - 230                                                            14.730                                 
+   2933 XAVANTES - 345                                                            19.302                                 
+    504 XINGO - 500                                                               13.626                                 
+  13502 XINGU - 230                                                               13.559                                 
+  10008 XINGU - 500                                                               12.559                                 
+  19501 XINGUARA 2 - 138                                                          14.710                                 
+  13011 XINGUARA 2 - 230                                                          14.710                                 
+   2606 ZANCHETTA - 138                                                           19.073                                 
+  18552 ZEBU - 13,8                                                               15.240                                 
+    208 ZEBU - 230                                                                13.184                                 
+   3779 ZONA OESTE - 138                                                          14.724                                 
+   3781 ZONA OESTE - 500                                                          14.599                                 
+ X-----X----------------------------------------------------------------------X---------X----------X                                                                                                    
+

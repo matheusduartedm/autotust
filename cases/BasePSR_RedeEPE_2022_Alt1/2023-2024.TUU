@@ -1,0 +1,143 @@
+ PROGRAMA NODAL - SIMULAÇÃO DE TARIFAS DE USO DO SISTEMA ELÉTRICO - v6.1(07/23)  
+
+ 2023 ONS * CICLO 2023-2024 * (Simulação realizada em 04/07/2023 - 22:38:34)                                                                                                                             
+                                                             
+  RELATÓRIO DAS TUSDg POR CENTRAIS GERADORAS (R$/kW/mês)                                                                                                                                                
+
+ X--------------------------------X-----------------------------------------X--X--X--------------------------------X-----------------------------------------X--------X---X                             
+               USINA                     Componentes da TUSDg          MUSD   I UF Distribuidora                      Limitador     Componentes da TUSDg        CEG     R                               
+                                        T          D/DIT      ONS       MW    E                                       R$/kW.mês      T        D/DIT      ONS            U                               
+ X--------------------------------X-----------X-----------X--------X---------X-X--X--------------------------------X-X---------X---------X---------X---------X--------X---X                             
+
+  EOL TESTA BRANCA I                                 5.293    0.183    22.000 I PI EQUATORIAL PIAUI                       7.783               5.293     0.183 031666-0  37
+  EOL TESTA BRANCA III                               5.293    0.183    22.000 I PI EQUATORIAL PIAUI                       7.783               5.293     0.183 033479-0  37
+  PCH AGUA CLARA                                     6.832    0.183     4.000 I MT ENERGISA MATO GROSSO - EMT            11.792               6.832     0.183 029042-4  14
+  PCH ALTO ALEGRE                                    2.130    0.183    17.400 I SC CELESC-DIS                             6.314               2.130     0.183 037173-4   3
+  PCH CESAR FILHO                        3.921       1.839    0.183     7.000 E RO ENERGISA RONDONIA                     12.036     3.921     1.839     0.183 031050-6  28
+  PCH CHIMARRAO                                      5.676    0.183    11.825 I RS RGE SUL                                5.904               5.676     0.183 035481-3  27
+  PCH FARTURA                                        1.773    0.183     4.900 I SC CELESC-DIS                             6.314               1.773     0.183 044805-2   3
+  PCH GALHEIROS I                                    0.000    0.183    11.550 I GO EQUATORIAL GOIAS                       8.456                         0.183 030312-7  17
+  PCH JESUITA                           13.378       1.153    0.183    22.300 E MT ENERGISA MATO GROSSO - EMT       L    12.363    11.240     0.969     0.154 028818-7  36
+  PCH LAVRINHAS                                     17.297    0.183    30.000 I SP EDP SAO PAULO                    L     6.561               6.492     0.069 029114-5  34
+  PCH MOSQUITAO                                     16.435    0.183    30.000 I GO EQUATORIAL GOIAS                 L     9.974               9.864     0.110 028541-2  24
+  PCH PIRA                                           2.130    0.183    23.071 I SC CELESC-DIS                             6.314               2.130     0.183 034669-1   3
+  PCH PIRAPORA                                       4.331    0.183    25.000 I SP ENEL SAO PAULO                         5.495               4.331     0.183 029721-6   8
+  PCH PRIMAVERA                          3.921       1.839    0.183    26.000 E RO ENERGISA RONDONIA                     12.036     3.921     1.839     0.183 028840-3  28
+  PCH QUEIXADA                                       6.412    0.183    30.000 I GO EQUATORIAL GOIAS                      11.792               6.412     0.183 030272-4  14
+  PCH QUELUZ                                        17.452    0.183    30.000 I SP EDP SAO PAULO                    L     6.561               6.492     0.068 029115-3  34
+  PCH RASGAO                                         4.361    0.183    22.000 I SP ENEL SAO PAULO                         5.495               4.361     0.183 002187-3   8
+  PCH SALTO BURITI                                   5.464    0.183    10.000 I MT EQUATORIAL PARA                       11.002               5.464     0.183 028671-0  15
+  PCH SALTO CURUA                                    5.464    0.183    30.000 I MT EQUATORIAL PARA                       11.002               5.464     0.183 028672-9  15
+  PCH SALTO TRES DE MAIO                             5.621    0.183    20.000 I MT EQUATORIAL PARA                       11.002               5.621     0.183 028653-2  15
+  PCH SAN JUAN                                       1.923    0.183     4.870 I SP NEOENERGIA ELEKTRO                     9.817               1.923     0.183 002688-3   6
+  PCH SANTO ANTONIO DO CAIAPO                       16.435    0.183    30.000 I GO EQUATORIAL GOIAS                 L     9.974               9.864     0.110 029119-6  24
+  PCH SAO DOMINGOS II                                0.000    0.183    24.000 I GO EQUATORIAL GOIAS                       8.456                         0.183 028388-6  17
+  PCH VERDE 8                                        6.785    0.183    30.000 I GO EQUATORIAL GOIAS                      11.792               6.785     0.183 030973-0  14
+  PCH YPE                                            6.785    0.183    30.000 I GO EQUATORIAL GOIAS                      11.792               6.785     0.183 031327-0  14
+  UFV BELVEDERE 1                        1.999       8.113    0.183    44.200 E MG CEMIG-D                                9.558     1.999     8.113     0.183 040686-4  30
+  UFV BELVEDERE 2                        1.999       8.113    0.183    44.200 E MG CEMIG-D                                9.558     1.999     8.113     0.183 040687-2  30
+  UFV BELVEDERE 3                        1.999       8.113    0.183    47.200 E MG CEMIG-D                                9.558     1.999     8.113     0.183 040688-0  30
+  UFV BOA HORA 1                                     5.177    0.183    23.040 I SP NEOENERGIA ELEKTRO                     9.817               5.177     0.183 034161-4   6
+  UFV BOA HORA 2                                     5.177    0.183    23.040 I SP NEOENERGIA ELEKTRO                     9.817               5.177     0.183 034162-2   6
+  UFV BOA HORA 3                                     5.177    0.183    23.040 I SP NEOENERGIA ELEKTRO                     9.817               5.177     0.183 034163-0   6
+  UFV CASTILHO I                                     6.024    0.183    50.000 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 034108-8   6
+  UFV CASTILHO II                                    6.024    0.183     5.000 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 034112-6   6
+  UFV CASTILHO III                                   6.024    0.183    50.000 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 034110-0   6
+  UFV CASTILHO IV                                    6.024    0.183    50.000 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 034111-8   6
+  UFV CASTILHO V                                     6.024    0.183    50.000 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 034109-6   6
+  UFV JUSANTE 1                          2.019       4.388    0.183    10.000 E MG CEMIG-D                                9.558     2.019     4.388     0.183 050784-0  30
+  UFV JUSANTE 2                          2.019       4.388    0.183    10.000 E MG CEMIG-D                                9.558     2.019     4.388     0.183 050785-0  30
+  UFV JUSANTE 3                          2.019       4.388    0.183    10.000 E MG CEMIG-D                                9.558     2.019     4.388     0.183 050786-0  30
+  UFV JUSANTE 4                          2.019       4.388    0.183    10.000 E MG CEMIG-D                                9.558     2.019     4.388     0.183 050787-0  30
+  UFV JUSANTE 5                          2.019       4.388    0.183    10.000 E MG CEMIG-D                                9.558     2.019     4.388     0.183 050788-0  30
+  UFV JUSANTE 6                          2.019       4.388    0.183    10.000 E MG CEMIG-D                                9.558     2.019     4.388     0.183 050789-0  30
+  UFV JUSANTE 7                          2.019       4.388    0.183    10.000 E MG CEMIG-D                                9.558     2.019     4.388     0.183 050790-0  30
+  UFV NOVO ORIENTE I                                 6.024    0.183    40.399 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 049335-0   6
+  UFV NOVO ORIENTE II                                6.024    0.183    40.399 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 049336-8   6
+  UFV NOVO ORIENTE III                               6.024    0.183    40.399 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 049337-6   6
+  UFV NOVO ORIENTE IV                                6.024    0.183    40.399 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 049338-4   6
+  UFV NOVO ORIENTE V                                 6.024    0.183    46.170 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 049339-2   6
+  UFV NOVO ORIENTE VI                                6.024    0.183    46.170 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 049340-6   6
+  UFV PEDRANOPOLIS 1                                 4.951    0.183    29.200 I SP NEOENERGIA ELEKTRO                     9.817               4.951     0.183 034358-7   6
+  UFV PEDRANOPOLIS 2                                 4.951    0.183    29.200 I SP NEOENERGIA ELEKTRO                     9.817               4.951     0.183 034359-5   6
+  UFV PEDRANOPOLIS 3                                 4.951    0.183    29.200 I SP NEOENERGIA ELEKTRO                     9.817               4.951     0.183 034360-9   6
+  UFV PEREIRA BARRETO I                              6.024    0.183    41.490 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 034361-0   6
+  UFV PEREIRA BARRETO II                             6.024    0.183    41.490 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 034362-0   6
+  UFV PEREIRA BARRETO III                            6.024    0.183    41.490 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 034363-0   6
+  UFV PEREIRA BARRETO IV                             6.024    0.183    41.490 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 034364-0   6
+  UFV PEREIRA BARRETO V                              6.024    0.183    36.480 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 034365-0   6
+  UFV RQL 01                             2.122       4.733    0.183    30.000 E MG CEMIG-D                                9.558     2.122     4.733     0.183 032996-7  30
+  UFV RQL 02                             2.122       4.733    0.183    30.000 E MG CEMIG-D                                9.558     2.122     4.733     0.183 033969-5  30
+  UHE CACHOEIRA DOURADA                              6.220    0.183   141.410 I GO EQUATORIAL GOIAS                      11.792               6.220     0.183 000528-2  14
+  UHE COARACY NUNES                                  0.744    0.183    78.000 I AP CEA                                    8.241               0.744     0.183 000783-8  38
+  UHE CURUA-UNA                                     11.176    0.183    30.300 I PA EQUATORIAL PARA                  L     4.923               4.843     0.080 027130-6  20
+  UHE ESPORA                                         6.412    0.183    32.010 I GO EQUATORIAL GOIAS                      11.792               6.412     0.183 000908-3  14
+  UHE HENRY BORDEN                                   1.302    0.183    49.000 I SP CPFL PIRATININGA                       5.932               1.302     0.183 001084-7   9
+  UHE JAGUARI                                        1.748    0.183    27.300 I SP EDP SAO PAULO                          9.817               1.748     0.183 027131-4   6
+  UHE JUPIA                                          5.876    0.183   219.800 I SP NEOENERGIA ELEKTRO                     9.817               5.876     0.183 001282-3   6
+  UHE NOVA AVANHANDAVA                               5.030    0.183   341.160 I SP NEOENERGIA ELEKTRO                     9.817               5.030     0.183 001552-0   6
+  UHE PARAIBUNA                                      4.215    0.183    84.300 I SP NEOENERGIA ELEKTRO                     9.817               4.215     0.183 027122-5   6
+  UHE RONDON II                          3.921       2.089    0.183    70.000 E RO ENERGISA RONDONIA                     12.036     3.921     2.089     0.183 027448-8  28
+  UHE ROSANA                                         5.919    0.183   351.600 I SP NEOENERGIA ELEKTRO                     9.817               5.919     0.183 002555-0   6
+  UHE SALTO PILAO                                    3.078    0.183   190.380 I SC CELESC-DIS                             6.314               3.078     0.183 028564-1   3
+  UHE SANTA BRANCA                                   4.523    0.183    57.000 I SP EDP SAO PAULO                          9.817               4.523     0.183 002696-4   6
+  UHE SERRA DO FACAO                     1.976       2.223    0.183   202.400 E GO EQUATORIAL GOIAS                       9.558     1.976     2.223     0.183 028355-0  30
+  UTE ALCIDIA                                        4.761    0.183    27.000 I SP NEOENERGIA ELEKTRO                     9.817               4.761     0.183 027913-7   6
+  UTE ANGELICA I                                     7.360    0.183    35.000 I MS ENERGISA M.G. DO SUL - EMS             8.692               7.360     0.183 051752-0   4
+  UTE BALDIN                                         3.071    0.183    28.500 I SP NEOENERGIA ELEKTRO                     9.817               3.071     0.183 030169-8   6
+  UTE BARRA GRANDE (SP)                              5.057    0.183    30.000 I SP CPFL PAULISTA                          9.817               5.057     0.183 027055-5   6
+  UTE BIANCOGRES                                     2.936    0.183    10.220 I ES EDP ES                                 7.538               2.936     0.183 029586-8  13
+  UTE BOA VISTA - CELG                               6.012    0.183    28.500 I GO EQUATORIAL GOIAS                      11.792               6.012     0.183 029588-4  14
+  UTE BVE BELA VISTA ENERGETICA                      5.848    0.183    30.000 I SP NEOENERGIA ELEKTRO                     9.817               5.848     0.183 037341-9   6
+  UTE CACHOEIRA DOURADA                              6.220    0.183    30.000 I GO EQUATORIAL GOIAS                      11.792               6.220     0.183 030033-0  14
+  UTE COCAL II                                       4.948    0.183    80.000 I SP NEOENERGIA ELEKTRO                     9.817               4.948     0.183 029713-5   6
+  UTE COLOMBO SANTA ALBERTINA                        4.933    0.183    21.000 I SP NEOENERGIA ELEKTRO                     9.817               4.933     0.183 030267-8   6
+  UTE CONQUISTA DO PONTAL                            5.060    0.183    70.000 I SP NEOENERGIA ELEKTRO                     9.817               5.060     0.183 030024-1   6
+  UTE CRESCIUMAL                                     3.221    0.183    20.000 I SP NEOENERGIA ELEKTRO                     9.817               3.221     0.183 027059-8   6
+  UTE DAIA (ANAPOLIS)                               12.565    0.183    44.300 I GO EQUATORIAL GOIAS                 L     9.017               8.887     0.130 028612-5  18
+  UTE ELDORADO BRASIL                                6.147    0.183    50.000 I SP NEOENERGIA ELEKTRO                     9.817               6.147     0.183 030583-9   6
+  UTE ENTRE RIOS                                     6.059    0.183    48.300 I GO EQUATORIAL GOIAS                      11.792               6.059     0.183 050746-0  14
+  UTE FBA GASA - ANDRADINA                           6.024    0.183    50.000 I SP NEOENERGIA ELEKTRO                     9.817               6.024     0.183 027950-1   6
+  UTE FERNANDO GASPARIAN (N.PIRAT)                   0.995    0.183   185.000 I SP ENEL SAO PAULO                         6.749               0.995     0.183 028191-3  25
+  UTE FERRARI - PIRASSUNUNGA                         3.305    0.183    55.000 I SP NEOENERGIA ELEKTRO                     9.817               3.305     0.183 028058-5   6
+  UTE FIBRIA 2                                       6.020    0.183   140.000 I SP NEOENERGIA ELEKTRO                     9.817               6.020     0.183 037624-8   6
+  UTE FLORAPLAC                                      7.750    0.183    15.900 I PA EQUATORIAL PARA                  L     7.510               7.336     0.174 032116-8  41
+  UTE FS BIOENERGIA PRIMAVERA                        4.359    0.183    30.144 I MT ENERGISA MATO GROSSO - EMT            11.792               4.359     0.183 054855-3  14
+  UTE INTERLAGOS                                     5.702    0.183    27.000 I SP NEOENERGIA ELEKTRO                     9.817               5.702     0.183 029461-6   6
+  UTE IPE                                            5.897    0.183    25.000 I SP NEOENERGIA ELEKTRO                     9.817               5.897     0.183 030268-6   6
+  UTE ITUMBIARA (CIBA)                               6.220    0.183    39.600 I GO EQUATORIAL GOIAS                      11.792               6.220     0.183 030090-0  14
+  UTE JORGE LACERDA A                                2.846    0.183    79.000 I SC CELESC-DIS                             6.314               2.846     0.183 001260-2   3
+  UTE L.CARLOS PRESTES (T.LAGOAS)                    5.961    0.183   360.000 I SP NEOENERGIA ELEKTRO                     9.817               5.961     0.183 027975-7   6
+  UTE LAGUNA                                         7.478    0.183    10.000 I MS ENERGISA M.G. DO SUL - EMS             8.692               7.478     0.183 030482-0   4
+  UTE LUIZ OSCAR ROD. DE MELO                        5.063    0.183   231.360 I ES EDP ES                                 7.538               5.063     0.183 030054-3  13
+  UTE MOEMA                                          5.216    0.183    30.000 I SP NEOENERGIA ELEKTRO                     9.817               5.216     0.183 027886-6   6
+  UTE MOGI                                           3.258    0.183     4.500 I SP NEOENERGIA ELEKTRO                     9.817               3.258     0.183 028076-3   6
+  UTE NEGRO DE FUMO                                  1.290    0.183    18.000 I SP CPFL PIRATININGA                       5.932               1.290     0.183 000825-7   9
+  UTE NOBLE ENERGIA                                  5.175    0.183    28.580 I SP NEOENERGIA ELEKTRO                     9.817               5.175     0.183 030004-7   6
+  UTE NOROESTE PAULISTA                              5.175    0.183    28.580 I SP NEOENERGIA ELEKTRO                     9.817               5.175     0.183 029775-5   6
+  UTE PETROCOQUE                                     4.642    0.183    11.800 I SP CPFL PIRATININGA                       9.817               4.642     0.183 031229-0   6
+  UTE PIONEIROS                                      5.726    0.183    17.000 I SP NEOENERGIA ELEKTRO                     9.817               5.726     0.183 028047-0   6
+  UTE PIONEIROS II                                   5.726    0.183    22.000 I SP NEOENERGIA ELEKTRO                     9.817               5.726     0.183 029642-2   6
+  UTE POVOACAO                                       5.063    0.183    73.500 I ES EDP ES                                 7.538               5.063     0.183 056045-6  13
+  UTE QUIRINOPOLIS - CELG                            6.263    0.183    25.000 I GO EQUATORIAL GOIAS                      11.792               6.263     0.183 029268-0  14
+  UTE RIO VERMELHO                                   5.949    0.183    30.000 I SP NEOENERGIA ELEKTRO                     9.817               5.949     0.183 030543-0   6
+  UTE RIO VERMELHO 2                                 5.949    0.183    30.000 I SP NEOENERGIA ELEKTRO                     9.817               5.949     0.183 031793-4   6
+  UTE SAO JOAO BIOGAS                                1.744    0.183    21.500 I SP ENEL SAO PAULO                         5.733               1.744     0.183 028648-6   7
+  UTE SAO JOAO DA BOA VISTA                          3.542    0.183    50.000 I SP NEOENERGIA ELEKTRO                     9.817               3.542     0.183 027709-6   6
+  UTE SAO JOSE MACATUBA                              5.057    0.183    33.000 I SP CPFL PAULISTA                          9.817               5.057     0.183 026847-0   6
+  UTE SAO LUIZ                                       3.442    0.183    50.000 I SP NEOENERGIA ELEKTRO                     9.817               3.442     0.183 026869-0   6
+  UTE SUZANO RRP1                                    7.003    0.183   165.000 I MS ENERGISA M.G. DO SUL - EMS             8.692               7.003     0.183 049647-2   4
+  UTE TERMOVERDE CAIEIRAS                            3.741    0.183    27.500 I SP NEOENERGIA ELEKTRO                     9.817               3.741     0.183 031436-6   6
+  UTE UJU BIO                                        4.204    0.183    40.000 I PR COPEL-DIS                              6.724               4.204     0.183 051729-1   5
+  UTE VCP-MS                                         6.020    0.183    50.000 I SP NEOENERGIA ELEKTRO                     9.817               6.020     0.183 029694-5   6
+  UTE VIRALCOOL CASTILHO                             5.848    0.183    28.000 I SP NEOENERGIA ELEKTRO                     9.817               5.848     0.183 030445-0   6
+  UTE VIRALCOOL CASTILHO 2                           5.848    0.183    24.500 I SP NEOENERGIA ELEKTRO                     9.817               5.848     0.183 040784-4   6
+  UTE VISTA ALEGRE - ELEKTRO                         1.284    0.183    30.000 I SP NEOENERGIA ELEKTRO                     9.817               1.284     0.183 028462-9   6
+  UTE VISTA ALEGRE I                                 6.638    0.183    28.800 I MS ENERGISA M.G. DO SUL - EMS             8.692               6.638     0.183 029994-4   4
+  UTE VISTA ALEGRE II                                7.405    0.183    29.200 I MS ENERGISA M.G. DO SUL - EMS             8.692               7.405     0.183 031702-0   4
+  UTE XAVANTES(ARUANA)                              12.938    0.183    53.598 I GO EQUATORIAL GOIAS                 L     9.974               9.835     0.139 028654-0  24
+ X--------------------------------X-----------X-----------X--------X---------X-X--X--------------------------------X-X---------X---------X---------X---------X--------X---X                             
+
+ Observação:
+  L: Aplicado o limitador tarifário
+

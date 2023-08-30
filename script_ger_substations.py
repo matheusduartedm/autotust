@@ -2,8 +2,8 @@ from openpyxl import Workbook
 import autotust_v61 as tust
 
 # INPUTS
-DB_PATH = r'D:\dev\auto_tust\cases\BasePSR_v2'
-barras_de_interesse = [5926, 6220, 4350, 6221, 6070]
+DB_PATH = r'D:\dev\auto_tust\cases\BasePSR_RedeEPE_2022'
+barras_de_interesse = [5926, 6220, 4350, 6221, 6070, 5436, 4051, 5176, 5500, 45107, 6290, 6291]
 
 # INICIANDO VARIÁVEIS
 years = range(2023, 2032)

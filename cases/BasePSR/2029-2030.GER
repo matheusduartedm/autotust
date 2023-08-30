@@ -129,7 +129,7 @@ EOL BARRA DOS COQUEIROS             34.50 D          030296-1         58150
 EOL BEBERIBE                        25.20 D          028174-3         56077
 EOL BELA VISTA (AREIA BRANCA)       27.27            030340-2         56255
 EOL BOA ESPERANCA I                 30.00            033666-1         56709
-EOL BOA ESPERANCA II                20.37            032588-0         56567
+(EOL BOA ESPERANCA II                20.37            032588-0         56567
 EOL BOA VISTA DA LAGOINHA           29.63            032759-0         59021
 EOL BOM JARDIM                      30.00   S        029062-9         50344
 EOL BONS VENTOS CACIMBAS 2          22.91            031644-0         55213
@@ -390,9 +390,9 @@ EOL ITAREMA V                       20.48            031482-0         55442
 EOL ITAREMA VI                      23.52            031815-9         55459
 EOL ITAREMA VII                     20.58            031816-7         55460
 EOL ITAREMA VIII                    20.58            031817-5         55461
-EOL ITAUNA I                        18.03            050124-7         56474
-EOL ITAUNA II                       24.09            050125-5         56474
-EOL ITAUNA III                      42.03            050126-3         56474
+(EOL ITAUNA I                        18.03            050124-7         56474
+(EOL ITAUNA II                       24.09            050125-5         56474
+(EOL ITAUNA III                      42.03            050126-3         56474
 EOL JABUTICABA                       8.78            031405-6         59355
 EOL JACARANDA DO CERRADO            20.48            031408-0         59361
 EOL JANDAIA                         26.19            030929-0         56050
@@ -643,11 +643,11 @@ EOL SAO BENTO DO NORTE III          22.60            033643-2         56697
 EOL SAO CLEMENTE                    20.37            030927-3         56052
 EOL SAO CRISTOVAO                   25.62            030912-5         55774
 EOL SAO DOMINGOS                    24.70            032215-6         56718
-EOL SAO DOMINGOS I                  29.77            050096-8         56474
-EOL SAO DOMINGOS II                 29.91            050097-6         56474
-EOL SAO DOMINGOS III                17.87            050098-4         56474
-EOL SAO DOMINGOS IV                 23.86            050099-2         56474
-EOL SAO DOMINGOS V                  12.13            050100-0         56474
+(EOL SAO DOMINGOS I                  29.77            050096-8         56474
+(EOL SAO DOMINGOS II                 29.91            050097-6         56474
+(EOL SAO DOMINGOS III                17.87            050098-4         56474
+(EOL SAO DOMINGOS IV                 23.86            050099-2         56474
+(EOL SAO DOMINGOS V                  12.13            050100-0         56474
 EOL SAO FELICIO                     24.00            032401-9         56307
 EOL SAO FERNANDO 1                  75.63            037073-8         56706
 EOL SAO FERNANDO 10                 16.80            037074-6         56763
@@ -993,12 +993,12 @@ EOL VENTOS DE SANTA LUZIA 13        54.00            051587-6         59426
 EOL VENTOS DE SANTA LUZIA 14        74.40            051588-4         59427
 EOL VENTOS DE SANTA LUZIA 15        74.40            051589-2         59428
 EOL VENTOS DE SANTA LUZIA 16        74.40            051590-6         59429
-EOL VENTOS DE SANTA MARCELLA 01     49.80            047178-0         59170
-EOL VENTOS DE SANTA MARCELLA 02     49.80            047179-8         59170
-EOL VENTOS DE SANTA MARCELLA 03     49.80            047180-1         59170
-EOL VENTOS DE SANTA MARCELLA 04     49.80            047181-0         59170
-EOL VENTOS DE SANTA MARCELLA 05     49.80            047182-8         59170
-EOL VENTOS DE SANTA MARCELLA 06     49.80            047183-6         59170
+(EOL VENTOS DE SANTA MARCELLA 01     49.80            047178-0         59170
+(EOL VENTOS DE SANTA MARCELLA 02     49.80            047179-8         59170
+(EOL VENTOS DE SANTA MARCELLA 03     49.80            047180-1         59170
+(EOL VENTOS DE SANTA MARCELLA 04     49.80            047181-0         59170
+(EOL VENTOS DE SANTA MARCELLA 05     49.80            047182-8         59170
+(EOL VENTOS DE SANTA MARCELLA 06     49.80            047183-6         59170
 EOL VENTOS DE SANTA MARTINA 01      61.74            038310-4         56742
 EOL VENTOS DE SANTA MARTINA 09      61.74            038318-0         56743
 EOL VENTOS DE SANTA MARTINA 10      61.74            038319-8         56744
@@ -1022,17 +1022,17 @@ EOL CAJUINA A6                      44.46            047247-6         11565
 EOL CAJUINA A7                      36.46            047198-4         11565
 EOL VENTOS DE SANTO ABRAAO          27.65            032884-7         59051
 EOL VENTOS DE SANTO ALDERICO        38.66            048512-8         58290
-EOL VENTOS DE SANTO ANTAO 01        54.00            049591-3         56474
-EOL VENTOS DE SANTO ANTAO 02        54.00            049592-1         56474
-EOL VENTOS DE SANTO ANTAO 03        54.00            049593-0         56474
-EOL VENTOS DE SANTO ANTAO 04        54.00            049594-8         56474
+(EOL VENTOS DE SANTO ANTAO 01        54.00            049591-3         56474
+(EOL VENTOS DE SANTO ANTAO 02        54.00            049592-1         56474
+(EOL VENTOS DE SANTO ANTAO 03        54.00            049593-0         56474
+(EOL VENTOS DE SANTO ANTAO 04        54.00            049594-8         56474
 EOL VENTOS DE SANTO ANTERO          46.43            035249-7         58330
 EOL VENTOS DE SANTO ANTONIO 01      45.00            047205-0         58874
-EOL VENTOS DE SANTO ANTONIO 04      68.20            047208-5         58875
-EOL VENTOS DE SANTO ANTONIO 05      68.20            051592-2         58876
-EOL VENTOS DE SANTO ANTONIO 06      68.20            051593-0         58877
-EOL VENTOS DE SANTO ANTONIO 07      74.40            051594-9         58878
-EOL VENTOS DE SANTO ANTONIO 08      74.40            051595-7         58879
+(EOL VENTOS DE SANTO ANTONIO 04      68.20            047208-5         58875
+(EOL VENTOS DE SANTO ANTONIO 05      68.20            051592-2         58876
+(EOL VENTOS DE SANTO ANTONIO 06      68.20            051593-0         58877
+(EOL VENTOS DE SANTO ANTONIO 07      74.40            051594-9         58878
+(EOL VENTOS DE SANTO ANTONIO 08      74.40            051595-7         58879
 EOL VENTOS DE SANTO APOLINARIO      34.23            048513-6         58327
 EOL VENTOS DE SANTO AUGUSTO I       18.03            031746-2         58228
 EOL VENTOS DE SANTO AUGUSTO II      27.05            031747-0         58229
@@ -1100,15 +1100,15 @@ EOL VENTOS DE SAO RICARDO 01        42.32            049170-5         56534
 EOL VENTOS DE SAO RICARDO 02        42.32            049171-3         56535
 EOL VENTOS DE SAO RICARDO 03        50.02            049172-1         56536
 EOL VENTOS DE SAO RICARDO 04         38.9            049173-0         56537
-EOL VENTOS DE SAO RICARDO 05        48.36            049174-8         56538
-EOL VENTOS DE SAO RICARDO 06        48.36            049175-6         56539
-EOL VENTOS DE SAO RICARDO 07        48.36            049176-4         56540
-EOL VENTOS DE SAO RICARDO 08        48.36            049177-2         56541
-EOL VENTOS DE SAO RICARDO 09        48.36            049178-0         56542
+(EOL VENTOS DE SAO RICARDO 05        48.36            049174-8         56538
+(EOL VENTOS DE SAO RICARDO 06        48.36            049175-6         56539
+(EOL VENTOS DE SAO RICARDO 07        48.36            049176-4         56540
+(EOL VENTOS DE SAO RICARDO 08        48.36            049177-2         56541
+(EOL VENTOS DE SAO RICARDO 09        48.36            049178-0         56542
 EOL VENTOS DE SAO RICARDO 10        44.46            049179-9         56543
 EOL VENTOS DE SAO RICARDO 11        33.34            049180-2         56544
-EOL VENTOS DE SAO RICARDO 12        61.42            049181-0         56545
-EOL VENTOS DE SAO RICARDO 13        48.36            049182-9         56546
+(EOL VENTOS DE SAO RICARDO 12        61.42            049181-0         56545
+(EOL VENTOS DE SAO RICARDO 13        48.36            049182-9         56546
 EOL VENTOS DE SAO ROQUE 03          45.10            038105-5         58776
 EOL VENTOS DE SAO ROQUE 05          45.10            038107-1         58776
 EOL VENTOS DE SAO ROQUE 06          45.10            038108-0         58776
@@ -1693,24 +1693,24 @@ UFV AC XX                           38.86            037631-0         60150
 UFV AC XXI                          38.86            037632-9         60151
 UFV AC XXII                         38.86            037633-7         60152
 UFV AC XXIII                        38.86            037634-5         60153
-UFV ACUCENA 1                       48.26            049428-3         39813
-UFV ACUCENA 2                       48.26            049429-1         39813
-UFV ACUCENA 3                       48.26            049430-5         39813
-UFV ACUCENA 4                       48.26            049431-3         39813
-UFV ACUCENA 5                       48.26            049432-1         39813
-UFV ACUCENA 6                       48.26            049433-0         39813
-UFV ACUCENA 7                       48.26            049434-8         39813
-UFV ACUCENA 8                       48.26            049435-6         39813
+(UFV ACUCENA 1                       48.26            049428-3         39813
+(UFV ACUCENA 2                       48.26            049429-1         39813
+(UFV ACUCENA 3                       48.26            049430-5         39813
+(UFV ACUCENA 4                       48.26            049431-3         39813
+(UFV ACUCENA 5                       48.26            049432-1         39813
+(UFV ACUCENA 6                       48.26            049433-0         39813
+(UFV ACUCENA 7                       48.26            049434-8         39813
+(UFV ACUCENA 8                       48.26            049435-6         39813
 UFV AGUA VERMELHA IV                15.00   S        034206-8         50328
 UFV AGUA VERMELHA V                 30.00   S        034207-6         50328
 UFV AGUA VERMELHA VI                30.00   S        034208-4         50328
-UFV ALEGRE I                        25.00            047248-4         60221
-UFV ALEGRE II                       22.50            047249-2         60221
-UFV ALEGRE III                      30.00            047250-6         60221
-UFV ALEGRE IV                       40.00            047251-4         60221
-UFV ALEGRE V                        30.00            047252-2         60221
-UFV ALEGRE VI                       30.00            047253-0         60221
-UFV ALEGRE VII                      30.00            047254-9         60221
+(UFV ALEGRE I                        25.00            047248-4         60221
+(UFV ALEGRE II                       22.50            047249-2         60221
+(UFV ALEGRE III                      30.00            047250-6         60221
+(UFV ALEGRE IV                       40.00            047251-4         60221
+(UFV ALEGRE V                        30.00            047252-2         60221
+(UFV ALEGRE VI                       30.00            047253-0         60221
+(UFV ALEGRE VII                      30.00            047254-9         60221
 UFV ALESSANDRA 1                    45.00            049957-9         60275
 UFV ALESSANDRA 2                    42.00            049958-7         60275
 UFV ALESSANDRA 3                    48.00            049959-5         60275
@@ -1748,10 +1748,10 @@ UFV ARAPUA 1                        48.94            051015-7         56101
 UFV ARAPUA 2                        48.94            051016-5         56101
 UFV ARAPUA 3                        48.94            051017-3         56101
 UFV ARAPUA 4                        48.94            051018-1         56101
-UFV ARAPUA 5                        48.91            051019-0         56101
-UFV ARAPUA 6                        48.87            051020-3         56101
-UFV ARAPUA 7                        48.84            051021-1         56101
-UFV ARAPUA 8                        48.82            051022-0         56101
+(UFV ARAPUA 5                        48.91            051019-0         56101
+(UFV ARAPUA 6                        48.87            051020-3         56101
+(UFV ARAPUA 7                        48.84            051021-1         56101
+(UFV ARAPUA 8                        48.82            051022-0         56101
 UFV ARAXA 1                         44.22   S        040851-4         60165
 UFV ARAXA 2                         44.22   S        040852-2         60166
 UFV ARINOS 1                        48.12            047297-2         60156
@@ -1844,23 +1844,23 @@ UFV AURORA 42                       17.18            046788-0         60124
 UFV AURORA 43                       41.24            046789-8         60124
 UFV AURORA 44                       41.24            046790-1         60124
 UFV AURORA 45                       13.75            046791-0         60124
-UFV AURORA 54                       41.24            047342-1         60256
-UFV AURORA 55                       41.24            047343-0         60256
-UFV AURORA 56                       41.24            047344-8         60257
-UFV AURORA 57                       41.24            047345-6         60257
-UFV AURORA 58                       41.24            047346-4         60257
-UFV AURORA 59                       41.24            047347-2         60257
-UFV AURORA 60                       41.24            047348-0         60257
-UFV AURORA 61                       41.24            047349-9         60257
-UFV AURORA 62                       41.24            047350-2         60257
-UFV AURORA 63                       41.24            047351-0         60257
-UFV AURORA 64                       41.24            048559-4         60257
-UFV AURORA 65                       41.24            048560-8         60257
-UFV AURORA 66                       37.81            048539-0         60257
-UFV AURORA 67                       41.24            048540-3         60257
-UFV AURORA 68                       41.24            048541-1         60258
-UFV AURORA 69                       41.24            048542-0         60258
-UFV AURORA 70                       41.24            048543-8         60258
+(UFV AURORA 54                       41.24            047342-1         60256
+(UFV AURORA 55                       41.24            047343-0         60256
+(UFV AURORA 56                       41.24            047344-8         60257
+(UFV AURORA 57                       41.24            047345-6         60257
+(UFV AURORA 58                       41.24            047346-4         60257
+(UFV AURORA 59                       41.24            047347-2         60257
+(UFV AURORA 60                       41.24            047348-0         60257
+(UFV AURORA 61                       41.24            047349-9         60257
+(UFV AURORA 62                       41.24            047350-2         60257
+(UFV AURORA 63                       41.24            047351-0         60257
+(UFV AURORA 64                       41.24            048559-4         60257
+(UFV AURORA 65                       41.24            048560-8         60257
+(UFV AURORA 66                       37.81            048539-0         60257
+(UFV AURORA 67                       41.24            048540-3         60257
+(UFV AURORA 68                       41.24            048541-1         60258
+(UFV AURORA 69                       41.24            048542-0         60258
+(UFV AURORA 70                       41.24            048543-8         60258
 UFV AURORA 75                       41.24            049469-0         60139
 UFV AURORA 76                       41.24            049470-4         60139
 UFV AURORA 77                       41.24            049471-2         60139
@@ -1886,11 +1886,11 @@ UFV AURORA 96                       41.24            049490-9         60139
 UFV AURORA 97                       41.24            049491-7         60139
 UFV AURORA 98                       41.24            049492-5         60139
 UFV AURORA 99                       41.24            049493-3         60139
-UFV AVENTURA SOLAR                  10.00            046565-8           360
-UFV BARRA DA ONCA I                 26.00            034626-8         56474
-UFV BARRA DA ONCA II                26.00            034627-6         56474
-UFV BARRA DA ONCA III               26.00            034628-4         56474
-UFV BARRA DA ONCA IV                12.00            034629-2         56474
+(UFV AVENTURA SOLAR                  10.00            046565-8           360
+(UFV BARRA DA ONCA I                 26.00            034626-8         56474
+(UFV BARRA DA ONCA II                26.00            034627-6         56474
+(UFV BARRA DA ONCA III               26.00            034628-4         56474
+(UFV BARRA DA ONCA IV                12.00            034629-2         56474
 UFV BARRO ALTO I                    49.55            052318-6          3947
 UFV BARRO ALTO II                   49.55            052319-4          3947
 UFV BARRO ALTO III                  49.55            052320-8          3947
@@ -1910,11 +1910,11 @@ UFV BELMONTE 2-3                    50.00            040737-2         58373
 UFV BELMONTE 2-4                    50.00            040738-0         58374
 UFV BELMONTE 2-5                    50.00            040739-9         58375
 UFV BELMONTE 2-6                    50.00            043267-9         58376
-UFV BELO HORIZONTE 1                37.67            038198-5           222
-UFV BELO HORIZONTE 2                41.51            038199-3           222
-UFV BELO HORIZONTE 3                44.99            038200-0           222
-UFV BELO HORIZONTE 4                37.65            038201-9           222
-UFV BELO HORIZONTE 5                36.95            038202-7           222
+(UFV BELO HORIZONTE 1                37.67            038198-5           222
+(UFV BELO HORIZONTE 2                41.51            038199-3           222
+(UFV BELO HORIZONTE 3                44.99            038200-0           222
+(UFV BELO HORIZONTE 4                37.65            038201-9           222
+(UFV BELO HORIZONTE 5                36.95            038202-7           222
 UFV BELVEDERE 1                      44.2   S                         60301
 UFV BELVEDERE 2                      44.2   S                         60302
 UFV BELVEDERE 3                      47.2   S                         60303
@@ -1949,24 +1949,24 @@ UFV BOA SORTE 6                     44.10            049189-6         60086
 UFV BOA SORTE 7                     44.10            049190-0         60087
 UFV BOA SORTE 8                     44.10            049191-8         60088
 UFV BOA SORTE 9                     44.10            049194-2          1523
-UFV BOCA DO RIACHO 1                48.00            046873-8           585
-UFV BOCA DO RIACHO 11               48.00            046876-2           585
-UFV BOCA DO RIACHO 12               48.00            046877-0           585
-UFV BOCA DO RIACHO 13               48.00            046878-9           585
-UFV BOCA DO RIACHO 14               48.00            046879-7           585
-UFV BOCA DO RIACHO 15               44.00            046880-0           585
-UFV BOCA DO RIACHO 16               48.00            046881-9           585
-UFV BOCA DO RIACHO 17               48.00            046882-7           585
-UFV BOCA DO RIACHO 18               48.00            046883-5           585
-UFV BOCA DO RIACHO 19               48.00            046884-3           585
-UFV BOCA DO RIACHO 2                48.00            046874-6           585
-UFV BOCA DO RIACHO 3                48.00            046886-0           585
-UFV BOCA DO RIACHO 4                48.00            046887-8           585
-UFV BOCA DO RIACHO 5                48.00            046888-6           585
-UFV BOCA DO RIACHO 6                28.00            046889-4           585
-UFV BOCA DO RIACHO 7                48.00            046890-8           585
-UFV BOCA DO RIACHO 8                48.00            046891-6           585
-UFV BOCA DO RIACHO 9                48.00            046892-4           585
+(UFV BOCA DO RIACHO 1                48.00            046873-8           585
+(UFV BOCA DO RIACHO 11               48.00            046876-2           585
+(UFV BOCA DO RIACHO 12               48.00            046877-0           585
+(UFV BOCA DO RIACHO 13               48.00            046878-9           585
+(UFV BOCA DO RIACHO 14               48.00            046879-7           585
+(UFV BOCA DO RIACHO 15               44.00            046880-0           585
+(UFV BOCA DO RIACHO 16               48.00            046881-9           585
+(UFV BOCA DO RIACHO 17               48.00            046882-7           585
+(UFV BOCA DO RIACHO 18               48.00            046883-5           585
+(UFV BOCA DO RIACHO 19               48.00            046884-3           585
+(UFV BOCA DO RIACHO 2                48.00            046874-6           585
+(UFV BOCA DO RIACHO 3                48.00            046886-0           585
+(UFV BOCA DO RIACHO 4                48.00            046887-8           585
+(UFV BOCA DO RIACHO 5                48.00            046888-6           585
+(UFV BOCA DO RIACHO 6                28.00            046889-4           585
+(UFV BOCA DO RIACHO 7                48.00            046890-8           585
+(UFV BOCA DO RIACHO 8                48.00            046891-6           585
+(UFV BOCA DO RIACHO 9                48.00            046892-4           585
 UFV BOM JARDIM I                    47.01            051608-2         58412
 UFV BOM JARDIM II                   48.20                             58413
 UFV BOM JARDIM III                  47.01            051610-4           506
@@ -1982,19 +1982,19 @@ UFV BRIGIDA                         27.00   S                         58113
 UFV BRIGIDA 1                       31.50   S        034169-0         58114
 UFV BRIGIDA 2                       31.50   S        034234-3         58114
 UFV BRISAS SUAVES                    5.00   S        034107-0         60027
-UFV BRX JANAUBA 1                   49.55            044557-6         60033
-UFV BRX JANAUBA 10                  49.55            044558-4         60033
-UFV BRX JANAUBA 11                  49.55            044559-2         60033
-UFV BRX JANAUBA 12                  49.55            044560-6         60033
-UFV BRX JANAUBA 13                  24.78            044561-4         60033
-UFV BRX JANAUBA 2                   49.55            044562-2         60033
-UFV BRX JANAUBA 3                   43.36            044563-0         60033
-UFV BRX JANAUBA 4                   49.55            044564-9         60033
-UFV BRX JANAUBA 5                   49.55            044565-7         60033
-UFV BRX JANAUBA 6                   49.55            044566-5         60033
-UFV BRX JANAUBA 7                   49.55            044567-3         60033
-UFV BRX JANAUBA 8                   49.55            044568-1         60033
-UFV BRX JANAUBA 9                   49.55            044569-0         60033
+(UFV BRX JANAUBA 1                   49.55            044557-6         60033
+(UFV BRX JANAUBA 10                  49.55            044558-4         60033
+(UFV BRX JANAUBA 11                  49.55            044559-2         60033
+(UFV BRX JANAUBA 12                  49.55            044560-6         60033
+(UFV BRX JANAUBA 13                  24.78            044561-4         60033
+(UFV BRX JANAUBA 2                   49.55            044562-2         60033
+(UFV BRX JANAUBA 3                   43.36            044563-0         60033
+(UFV BRX JANAUBA 4                   49.55            044564-9         60033
+(UFV BRX JANAUBA 5                   49.55            044565-7         60033
+(UFV BRX JANAUBA 6                   49.55            044566-5         60033
+(UFV BRX JANAUBA 7                   49.55            044567-3         60033
+(UFV BRX JANAUBA 8                   49.55            044568-1         60033
+(UFV BRX JANAUBA 9                   49.55            044569-0         60033
 UFV CAETITE Va                       4.00            038168-3         11594
 UFV CALDEIRAO GRANDE I              28.70            031689-0         58276
 UFV CALDEIRAO GRANDE II             28.70            031690-3         58275
@@ -2003,18 +2003,18 @@ UFV CALDEIRAO GRANDE IV             28.70            031691-1         58274
 UFV CALDEIRAO GRANDE V              28.70            031688-1         58277
 UFV CALDEIRAO GRANDE VI             28.70            031686-5         58280
 UFV CALDEIRAO GRANDE VII            28.70            031687-3         58278
-UFV CANOA GRANDE IV                 44.80            051702-0         55777
-UFV CANOA GRANDE IX                 44.80            051703-8         55777
-UFV CANOA GRANDE V                  44.80            054772-7         12903
-UFV CANOA GRANDE VI                 44.80            054773-5         12903
-UFV CANOA GRANDE VII                44.80            054774-3         12903
-UFV CANOA GRANDE VIII               44.80            054775-1         12903
-UFV CANOA GRANDE X                  44.80            051704-6         55777
-UFV CANOA GRANDE XI                 44.80            051705-4         55777
-UFV CANOA GRANDE XII                44.80            054776-0         12903
-UFV CANOA GRANDE XIII               44.80            054777-8         12903
-UFV CANOA GRANDE XIV                44.80            054778-6         12903
-UFV CANOA GRANDE XV                 44.80            054779-4         12903
+(UFV CANOA GRANDE IV                 44.80            051702-0         55777
+(UFV CANOA GRANDE IX                 44.80            051703-8         55777
+(UFV CANOA GRANDE V                  44.80            054772-7         12903
+(UFV CANOA GRANDE VI                 44.80            054773-5         12903
+(UFV CANOA GRANDE VII                44.80            054774-3         12903
+(UFV CANOA GRANDE VIII               44.80            054775-1         12903
+(UFV CANOA GRANDE X                  44.80            051704-6         55777
+(UFV CANOA GRANDE XI                 44.80            051705-4         55777
+(UFV CANOA GRANDE XII                44.80            054776-0         12903
+(UFV CANOA GRANDE XIII               44.80            054777-8         12903
+(UFV CANOA GRANDE XIV                44.80            054778-6         12903
+(UFV CANOA GRANDE XV                 44.80            054779-4         12903
 UFV CARNAUBA SOLAR I               44.636            048757-0           528
 UFV CARNAUBA SOLAR II              44.636            048756-2           528
 UFV CARNAUBA SOLAR III             44.636            048755-4           528
@@ -2024,65 +2024,65 @@ UFV CARNAUBA SOLAR VI              44.672            048752-0           528
 UFV CARNAUBA SOLAR VII             44.654            048751-1           528
 UFV CARNAUBA SOLAR VIII            38.240            049326-0           528
 UFV CARNAUBA SOLAR IX              38.240            049327-9           528
-UFV CASCUDO 1                       29.25            045063-4         56101
-UFV CASCUDO 2                       29.25            045064-2         56101
-UFV CASCUDO 3                       29.25            045065-0         56101
-UFV CASCUDO 4                       29.25            045066-9         56101
-UFV CASCUDO 5                       29.25            045067-7         56101
-UFV CASCUDO 6                       29.25            045068-5         56101
-UFV CASCUDO 7                       29.25            045069-3         56101
-UFV CASSILANDIA 1                   50.00            035659-0         32958
-UFV CASSILANDIA 2                   50.00            035660-3          3175
-UFV CASSILANDIA 3                   50.00            035661-1         33086
-UFV CASSILANDIA 4                   50.00            035662-0         33096
-UFV CASSILANDIA 5                   50.00            035663-8         33110
-UFV CASSILANDIA 6                    5.00            035664-6          3019
-UFV CASSILANDIA 7                   50.00            035665-4         42584
-UFV CASSILANDIA 8                   22.00            035666-2         42584
+(UFV CASCUDO 1                       29.25            045063-4         56101
+(UFV CASCUDO 2                       29.25            045064-2         56101
+(UFV CASCUDO 3                       29.25            045065-0         56101
+(UFV CASCUDO 4                       29.25            045066-9         56101
+(UFV CASCUDO 5                       29.25            045067-7         56101
+(UFV CASCUDO 6                       29.25            045068-5         56101
+(UFV CASCUDO 7                       29.25            045069-3         56101
+(UFV CASSILANDIA 1                   50.00            035659-0         32958
+(UFV CASSILANDIA 2                   50.00            035660-3          3175
+(UFV CASSILANDIA 3                   50.00            035661-1         33086
+(UFV CASSILANDIA 4                   50.00            035662-0         33096
+(UFV CASSILANDIA 5                   50.00            035663-8         33110
+(UFV CASSILANDIA 6                    5.00            035664-6          3019
+(UFV CASSILANDIA 7                   50.00            035665-4         42584
+(UFV CASSILANDIA 8                   22.00            035666-2         42584
 UFV CASTILHO I                      50.00   S        034108-8         59211
 UFV CASTILHO II                      5.00   S        034112-6         59211
 UFV CASTILHO III                    50.00   S        034110-0         59211
 UFV CASTILHO IV                     50.00   S        034111-8         59211
 UFV CASTILHO V                      50.00   S        034109-6         59211
-UFV CELEO BARREIRAS I               32.40            046718-9           846
-UFV CELEO BARREIRAS II              32.40            046719-7           846
-UFV CELEO BARREIRAS III             32.40            046720-0           846
-UFV CELEO BARREIRAS IV              32.40            046721-9           846
-UFV CELEO BARREIRAS IX              32.40            046726-0           846
-UFV CELEO BARREIRAS V               32.40            046722-7           846
-UFV CELEO BARREIRAS VI              32.40            046723-5           846
-UFV CELEO BARREIRAS VII             32.40            046724-3         38996
-UFV CELEO BARREIRAS VIII            32.40            046725-1           846
-UFV CELEO BARREIRAS X               32.40            046727-8           846
-UFV CHAPADAO 1                      50.00            047290-5         42584
-UFV CHAPADAO 10                     50.00            051870-0         42584
-UFV CHAPADAO 11                     50.00            051871-9         42584
-UFV CHAPADAO 12                     50.00            051872-7         42584
-UFV CHAPADAO 13                     50.00            051873-5         42584
-UFV CHAPADAO 14                     50.00            053696-2         42584
-UFV CHAPADAO 15                     50.00            053697-0         42584
-UFV CHAPADAO 16                     50.00            053698-9         42584
-UFV CHAPADAO 17                     50.00            053699-7         42584
-UFV CHAPADAO 18                     50.00            053700-4         42584
-UFV CHAPADAO 19                     50.00            053701-2         42584
-UFV CHAPADAO 2                      50.00            047291-3         42584
-UFV CHAPADAO 3                      50.00            051863-8         42584
-UFV CHAPADAO 4                      50.00            051864-6         42584
-UFV CHAPADAO 5                      50.00            051865-4         42584
-UFV CHAPADAO 6                      36.50            051866-2         42584
-UFV CHAPADAO 7                      50.00            051867-0         42584
-UFV CHAPADAO 8                      50.00            051868-9         42584
-UFV CHAPADAO 9                      50.00            051869-7         42584
-UFV CHATEAU FORT 1                  46.88            034282-3         58162
-UFV CHATEAU FORT 10                 15.62            034380-3         58162
-UFV CHATEAU FORT 2                  46.88            034284-0         58162
-UFV CHATEAU FORT 3                  46.88            034285-8         58162
-UFV CHATEAU FORT 4                  46.88            034286-6         58162
-UFV CHATEAU FORT 5                  46.88            034287-4         58162
-UFV CHATEAU FORT 6                  18.75            034288-2         58162
-UFV CHATEAU FORT 7                  18.75            034289-0         58162
-UFV CHATEAU FORT 8                  18.75            034290-4         58162
-UFV CHATEAU FORT 9                  28.12            034291-2         58162
+(UFV CELEO BARREIRAS I               32.40            046718-9           846
+(UFV CELEO BARREIRAS II              32.40            046719-7           846
+(UFV CELEO BARREIRAS III             32.40            046720-0           846
+(UFV CELEO BARREIRAS IV              32.40            046721-9           846
+(UFV CELEO BARREIRAS IX              32.40            046726-0           846
+(UFV CELEO BARREIRAS V               32.40            046722-7           846
+(UFV CELEO BARREIRAS VI              32.40            046723-5           846
+(UFV CELEO BARREIRAS VII             32.40            046724-3         38996
+(UFV CELEO BARREIRAS VIII            32.40            046725-1           846
+(UFV CELEO BARREIRAS X               32.40            046727-8           846
+(UFV CHAPADAO 1                      50.00            047290-5         42584
+(UFV CHAPADAO 10                     50.00            051870-0         42584
+(UFV CHAPADAO 11                     50.00            051871-9         42584
+(UFV CHAPADAO 12                     50.00            051872-7         42584
+(UFV CHAPADAO 13                     50.00            051873-5         42584
+(UFV CHAPADAO 14                     50.00            053696-2         42584
+(UFV CHAPADAO 15                     50.00            053697-0         42584
+(UFV CHAPADAO 16                     50.00            053698-9         42584
+(UFV CHAPADAO 17                     50.00            053699-7         42584
+(UFV CHAPADAO 18                     50.00            053700-4         42584
+(UFV CHAPADAO 19                     50.00            053701-2         42584
+(UFV CHAPADAO 2                      50.00            047291-3         42584
+(UFV CHAPADAO 3                      50.00            051863-8         42584
+(UFV CHAPADAO 4                      50.00            051864-6         42584
+(UFV CHAPADAO 5                      50.00            051865-4         42584
+(UFV CHAPADAO 6                      36.50            051866-2         42584
+(UFV CHAPADAO 7                      50.00            051867-0         42584
+(UFV CHAPADAO 8                      50.00            051868-9         42584
+(UFV CHAPADAO 9                      50.00            051869-7         42584
+(UFV CHATEAU FORT 1                  46.88            034282-3         58162
+(UFV CHATEAU FORT 10                 15.62            034380-3         58162
+(UFV CHATEAU FORT 2                  46.88            034284-0         58162
+(UFV CHATEAU FORT 3                  46.88            034285-8         58162
+(UFV CHATEAU FORT 4                  46.88            034286-6         58162
+(UFV CHATEAU FORT 5                  46.88            034287-4         58162
+(UFV CHATEAU FORT 6                  18.75            034288-2         58162
+(UFV CHATEAU FORT 7                  18.75            034289-0         58162
+(UFV CHATEAU FORT 8                  18.75            034290-4         58162
+(UFV CHATEAU FORT 9                  28.12            034291-2         58162
 UFV CIRANDA 1                       49.25            037465-2         58379
 UFV CIRANDA 2                       49.25            037466-0         58380
 UFV CIRANDA 3                       49.25            037516-0         58381
@@ -2101,10 +2101,10 @@ UFV CRISTO REI II                   49.55            050207-3         56474
 UFV CRISTO REI III                  49.55            050208-1         56474
 UFV CRISTO REI IV                   49.55            050209-0         56474
 UFV CRISTO REI V                    30.97            050210-3         56474
-UFV CUMARU SOLAR 01                 21.52            054585-6         56740
-UFV CUMARU SOLAR 02                 43.03            054586-4         56740
-UFV CURRALINHO I                    36.63            037893-3         56474
-UFV CURRALINHO II                   59.94            037894-1         56474
+(UFV CUMARU SOLAR 01                 21.52            054585-6         56740
+(UFV CUMARU SOLAR 02                 43.03            054586-4         56740
+(UFV CURRALINHO I                    36.63            037893-3         56474
+(UFV CURRALINHO II                   59.94            037894-1         56474
 UFV DELIO BERNARDINO                88.21            038218-3         60058
 UFV DELIO BERNARDINO VIII          291.79            040186-2         60059
 (UFV DOURADO 1                       40.00                             58450
@@ -2136,7 +2136,7 @@ UFV DUNAMIS III                     28.89            045018-9         56474
 UFV DUNAMIS IV                      28.89            045019-7         56474
 UFV ELISEU MARTINS I                32.80            044425-1           287
 UFV ELISEU MARTINS II               31.75            044426-0           287
-UFV EMTEP 3                         85.00            040848-4           220
+(UFV EMTEP 3                         85.00            040848-4           220
 UFV ESTADIO PITUACU                  0.40 D          030730-0         18536
 UFV ETESA 17 SAO JOAO DO PIAUI I    32.16            034785-0         58387
 UFV ETESA 18 SAO JOAO DO PIAUI I    32.16                             58388
@@ -2163,21 +2163,21 @@ UFV FLORESTA II                     31.00            034309-9         56300
 UFV FLORESTA III                    21.00            033569-0         56301
 UFV FONTES SOLAR I                   5.00            032372-1         58748
 UFV FONTES SOLAR II                  5.00            032373-0         58749
-UFV FOTONS DE SAO CLAUS 01          50.00            049939-0         59200
-UFV FOTONS DE SAO CLAUS 02          50.00            049940-4         59200
-UFV FOTONS DE SAO CLAUS 03          50.00            049941-2         59200
-UFV FOTONS DE SAO CLAUS 04          50.00            049942-0         59200
-UFV FOTONS DE SAO CLAUS 05          50.00            049943-9         59200
-UFV FOTONS DE SAO CLAUS 06          50.00            049944-7         59200
-UFV FOTONS DE SAO CLAUS 07          50.00            049945-5         59200
-UFV FOTONS DE SAO MAGNO 01          50.00            044444-8         59050
-UFV FOTONS DE SAO MAGNO 02          50.00            044445-6         59050
-UFV FOTONS DE SAO MAGNO 03          50.00            044446-4         59050
-UFV FOTONS DE SAO MAGNO 04          50.00            044447-2         59050
-UFV FOTONS DE SAO MAGNO 05          50.00            044448-0         59050
-UFV FOTONS DE SAO MAGNO 06          50.00            044449-9         59050
-UFV FOTONS DE SAO MAGNO 07          50.00            044450-2         59050
-UFV FOTONS DE SAO MAGNO 08          50.00            044451-0         59050
+(UFV FOTONS DE SAO CLAUS 01          50.00            049939-0         59200
+(UFV FOTONS DE SAO CLAUS 02          50.00            049940-4         59200
+(UFV FOTONS DE SAO CLAUS 03          50.00            049941-2         59200
+(UFV FOTONS DE SAO CLAUS 04          50.00            049942-0         59200
+(UFV FOTONS DE SAO CLAUS 05          50.00            049943-9         59200
+(UFV FOTONS DE SAO CLAUS 06          50.00            049944-7         59200
+(UFV FOTONS DE SAO CLAUS 07          50.00            049945-5         59200
+(UFV FOTONS DE SAO MAGNO 01          50.00            044444-8         59050
+(UFV FOTONS DE SAO MAGNO 02          50.00            044445-6         59050
+(UFV FOTONS DE SAO MAGNO 03          50.00            044446-4         59050
+(UFV FOTONS DE SAO MAGNO 04          50.00            044447-2         59050
+(UFV FOTONS DE SAO MAGNO 05          50.00            044448-0         59050
+(UFV FOTONS DE SAO MAGNO 06          50.00            044449-9         59050
+(UFV FOTONS DE SAO MAGNO 07          50.00            044450-2         59050
+(UFV FOTONS DE SAO MAGNO 08          50.00            044451-0         59050
 UFV FRANCISCO SA 1                  29.99   S        033236-4         60043
 UFV FRANCISCO SA 2                  29.99   S        033237-2         60041
 UFV FRANCISCO SA 3                  29.99   S        033238-0         60042
@@ -2203,18 +2203,18 @@ UFV FUTURA 6                        30.50            037484-9         59194
 UFV FUTURA 7                        30.50            037485-7         59201
 UFV FUTURA 8                        30.50            037486-5         59202
 UFV FUTURA 9                        30.50            037487-3         59203
-UFV FUTURO II                       50.00            037332-0         56474
-UFV FUTURO III                      50.00            037676-0         56474
-UFV FUTURO IV                       50.00            037677-9         56474
-UFV FUTURO V                        30.00            044453-7         56474
+(UFV FUTURO II                       50.00            037332-0         56474
+(UFV FUTURO III                      50.00            037676-0         56474
+(UFV FUTURO IV                       50.00            037677-9         56474
+(UFV FUTURO V                        30.00            044453-7         56474
 UFV FWA 1                           32.08            048518-7         58209
 UFV FWA 2                           32.08            048519-5         58209
 UFV FWA 3                           32.08            048520-9         58209
-UFV GAMELEIRA 1                     32.90            040708-9         58400
-UFV GAMELEIRA 2                     32.90            040709-7         58401
-UFV GAMELEIRA 3                     32.90            040710-0         58402
-UFV GAMELEIRA 4                     32.90            040711-9         58403
-UFV GOLD SOLAR                      40.00            050287-1         59413
+(UFV GAMELEIRA 1                     32.90            040708-9         58400
+(UFV GAMELEIRA 2                     32.90            040709-7         58401
+(UFV GAMELEIRA 3                     32.90            040710-0         58402
+(UFV GAMELEIRA 4                     32.90            040711-9         58403
+(UFV GOLD SOLAR                      40.00            050287-1         59413
 UFV GRAUNA I                        68.74            044456-1         56474
 UFV GRAUNA II                       54.99            044457-0         56474
 UFV GRAUNA III                      54.99            044458-8         56474
@@ -2223,22 +2223,22 @@ UFV GRAUNA V                        54.99            044460-0         56474
 UFV GRAUNA VI                       68.74            044461-8         56474
 UFV GRAUNA VII                      54.99            044462-6         56474
 UFV GRAUNA VIII                     54.99            044463-4         56474
-UFV GRAVIOLA 1                      74.00            036925-0         58758
-UFV GRAVIOLA 2                      74.00            036926-8         58759
-UFV GRAVIOLA 3                      74.00            037745-7         58760
-UFV GRAVIOLA 4                      74.00            037746-5         58761
-UFV GS LASSANCE SOLAR 01            40.00            048759-7          1519
-UFV GS LASSANCE SOLAR 02            40.00            048760-0          1519
-UFV GS LASSANCE SOLAR 03            40.00            048761-9          1519
-UFV GS LASSANCE SOLAR 04            40.00            048762-7          1519
-UFV GS LASSANCE SOLAR 05            40.00            048763-5          1519
-UFV GS LASSANCE SOLAR 06            40.00            048764-3          1519
-UFV GS LASSANCE SOLAR 07            33.26            048765-1          1519
-UFV GS LASSANCE SOLAR 08            33.26            048766-0          1519
-UFV GS LASSANCE SOLAR 09            40.00            048767-8          1519
-UFV GSII SOLAR 1                    25.00   S        045722-1         60175
+(UFV GRAVIOLA 1                      74.00            036925-0         58758
+(UFV GRAVIOLA 2                      74.00            036926-8         58759
+(UFV GRAVIOLA 3                      74.00            037745-7         58760
+(UFV GRAVIOLA 4                      74.00            037746-5         58761
+(UFV GS LASSANCE SOLAR 01            40.00            048759-7          1519
+(UFV GS LASSANCE SOLAR 02            40.00            048760-0          1519
+(UFV GS LASSANCE SOLAR 03            40.00            048761-9          1519
+(UFV GS LASSANCE SOLAR 04            40.00            048762-7          1519
+(UFV GS LASSANCE SOLAR 05            40.00            048763-5          1519
+(UFV GS LASSANCE SOLAR 06            40.00            048764-3          1519
+(UFV GS LASSANCE SOLAR 07            33.26            048765-1          1519
+(UFV GS LASSANCE SOLAR 08            33.26            048766-0          1519
+(UFV GS LASSANCE SOLAR 09            40.00            048767-8          1519
+(UFV GSII SOLAR 1                    25.00   S        045722-1         60175
 UFV GSII SOLAR 2                    25.00   S        045723-0         60176
-UFV GSII SOLAR 3                    30.00   S        045724-8         60177
+(UFV GSII SOLAR 3                    30.00   S        045724-8         60177
 UFV GUAIMBE 1                       30.00   S        032326-8         60031
 UFV GUAIMBE 2                       30.00   S        032327-6         60031
 UFV GUAIMBE 3                       30.00   S        032328-4         60031
@@ -2256,19 +2256,19 @@ UFV HELIO VALGAS 6                  50.00            042996-1         60053
 UFV HELIO VALGAS 7                  50.00            042997-0         60053
 UFV HELIO VALGAS 8                  50.00            042998-8         60053
 UFV HELIO VALGAS 9                  50.00            042999-6         60053
-UFV HELIOS 1                       171.85            053474-9         58218
-UFV HELIOS 2                       185.60            053486-2         58218
+(UFV HELIOS 1                       171.85            053474-9         58218
+(UFV HELIOS 2                       185.60            053486-2         58218
 UFV HORIZONTE MP 1                  28.30            033757-9         59437
 UFV HORIZONTE MP 11                 19.70            033777-3         59438
 UFV HORIZONTE MP 2                  28.30            033759-5         59439
-UFV INFINITO JANAUBA I              48.78            045705-1         60270
-UFV INFINITO JANAUBA II             48.78            047225-5         60270
-UFV INFINITO JANAUBA III            48.78            047226-3         60270
-UFV INFINITO JANAUBA IV             29.26            047227-1         60270
-UFV INFINITO JANAUBA V              48.78            047392-8         60271
-UFV INFINITO JANAUBA VI             48.78            047393-6         60271
-UFV INFINITO JANAUBA VII            19.51            047394-4         60271
-UFV INFINITO JANAUBA VIII           48.78            048799-6         60271
+(UFV INFINITO JANAUBA I              48.78            045705-1         60270
+(UFV INFINITO JANAUBA II             48.78            047225-5         60270
+(UFV INFINITO JANAUBA III            48.78            047226-3         60270
+(UFV INFINITO JANAUBA IV             29.26            047227-1         60270
+(UFV INFINITO JANAUBA V              48.78            047392-8         60271
+(UFV INFINITO JANAUBA VI             48.78            047393-6         60271
+(UFV INFINITO JANAUBA VII            19.51            047394-4         60271
+(UFV INFINITO JANAUBA VIII           48.78            048799-6         60271
 UFV ITAPURANGA SOLAR                 9.10   S        032323-3         60026
 UFV ITUVERAVA 1                     28.00            032316-0         59413
 UFV ITUVERAVA 2                     28.00            032317-9         59414
@@ -2315,10 +2315,10 @@ UFV JANAUBA 6                       50.00            040862-0         60226
 UFV JANAUBA 7                       50.00            040863-8         60227
 UFV JANAUBA 8                       50.00            040864-6         60228
 UFV JANAUBA 9                       50.00            040865-4         60229
-UFV JANAUBA VLT I                   48.22            044464-2         60067
-UFV JANAUBA VLT II                  48.22            044465-0         60067
-UFV JANAUBA VLT III                 48.22            044466-9         60068
-UFV JANAUBA VLT IV                  48.22            044467-7         60068
+(UFV JANAUBA VLT I                   48.22            044464-2         60067
+(UFV JANAUBA VLT II                  48.22            044465-0         60067
+(UFV JANAUBA VLT III                 48.22            044466-9         60068
+(UFV JANAUBA VLT IV                  48.22            044467-7         60068
 UFV JUAZEIRO SOLAR I                29.99            033928-8         58627
 UFV JUAZEIRO SOLAR II               29.99            033929-6         58628
 UFV JUAZEIRO SOLAR III              29.99            033930-0         58629
@@ -2329,10 +2329,10 @@ UFV JUAZEIRO VII                    45.88            043286-5         58694
 UFV JUAZEIRO VIII                   14.74            044754-4         58695
 UFV LAGOA 1                         30.00 D          034432-0         59901
 UFV LAGOA 2                         30.00 D          034433-8         59902
-UFV LAGOINHA I                      41.24            049620-0         56066
-UFV LAGOINHA II                     41.24            049621-9         56066
-UFV LAGOINHA III                    41.24            049622-7         56066
-UFV LAGOINHA IV                     41.24            051636-8         56066
+(UFV LAGOINHA I                      41.24            049620-0         56066
+(UFV LAGOINHA II                     41.24            049621-9         56066
+(UFV LAGOINHA III                    41.24            049622-7         56066
+(UFV LAGOINHA IV                     41.24            051636-8         56066
 UFV LAPA 2                          30.00            034437-0         59442
 UFV LAPA 3                          30.00            034333-1         59443
 UFV LAR DO SOL 1                    48.11            037830-5         60111
@@ -2382,16 +2382,16 @@ UFV LINS 06                          5.00   S                         30530
 UFV LINS 07                          5.00   S                         30531
 UFV LINS 08                          5.00   S                         30532
 UFV LUIZ GONZAGA II                 30.00 D          045057-0         58117
-UFV LUZEIRO 1                       24.00            046525-9         59801
-UFV LUZEIRO 2                       24.00            046526-7         59802
-UFV LUZEIRO 3                       24.00            046527-5         59803
-UFV LUZEIRO 4                       24.00            046528-3         59804
-UFV LUZEIRO 5                       24.00            046529-1         59805
-UFV LUZEIRO 6                       21.00            046530-5         59806
+(UFV LUZEIRO 1                       24.00            046525-9         59801
+(UFV LUZEIRO 2                       24.00            046526-7         59802
+(UFV LUZEIRO 3                       24.00            046527-5         59803
+(UFV LUZEIRO 4                       24.00            046528-3         59804
+(UFV LUZEIRO 5                       24.00            046529-1         59805
+(UFV LUZEIRO 6                       21.00            046530-5         59806
 UFV LUZIA 2                         50.00            044469-3         58527
 UFV LUZIA 3                         50.00            044470-7         58528
-UFV MALHADA I                       33.30            037890-9         56474
-UFV MALHADA III                     49.95            037892-5         56474
+(UFV MALHADA I                       33.30            037890-9         56474
+(UFV MALHADA III                     49.95            037892-5         56474
 UFV MALTA                           27.20 D          034086-3         58260
 UFV MARANGATU 1                     29.83            037786-4           365
 UFV MARANGATU 10                    29.83            038352-0           365
@@ -2435,9 +2435,9 @@ UFV MILAGRES V                      32.74            044576-2         58844
 UFV MINAS DO SOL 03                 25.00            047356-1           585
 UFV MINAS DO SOL 05                 25.00            047358-8           585
 UFV MINAS DO SOL 06                 25.00            047359-6           585
-UFV MISSAGRA I                      48.12            050289-8           846
-UFV MISSAGRA II                     48.12            050290-1           846
-UFV MISSAGRA III                    48.12            050291-0           846
+(UFV MISSAGRA I                      48.12            050289-8           846
+(UFV MISSAGRA II                     48.12            050290-1           846
+(UFV MISSAGRA III                    48.12            050291-0           846
 UFV MONTE VERDE SOLAR I             46.46            045153-3           212
 UFV MONTE VERDE SOLAR II            46.04            045154-1         56791
 UFV MONTE VERDE SOLAR III           37.30            045155-0         56792
@@ -2445,72 +2445,72 @@ UFV MONTE VERDE SOLAR IV            46.04            045156-8         56793
 UFV MONTE VERDE SOLAR V             45.83            045020-0         56794
 UFV MONTE VERDE SOLAR VI            37.26            045022-7           212
 UFV MONTE VERDE SOLAR VII           28.78            045021-9         56795
-UFV MORADA DO SOL 1                 50.00            046099-0         60080
-UFV MORADA DO SOL 2                 50.00            046098-2         60097
-UFV MORADA DO SOL 3                 50.00            046096-6         60098
-UFV MORADA DO SOL 4                 50.00            046097-4         60099
-UFV MORADA DO SOL 5                 50.00            046094-0         60075
-UFV MORADA DO SOL 6                 37.50            046095-8         60076
-UFV MORRO PRETO 1                   50.00            054615-1         60221
-UFV MORRO PRETO 10                  50.00            054624-0         60221
-UFV MORRO PRETO 11                  50.00            054625-9         60221
-UFV MORRO PRETO 12                  50.00            054626-7         60221
-UFV MORRO PRETO 13                  50.00            054627-5         60221
-UFV MORRO PRETO 14                  50.00            054628-3         60221
-UFV MORRO PRETO 15                  50.00            054629-1         60221
-UFV MORRO PRETO 16                  50.00            054630-5         60221
-UFV MORRO PRETO 17                  50.00            054631-3         60221
-UFV MORRO PRETO 18                  50.00            054632-1         60221
-UFV MORRO PRETO 19                  50.00            054633-0         60221
-UFV MORRO PRETO 2                   50.00            054616-0         60221
-UFV MORRO PRETO 20                  50.00            054634-8         60221
-UFV MORRO PRETO 21                  50.00            054635-6         60221
-UFV MORRO PRETO 22                  50.00            054636-4         60221
-UFV MORRO PRETO 23                  50.00            054637-2         60221
-UFV MORRO PRETO 24                  50.00            054638-0         60221
-UFV MORRO PRETO 25                  50.00            054639-9         60221
-UFV MORRO PRETO 26                  50.00            054640-2         60221
-UFV MORRO PRETO 27                  50.00            054641-0         60221
-UFV MORRO PRETO 28                  50.00            054642-9         60221
-UFV MORRO PRETO 29                  50.00            054643-7         60221
-UFV MORRO PRETO 3                   50.00            054617-8         60221
-UFV MORRO PRETO 30                  50.00            054644-5         60221
-UFV MORRO PRETO 31                  50.00            054645-3         60221
-UFV MORRO PRETO 32                  50.00            054646-1         60221
-UFV MORRO PRETO 33                  50.00            054647-0         60221
-UFV MORRO PRETO 34                  50.00            054648-8         60221
-UFV MORRO PRETO 35                  50.00            054649-6         60221
-UFV MORRO PRETO 36                  50.00            054650-0         60221
-UFV MORRO PRETO 37                  50.00            054651-8         60221
-UFV MORRO PRETO 38                  50.00            054652-6         60221
-UFV MORRO PRETO 39                  50.00            054653-4         60221
-UFV MORRO PRETO 4                   50.00            054618-6         60221
-UFV MORRO PRETO 40                  50.00            054654-2         60221
-UFV MORRO PRETO 5                   50.00            054619-4         60221
-UFV MORRO PRETO 6                   50.00            054620-8         60221
-UFV MORRO PRETO 7                   50.00            054621-6         60221
-UFV MORRO PRETO 8                   50.00            054622-4         60221
-UFV MORRO PRETO 9                   50.00            054623-2         60221
+(UFV MORADA DO SOL 1                 50.00            046099-0         60080
+(UFV MORADA DO SOL 2                 50.00            046098-2         60097
+(UFV MORADA DO SOL 3                 50.00            046096-6         60098
+(UFV MORADA DO SOL 4                 50.00            046097-4         60099
+(UFV MORADA DO SOL 5                 50.00            046094-0         60075
+(UFV MORADA DO SOL 6                 37.50            046095-8         60076
+(UFV MORRO PRETO 1                   50.00            054615-1         60221
+(UFV MORRO PRETO 10                  50.00            054624-0         60221
+(UFV MORRO PRETO 11                  50.00            054625-9         60221
+(UFV MORRO PRETO 12                  50.00            054626-7         60221
+(UFV MORRO PRETO 13                  50.00            054627-5         60221
+(UFV MORRO PRETO 14                  50.00            054628-3         60221
+(UFV MORRO PRETO 15                  50.00            054629-1         60221
+(UFV MORRO PRETO 16                  50.00            054630-5         60221
+(UFV MORRO PRETO 17                  50.00            054631-3         60221
+(UFV MORRO PRETO 18                  50.00            054632-1         60221
+(UFV MORRO PRETO 19                  50.00            054633-0         60221
+(UFV MORRO PRETO 2                   50.00            054616-0         60221
+(UFV MORRO PRETO 20                  50.00            054634-8         60221
+(UFV MORRO PRETO 21                  50.00            054635-6         60221
+(UFV MORRO PRETO 22                  50.00            054636-4         60221
+(UFV MORRO PRETO 23                  50.00            054637-2         60221
+(UFV MORRO PRETO 24                  50.00            054638-0         60221
+(UFV MORRO PRETO 25                  50.00            054639-9         60221
+(UFV MORRO PRETO 26                  50.00            054640-2         60221
+(UFV MORRO PRETO 27                  50.00            054641-0         60221
+(UFV MORRO PRETO 28                  50.00            054642-9         60221
+(UFV MORRO PRETO 29                  50.00            054643-7         60221
+(UFV MORRO PRETO 3                   50.00            054617-8         60221
+(UFV MORRO PRETO 30                  50.00            054644-5         60221
+(UFV MORRO PRETO 31                  50.00            054645-3         60221
+(UFV MORRO PRETO 32                  50.00            054646-1         60221
+(UFV MORRO PRETO 33                  50.00            054647-0         60221
+(UFV MORRO PRETO 34                  50.00            054648-8         60221
+(UFV MORRO PRETO 35                  50.00            054649-6         60221
+(UFV MORRO PRETO 36                  50.00            054650-0         60221
+(UFV MORRO PRETO 37                  50.00            054651-8         60221
+(UFV MORRO PRETO 38                  50.00            054652-6         60221
+(UFV MORRO PRETO 39                  50.00            054653-4         60221
+(UFV MORRO PRETO 4                   50.00            054618-6         60221
+(UFV MORRO PRETO 40                  50.00            054654-2         60221
+(UFV MORRO PRETO 5                   50.00            054619-4         60221
+(UFV MORRO PRETO 6                   50.00            054620-8         60221
+(UFV MORRO PRETO 7                   50.00            054621-6         60221
+(UFV MORRO PRETO 8                   50.00            054622-4         60221
+(UFV MORRO PRETO 9                   50.00            054623-2         60221
 UFV MUNDO NOVO I                    44.00            040195-1           506
 UFV MUNDO NOVO II                   46.00            040196-0           506
 UFV MUNDO NOVO III                  46.00            040198-6           506
 UFV MUNDO NOVO IV                   46.00            040197-8           506
-UFV MURION 1                        29.25            034338-2           585
-UFV MURION 2                        29.25            032896-0           585
-UFV MURION 3                        29.25            032898-7           585
-UFV MURION 4                        29.25            032899-5           585
-UFV MURION 5                        29.25            032900-2           585
-UFV MURION 6                        29.25            049731-2           585
-UFV MURION 7                        29.25            049732-0           585
-UFV MURION 8                        19.50            049733-9           585
-UFV NELORE 1                        48.50            050521-8           208
-UFV NELORE 2                        48.50            050522-6           208
-UFV NELORE 3                        48.50            050523-4           208
-UFV NELORE 4                        48.50            050524-2           208
-UFV NELORE 5                        29.25            050525-0           208
-UFV NOVA ESPERANCA 1                43.03            051641-4         56740
-UFV NOVA ESPERANCA 2                43.03            051642-2         56740
-UFV NOVA ESPERANCA 3                43.03            051643-0         56740
+(UFV MURION 1                        29.25            034338-2           585
+(UFV MURION 2                        29.25            032896-0           585
+(UFV MURION 3                        29.25            032898-7           585
+(UFV MURION 4                        29.25            032899-5           585
+(UFV MURION 5                        29.25            032900-2           585
+(UFV MURION 6                        29.25            049731-2           585
+(UFV MURION 7                        29.25            049732-0           585
+(UFV MURION 8                        19.50            049733-9           585
+(UFV NELORE 1                        48.50            050521-8           208
+(UFV NELORE 2                        48.50            050522-6           208
+(UFV NELORE 3                        48.50            050523-4           208
+(UFV NELORE 4                        48.50            050524-2           208
+(UFV NELORE 5                        29.25            050525-0           208
+(UFV NOVA ESPERANCA 1                43.03            051641-4         56740
+(UFV NOVA ESPERANCA 2                43.03            051642-2         56740
+(UFV NOVA ESPERANCA 3                43.03            051643-0         56740
 UFV NOVA OLINDA 10                  30.00            033129-5         58164
 UFV NOVA OLINDA 11                  30.00            033130-9         58165
 UFV NOVA OLINDA 12                  30.00            033131-7         58166
@@ -2518,48 +2518,48 @@ UFV NOVA OLINDA 13                  30.00            033132-5         58167
 UFV NOVA OLINDA 14                  30.00            033133-3         58168
 UFV NOVA OLINDA 8                   30.00            033127-9         58162
 UFV NOVA OLINDA 9                   30.00            033128-7         58163
-UFV NOVA SERGIPE 1                  50.00            050005-4           504
-UFV NOVA SERGIPE 2                  50.00            050006-2           504
-UFV NOVA SERGIPE 3                  50.00            050007-0           504
-UFV NOVA SERGIPE 4                  50.00            050008-9           504
-UFV NOVA SERGIPE 5                  50.00            050009-7           504
-UFV NOVA SERGIPE 6                  50.00            050010-0           504
-UFV NOVA SERGIPE 7                  50.00            050011-9           504
-UFV NOVA SERGIPE 8                  50.00            050012-7           504
-UFV NOVO LAPA MP 1                  44.40            035647-6           585
-UFV NOVO LAPA MP 2                  44.40            035648-4           585
-UFV NOVO LAPA MP 3                  44.40            035649-2           585
-UFV NOVO LAPA MP 4                  44.40            035650-6           585
-UFV NOVO LAPA MP 5                  44.40            035651-4           585
-UFV NOVO LAPA MP 6                  44.40            035652-2           585
-UFV NOVO LAPA MP 7                  37.00            035653-0           585
-UFV NOVO LAPA MP 8                  29.60            035654-9           585
+(UFV NOVA SERGIPE 1                  50.00            050005-4           504
+(UFV NOVA SERGIPE 2                  50.00            050006-2           504
+(UFV NOVA SERGIPE 3                  50.00            050007-0           504
+(UFV NOVA SERGIPE 4                  50.00            050008-9           504
+(UFV NOVA SERGIPE 5                  50.00            050009-7           504
+(UFV NOVA SERGIPE 6                  50.00            050010-0           504
+(UFV NOVA SERGIPE 7                  50.00            050011-9           504
+(UFV NOVA SERGIPE 8                  50.00            050012-7           504
+(UFV NOVO LAPA MP 1                  44.40            035647-6           585
+(UFV NOVO LAPA MP 2                  44.40            035648-4           585
+(UFV NOVO LAPA MP 3                  44.40            035649-2           585
+(UFV NOVO LAPA MP 4                  44.40            035650-6           585
+(UFV NOVO LAPA MP 5                  44.40            035651-4           585
+(UFV NOVO LAPA MP 6                  44.40            035652-2           585
+(UFV NOVO LAPA MP 7                  37.00            035653-0           585
+(UFV NOVO LAPA MP 8                  29.60            035654-9           585
 UFV NOVO TEXAS 1                    30.00            049960-9         60276
 UFV NOVO TEXAS 2                    30.00            049961-7         60276
-UFV ORQUIDEA I                      47.50            046733-2           846
-UFV ORQUIDEA II                     30.00            046734-0           846
-UFV ORQUIDEA III                    30.00            046735-9           846
-UFV ORQUIDEA IV                     30.00            046736-7           846
-UFV ORQUIDEA V                      30.00            046737-5           846
-UFV ORQUIDEA VI                     30.00            046738-3           846
-UFV OURO 1                          37.81            048905-0         11561
-UFV OURO 10                         34.37            048914-0         11561
-UFV OURO 11                         37.81            048915-8         11561
-UFV OURO 12                         37.81            048916-6         11561
-UFV OURO 13                         37.81            048917-4         11561
-UFV OURO 14                         37.81            048918-2         11561
-UFV OURO 15                         37.81            048919-0         11561
-UFV OURO 16                         30.93            048920-4         11561
-UFV OURO 17                         30.93            048921-2         11561
-UFV OURO 18                         34.37            048922-0         11561
-UFV OURO 2                          37.81            048906-9         11561
-UFV OURO 3                          37.81            048907-7         11561
-UFV OURO 4                          37.81            048908-5         11561
-UFV OURO 5                          37.81            048909-3         11561
-UFV OURO 6                          37.81            048910-7         11561
-UFV OURO 7                          37.81            048911-5         11561
-UFV OURO 8                          37.81            048912-3         11561
-UFV OURO 9                          37.81            048913-1         11561
+(UFV ORQUIDEA I                      47.50            046733-2           846
+(UFV ORQUIDEA II                     30.00            046734-0           846
+(UFV ORQUIDEA III                    30.00            046735-9           846
+(UFV ORQUIDEA IV                     30.00            046736-7           846
+(UFV ORQUIDEA V                      30.00            046737-5           846
+(UFV ORQUIDEA VI                     30.00            046738-3           846
+(UFV OURO 1                          37.81            048905-0         11561
+(UFV OURO 10                         34.37            048914-0         11561
+(UFV OURO 11                         37.81            048915-8         11561
+(UFV OURO 12                         37.81            048916-6         11561
+(UFV OURO 13                         37.81            048917-4         11561
+(UFV OURO 14                         37.81            048918-2         11561
+(UFV OURO 15                         37.81            048919-0         11561
+(UFV OURO 16                         30.93            048920-4         11561
+(UFV OURO 17                         30.93            048921-2         11561
+(UFV OURO 18                         34.37            048922-0         11561
+(UFV OURO 2                          37.81            048906-9         11561
+(UFV OURO 3                          37.81            048907-7         11561
+(UFV OURO 4                          37.81            048908-5         11561
+(UFV OURO 5                          37.81            048909-3         11561
+(UFV OURO 6                          37.81            048910-7         11561
+(UFV OURO 7                          37.81            048911-5         11561
+(UFV OURO 8                          37.81            048912-3         11561
+(UFV OURO 9                          37.81            048913-1         11561
 UFV PANATI 1                        29.25            038389-9           222
 UFV PANATI 2                        29.25            038390-2           222
 UFV PANATI 3                        29.25            038392-9           222
@@ -2578,31 +2578,31 @@ UFV PARACATU 1                      32.90   S        033999-7         60011
 UFV PARACATU 2                      32.90   S        034000-6         60012
 UFV PARACATU 3                      32.90   S        033990-3         60013
 UFV PARACATU 4                      32.90   S        033991-1         60014
-UFV PARANAIBA 1                     50.00            035631-0         38855
-UFV PARANAIBA 10                    50.00            049426-7         38855
-UFV PARANAIBA 11                    50.00            049427-5         38855
-UFV PARANAIBA 2                     50.00            035632-8         38855
-UFV PARANAIBA 3                     50.00            035633-6         38855
-UFV PARANAIBA 4                     50.00            035634-4         25726
-UFV PARANAIBA 5                     50.00            035635-2         38855
-UFV PARANAIBA 6                     50.00            035636-0         38855
-UFV PARANAIBA 7                     50.00            035637-9         38855
-UFV PARANAIBA 8                     50.00            043187-7         38855
-UFV PARANAIBA 9                     50.00            049425-9         38855
-UFV PARATINGA I                     55.00            037873-9           220
-UFV PARATINGA II                    50.00            037874-7           220
-UFV PARATINGA III                   55.00            037878-0         11265
-UFV PARATINGA IV                    40.00            037879-8         11265
-UFV PARQUE SOLAR PIRAPORA 1         44.40            048627-2         60111
-UFV PARQUE SOLAR PIRAPORA 10        29.60            048636-1         60111
-UFV PARQUE SOLAR PIRAPORA 2         44.40            048628-0         60111
-UFV PARQUE SOLAR PIRAPORA 3         44.40            048629-9         60111
-UFV PARQUE SOLAR PIRAPORA 4         44.40            048630-2         60111
-UFV PARQUE SOLAR PIRAPORA 5         44.40            048631-0         60111
-UFV PARQUE SOLAR PIRAPORA 6         37.00            048632-9         60111
-UFV PARQUE SOLAR PIRAPORA 7         37.00            048633-7         60111
-UFV PARQUE SOLAR PIRAPORA 8         37.00            048634-5         60111
-UFV PARQUE SOLAR PIRAPORA 9         37.00            048635-3         60111
+(UFV PARANAIBA 1                     50.00            035631-0         38855
+(UFV PARANAIBA 10                    50.00            049426-7         38855
+(UFV PARANAIBA 11                    50.00            049427-5         38855
+(UFV PARANAIBA 2                     50.00            035632-8         38855
+(UFV PARANAIBA 3                     50.00            035633-6         38855
+(UFV PARANAIBA 4                     50.00            035634-4         25726
+(UFV PARANAIBA 5                     50.00            035635-2         38855
+(UFV PARANAIBA 6                     50.00            035636-0         38855
+(UFV PARANAIBA 7                     50.00            035637-9         38855
+(UFV PARANAIBA 8                     50.00            043187-7         38855
+(UFV PARANAIBA 9                     50.00            049425-9         38855
+(UFV PARATINGA I                     55.00            037873-9           220
+(UFV PARATINGA II                    50.00            037874-7           220
+(UFV PARATINGA III                   55.00            037878-0         11265
+(UFV PARATINGA IV                    40.00            037879-8         11265
+(UFV PARQUE SOLAR PIRAPORA 1         44.40            048627-2         60111
+(UFV PARQUE SOLAR PIRAPORA 10        29.60            048636-1         60111
+(UFV PARQUE SOLAR PIRAPORA 2         44.40            048628-0         60111
+(UFV PARQUE SOLAR PIRAPORA 3         44.40            048629-9         60111
+(UFV PARQUE SOLAR PIRAPORA 4         44.40            048630-2         60111
+(UFV PARQUE SOLAR PIRAPORA 5         44.40            048631-0         60111
+(UFV PARQUE SOLAR PIRAPORA 6         37.00            048632-9         60111
+(UFV PARQUE SOLAR PIRAPORA 7         37.00            048633-7         60111
+(UFV PARQUE SOLAR PIRAPORA 8         37.00            048634-5         60111
+(UFV PARQUE SOLAR PIRAPORA 9         37.00            048635-3         60111
 UFV PEDRANOPOLIS 1                  29.20   S        034358-7         60048
 UFV PEDRANOPOLIS 2                  29.20   S        034359-5         60048
 UFV PEDRANOPOLIS 3                  29.20   S        034360-9         60048
@@ -2620,37 +2620,37 @@ UFV PIRAPORA 6                      30.00   S        033189-9         60005
 UFV PIRAPORA 7                      30.00   S        033190-2         60006
 UFV PIRAPORA 9                      30.00   S        033192-9         60007
 UFV PITOMBEIRA                      46.01            034037-5         56116
-UFV PRESIDENTE JK 01                29.27            047320-0         60157
-UFV PRESIDENTE JK 02                29.27            047321-9         60157
-UFV PRESIDENTE JK 03                29.27            047322-7         60157
-UFV PRESIDENTE JK 04                29.27            047323-5         60157
-UFV PRESIDENTE JK 05                29.27            047324-3         60157
-UFV PRESIDENTE JK 06                29.27            047325-1         60157
-UFV PRESIDENTE JK 07                29.27            047326-0         60158
-UFV PRESIDENTE JK 08                29.27            047327-8         60158
-UFV PRESIDENTE JK 09                29.27            047328-6         60158
-UFV PRESIDENTE JK 10                29.27            047329-4         60158
-UFV PRESIDENTE JK 11                29.27            047330-8         60158
-UFV PRESIDENTE JK 12                29.27            047331-6         60158
-UFV PRESIDENTE JUSCELINO I          48.12            046911-4         26465
-UFV PRESIDENTE JUSCELINO II         48.12            046912-2         26465
+(UFV PRESIDENTE JK 01                29.27            047320-0         60157
+(UFV PRESIDENTE JK 02                29.27            047321-9         60157
+(UFV PRESIDENTE JK 03                29.27            047322-7         60157
+(UFV PRESIDENTE JK 04                29.27            047323-5         60157
+(UFV PRESIDENTE JK 05                29.27            047324-3         60157
+(UFV PRESIDENTE JK 06                29.27            047325-1         60157
+(UFV PRESIDENTE JK 07                29.27            047326-0         60158
+(UFV PRESIDENTE JK 08                29.27            047327-8         60158
+(UFV PRESIDENTE JK 09                29.27            047328-6         60158
+(UFV PRESIDENTE JK 10                29.27            047329-4         60158
+(UFV PRESIDENTE JK 11                29.27            047330-8         60158
+(UFV PRESIDENTE JK 12                29.27            047331-6         60158
+(UFV PRESIDENTE JUSCELINO I          48.12            046911-4         26465
+(UFV PRESIDENTE JUSCELINO II         48.12            046912-2         26465
 UFV PROFA. HELEY DE ABREU SILVA     50.00                             60094
-UFV QUIXADA 1                       67.75            043198-2           516
-UFV QUIXADA 2                       62.91            044485-5           516
-UFV RAIOS DE SAO FRANCISCO V        30.00            051649-0         55435
-UFV RAIOS DE SAO FRANCISCO VI       30.00            051650-3         55436
+(UFV QUIXADA 1                       67.75            043198-2           516
+(UFV QUIXADA 2                       62.91            044485-5           516
+(UFV RAIOS DE SAO FRANCISCO V        30.00            051649-0         55435
+(UFV RAIOS DE SAO FRANCISCO VI       30.00            051650-3         55436
 UFV RAIOS DO PARNAIBA I             30.00            043203-2           212
 UFV RAIOS DO PARNAIBA II            30.00            044294-1           212
 UFV RAIOS DO PARNAIBA III           30.00            043204-0           212
-UFV RAIOS DO PARNAIBA IV            30.00            043208-3           212
+(UFV RAIOS DO PARNAIBA IV            30.00            043208-3           212
 UFV RAIOS DO PARNAIBA IX            30.00            043205-9           220
 UFV RAIOS DO PARNAIBA V             30.00            043209-1           212
 UFV RAIOS DO PARNAIBA VI            30.00            043206-7           212
 UFV RAIOS DO PARNAIBA VII           30.00            043207-5           212
 UFV RAIOS DO PARNAIBA VIII          30.00            043212-1           220
-UFV RAIOS DO PARNAIBA X             30.00            043213-0           220
-UFV RAIOS DO POETA I                48.00            038283-3           220
-UFV RAIOS DO POETA II               48.00            038284-1           506
+(UFV RAIOS DO PARNAIBA X             30.00            043213-0           220
+(UFV RAIOS DO POETA I                48.00            038283-3           220
+(UFV RAIOS DO POETA II               48.00            038284-1           506
 UFV RIACHO DA SERRA 4               61.03            046083-4         12318
 UFV RIACHO DA SERRA 5               42.72            046582-8         12318
 UFV RIACHO DA SERRA 6               42.72            046583-6         12318
@@ -2660,7 +2660,7 @@ UFV RIBEIRO GONCALVES I             16.75            041904-4         59251
 UFV RIBEIRO GONCALVES II            36.85            041905-2         59252
 UFV RIBEIRO GONCALVES III           36.85            041906-0         59253
 UFV RIBEIRO GONCALVES IV            20.10            041907-9         59254
-UFV RIBEIRO GONCALVES V             33.09            041908-7         59255
+(UFV RIBEIRO GONCALVES V             33.09            041908-7         59255
 UFV RIBEIRO GONCALVES VI            33.09            041909-5         59256
 UFV RIBEIRO GONCALVES VII           29.78            044295-0         59257
 UFV RIBEIRO GONCALVES VIII          29.78            044296-8         59258
@@ -2709,9 +2709,9 @@ UFV SAO JOAO 4                      30.00   S        047284-0         60056
 UFV SAO JOAO 5                      30.00   S        047285-9         60056
 UFV SAO JOAO 6                      30.00   S        047286-7         60056
 UFV SAO JOAO 7                      30.00   S        047287-5         60056
-UFV SAO JOAO DO PIAUI I             43.75            037922-0         58162
-UFV SAO JOAO DO PIAUI II            15.62            034382-0         58162
-UFV SAO JOAO DO PIAUI III           15.62            034381-1         58162
+(UFV SAO JOAO DO PIAUI I             43.75            037922-0         58162
+(UFV SAO JOAO DO PIAUI II            15.62            034382-0         58162
+(UFV SAO JOAO DO PIAUI III           15.62            034381-1         58162
 UFV SAO PEDRO E PAULO I             26.67   S        031870-1         58300
 UFV SAO PEDRO E PAULO V             26.67   S        034186-0         58301
 UFV SAO PEDRO E PAULO VI            22.43   S        034188-6         58302
@@ -2729,12 +2729,12 @@ UFV SERRA DO MEL I                 137.48            037811-9         56492
 UFV SERRA DO MEL II                103.11            037812-7         56493
 UFV SERRA DO MEL III                45.71            047424-0         56474
 UFV SERRA DO MEL IV                 45.71            047425-8         56474
-UFV SERRA DO MEL IX                 48.12            049700-2         11565
+(UFV SERRA DO MEL IX                 48.12            049700-2         11565
 UFV SERRA DO MEL V                  45.71            047422-3         56474
 UFV SERRA DO MEL VI                 45.71            047423-1         56474
 UFV SERRA DO MEL VII                48.12            047420-7         11565
-UFV SERRA DO MEL VIII               48.12            047421-5         11565
-UFV SERRA DO MEL X                  48.12            049701-0         11565
+(UFV SERRA DO MEL VIII               48.12            047421-5         11565
+(UFV SERRA DO MEL X                  48.12            049701-0         11565
 UFV SERTAO 1                        30.00 D          034384-6         58174
 UFV SERTAO SOLAR BARREIRAS I        28.00            033469-3         59407
 UFV SERTAO SOLAR BARREIRAS II       28.00            033470-7         59408
@@ -2750,15 +2750,15 @@ UFV SERTAO SOLAR BARREIRAS XX       49.55            044515-0           846
 UFV SERTAO SOLAR BARREIRAS XXI      49.55            049771-1           846
 UFV SITIA 1                         24.40            038396-1           222
 UFV SITIA 2                         24.40            038397-0           222
-UFV SKY ARINOS I                    49.55            047364-2         60211
-UFV SKY ARINOS II                   49.55            047365-0         60211
-UFV SKY ARINOS III                  49.55            047366-9         60212
-UFV SKY ARINOS IV                   49.55            047367-7         60212
+(UFV SKY ARINOS I                    49.55            047364-2         60211
+(UFV SKY ARINOS II                   49.55            047365-0         60211
+(UFV SKY ARINOS III                  49.55            047366-9         60212
+(UFV SKY ARINOS IV                   49.55            047367-7         60212
 UFV SKY ARINOS IX                   49.55            047372-3         39813
-UFV SKY ARINOS V                    49.55            047368-5         60213
-UFV SKY ARINOS VI                   49.55            047369-3         60213
-UFV SKY ARINOS VII                  49.55            047370-7         60214
-UFV SKY ARINOS VIII                 27.87            047371-5         60214
+(UFV SKY ARINOS V                    49.55            047368-5         60213
+(UFV SKY ARINOS VI                   49.55            047369-3         60213
+(UFV SKY ARINOS VII                  49.55            047370-7         60214
+(UFV SKY ARINOS VIII                 27.87            047371-5         60214
 UFV SKY ARINOS X                    49.55            047373-1         39813
 UFV SKY ARINOS XI                   49.55            047374-0         39813
 UFV SKY ARINOS XII                  49.55            047375-8         39813
@@ -2768,40 +2768,40 @@ UFV SKY ARINOS XV                   49.55            048772-4         39813
 UFV SKY ARINOS XVI                  49.55            048773-2         39813
 UFV SKY ARINOS XVII                 49.55            048774-0         39813
 UFV SKY ARINOS XVIII                49.55            048775-9         39813
-UFV SKY SAO MAMEDE I                50.00            049291-4         11500
-UFV SKY SAO MAMEDE II               50.00            049292-2         11500
-UFV SKY SAO MAMEDE III              50.00            049293-0         11500
-UFV SKY SAO MAMEDE IV               50.00            049294-9         11500
-UFV SKY SAO MAMEDE IX               50.00            049299-0         11500
-UFV SKY SAO MAMEDE V                50.00            049295-7         11500
-UFV SKY SAO MAMEDE VI               50.00            049296-5         11500
-UFV SKY SAO MAMEDE VII              50.00            049297-3         11500
-UFV SKY SAO MAMEDE VIII             50.00            049298-1         11500
-UFV SKY SAO MAMEDE X                50.00            049300-7         11500
+(UFV SKY SAO MAMEDE I                50.00            049291-4         11500
+(UFV SKY SAO MAMEDE II               50.00            049292-2         11500
+(UFV SKY SAO MAMEDE III              50.00            049293-0         11500
+(UFV SKY SAO MAMEDE IV               50.00            049294-9         11500
+(UFV SKY SAO MAMEDE IX               50.00            049299-0         11500
+(UFV SKY SAO MAMEDE V                50.00            049295-7         11500
+(UFV SKY SAO MAMEDE VI               50.00            049296-5         11500
+(UFV SKY SAO MAMEDE VII              50.00            049297-3         11500
+(UFV SKY SAO MAMEDE VIII             50.00            049298-1         11500
+(UFV SKY SAO MAMEDE X                50.00            049300-7         11500
 UFV SOBRADO1                        30.00            034387-0         58633
-UFV SOBRAL I                        90.00            040766-6         58171
-UFV SOL DE JANA 1                   38.80            047049-0         60221
-UFV SOL DE JANA 10                  38.80            047050-3         60221
-UFV SOL DE JANA 11                  38.80            047051-1         60221
-UFV SOL DE JANA 12                  38.80            047052-0         60221
-UFV SOL DE JANA 13                  38.80            047053-8         60221
-UFV SOL DE JANA 2                   38.80            047054-6         60221
-UFV SOL DE JANA 3                   38.80            047055-4         60221
-UFV SOL DE JANA 4                   38.80            047056-2         60221
-UFV SOL DE JANA 5                   38.80            047057-0         60221
-UFV SOL DE JANA 6                   38.80            047058-9         60221
-UFV SOL DE JANA 7                   38.80            047059-7         60221
-UFV SOL DE JANA 8                   38.80            047060-0         60221
-UFV SOL DE JANA 9                   38.80            047061-9         60221
+(UFV SOBRAL I                        90.00            040766-6         58171
+(UFV SOL DE JANA 1                   38.80            047049-0         60221
+(UFV SOL DE JANA 10                  38.80            047050-3         60221
+(UFV SOL DE JANA 11                  38.80            047051-1         60221
+(UFV SOL DE JANA 12                  38.80            047052-0         60221
+(UFV SOL DE JANA 13                  38.80            047053-8         60221
+(UFV SOL DE JANA 2                   38.80            047054-6         60221
+(UFV SOL DE JANA 3                   38.80            047055-4         60221
+(UFV SOL DE JANA 4                   38.80            047056-2         60221
+(UFV SOL DE JANA 5                   38.80            047057-0         60221
+(UFV SOL DE JANA 6                   38.80            047058-9         60221
+(UFV SOL DE JANA 7                   38.80            047059-7         60221
+(UFV SOL DE JANA 8                   38.80            047060-0         60221
+(UFV SOL DE JANA 9                   38.80            047061-9         60221
 UFV SOL DE VARZEA 1                 44.22   S        043167-2         60306
 UFV SOL DE VARZEA 2                 44.22   S        043168-0         60307
-UFV SOL DO AGRESTE I                43.29            044516-9           255
-UFV SOL DO AGRESTE II               23.31            044517-7           255
-UFV SOL DO AGRESTE III              23.31            052244-9           255
-UFV SOL DO AGRESTE IV               26.64            052282-1           255
-UFV SOL DO AGRESTE V                33.30            052283-0           255
+(UFV SOL DO AGRESTE I                43.29            044516-9           255
+(UFV SOL DO AGRESTE II               23.31            044517-7           255
+(UFV SOL DO AGRESTE III              23.31            052244-9           255
+(UFV SOL DO AGRESTE IV               26.64            052282-1           255
+(UFV SOL DO AGRESTE V                33.30            052283-0           255
 UFV SOL DO PIAUI                    68.00            046552-6         12201
-UFV SOL DO SAO FRANCISCO            36.43            045570-9           220
+(UFV SOL DO SAO FRANCISCO            36.43            045570-9           220
 UFV SOL DO SERTAO VIII              93.34            032066-8         59189
 UFV SOL DO SERTAO XII               53.34            032050-1         59189
 UFV SOL DO SERTAO XIII              73.34            032052-8         59189
@@ -2814,13 +2814,13 @@ UFV SOL MAIOR 4                     15.00                             20616
 UFV SOL MAIOR GD                     5.00                             20617
 UFV SOL MAIOR II                     5.00   S        033608-4         20614
 UFV SOL TAUA                         1.00 D          030060-8         55483
-UFV SOLAR DAS LARANJEIRAS 1         33.00            054548-1           222
-UFV SOLAR DAS LARANJEIRAS 2         33.00            054549-0           222
-UFV SOLAR DAS LARANJEIRAS 3         33.00            054550-3           222
-UFV SOLAR DAS LARANJEIRAS 4         33.00            054551-1           222
-UFV SOLAR DAS LARANJEIRAS 5         33.00            054552-0           222
-UFV SOLAR DAS LARANJEIRAS 6         33.00            054553-8           222
-UFV SOLAR DAS LARANJEIRAS 7         33.00            054554-6           222
+(UFV SOLAR DAS LARANJEIRAS 1         33.00            054548-1           222
+(UFV SOLAR DAS LARANJEIRAS 2         33.00            054549-0           222
+(UFV SOLAR DAS LARANJEIRAS 3         33.00            054550-3           222
+(UFV SOLAR DAS LARANJEIRAS 4         33.00            054551-1           222
+(UFV SOLAR DAS LARANJEIRAS 5         33.00            054552-0           222
+(UFV SOLAR DAS LARANJEIRAS 6         33.00            054553-8           222
+(UFV SOLAR DAS LARANJEIRAS 7         33.00            054554-6           222
 UFV SOLAR IRAPURU I                 48.12            046577-1         60106
 UFV SOLAR IRAPURU II                48.12            046578-0         60106
 UFV SOLAR IRAPURU III               48.12            046579-8         60106
@@ -2828,8 +2828,8 @@ UFV SOLAR IRAPURU IV                48.12            049053-9         60106
 UFV SOLAR IRAPURU V                 48.12            049054-7         60107
 UFV SOLAR IRAPURU VI                48.12            049055-5         60107
 UFV SOLAR IRAPURU VII               48.12            049056-3         60107
-UFV SOLAR IRECE 1                   71.08            037532-2         59022
-UFV SOLAR IRECE 2                  103.06            037533-0         60139
+(UFV SOLAR IRECE 1                   71.08            037532-2         59022
+(UFV SOLAR IRECE 2                  103.06            037533-0         60139
 UFV SOLAR JAIBA 3                   33.00   S        034392-7         60044
 UFV SOLAR JAIBA 4                   33.00   S        034394-3         60039
 UFV SOLAR JAIBA 9                   22.50   S        035805-3         60040
@@ -2844,21 +2844,21 @@ UFV SOLAR NEWEN BAHIA XII B         44.68            050196-4           846
 UFV SOLAR SALGUEIRO                 30.00   S        033606-8         58108
 UFV SOLAR SALGUEIRO II              30.00   S        034160-6         58109
 UFV SOLAR SALGUEIRO III             30.00   S        034105-3         58110
-UFV SOLAR SAO SIMAO                 48.00            053695-4          4341
+(UFV SOLAR SAO SIMAO                 48.00            053695-4          4341
 UFV SOLATIO VARZEA 3                45.00                             60173
 UFV SOLATIO VARZEA 4                45.00                             60174
-UFV SOLIDAO 1                       47.07            047438-0         60063
-UFV SOLIDAO 10                      47.07            044538-0         60064
-UFV SOLIDAO 11                      47.07            044539-8         60064
-UFV SOLIDAO 12                      47.07            044540-1         60064
-UFV SOLIDAO 2                       47.07            047439-8         60063
-UFV SOLIDAO 3                       47.07            047440-1         60063
-UFV SOLIDAO 4                       47.07            047441-0         60063
-UFV SOLIDAO 5                       33.62            047442-8         60063
-UFV SOLIDAO 6                       47.07            047443-6         60063
-UFV SOLIDAO 7                       47.07            047444-4         60064
-UFV SOLIDAO 8                       47.07            047445-2         60064
-UFV SOLIDAO 9                       47.07            044545-2         60064
+(UFV SOLIDAO 1                       47.07            047438-0         60063
+(UFV SOLIDAO 10                      47.07            044538-0         60064
+(UFV SOLIDAO 11                      47.07            044539-8         60064
+(UFV SOLIDAO 12                      47.07            044540-1         60064
+(UFV SOLIDAO 2                       47.07            047439-8         60063
+(UFV SOLIDAO 3                       47.07            047440-1         60063
+(UFV SOLIDAO 4                       47.07            047441-0         60063
+(UFV SOLIDAO 5                       33.62            047442-8         60063
+(UFV SOLIDAO 6                       47.07            047443-6         60063
+(UFV SOLIDAO 7                       47.07            047444-4         60064
+(UFV SOLIDAO 8                       47.07            047445-2         60064
+(UFV SOLIDAO 9                       47.07            044545-2         60064
 UFV STEELCONS SOL DO FUTURO I       27.00 D          034745-0         55473
 UFV STEELCONS SOL DO FUTURO II      27.00 D          034746-9         55474
 UFV STEELCONS SOL DO FUTURO III     27.00 D          034747-7         55475
@@ -2886,35 +2886,35 @@ UFV TABOLEIRO DO MEIO VII           26.75            047063-5         58428
 UFV TABOLEIRO DO MEIO VIII          36.79            047064-3         58429
 UFV TERRA DO SOL VII                53.34            032053-6         59189
 UFV TERRA SOL XI                    46.67            032059-5         59189
-UFV TIMBAUBA I                       40.9            047292-1           516
-UFV TIMBAUBA II                     35.56            047293-0           516
-UFV TIMBAUBA III                    39.12            047294-8           516
-UFV TIMBAUBA IV                      40.9            047295-6           516
-UFV ULA 04A                         46.20            037519-5         59022
-UFV ULA 05                          46.20            037520-9         59022
+(UFV TIMBAUBA I                       40.9            047292-1           516
+(UFV TIMBAUBA II                     35.56            047293-0           516
+(UFV TIMBAUBA III                    39.12            047294-8           516
+(UFV TIMBAUBA IV                      40.9            047295-6           516
+(UFV ULA 04A                         46.20            037519-5         59022
+(UFV ULA 05                          46.20            037520-9         59022
 UFV VARZEA DA PALMA I               46.91            047228-0          1446
 UFV VARZEA DA PALMA II              46.91            047229-8          1446
 UFV VARZEA DA PALMA III             46.91            047230-1          1446
-UFV VARZEA DA PALMA IV              46.91            047233-6          1446
-UFV VARZEA DA PALMA IX               13.4            052081-0          1446
-UFV VARZEA DA PALMA V               46.91            048601-9          1446
-UFV VARZEA DA PALMA VI              46.91            048602-7          1446
-UFV VARZEA DA PALMA VII             46.91            048603-5          1446
-UFV VARZEA DA PALMA VIII            46.91            048604-3          1446
+(UFV VARZEA DA PALMA IV              46.91            047233-6          1446
+(UFV VARZEA DA PALMA IX               13.4            052081-0          1446
+(UFV VARZEA DA PALMA V               46.91            048601-9          1446
+(UFV VARZEA DA PALMA VI              46.91            048602-7          1446
+(UFV VARZEA DA PALMA VII             46.91            048603-5          1446
+(UFV VARZEA DA PALMA VIII            46.91            048604-3          1446
 UFV VAZANTE 1                       27.00   S        032339-0         60017
 UFV VAZANTE 2                       27.00   S        032340-3         60018
 UFV VAZANTE 3                       27.00   S        032341-1         60019
-UFV VEA II 1                        44.40            037611-6           528
-UFV VEA II 10                       44.40            037620-5           528
-UFV VEA II 11                       44.40            037621-3           528
-UFV VEA II 2                        44.40            037612-4           528
-UFV VEA II 3                        44.40            037613-2           528
-UFV VEA II 4                        44.40            037614-0           528
-UFV VEA II 5                        44.40            037615-9           528
-UFV VEA II 6                        44.40            037616-7           528
-UFV VEA II 7                        44.40            037617-5           528
-UFV VEA II 8                        44.40            037618-3           528
-UFV VEA II 9                        44.40            037619-1           528
+(UFV VEA II 1                        44.40            037611-6           528
+(UFV VEA II 10                       44.40            037620-5           528
+(UFV VEA II 11                       44.40            037621-3           528
+(UFV VEA II 2                        44.40            037612-4           528
+(UFV VEA II 3                        44.40            037613-2           528
+(UFV VEA II 4                        44.40            037614-0           528
+(UFV VEA II 5                        44.40            037615-9           528
+(UFV VEA II 6                        44.40            037616-7           528
+(UFV VEA II 7                        44.40            037617-5           528
+(UFV VEA II 8                        44.40            037618-3           528
+(UFV VEA II 9                        44.40            037619-1           528
 UFV VELHO CHICO 1                   50.00            047397-9          1515
 UFV VELHO CHICO 10                  50.00            047406-1          1515
 UFV VELHO CHICO 11                  50.00            047407-0          1515
@@ -2927,15 +2927,15 @@ UFV VELHO CHICO 7                   50.00            047403-7          1515
 UFV VELHO CHICO 8                   50.00            047404-5          1515
 UFV VELHO CHICO 9                   50.00            047405-3          1515
 UFV VERDE VALE III                  14.30 D          033588-6         59453
-UFV VEREDA 1                        29.25            040755-0         60143
-UFV VEREDA 2                         19.5            040756-9         60143
-UFV VEREDA 3                        29.25            040757-7         60143
-UFV VEREDA 4                         19.5            040758-5         60143
-UFV VEREDA 5                        29.25            046087-7         60144
-UFV VEREDA 6                         19.5            046088-5         60144
-UFV VEREDA 7                        29.25            046089-3         60144
-UFV VEREDA 8                         19.5            046090-7         60144
-UFV VEREDA 9                         9.75            046091-5         60144
+(UFV VEREDA 1                        29.25            040755-0         60143
+(UFV VEREDA 2                         19.5            040756-9         60143
+(UFV VEREDA 3                        29.25            040757-7         60143
+(UFV VEREDA 4                         19.5            040758-5         60143
+(UFV VEREDA 5                        29.25            046087-7         60144
+(UFV VEREDA 6                         19.5            046088-5         60144
+(UFV VEREDA 7                        29.25            046089-3         60144
+(UFV VEREDA 8                         19.5            046090-7         60144
+(UFV VEREDA 9                         9.75            046091-5         60144
 UFV VISTA ALEGRE I                  41.24            046553-4         60131
 UFV VISTA ALEGRE II                 41.24            046554-2         60221
 UFV VISTA ALEGRE III                41.24            046555-0         60131
@@ -2994,15 +2994,15 @@ UFV WALFRIDO AVILA 9                50.00            047454-1         39813
 UFV XAXADO 1                        31.85            034405-2         58384
 UFV XAXADO 2                        31.85            034406-0         58385
 UFV XAXADO 3                        31.85            034407-9         58386
-UFV ZEBU I                          30.27            037861-5           208
-UFV ZEBU II                         24.74            037862-3           208
-UFV ZEBU III                        44.25            038296-5           208
-UFV ZEBU IV                         46.86            038297-3           208
-UFV ZEBU IX                         14.29            044546-0           208
-UFV ZEBU V                          30.27            044547-9           208
-UFV ZEBU VI                         24.74            044548-7           208
-UFV ZEBU VII                        35.80            044549-5           208
-UFV ZEBU VIII                       41.33            044550-9           208
+(UFV ZEBU I                          30.27            037861-5           208
+(UFV ZEBU II                         24.74            037862-3           208
+(UFV ZEBU III                        44.25            038296-5           208
+(UFV ZEBU IV                         46.86            038297-3           208
+(UFV ZEBU IX                         14.29            044546-0           208
+(UFV ZEBU V                          30.27            044547-9           208
+(UFV ZEBU VI                         24.74            044548-7           208
+(UFV ZEBU VII                        35.80            044549-5           208
+(UFV ZEBU VIII                       41.33            044550-9           208
 UFV ZIMBA ENVOLVERE I               48.12            047339-1         11265
 UFV ZIMBA ENVOLVERE II              48.12            047340-5         11265
 UFV ZIMBA ENVOLVERE III             48.12            047341-3         11265
@@ -3075,7 +3075,7 @@ UHE ILHA DOS POMBOS                185.13   S        001113-4          4066
 UHE ILHA SOLTEIRA                 3429.00            001120-7          2041
 UHE IRAPE                          397.00            001146-0          1431
 UHE ITA                           1441.55            001152-5          8975
-UHE ITAIPU                       10935.00            001161-4          3584
+UHE ITAIPU                       10935.00            001161-4          358450.00 363750.00
 UHE ITAOCARA I                     150.00   S        027969-2         38079
 UHE ITAPARICA (SL GONZAGA)        1477.59            001174-6            3350.00   3450.00
 UHE ITAPEBI                        447.82            001175-4            95
@@ -3404,7 +3404,7 @@ UTE NOROESTE PAULISTA               28.58   S        029775-5         58287
 UTE NORTE FLUMINENSE               840.00            001544-0          404932.00 405168.00
 UTE NOVA PONTE QUEIMADA              3.90   S        028570-6          1456
 UTE NOVO MILENIO                     8.00   S        035588-7         25726
-UTE NOVO TEMPO BARCARENA           614.50            037898-4         13090
+(UTE NOVO TEMPO BARCARENA           614.50            037898-4         13090
 UTE NOVO TEMPO GNA II             1324.00            032955-0         4044039.004044161.00
 UTE ONCA PINTADA                    50.00   S        035085-0          8689
 UTE OURO BRANCO                      4.00 D                           50221
@@ -3523,7 +3523,7 @@ UTE UFL                             30.00   S        031034-4          7244
 UTE UJU BIO                         40.00   S        051729-1         45065
 UTE UNIAO INDUSTRIA                  0.80 D          028694-0         17010
 UTE UNIVALEM BIOENERGIA             29.00   S        030264-3         30159
-UTE URUGUAIANA                     449.00            002913-0          891841.00 892059.00
+(UTE URUGUAIANA                     449.00            002913-0          891841.00 892059.00
 UTE USACIGA                         23.30   S        029144-7          6801
 UTE USACUCAR TERRA RICA             16.50   S        029780-1          7241
 UTE USI                             30.00   S        029575-2          6833
@@ -4056,14 +4056,14 @@ UFV OLHO DO SOL 6                  29.707            040703-8           227
 UFV OLHO DO SOL 7                  29.662            040704-6           227
 UFV OLHO DO SOL 8                  29.606            040705-4           227 
 UTE PORTO DAS AGUAS II              55.00            055534-7         38853
-UFV ALTO SAO FRANCISCO IV           49.55            050109-3         38854
-UFV ALTO SAO FRANCISCO IX           49.55            052116-7         38854
-UFV ALTO SAO FRANCISCO V            49.55            050110-7         38854
-UFV ALTO SAO FRANCISCO VII          49.55            050112-3         38854
-UFV ALTO SAO FRANCISCO VIII         49.55            050113-1         38854
-UFV ALTO SAO FRANCISCO X            49.55            052117-5         38854
-UFV ALTO SAO FRANCISCO XI           49.55            052118-3         38854
-UFV ALTO SAO FRANCISCO XII          49.55            052119-1         38854
+(UFV ALTO SAO FRANCISCO IV           49.55            050109-3         38854
+(UFV ALTO SAO FRANCISCO IX           49.55            052116-7         38854
+(UFV ALTO SAO FRANCISCO V            49.55            050110-7         38854
+(UFV ALTO SAO FRANCISCO VII          49.55            050112-3         38854
+(UFV ALTO SAO FRANCISCO VIII         49.55            050113-1         38854
+(UFV ALTO SAO FRANCISCO X            49.55            052117-5         38854
+(UFV ALTO SAO FRANCISCO XI           49.55            052118-3         38854
+(UFV ALTO SAO FRANCISCO XII          49.55            052119-1         38854
 UFV LUZEIRO 10                     30.389            052383-6           285
 UFV LUZEIRO 11                     30.389            052384-4           285
 UFV LUZEIRO 12                     30.389            052385-2           285
@@ -4076,11 +4076,11 @@ UFV LUZEIRO 18                     16.709            052391-7           285
 EOL VENTOS DE SANTA ROSALIA 05      42.00            049895-5           365
 EOL VENTOS DE SANTA ROSALIA 06      42.00            049896-3           365
 EOL VENTOS DE SANTA ROSALIA 07      42.00            049897-1           365
-UFV SANTA LUZIA 10                  49.30            049694-4         11500 
-UFV SANTA LUZIA 11                  49.30            049695-2         11500 
-UFV SANTA LUZIA 12                  49.30            049696-0         11500 
-UFV SANTA LUZIA 13                  49.30            049697-9         11500 
-UFV SANTA LUZIA 14                  49.30            049698-7         11500
+(UFV SANTA LUZIA 10                  49.30            049694-4         11500 
+(UFV SANTA LUZIA 11                  49.30            049695-2         11500 
+(UFV SANTA LUZIA 12                  49.30            049696-0         11500 
+(UFV SANTA LUZIA 13                  49.30            049697-9         11500 
+(UFV SANTA LUZIA 14                  49.30            049698-7         11500
 UTE FS BIOENERGIA PRIMAVERA        30.144   S        054855-3          1310
 UTE BARRA GRANDE 2                  70.00   S        051532-9         29922  
 UFV NOVO ORIENTE I                 40.399   S        049335-0          2616
@@ -4098,30 +4098,30 @@ UTE BIANCOGRES                      10.22   S        029586-8         35155
 UFV CRUZEIRO DO SUL I               49.80          09051068-8          3947
 UFV CRUZEIRO DO SUL II              49.80          09051069-6          3947
 UFV CRUZEIRO DO SUL III             30.40            051070-0          3947
-UFV DIAMANTE SOL I                 29.635            050526-9           836
-UFV DIAMANTE SOL II                29.635            050527-7           836
-UFV DIAMANTE SOL III               29.635            050528-5           836
-UFV DIAMANTE SOL IV                29.635            050529-3           836
-UFV DIAMANTE SOL V                 29.635            050530-7           836
-UFV DIAMANTE SOL VI                29.635            050531-5           836
-UFV DIAMANTE SOL VII               29.635            050532-3           836
-UFV DIAMANTE SOL VIII              29.635            050533-1           836
-UFV DIAMANTE SOL X                 29.635            050534-0           836
-UFV DIAMANTE SOL XIII              20.103            050537-4           836
-UFV DIAMANTE SOL XIV               29.635            050538-2           836
-UFV DIAMANTE SOL XV                29.635            050539-0           836
-UFV DIAMANTE SOL XVI               29.635            050540-4           836
-UFV DIAMANTE SOL XVII              29.635            050541-2           836
-UFV DIAMANTE SOL XVIII             23.223            050542-0           836
-UFV DIAMANTE SOL XX                29.635            050544-7           836
-UFV DIAMANTE SOL XXI               29.635            050545-5           836
-UFV DIAMANTE SOL XXII              29.635            050546-3           836
-UFV DIAMANTE SOL XXIV              29.635            050548-0           836
-UFV DIAMANTE SOL XXV               27.728            050549-8           836
-UFV DIAMANTE SOL XXVI              29.635            050550-1           836
-UFV DIAMANTE SOL XXVII             27.208            050551-0           836
-UFV DIAMANTE SOL XXVIII            25.475            050552-8           836
-UFV DIAMANTE SOL XXIX              29.635            050553-6           836
+(UFV DIAMANTE SOL I                 29.635            050526-9           836
+(UFV DIAMANTE SOL II                29.635            050527-7           836
+(UFV DIAMANTE SOL III               29.635            050528-5           836
+(UFV DIAMANTE SOL IV                29.635            050529-3           836
+(UFV DIAMANTE SOL V                 29.635            050530-7           836
+(UFV DIAMANTE SOL VI                29.635            050531-5           836
+(UFV DIAMANTE SOL VII               29.635            050532-3           836
+(UFV DIAMANTE SOL VIII              29.635            050533-1           836
+(UFV DIAMANTE SOL X                 29.635            050534-0           836
+(UFV DIAMANTE SOL XIII              20.103            050537-4           836
+(UFV DIAMANTE SOL XIV               29.635            050538-2           836
+(UFV DIAMANTE SOL XV                29.635            050539-0           836
+(UFV DIAMANTE SOL XVI               29.635            050540-4           836
+(UFV DIAMANTE SOL XVII              29.635            050541-2           836
+(UFV DIAMANTE SOL XVIII             23.223            050542-0           836
+(UFV DIAMANTE SOL XX                29.635            050544-7           836
+(UFV DIAMANTE SOL XXI               29.635            050545-5           836
+(UFV DIAMANTE SOL XXII              29.635            050546-3           836
+(UFV DIAMANTE SOL XXIV              29.635            050548-0           836
+(UFV DIAMANTE SOL XXV               27.728            050549-8           836
+(UFV DIAMANTE SOL XXVI              29.635            050550-1           836
+(UFV DIAMANTE SOL XXVII             27.208            050551-0           836
+(UFV DIAMANTE SOL XXVIII            25.475            050552-8           836
+(UFV DIAMANTE SOL XXIX              29.635            050553-6           836
 UFV TURVANIA I                      49.80          09054841-3          1194
 UFV TURVANIA II                     49.80          09054842-1          1194
 UFV TURVANIA III                    49.80          09054843-0          1194
