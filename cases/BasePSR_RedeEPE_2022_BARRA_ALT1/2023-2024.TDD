@@ -1,0 +1,653 @@
+ PROGRAMA NODAL - SIMULAÇÃO DE TARIFAS DE USO DO SISTEMA ELÉTRICO - v6.1(07/23)  
+
+ 2023 ONS * CICLO 2023-2024 * (Simulação realizada em 04/07/2023 - 22:38:34)                                                                                                                             
+                                                             
+ TUSDg DE USINAS POR DISTRIBUIDORA
+
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+          Distribuidora/UF                          Usina                  MUSD |         Componentes da TUSDg               |   CEG  |L
+                                                                            MW  |     T          D/DIT     ONS       TOTAL   |        |T
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  CEA                              AP UHE COARACY NUNES                   78.000                   0.744    0.183       0.928 000783-8  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  CEEE-D                           RS EOL CORREDOR DO SENANDES II         20.800                   6.135    0.118       6.254 030842-0 I
+                                   RS EOL CORREDOR DO SENANDES III        26.050                   6.135    0.118       6.254 030819-6 I
+                                   RS EOL CORREDOR DO SENANDES IV         28.660                   6.135    0.118       6.254 030840-4 I
+                                   RS EOL FAZENDA ROSARIO                  9.200                   5.063    0.180       5.242 030343-7 C
+                                   RS EOL FAZENDA ROSARIO 2               23.000                   5.063    0.180       5.242 030478-6 C
+                                   RS EOL FAZENDA ROSARIO 3               16.100                   5.063    0.180       5.242 030334-8 C
+                                   RS EOL PALMARES                         9.200                   5.063    0.180       5.242 028855-1 C
+                                   RS EOL VENTO ARAGANO I                 28.660                   6.135    0.118       6.254 030833-1 I
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  CELESC-DIS                       SC EOL AMPARO                          22.500                   2.610    0.180       2.790 029069-6  
+                                   SC EOL AQUIBATA                        30.000                   2.610    0.180       2.790 029052-1  
+                                   SC EOL BOM JARDIM                      30.000                   2.801    0.180       2.981 029062-9  
+                                   SC EOL CAMPO BELO                      10.500                   2.610    0.180       2.790 029065-3  
+                                   SC EOL CASCATA                          6.000                   2.610    0.180       2.790 029054-8  
+                                   SC EOL CRUZ ALTA                       30.000                   2.610    0.180       2.790 029070-0  
+                                   SC EOL PULPITO                         30.000                   2.801    0.180       2.981 029051-3  
+                                   SC EOL RIO DO OURO                     30.000                   2.801    0.180       2.981 029055-6  
+                                   SC EOL SALTO                           30.000                   2.610    0.180       2.790 029056-4  
+                                   SC EOL SANTO ANTONIO                    3.000                   2.801    0.180       2.981 029053-0  
+                                   SC PCH ADO POPINHAKI                   22.600                   2.582    0.394       2.976 031598-2  
+                                   SC PCH AGUAS DA SERRA                  22.488                   2.916    0.172       3.088 035496-1  
+                                   SC PCH ALTO ALEGRE                     17.400                   2.130    0.183       2.313 037173-4  
+                                   SC PCH ALTO BENEDITO NOVO I            15.000                   2.916    0.180       3.096 028802-0  
+                                   SC PCH ANGELINA                        26.270                   1.773    0.180       1.952 002133-4  
+                                   SC PCH CAPIVARI                        18.090                   2.441    0.372       2.812 000659-9  
+                                   SC PCH COQUEIRAL                        3.164                   1.773    0.180       1.952 029769-0  
+                                   SC PCH FARTURA                          4.900                   1.773    0.183       1.956 044805-2  
+                                   SC PCH JOAO BORGES                     19.000                   2.855    0.180       3.034 029332-6  
+                                   SC PCH LACERDOPOLIS                     9.600                   2.130    0.172       2.301 037820-8  
+                                   SC PCH MOINHO                          13.500                   2.979    0.180       3.159 029725-9  
+                                   SC PCH NOVA FATIMA                      4.100                   2.441    0.180       2.620 029139-0  
+                                   SC PCH OURO                            16.000                   2.979    0.180       3.159 028968-0  
+                                   SC PCH PERY                            25.600                   2.582    0.179       2.761 002045-1  
+                                   SC PCH PIRA                            23.071                   2.130    0.183       2.313 034669-1  
+                                   SC PCH RIO FORTUNA                      6.850                   2.441    0.180       2.620 029140-4  
+                                   SC PCH SALTO GOES                      20.000                   1.935    0.180       2.114 030338-0  
+                                   SC PCH SANTA ANA                        6.304                   1.773    0.180       1.952 029778-0  
+                                   SC PCH SANTA ROSA 28844                 6.500                   2.441    0.180       2.620 028844-6  
+                                   SC PCH SAO CARLOS                      15.180                   2.130    0.339       2.469 033762-5  
+                                   SC PCH TUPITINGA                       24.000                   0.048    0.180       0.228 035764-2  
+                                   SC UHE QUEBRA QUEIXO                  120.000                   2.861    0.180       3.040 002167-9  
+                                   SC UHE SALTO PILAO                    190.380                   3.078    0.183       3.261 028564-1  
+                                   SC UTE COGERACAO LAGES                 26.000                   1.768    0.180       1.948 028745-8  
+                                   SC UTE JORGE LACERDA A                 79.000                   2.846    0.183       3.030 001260-2  
+                                   SC UTE RE TG 100 02 01                 84.769                   2.780    0.172       2.952 056139-8  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  CEMIG-D                          MG PCH BOA VISTA II                    29.701                   5.835    0.357       6.192 033465-0  
+                                   MG PCH CABOCLO                          3.815                   2.180    0.172       2.352 000345-0  
+                                   MG PCH CACHOEIRA DOS PRAZERES           1.750                   2.180    0.172       2.352 000526-6  
+                                   MG PCH CARANGOLA                       15.000                   0.910    0.172       1.082 027731-2  
+                                   MG PCH DORES DE GANHAES                13.181                   4.619    0.235       4.854 028781-4  
+                                   MG PCH FORTUNA II                       8.456                   4.619    0.244       4.862 028426-2  
+                                   MG PCH FUMACA                           9.700                   2.180    0.172       2.352 027957-9  
+                                   MG PCH FUNIL 27066                      3.550                   2.180    0.172       2.352 027066-0  
+                                   MG PCH FURQUIM                          5.875                   2.180    0.172       2.352 028175-1  
+                                   MG PCH JACARE                           8.856                   4.619    0.244       4.862 028749-0  
+                                   MG PCH MALAGONE                        19.000                   4.774    0.172       4.945 029646-5  
+                                   MG PCH MATA VELHA                      24.000                   7.540    0.393       7.933 028607-9 H
+                                   MG PCH MUCURI                          18.810                   2.604    0.172       2.776 028842-0  
+                                   MG PCH NINHO DA AGUIA                  10.000                   1.329    0.172       1.501 027576-0  
+                                   MG PCH PAIOL                           20.000                   3.620    0.172       3.792 028670-2  
+                                   MG PCH SALTO 27719                      4.210                   2.180    0.172       2.352 027719-3  
+                                   MG PCH SENHORA DO PORTO                11.616                   4.619    0.238       4.856 028735-0  
+                                   MG PCH SERRA DAS AGULHAS               29.774                   3.491    0.347       3.837 031207-0  
+                                   MG PCH UNAI BAIXO                      26.000                   7.540    0.172       7.712 028673-7 C
+                                   MG UFV ARAXA 1                         44.220                   5.200    0.172       5.372 040851-4  
+                                   MG UFV ARAXA 2                         44.220                   5.200    0.172       5.372 040852-2  
+                                   MG UFV BELVEDERE 1                     44.200      10.296       8.113    0.183      10.296 040686-4  
+                                   MG UFV BELVEDERE 2                     44.200      10.296       8.113    0.183      10.296 040687-2  
+                                   MG UFV BELVEDERE 3                     47.200      10.296       8.113    0.183      10.296 040688-0  
+                                   MG UFV COROMANDEL 1                    30.000                   4.359    0.172       4.531 033203-8  
+                                   MG UFV COROMANDEL 2                    30.000                   4.359    0.172       4.531 033202-0  
+                                   MG UFV FRANCISCO SA 1                  29.990                   5.446    0.337       5.783 033236-4  
+                                   MG UFV FRANCISCO SA 2                  29.990                   5.446    0.337       5.783 033237-2  
+                                   MG UFV FRANCISCO SA 3                  29.990                   5.446    0.337       5.783 033238-0  
+                                   MG UFV GSII SOLAR 1                    25.000                   4.700    0.172       4.872 045722-1  
+                                   MG UFV GSII SOLAR 2                    25.000                   4.700    0.172       4.872 045723-0  
+                                   MG UFV GSII SOLAR 3                    30.000                   4.700    0.172       4.872 045724-8  
+                                   MG UFV GUIMARANIA 1                    31.000       6.405       3.893    0.393       6.405 034073-1  
+                                   MG UFV GUIMARANIA 2                    31.000       6.405       3.893    0.393       6.405 034074-0  
+                                   MG UFV JAIBA N                         19.850                   7.238    0.172       7.410 043149-4  
+                                   MG UFV JAIBA NE1                       39.800                   7.238    0.172       7.410 043161-3  
+                                   MG UFV JAIBA NO1                       39.800                   7.238    0.172       7.410 043160-5  
+                                   MG UFV JAIBA O                         19.850                   7.238    0.172       7.410 043159-1  
+                                   MG UFV JAIBA SE1                       39.800                   7.238    0.172       7.410 043162-1  
+                                   MG UFV JUSANTE 1                       10.000       6.591       4.388    0.183       6.591 050784-0  
+                                   MG UFV JUSANTE 2                       10.000       6.591       4.388    0.183       6.591 050785-0  
+                                   MG UFV JUSANTE 3                       10.000       6.591       4.388    0.183       6.591 050786-0  
+                                   MG UFV JUSANTE 4                       10.000       6.591       4.388    0.183       6.591 050787-0  
+                                   MG UFV JUSANTE 5                       10.000       6.591       4.388    0.183       6.591 050788-0  
+                                   MG UFV JUSANTE 6                       10.000       6.591       4.388    0.183       6.591 050789-0  
+                                   MG UFV JUSANTE 7                       10.000       6.591       4.388    0.183       6.591 050790-0  
+                                   MG UFV PARACATU 1                      32.900       8.083       5.416    0.393       8.083 033999-7  
+                                   MG UFV PARACATU 2                      32.900       7.872       5.416    0.393       7.872 034000-6  
+                                   MG UFV PARACATU 3                      32.900       8.083       5.416    0.393       8.083 033990-3  
+                                   MG UFV PARACATU 4                      32.900       8.083       5.416    0.393       8.083 033991-1  
+                                   MG UFV PIRAPORA 10                     30.000       7.402       4.945    0.393       7.402 033193-7  
+                                   MG UFV PIRAPORA 2                      30.000       7.402       4.945    0.393       7.402 033185-6  
+                                   MG UFV PIRAPORA 3                      30.000       7.402       4.945    0.393       7.402 033186-4  
+                                   MG UFV PIRAPORA 4                      30.000       7.402       4.945    0.393       7.402 033187-2  
+                                   MG UFV PIRAPORA 5                      30.000       7.402       4.945    0.393       7.402 033188-0  
+                                   MG UFV PIRAPORA 6                      30.000       7.402       4.945    0.393       7.402 033189-9  
+                                   MG UFV PIRAPORA 7                      30.000       7.402       4.945    0.393       7.402 033190-2  
+                                   MG UFV PIRAPORA 9                      30.000       7.402       4.945    0.393       7.402 033192-9  
+                                   MG UFV RQL 01                          30.000       7.038       4.733    0.183       7.038 032996-7  
+                                   MG UFV RQL 02                          30.000       7.038       4.733    0.183       7.038 033969-5  
+                                   MG UFV SAO JOAO 1                      30.000                   6.391    0.172       6.563 047281-6  
+                                   MG UFV SAO JOAO 2                      30.000                   6.391    0.172       6.563 047282-4  
+                                   MG UFV SAO JOAO 3                      30.000                   6.391    0.172       6.563 047283-2  
+                                   MG UFV SAO JOAO 4                      30.000                   6.391    0.172       6.563 047284-0  
+                                   MG UFV SAO JOAO 5                      30.000                   6.391    0.172       6.563 047285-9  
+                                   MG UFV SAO JOAO 6                      30.000                   6.391    0.172       6.563 047286-7  
+                                   MG UFV SAO JOAO 7                      30.000                   6.391    0.172       6.563 047287-5  
+                                   MG UFV SOL DE VARZEA 1                 44.220                   4.700    0.172       4.872 043167-2  
+                                   MG UFV SOL DE VARZEA 2                 44.220                   4.700    0.172       4.872 043168-0  
+                                   MG UFV SOLAR JAIBA 3                   33.000                   6.094    0.337       6.431 034392-7  
+                                   MG UFV SOLAR JAIBA 4                   33.000                   6.094    0.337       6.431 034394-3  
+                                   MG UFV SOLAR JAIBA 9                   22.500                   6.094    0.337       6.431 035805-3  
+                                   MG UFV VAZANTE 1                       27.000                   4.945    0.357       5.303 032339-0  
+                                   MG UFV VAZANTE 2                       27.000                   4.945    0.357       5.303 032340-3  
+                                   MG UFV VAZANTE 3                       27.000                   4.945    0.172       5.117 032341-1  
+                                   MG UHE AMADOR AGUIAR I (C.BRANCO I)   230.800                   4.814    0.172       4.986 027483-6  
+                                   MG UHE AMADOR AGUIAR II(C.BRANCO II   207.200                   5.906    0.172       6.078 027484-4  
+                                   MG UHE BATALHA                         49.450                   5.123    0.172       5.295 029454-3  
+                                   MG UHE CAMARGOS                        44.744                   1.956    0.172       2.128 000608-4  
+                                   MG UHE FUNIL - MG                     180.000                   2.832    0.172       3.004 001006-5  
+                                   MG UHE IGARAPAVA                      207.720                   5.990    0.172       6.162 001098-7  
+                                   MG UHE ITUTINGA                        50.672                   1.956    0.172       2.128 001197-5  
+                                   MG UHE MASCARENHAS DE MORAES(PEIX.)   150.000                   4.662    0.172       4.834 002038-9  
+                                   MG UHE MIRANDA                        403.713                   5.803    0.172       5.975 001469-9  
+                                   MG UHE PICADA                          49.000                   1.754    0.172       1.926 002053-2  
+                                   MG UHE PORTO COLOMBIA                 316.000                   5.838    0.172       6.010 002117-2  
+                                   MG UHE QUEIMADO                       105.000                   7.858    0.156       8.014 002176-8 C
+                                   MG UHE RETIRO BAIXO                    79.000                   4.827    0.172       4.999 029457-8  
+                                   MG UHE RISOLETA NEVES (CANDONGA)      140.000                   4.443    0.172       4.615 000641-6  
+                                   MG UHE SALTO GRANDE - MG              101.004                   2.259    0.172       2.431 027210-8  
+                                   MG UHE SANTA CLARA 2699                60.000                   2.615    0.172       2.787 002699-9  
+                                   MG UHE SOBRAGI                         59.500                   0.443    0.172       0.615 002757-0  
+                                   MG UTE AURELIANO CHAVES (IBIRITE)     230.000                   2.491    0.172       2.663 001096-0  
+                                   MG UTE BEVAP                           32.500                   5.875    0.172       6.047 030063-2  
+                                   MG UTE CERRADAO                        25.000                   5.819    0.172       5.991 029709-7  
+                                   MG UTE CERRADAO 2                      40.000                   5.819    0.172       5.991 038336-8  
+                                   MG UTE CET (BIOENERGETICA AROEIRA)      1.500                   4.721    0.172       4.893 030313-5  
+                                   MG UTE DELTA                           50.000                   6.024    0.172       6.196 028219-7  
+                                   MG UTE DVPA                            20.000                   5.535    0.172       5.707 030266-0  
+                                   MG UTE ENERGETICA TUPACIGUARA          30.000                   4.721    0.337       5.059 038176-4  
+                                   MG UTE ENERVALE                        27.500                   5.875    0.172       6.047 030850-1  
+                                   MG UTE ITUIUTABA                       30.000                   5.546    0.172       5.718 030094-2  
+                                   MG UTE JUIZ DE FORA - CEMIG            41.500                   1.957    0.172       2.129 001276-9  
+                                   MG UTE LD CELULOSE                     95.000                   5.803    0.172       5.975 040854-9  
+                                   MG UTE LDC BIOENERGIA LAGOA DA PRAT    30.000                   1.445    0.172       1.617 029717-8  
+                                   MG UTE REGAP                           10.000                   2.466    0.172       2.638 028596-0  
+                                   MG UTE SANTA JULIANA                   30.000                   4.695    0.172       4.867 030166-3  
+                                   MG UTE SANTA VITORIA                   35.000                   7.175    0.163       7.338 031268-1  
+                                   MG UTE SANTO ANGELO                    30.000                   5.903    0.393       6.296 029116-1  
+                                   MG UTE SAO JUDAS TADEU                 30.000                   6.371    0.172       6.543 029759-3  
+                                   MG UTE UT UGPU ITABIRITO                3.300                   5.795    0.172       5.967 032658-5  
+                                   MG UTE VALE DO PONTAL                  22.500                   8.773    0.136       8.909 030371-2  
+                                   MG UTE VALE DO PONTAL 2                23.000                   8.773    0.328       9.101 038172-1  
+                                   MG UTE VALE DO TIJUCO I                30.000                   5.762    0.172       5.934 030034-9  
+                                   MG UTE VALE DO TIJUCO II               30.000       8.670       5.762    0.427       8.670 030473-5  
+                                   MG UTE WD                              35.000                   4.415    0.172       4.587 029122-6  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  COPEL-DIS                        PR PCH ARTURO ANDREOLI                 29.072                   3.183    0.235       3.418 001278-5  
+                                   PR PCH BELA VISTA 29576                28.990                   1.765    0.180       1.944 029576-0  
+                                   PR PCH BOA VISTA II (COPEL)            24.000                   2.871    0.180       3.050 000273-9  
+                                   PR PCH CANHADAO                        10.000                   3.798    0.235       4.033 032511-0  
+                                   PR PCH CANTU 2                         19.550                   2.317    0.393       2.710 029180-3  
+                                   PR PCH CAVERNOSO II                    19.000                   2.713    0.235       2.948 030458-1  
+                                   PR PCH CONFLUENCIA                     27.000                   2.591    0.356       2.947 029068-0  
+                                   PR PCH DOIS SALTOS                     30.000                   2.617    0.180       2.796 033975-0  
+                                   PR PCH FORQUILHA                        5.500                   3.798    0.158       3.956 035801-0  
+                                   PR PCH FOZ DO ESTRELA                  29.480                   3.260    0.337       3.597 028998-0  
+                                   PR PCH INVERNADINHA                    18.000                   3.798    0.158       3.956 035800-2  
+                                   PR PCH LUCIA CHEROBIM                  28.000                   1.545    0.289       1.833 028419-0  
+                                   PR PCH LUDESA                          30.000                   1.486    0.235       1.721 028801-2  
+                                   PR PCH MACACOS                          9.900                   3.702    0.235       3.937 035006-0  
+                                   PR PCH NOVO HORIZONTE                  23.000                   3.811    0.235       4.046 028782-2  
+                                   PR PCH SANTA LUZIA ALTO                28.500                   1.486    0.235       1.721 029652-0  
+                                   PR PCH VICTOR BAPTISTA ADAMI           25.000                   2.030    0.235       2.265 029072-6  
+                                   PR UHE FUNDAO                         120.168                   4.066    0.235       4.301 028360-6  
+                                   PR UHE SANTA BRANCA (COPEL)            60.570                   3.806    0.393       4.198 035290-0  
+                                   PR UHE SANTA CLARA 28361              120.168                   4.116    0.230       4.346 028361-4  
+                                   PR UHE TIBAGI MONTANTE                 36.000                   3.806    0.356       4.162 032923-0  
+                                   PR UTE ALTO ALEGRE - UJU               20.000                   4.204    0.235       4.439 028367-3  
+                                   PR UTE BIO COOPCANA                    30.000                   3.548    0.235       3.783 028148-4  
+                                   PR UTE DESTILARIA MELHORAMENTOS        26.300                   2.056    0.180       2.236 028074-7  
+                                   PR UTE FIGUEIRA                        18.000                   3.469    0.235       3.704 000955-5  
+                                   PR UTE SANTA TEREZINHA                 29.940                   2.463    0.235       2.698 028149-2  
+                                   PR UTE SANTA TEREZINHA PARANACITY      26.000                   4.036    0.235       4.271 028139-5  
+                                   PR UTE UFL                             30.000                   4.204    0.235       4.439 031034-4  
+                                   PR UTE UJU BIO                         40.000                   4.204    0.183       4.387 051729-1  
+                                   PR UTE USACIGA                         23.300                   2.967    0.235       3.202 029144-7  
+                                   PR UTE USI                             30.000                   4.204    0.235       4.439 029575-2  
+                                   PR UTE USI BIO                         10.000                   4.092    0.235       4.327 031968-6  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  CPFL PAULISTA                    SP PCH ANHANGUERA                      22.680                   5.302    0.172       5.474 028734-2  
+                                   SP PCH ELOY CHAVES                     18.935                   3.454    0.172       3.626 027108-0  
+                                   SP PCH PALMEIRAS                       16.000                   4.614    0.172       4.786 028800-4  
+                                   SP PCH PINHAL                           6.777                   3.300    0.172       3.472 027228-0  
+                                   SP PCH RETIRO                          15.600                   5.313    0.172       5.485 028738-5  
+                                   SP UFV GUAIMBE 1                       30.000                   4.853    0.357       5.210 032326-8  
+                                   SP UFV GUAIMBE 2                       30.000                   4.853    0.357       5.210 032327-6  
+                                   SP UFV GUAIMBE 3                       30.000                   4.853    0.357       5.210 032328-4  
+                                   SP UFV GUAIMBE 4                       30.000                   4.853    0.357       5.210 032329-2  
+                                   SP UFV GUAIMBE 5                       30.000                   4.853    0.357       5.210 032330-6  
+                                   SP UHE BARIRI (A.S.LIMA)              135.280                   2.892    0.172       3.064 000203-8  
+                                   SP UHE BARRA BONITA                   139.230                   2.791    0.172       2.963 000208-9  
+                                   SP UHE IBITINGA                       129.940                   4.743    0.172       4.914 001097-9  
+                                   SP UHE PROMISSAO                      261.060                   4.903    0.172       5.075 002158-0  
+                                   SP UTE ALTA MOGIANA                    29.500                   5.351    0.172       5.523 000060-4  
+                                   SP UTE BARRA BIOENERGIA                83.700                   2.806    0.172       2.978 030047-0  
+                                   SP UTE BARRA GRANDE (SP)               30.000                   5.057    0.183       5.241 027055-5  
+                                   SP UTE BARRA GRANDE 2                  70.000                   5.057    0.225       5.282 051532-9  
+                                   SP UTE BELA VISTA 27917                25.000                   5.378    0.172       5.549 027917-0  
+                                   SP UTE BIOGAS BONFIM                   19.800                   4.462    0.393       4.854 035109-1  
+                                   SP UTE BIOLINS                         18.000                   4.852    0.172       5.024 030125-6  
+                                   SP UTE BONFIM                          84.100                   4.462    0.172       4.634 029665-1  
+                                   SP UTE BROTAS                          30.000                   5.848    0.172       6.020 030782-3  
+                                   SP UTE BROTAS II                       30.000                   5.848    0.172       6.020 034649-0  
+                                   SP UTE CEVASA                          28.000                   4.037    0.172       4.209 028458-0  
+                                   SP UTE CLEALCO QUEIROZ                 29.000                   3.449    0.172       3.621 030036-5  
+                                   SP UTE COLOMBO ARIRANHA                14.000                   5.615    0.172       5.787 000796-0  
+                                   SP UTE COLOMBO ARIRANHA 2              30.000                   5.615    0.172       5.787 031112-0  
+                                   SP UTE COLORADO                        30.000                   5.695    0.172       5.867 028094-1  
+                                   SP UTE COSTA PINTO                     49.500                   5.919    0.172       6.091 028221-9  
+                                   SP UTE DA MATA                         30.000                   6.000    0.172       6.172 029774-7  
+                                   SP UTE DA MATA II                      30.000                   6.000    0.172       6.172 035773-0  
+                                   SP UTE DA PEDRA                        50.000                   4.163    0.172       4.335 030453-0  
+                                   SP UTE ENERGETICA ALTA MOGIANA         38.000                   5.351    0.172       5.523 049301-5  
+                                   SP UTE EQUIPAV I                        7.000                   4.847    0.172       5.019 028101-8  
+                                   SP UTE EQUIPAV II                      29.000                   4.847    0.172       5.019 029765-8  
+                                   SP UTE ESTER                           28.000                   3.609    0.172       3.781 000912-1  
+                                   SP UTE GUAIRA - SP                     30.000                   4.900    0.172       5.072 030026-8  
+                                   SP UTE GUARANI - TANABI                30.000                   4.868    0.172       5.040 030095-0  
+                                   SP UTE GUARANI - TANABI 2              29.000                   4.868    0.393       5.261 031445-5  
+                                   SP UTE GUARANI CRUZ ALTA               29.000                   3.976    0.172       4.147 027796-7  
+                                   SP UTE GUARANI CRUZ ALTA 2             19.000                   3.976    0.357       4.333 033380-8  
+                                   SP UTE IBITIUVA                        30.000                   5.315    0.172       5.487 027768-1  
+                                   SP UTE MANDU                           59.000                   4.999    0.172       5.171 027787-8  
+                                   SP UTE MOGIANA BIOENERGIA              29.500                   5.351    0.172       5.523 030447-6  
+                                   SP UTE MP PAULINIA                     15.790                   3.301    0.172       3.473 055998-9  
+                                   SP UTE NARDINI                         31.000                   5.578    0.172       5.750 001528-8  
+                                   SP UTE PITANGUEIRAS                    41.000                   4.918    0.172       5.089 028859-4  
+                                   SP UTE POTIRENDABA                     26.000                   4.362    0.172       4.534 029655-4  
+                                   SP UTE RAFARD                          33.500                   3.245    0.172       3.417 002903-3  
+                                   SP UTE RUETTE                          18.000                   5.837    0.172       6.009 027345-7  
+                                   SP UTE SANTA ADELIA                    23.500                   5.007    0.172       5.179 027343-0  
+                                   SP UTE SANTA CANDIDA I                 21.500                   5.639    0.172       5.811 027767-3  
+                                   SP UTE SANTA CANDIDA II                30.000                   5.639    0.393       6.031 031739-0  
+                                   SP UTE SANTA CRUZ AB                   50.000                   4.203    0.172       4.375 001609-8  
+                                   SP UTE SANTA ELISA                     30.000                   5.305    0.172       5.477 028232-4  
+                                   SP UTE SANTA FE 27922                   8.000                   4.979    0.172       5.151 027922-6  
+                                   SP UTE SAO FRANCISCO                   19.000                   4.923    0.172       5.095 027335-0  
+                                   SP UTE SAO JOSE 2                      33.000                   4.303    0.337       4.640 037515-2  
+                                   SP UTE SAO JOSE COLINA                 53.000                   5.016    0.172       5.188 028975-2  
+                                   SP UTE SAO JOSE MACATUBA               33.000                   5.057    0.183       5.241 026847-0  
+                                   SP UTE SAO MARTINHO                    30.000                   5.403    0.172       5.575 026874-7  
+                                   SP UTE SAO MARTINHO BIOENERGIA         39.900                   5.403    0.172       5.575 032371-3  
+                                   SP UTE SAO MARTINHO ENERGIA            30.000                   5.403    0.172       5.575 030994-0  
+                                   SP UTE UNIVALEM BIOENERGIA             29.000                   5.500    0.172       5.672 030264-3  
+                                   SP UTE VALE DO ROSARIO                 63.000                   5.669    0.172       5.841 002958-0  
+                                   SP UTE VERTENTE                        27.500                   3.976    0.172       4.147 029270-2  
+                                   SP UTE VIRALCOOL                       24.000                   5.374    0.172       5.546 003035-0  
+                                   SP UTE VIRALCOOL 2                     29.000                   5.374    0.172       5.546 030851-0  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  CPFL PIRATININGA                 SP UHE HENRY BORDEN                    49.000                   1.302    0.183       1.485 001084-7  
+                                   SP UTE NEGRO DE FUMO                   18.000                   1.290    0.183       1.473 000825-7  
+                                   SP UTE PETROCOQUE                      11.800                   4.642    0.183       4.825 031229-0  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  CPFL SANTA CRUZ                  SP UHE CACONDE                         79.500                   3.806    0.235       4.041 000588-6  
+                                   SP UHE EUCLIDES DA CUNHA              107.590                   3.575    0.235       3.810 000923-7  
+                                   SP UHE LIMOEIRO (A.S.OLIVEIRA)         31.640                   3.589    0.235       3.824 001328-5  
+                                   SP UHE OURINHOS                        41.000                   3.888    0.235       4.123 027872-6  
+                                   SP UTE BIOENERGIA MOCOCA               40.000                   3.540    0.180       3.719 040824-7  
+                                   SP UTE FURLAN AVARE                    15.000                  14.275    0.229      14.504 031189-8  
+                                   SP UTE IPAUSSU BIOENERGIA              51.500                   3.588    0.235       3.823 030199-0  
+                                   SP UTE RIO PARDO                       25.000                   5.342    0.228       5.571 030065-9 C
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  EDP ES                           ES PCH FRANCISCO GROSS                 28.970                   4.618    0.215       4.833 028380-0  
+                                   ES PCH SAO JOAQUIM                     21.000                   5.289    0.188       5.478 027985-4  
+                                   ES PCH SAO PEDRO                       30.000                   6.144    0.092       6.236 028986-8  
+                                   ES PCH SAO SIMAO                       27.000                   4.618    0.215       4.833 028171-9  
+                                   ES UHE MASCARENHAS - ENERGEST         196.420                   4.901    0.253       5.154 001432-0  
+                                   ES UHE SUICA                           33.870                   4.777    0.237       5.013 002781-2  
+                                   ES UTE ALCON                           30.000                   3.976    0.275       4.251 029150-1  
+                                   ES UTE ARCEL                           29.999                   5.094    0.275       5.369 000127-9  
+                                   ES UTE BIANCOGRES                      10.220                   2.936    0.183       3.120 029586-8  
+                                   ES UTE LASA                            25.000                   5.436    0.149       5.585 029107-2  
+                                   ES UTE LUIZ OSCAR ROD. DE MELO        231.360                   5.063    0.183       5.246 030054-3  
+                                   ES UTE POVOACAO                        73.500                   5.063    0.183       5.246 056045-6  
+                                   ES UTE SOL                             90.000                   5.366    0.178       5.544 029273-7  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  EDP SAO PAULO                    SP PCH LAVRINHAS                       30.000                   6.492    0.069       6.561 029114-5 C
+                                   SP PCH QUELUZ                          30.000                   6.492    0.068       6.561 029115-3 C
+                                   SP UHE JAGUARI                         27.300                   1.748    0.183       1.931 027131-4  
+                                   SP UHE SANTA BRANCA                    57.000                   4.523    0.183       4.706 002696-4  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  ENEL RIO                         RJ UHE SIMPLICIO                      322.500                   3.885    0.172       4.057 029458-6  
+                                   RJ UTE CAMPOS                          31.000                   3.222    0.172       3.394 027935-8  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  ENEL SAO PAULO                   SP PCH PIRAPORA                        25.000                   4.331    0.183       4.515 029721-6  
+                                   SP PCH RASGAO                          22.000                   4.361    0.183       4.545 002187-3  
+                                   SP UTE FERNANDO GASPARIAN (N.PIRAT)   185.000                   0.995    0.183       1.179 028191-3  
+                                   SP UTE SAO JOAO BIOGAS                 21.500                   1.744    0.183       1.927 028648-6  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  ENERGISA M.G. DO SUL - EMS       MS PCH ALTO SUCURIU                    29.000                   8.529    0.162       8.691 028817-9 C
+                                   MS PCH BURITI                          30.000                   8.542    0.165       8.707 028753-9 C
+                                   MS PCH COSTA RICA                      15.810                   8.514    0.160       8.674 000872-9 C
+                                   MS PCH PARAISO I                       21.380                   8.529    0.162       8.691 027587-5 C
+                                   MS PCH PLANALTO                        16.830                   8.512    0.160       8.673 028737-7 C
+                                   MS PCH PORTO DAS PEDRAS                28.030                   8.542    0.165       8.707 028995-7 C
+                                   MS PCH RETIRO VELHO                    18.000                   8.512    0.160       8.673 028771-7 C
+                                   MS PCH VERDE 4                         18.550                   7.190    0.274       7.464 029260-0  
+                                   MS PCH VERDE 4A                        27.440                   7.190    0.273       7.463 029261-3  
+                                   MS UHE MIMOSO                          29.350                   7.190    0.172       7.362 028012-7  
+                                   MS UHE SAO DOMINGOS                    47.400                   8.524    0.135       8.659 028761-0 C
+                                   MS UTE ANGELICA                        70.000                   7.360    0.169       7.529 029670-8  
+                                   MS UTE ANGELICA I                      35.000                   7.360    0.183       7.544 051752-0  
+                                   MS UTE CAARAPO                         57.000                   7.194    0.169       7.363 030104-3  
+                                   MS UTE INPASA DOURADOS                 26.000                   6.730    0.172       6.902 050519-6  
+                                   MS UTE LAGUNA                          10.000                   7.478    0.183       7.662 030482-0  
+                                   MS UTE LDC BIOENERGIA RIO BRILHANTE    56.000                   7.537    0.166       7.704 029718-6  
+                                   MS UTE MONTEVERDE                      14.500                   7.195    0.169       7.364 029990-1  
+                                   MS UTE PASSA TEMPO                     50.000                   7.204    0.172       7.376 028111-5  
+                                   MS UTE SUZANO RRP1                    165.000                   7.003    0.183       7.186 049647-2  
+                                   MS UTE VISTA ALEGRE I                  28.800                   6.638    0.183       6.821 029994-4  
+                                   MS UTE VISTA ALEGRE II                 29.200                   7.405    0.183       7.588 031702-0  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  ENERGISA MATO GROSSO - EMT       MT PCH AGUA BRAVA                      13.050                   6.832    0.393       7.224 029045-9  
+                                   MT PCH AGUA CLARA                       4.000                   6.832    0.183       7.015 029042-4  
+                                   MT PCH AGUA PRATA                      13.300                   6.832    0.393       7.224 029044-0  
+                                   MT PCH ALTO GUAPORE 2                   7.000                   3.572    0.230       3.802 035646-8 H
+                                   MT PCH ANTONIO BRENNAND(ALTO JAURU)    20.000       8.542       3.700    0.134       8.542 000077-9 C
+                                   MT PCH BARUITO                         18.000                   8.517    0.162       8.680 000233-0  
+                                   MT PCH BELEZA                           6.500                   6.832    0.172       7.004 037309-5  
+                                   MT PCH BOCAIUVA                        29.500                   7.031    0.172       7.203 029184-6  
+                                   MT PCH BRACO NORTE III                 14.037                   5.621    0.172       5.793 027176-4  
+                                   MT PCH BRACO NORTE IV                  13.977                   5.633    0.172       5.805 028772-5  
+                                   MT PCH CABECA DE BOI                   29.430                   5.320    0.216       5.536 029733-0  
+                                   MT PCH CASCA III                       12.420                   4.211    0.172       4.383 000688-2  
+                                   MT PCH CIDEZAL                         16.773       9.848       0.969    0.151       9.848 028836-5 C
+                                   MT PCH DA FAZENDA                      26.487                   5.320    0.215       5.535 029734-8  
+                                   MT PCH DIVISA                          10.800       9.848       0.969    0.151       9.848 029048-3 C
+                                   MT PCH ESTIVADINHO 3                    9.900       9.063       3.572    0.225       9.063 033415-4 H
+                                   MT PCH FIGUEIROPOLIS                   19.300       8.532       3.639    0.135       8.532 029145-5 C
+                                   MT PCH GARGANTA JARARACA               29.300                   8.504    0.162       8.666 028918-3  
+                                   MT PCH ILHA COMPRIDA                   19.910       9.848       0.969    0.151       9.848 028835-7 H
+                                   MT PCH INDIAVAI                        28.000       8.542       3.700    0.134       8.542 027370-8 C
+                                   MT PCH INXU                            21.550                   8.517    0.162       8.680 030642-8  
+                                   MT PCH JESUITA                         22.300      12.363       0.969    0.154      12.363 028818-7 H
+                                   MT PCH JOSE GELASIO                    23.166                   5.985    0.172       6.157 028845-4  
+                                   MT PCH JUI 117                         25.000      15.569       7.287    0.312      15.569 034966-6  
+                                   MT PCH LAJARI                          20.880                   6.295    0.357       6.652 033386-7  
+                                   MT PCH NOVA GUAPORE                    13.958      13.394       3.572    0.393      13.394 034705-1 H
+                                   MT PCH OMBREIRAS                       26.000       8.542       3.700    0.134       8.542 027216-7 C
+                                   MT PCH PAMPEANA                        28.000                   6.595    0.172       6.767 029376-8  
+                                   MT PCH PARANATINGA II                  29.020                   5.704    0.112       5.816 028832-2  
+                                   MT PCH PARECIS                         15.171       9.848       0.969    0.151       9.848 028819-5 C
+                                   MT PCH RIO CLARO (ANTIGA PERDIDOS)     28.000                   6.877    0.337       7.215 037328-1  
+                                   MT PCH RONDON                          12.772       9.848       0.969    0.151       9.848 002547-0 C
+                                   MT PCH RONDONOPOLIS                    26.210                   5.985    0.172       6.157 028848-9  
+                                   MT PCH SACRE II                        30.000                   7.432    0.172       7.604 028796-2  
+                                   MT PCH SALTO 28203                     19.000       8.532       3.639    0.135       8.532 028203-0 H
+                                   MT PCH SALTO CORGAO                    27.000       8.820       3.609    0.143       8.820 027326-0 C
+                                   MT PCH SANTA GABRIELA                  24.000                   6.448    0.172       6.620 028996-5  
+                                   MT PCH SAO LOURENCO                    29.100                   7.534    0.170       7.705 028825-0  
+                                   MT PCH SAO TADEU                       17.890                   6.033    0.172       6.205 028806-3  
+                                   MT PCH SAPEZAL                         15.771       9.848       0.969    0.151       9.848 028821-7 C
+                                   MT PCH SEGREDO                         25.868       9.848       0.969    0.151       9.848 028822-5 C
+                                   MT PCH SETE QUEDAS                     22.000                   7.534    0.170       7.705 028853-5  
+                                   MT PCH TELEGRAFICA                     29.772       9.848       0.969    0.151       9.848 028820-9 C
+                                   MT PCH TERRA SANTA                     27.400                   6.595    0.172       6.767 029367-9  
+                                   MT UHE GUAPORE                        120.000       8.538       3.676    0.134       8.538 001066-9 C
+                                   MT UHE JAURU (CINCO ESTRELAS)          12.150       8.538       3.672    0.134       8.538 001245-9 C
+                                   MT UHE JAURU (QUEIROZ GALVAO)         103.500       8.538       3.672    0.134       8.538 001245-9 C
+                                   MT UHE JUBA I                          42.000                   7.165    0.172       7.337 001268-8  
+                                   MT UHE JUBA II                         42.000                   6.595    0.172       6.767 001269-6  
+                                   MT UHE SALTO APIACAS                   44.145                   5.320    0.218       5.538 031401-3  
+                                   MT UTE F&S AGRI SOLUTIONS              16.793                   4.748    0.172       4.920 034035-9  
+                                   MT UTE FENIX                           27.000                   6.295    0.172       6.467 029649-0  
+                                   MT UTE FS BIOENERGIA PRIMAVERA         30.144                   4.359    0.183       4.543 054855-3  
+                                   MT UTE INPASA                          10.000                   6.277    0.172       6.449 040821-2  
+                                   MT UTE NOVO MILENIO                     8.000                   6.842    0.172       7.014 035588-7  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  ENERGISA MINAS GERAIS - EMG      MG PCH ANNA MARIA                       1.640                   3.886    0.235       4.121 000104-0  
+                                   MG PCH GUARY                            5.320                   3.886    0.235       4.121 001078-2  
+                                   MG PCH IVAN BOTELHO I (PONTE)          25.000                   3.981    0.235       4.216 027534-4  
+                                   MG PCH IVAN BOTELHO II (PALESTINA)     12.600                   3.793    0.235       4.028 027727-4  
+                                   MG PCH IVAN BOTELHO III (TRIUNFO)      24.400                   3.153    0.235       3.388 027532-8  
+                                   MG PCH JOAO CAMILO PENA                22.000                   4.435    0.235       4.670 000473-1  
+                                   MG PCH TULIO CORDEIRO DE MELO          16.500                   4.192    0.235       4.427 001047-2  
+                                   MG PCH ZE TUNIN                         8.100                   3.506    0.235       3.741 030597-9  
+                                   MG UHE BARRA DO BRAUNA                 39.500                   2.262    0.235       2.497 000215-1  
+                                   MG UTE JUIZ DE FORA - EMG              42.500                   3.886    0.235       4.121 001276-9  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  ENERGISA RONDONIA                RO PCH CESAR FILHO                      7.000       5.943       1.839    0.183       5.943 031050-6  
+                                   RO PCH PRIMAVERA                       26.000       5.943       1.839    0.183       5.943 028840-3  
+                                   RO UHE RONDON II                       70.000       6.193       2.089    0.183       6.193 027448-8  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  ENERGISA SUL SUDESTE - ESS       SP UHE CANOAS I                        81.400                   5.928    0.180       6.108 000647-5  
+                                   SP UHE CANOAS II                       71.000                   5.487    0.180       5.667 027092-0  
+                                   SP UHE SALTO GRANDE (LN GARCEZ-GP)     73.300                   4.780    0.180       4.959 002648-4  
+                                   SP UTE AGUA BONITA                     15.000                   5.005    0.180       5.185 027891-2  
+                                   SP UTE BRANCO PERES                    10.000                   5.411    0.180       5.590 027947-1  
+                                   SP UTE CANAA                           20.000                   5.175    0.180       5.354 029138-2  
+                                   SP UTE CATANDUVA                       28.580                   3.802    0.180       3.982 028042-9  
+                                   SP UTE COCAL                           25.000                   5.175    0.180       5.354 027974-9  
+                                   SP UTE DECASA                          23.000                   5.578    0.180       5.758 028051-8  
+                                   SP UTE MARACAI                         29.500                   5.294    0.180       5.474 001405-2  
+                                   SP UTE QUATA                           25.000                   5.075    0.172       5.247 028288-0  
+                                   SP UTE SANTA ISABEL                    24.000                   4.800    0.180       4.980 028401-7  
+                                   SP UTE SAO JOSE ESTIVA                 25.000                   4.832    0.180       5.012 027814-9  
+                                   SP UTE UFA                             15.000                   5.391    0.180       5.570 028366-5  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  ENERGISA TOCANTINS - ETO         TO PCH AGROTRAFO                       14.031                   2.091    0.235       2.326 000031-0  
+                                   TO PCH AGUA LIMPA                      14.000                   2.103    0.235       2.338 028447-5  
+                                   TO PCH AREIA                           11.400                   2.120    0.235       2.355 028446-7  
+                                   TO UFV SOL MAIOR II                     5.000                   4.834    0.394       5.228 033608-4  
+                                   TO UTE ITAFOS                           2.000                   4.721    0.127       4.848 030893-0  
+                                   TO UTE PEDRO AFONSO                    40.000                   5.189    0.171       5.360 030518-9  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  EQUATORIAL GOIAS                 GO PCH GALHEIROS I                     11.550                   0.000    0.183       0.183 030312-7  
+                                   GO PCH MOSQUITAO                       30.000                   9.864    0.110       9.974 028541-2 C
+                                   GO PCH QUEIXADA                        30.000                   6.412    0.183       6.596 030272-4  
+                                   GO PCH RENIC                           15.832                   9.864    0.394      10.258 029663-5 I
+                                   GO PCH SANTO ANTONIO DO CAIAPO         30.000                   9.864    0.110       9.974 029119-6 C
+                                   GO PCH SAO DOMINGOS II                 24.000                   0.000    0.183       0.183 028388-6  
+                                   GO PCH TAMBORIL 29648                  15.800                   9.864    0.394      10.258 029648-1 I
+                                   GO PCH TAMBORIL 35113                  15.800                   2.988    0.372       3.359 035113-0  
+                                   GO PCH VERDE 8                         30.000                   6.785    0.183       6.968 030973-0  
+                                   GO PCH YPE                             30.000                   6.785    0.183       6.968 031327-0  
+                                   GO UHE CACHOEIRA DOURADA              141.410                   6.220    0.183       6.403 000528-2  
+                                   GO UHE ESPORA                          32.010                   6.412    0.183       6.596 000908-3  
+                                   GO UHE SERRA DO FACAO                 202.400       4.383       2.223    0.183       4.383 028355-0  
+                                   GO UTE BOA VISTA - CELG                28.500                   6.012    0.183       6.195 029588-4  
+                                   GO UTE CACHOEIRA DOURADA               30.000                   6.220    0.183       6.403 030033-0  
+                                   GO UTE DAIA (ANAPOLIS)                 44.300                   8.887    0.130       9.017 028612-5 C
+                                   GO UTE ENTRE RIOS                      48.300                   6.059    0.183       6.243 050746-0  
+                                   GO UTE ITUMBIARA (CIBA)                39.600                   6.220    0.183       6.403 030090-0  
+                                   GO UTE QUIRINOPOLIS - CELG             25.000                   6.263    0.183       6.446 029268-0  
+                                   GO UTE XAVANTES(ARUANA)                53.598                   9.835    0.139       9.974 028654-0 C
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  EQUATORIAL PARA                  MT PCH SALTO BURITI                    10.000                   5.464    0.183       5.648 028671-0  
+                                   MT PCH SALTO CURUA                     30.000                   5.464    0.183       5.648 028672-9  
+                                   MT PCH SALTO TRES DE MAIO              20.000                   5.621    0.183       5.805 028653-2  
+                                   PA UHE CURUA-UNA                       30.300                   4.843    0.080       4.923 027130-6 C
+                                   PA UTE FLORAPLAC                       15.900                   7.336    0.174       7.510 032116-8 I
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  EQUATORIAL PIAUI                 PI EOL DELTA DO PARNAIBA               30.000                   5.293    0.402       5.695 030838-2  
+                                   PI EOL PORTO DAS BARCAS                20.000                   5.293    0.402       5.695 030827-7  
+                                   PI EOL PORTO DO DELTA                  30.000       6.137       5.293    0.388       6.137 030639-8  
+                                   PI EOL PORTO SALGADO                   20.000                   5.293    0.402       5.695 030830-7  
+                                   PI EOL TESTA BRANCA I                  22.000                   5.293    0.183       5.477 031666-0  
+                                   PI EOL TESTA BRANCA III                22.000                   5.293    0.183       5.477 033479-0  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  LIGHT                            RJ PCH BONFANTE                        19.000                   2.711    0.180       2.890 000291-7  
+                                   RJ PCH LAJES (FONTES VELHA)            16.700                   3.936    0.180       4.116 001306-4  
+                                   RJ PCH MONTE SERRAT                    25.000                   2.711    0.180       2.890 001498-2  
+                                   RJ PCH PARACAMBI                       25.000                   3.499    0.180       3.679 001959-3  
+                                   RJ PCH SANTA FE 28752                  30.000                   2.711    0.180       2.890 028752-0  
+                                   RJ UHE FONTES NOVA                    129.171                   3.936    0.180       4.116 000973-3  
+                                   RJ UHE FUNIL - RJ                     204.000                   4.033    0.180       4.213 027118-7  
+                                   RJ UHE ILHA DOS POMBOS                185.125                   3.662    0.180       3.841 001113-4  
+                                   RJ UHE ITAOCARA I                     150.000                   3.662    0.357       4.019 027969-2  
+                                   RJ UHE NILO PECANHA                   376.923                   3.753    0.180       3.932 001536-9  
+                                   RJ UHE PEREIRA PASSOS                  99.212                   4.133    0.180       4.313 002043-5  
+                                   RJ UTE BARBOSA L.S. (ELETROBOLT)      379.000                   4.144    0.180       4.323 027952-8  
+                                   RJ UTE GOV.LEONEL BRIZOLA (TERMORIO  1036.400                   3.766    0.180       3.945 027888-2  
+                                   RJ UTE SANTA CRUZ                     691.000                   3.501    0.180       3.681 027243-4  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  NEOENEGIA BRASILIA               GO UHE CORUMBA III                     86.500                   3.614    0.180       3.794 028352-5  
+                                   GO UHE CORUMBA IV                     124.500                   3.573    0.180       3.753 027795-9  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  NEOENERGIA COELBA                BA EOL VENTOS DA BAHIA II              26.210                   4.770    0.172       4.942 031758-6  
+                                   BA EOL VENTOS DA BAHIA IV              11.650                   4.770    0.393       5.163 031770-5  
+                                   BA EOL VENTOS DA BAHIA VIII            26.210                   4.770    0.172       4.942 031771-3  
+                                   BA PCH BOA SORTE - TO                  15.900                   8.528    0.069       8.596 029060-2 C
+                                   BA PCH CACHOEIRA DA LIXA - BA          14.800                   2.909    0.158       3.067 028999-0  
+                                   BA PCH COLINO 1 - BA                   11.000                   2.909    0.158       3.067 029004-1  
+                                   BA PCH COLINO 2 - BA                   16.000                   2.909    0.158       3.067 028997-3  
+                                   BA PCH DOIDO                            6.000                   8.526    0.070       8.596 031244-4 I
+                                   BA PCH LAGOA GRANDE - TO               24.300                   8.528    0.069       8.596 029057-2 C
+                                   BA PCH PIARUCUM                        10.000                   8.526    0.070       8.596 032551-1 I
+                                   BA PCH PORTO FRANCO - TO               29.710                   8.528    0.069       8.596 029059-9 C
+                                   BA PCH RIACHO PRETO - TO                9.300                   8.528    0.069       8.596 029058-0 C
+                                   BA UHE FUNIL - BA                      29.961                   4.125    0.118       4.244 027046-6  
+                                   BA UTE SUZANO MUCURI                   50.000                   2.897    0.147       3.044 000187-2  
+                                   BA UTE SYKUE I                         28.500                   8.507    0.078       8.585 029634-1 C
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  NEOENERGIA COSERN                RN EOL MANGUE SECO I                   25.300       3.301       1.117    0.172       3.301 030285-6  
+                                   RN EOL MANGUE SECO II                  25.460       3.301       1.117    0.172       3.301 030284-8  
+                                   RN EOL MANGUE SECO III                 25.700       3.301       1.117    0.172       3.301 030281-3  
+                                   RN EOL MANGUE SECO V                   25.420       3.301       1.117    0.172       3.301 030290-2  
+                                   RN EOL SANTA ROSA E MUNDO NOVO I       32.390                   1.180    0.337       1.517 035210-1  
+                                   RN EOL SANTA ROSA E MUNDO NOVO II      28.460                   1.180    0.337       1.517 035211-0  
+                                   RN EOL SANTA ROSA E MUNDO NOVO III     32.090                   1.180    0.337       1.517 035212-8  
+                                   RN EOL SANTA ROSA E MUNDO NOVO IV      32.090                   1.180    0.339       1.519 037663-9  
+                                   RN EOL SANTA ROSA E MUNDO NOVO V       24.320                   1.180    0.339       1.519 037664-7  
+                                   RN UFV ASSU V                          34.000       3.387       1.202    0.172       3.387 034184-3  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  NEOENERGIA ELEKTRO               SP PCH SAN JUAN                         4.870                   1.923    0.183       2.107 002688-3  
+                                   SP UFV AGUA VERMELHA IV                15.000                   5.190    0.339       5.529 034206-8  
+                                   SP UFV AGUA VERMELHA V                 30.000                   5.190    0.337       5.527 034207-6  
+                                   SP UFV AGUA VERMELHA VI                30.000                   5.190    0.337       5.527 034208-4  
+                                   SP UFV BOA HORA 1                      23.040                   5.177    0.183       5.360 034161-4  
+                                   SP UFV BOA HORA 2                      23.040                   5.177    0.183       5.360 034162-2  
+                                   SP UFV BOA HORA 3                      23.040                   5.177    0.183       5.360 034163-0  
+                                   SP UFV CASTILHO I                      50.000                   6.024    0.183       6.207 034108-8  
+                                   SP UFV CASTILHO II                      5.000                   6.024    0.183       6.207 034112-6  
+                                   SP UFV CASTILHO III                    50.000                   6.024    0.183       6.207 034110-0  
+                                   SP UFV CASTILHO IV                     50.000                   6.024    0.183       6.207 034111-8  
+                                   SP UFV CASTILHO V                      50.000                   6.024    0.183       6.207 034109-6  
+                                   SP UFV DRACENA 1                       27.000                   5.848    0.358       6.207 032312-8  
+                                   SP UFV DRACENA 2                       27.000                   5.848    0.358       6.207 032313-6  
+                                   SP UFV DRACENA 4                       27.000                   5.848    0.358       6.207 032315-2  
+                                   SP UFV NOVO ORIENTE I                  40.399                   6.024    0.183       6.207 049335-0  
+                                   SP UFV NOVO ORIENTE II                 40.399                   6.024    0.183       6.207 049336-8  
+                                   SP UFV NOVO ORIENTE III                40.399                   6.024    0.183       6.207 049337-6  
+                                   SP UFV NOVO ORIENTE IV                 40.399                   6.024    0.183       6.207 049338-4  
+                                   SP UFV NOVO ORIENTE V                  46.170                   6.024    0.183       6.207 049339-2  
+                                   SP UFV NOVO ORIENTE VI                 46.170                   6.024    0.183       6.207 049340-6  
+                                   SP UFV PEDRANOPOLIS 1                  29.200                   4.951    0.183       5.134 034358-7  
+                                   SP UFV PEDRANOPOLIS 2                  29.200                   4.951    0.183       5.134 034359-5  
+                                   SP UFV PEDRANOPOLIS 3                  29.200                   4.951    0.183       5.134 034360-9  
+                                   SP UFV PEREIRA BARRETO I               41.490                   6.024    0.183       6.207 034361-0  
+                                   SP UFV PEREIRA BARRETO II              41.490                   6.024    0.183       6.207 034362-0  
+                                   SP UFV PEREIRA BARRETO III             41.490                   6.024    0.183       6.207 034363-0  
+                                   SP UFV PEREIRA BARRETO IV              41.490                   6.024    0.183       6.207 034364-0  
+                                   SP UFV PEREIRA BARRETO V               36.480                   6.024    0.183       6.207 034365-0  
+                                   SP UHE JUPIA                          219.800                   5.876    0.183       6.060 001282-3  
+                                   SP UHE NOVA AVANHANDAVA               341.160                   5.030    0.183       5.214 001552-0  
+                                   SP UHE PARAIBUNA                       84.300                   4.215    0.183       4.398 027122-5  
+                                   SP UHE ROSANA                         351.600                   5.919    0.183       6.102 002555-0  
+                                   SP UTE ALCIDIA                         27.000                   4.761    0.183       4.944 027913-7  
+                                   SP UTE BALDIN                          28.500                   3.071    0.183       3.254 030169-8  
+                                   SP UTE BVE BELA VISTA ENERGETICA       30.000                   5.848    0.183       6.032 037341-9  
+                                   SP UTE COCAL II                        80.000                   4.948    0.183       5.131 029713-5  
+                                   SP UTE COLOMBO SANTA ALBERTINA         21.000                   4.933    0.183       5.117 030267-8  
+                                   SP UTE CONQUISTA DO PONTAL             70.000                   5.060    0.183       5.243 030024-1  
+                                   SP UTE CRESCIUMAL                      20.000                   3.221    0.183       3.404 027059-8  
+                                   SP UTE ELDORADO BRASIL                 50.000                   6.147    0.183       6.330 030583-9  
+                                   SP UTE FBA GASA - ANDRADINA            50.000                   6.024    0.183       6.208 027950-1  
+                                   SP UTE FERRARI - PIRASSUNUNGA          55.000                   3.305    0.183       3.489 028058-5  
+                                   SP UTE FIBRIA 2                       140.000                   6.020    0.183       6.203 037624-8  
+                                   SP UTE INTERLAGOS                      27.000                   5.702    0.183       5.885 029461-6  
+                                   SP UTE IPE                             25.000                   5.897    0.183       6.080 030268-6  
+                                   SP UTE L.CARLOS PRESTES (T.LAGOAS)    360.000                   5.961    0.183       6.145 027975-7  
+                                   SP UTE MERIDIANO                       28.580                   5.175    0.428       5.603 030303-8  
+                                   SP UTE MOEMA                           30.000                   5.216    0.183       5.400 027886-6  
+                                   SP UTE MOGI                             4.500                   3.258    0.183       3.441 028076-3  
+                                   SP UTE NOBLE ENERGIA                   28.580                   5.175    0.183       5.358 030004-7  
+                                   SP UTE NOBLE ENERGIA II                28.000                   5.175    0.428       5.603 030271-6  
+                                   SP UTE NOROESTE PAULISTA               28.580                   5.175    0.183       5.358 029775-5  
+                                   SP UTE ONCA PINTADA                    50.000                   6.147    0.274       6.421 035085-0  
+                                   SP UTE PARANAPANEMA                    30.000                   5.060    0.428       5.488 030561-8  
+                                   SP UTE PIONEIROS                       17.000                   5.726    0.183       5.909 028047-0  
+                                   SP UTE PIONEIROS II                    22.000                   5.726    0.183       5.909 029642-2  
+                                   SP UTE RIO VERMELHO                    30.000                   5.949    0.183       6.133 030543-0  
+                                   SP UTE RIO VERMELHO 2                  30.000                   5.949    0.183       6.133 031793-4  
+                                   SP UTE RIO VERMELHO 3                  14.200                   5.949    0.289       6.238 035093-4  
+                                   SP UTE SAO JOAO DA BOA VISTA           50.000                   3.542    0.183       3.725 027709-6  
+                                   SP UTE SAO LUIZ                        50.000                   3.442    0.183       3.626 026869-0  
+                                   SP UTE TERMOVERDE CAIEIRAS             27.500                   3.741    0.183       3.924 031436-6  
+                                   SP UTE VALE DO PARANA                  30.000                   5.755    0.393       6.148 035073-7  
+                                   SP UTE VCP-MS                          50.000                   6.020    0.183       6.203 029694-5  
+                                   SP UTE VIRALCOOL CASTILHO              28.000                   5.848    0.183       6.032 030445-0  
+                                   SP UTE VIRALCOOL CASTILHO 2            24.500                   5.848    0.183       6.032 040784-4  
+                                   SP UTE VISTA ALEGRE - ELEKTRO          30.000                   1.284    0.183       1.468 028462-9  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  NEOENERGIA PE                    PE UFV BOM NOME 1-5                    50.000                   4.875    0.175       5.049 042927-9  
+                                   PE UFV BOM NOME 1-6                    50.000                   4.875    0.175       5.049 042928-7  
+                                   PE UFV BRIGIDA 1                       31.500                   4.875    0.167       5.042 034169-0  
+                                   PE UFV BRIGIDA 2                       31.500                   4.875    0.167       5.042 034234-3  
+                                   PE UFV SAO PEDRO E PAULO I             26.671                   3.466    0.337       3.803 031870-1  
+                                   PE UFV SAO PEDRO E PAULO V             26.671                   3.466    0.172       3.638 034186-0  
+                                   PE UFV SAO PEDRO E PAULO VI            22.429                   3.466    0.172       3.638 034188-6  
+                                   PE UFV SAO PEDRO E PAULO VIII           5.672                   3.466    0.172       3.638 046834-7  
+                                   PE UFV SOLAR SALGUEIRO                 30.000                   3.702    0.337       4.039 033606-8  
+                                   PE UFV SOLAR SALGUEIRO II              30.000                   3.702    0.337       4.039 034160-6  
+                                   PE UFV SOLAR SALGUEIRO III             30.000                   3.702    0.337       4.039 034105-3  
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+  RGE SUL                          RS PCH AUTODROMO                       24.000                   5.591    0.172       5.763 029071-8  
+                                   RS PCH BOA FE                          24.000                   5.721    0.172       5.893 029063-7 C
+                                   RS PCH CAZUZA FERREIRA                  9.100                   5.735    0.393       6.128 000735-8 I
+                                   RS PCH CHIMARRAO                       11.825                   5.676    0.183       5.859 035481-3  
+                                   RS PCH HENRIQUE KOTZIAN                13.000                   1.020    0.172       1.192 029246-0  
+                                   RS PCH JARDIM                           9.000                   5.676    0.172       5.848 030887-0  
+                                   RS PCH JORGE DREHER                    17.870                   1.020    0.172       1.192 029245-1  
+                                   RS PCH LINHA APARECIDA                 24.920                   5.730    0.235       5.965 030636-3 I
+                                   RS PCH LINHA JACINTO                   17.407                   5.730    0.235       5.965 030637-1 I
+                                   RS PCH MORRO GRANDE                     9.800                   5.676    0.172       5.848 030950-8  
+                                   RS PCH SANTA CAROLINA                  10.500                   5.676    0.386       6.062 030723-8  
+                                   RS PCH SAO PAULO                       16.000                   5.721    0.172       5.892 029067-0 C
+                                   RS UHE CANASTRA                        44.000                   4.284    0.137       4.420 000635-1 C
+                                   RS UHE JACUI                          180.000                   1.436    0.172       1.608 001217-3  
+                                   RS UHE MONJOLINHO                      74.000                   4.654    0.172       4.825 028562-5  
+                                   RS UTE CAMBARA                         47.000                   4.293    0.125       4.418 033883-4 I
+ X-----------------------------------X--------------------------------X---------X-----------X-----------X--------X-----------X--------X-X
+
+ Observação:
+  H: Fonte hidráulica
+  I: Rede importadora
+  C: Usina com CUSD até 30/06/13
+
+
+ X--------------------------------X---------X-----------X-----------X
+          Distribuidora                MUSD     EUSD     TUSDg média 
+                                        MW    1000R$/mês (R$/kW.mês)
+ X--------------------------------X---------X-----------X-----------X
+
+  CEA                                 78.000      72.374       0.928
+  CEEE-D                             161.670     952.880       5.748
+  CELESC-DIS                        1041.766    2944.621       2.622
+  CEMIG-D                           5273.546   29187.650       5.646
+  COPEL-DIS                         1005.438    3603.952       3.432
+  CPFL PAULISTA                     2702.292   13124.880       5.035
+  CPFL PIRATININGA                    78.800     156.220       2.595
+  CPFL SANTA CRUZ                    391.230    1723.751       5.427
+  EDP ES                             827.339    4313.282       5.070
+  EDP SAO PAULO                      144.300     714.625       4.940
+  ENEL RIO                           353.500    1413.467       3.725
+  ENEL SAO PAULO                     253.500     472.356       3.041
+  ENERGISA M.G. DO SUL - EMS         823.290    6329.694       7.855
+  ENERGISA MATO GROSSO - EMT        1357.244   10655.200       7.805
+  ENERGISA MINAS GERAIS - EMG        197.560     747.367       3.933
+  ENERGISA RONDONIA                  103.000     629.633       6.026
+  ENERGISA SUL SUDESTE - ESS         465.780    2504.892       5.303
+  ENERGISA TOCANTINS - ETO            86.431     342.429       3.742
+  EQUATORIAL GOIAS                   878.100    5621.153       6.639
+  EQUATORIAL PARA                    106.200     610.569       5.907
+  EQUATORIAL PIAUI                   144.000     823.755       5.696
+  LIGHT                             3366.531   13260.220       3.775
+  NEOENEGIA BRASILIA                 211.000     795.358       3.773
+  NEOENERGIA COELBA                  309.541    1789.928       6.113
+  NEOENERGIA COSERN                  285.230     678.227       2.418
+  NEOENERGIA ELEKTRO                3590.766   20354.890       5.493
+  NEOENERGIA PE                      334.443    1486.809       4.274
+  RGE SUL                            532.422    2010.643       4.805
+ X--------------------------------X---------X-----------X-----------X
+

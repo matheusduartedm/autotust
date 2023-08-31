@@ -1,0 +1,95 @@
+ PROGRAMA NODAL - SIMULAÇÃO DE TARIFAS DE USO DO SISTEMA ELÉTRICO - v6.1(07/23)  
+
+ 2023 ONS * CICLO 2023-2024 * (Simulação realizada em 04/07/2023 - 22:38:34)                                                                                                                             
+                                                             
+ SUMÁRIO DA REDE ELÉTRICA
+
+ BARRAS:                   9197
+ CIRCUITOS:               12802
+ ELEMENTOS NA TRANSMISSÃO: 1979
+ USINAS:                   2084
+
+
+ CAPACIDADE INSTALADA (MW)          : 158.703,9                                                                                                                                                         
+ CARGA CONTRATADA - PONTA (MW)      : 108.017,1                                                                                                                                                         
+ CARGA CONTRATADA - FORA PONTA (MW) : 115.786,5                                                                                                                                                         
+
+ 
+ SUMÁRIO NO CÁLCULO DA TUST-RB -------------
+
+ Receita anual a ser recuperada com a TUST-RB(1000 R$) =     39.557.868,17                                                                                                                              
+ 
+ Proporção de rateio da receita = Geração ( 50.0%)  Carga ( 50.0%)
+ Ponderação de Beta pelo fluxo GER. ( % ) = Mínima  (   .0 ) Máxima (100.0 )
+ Ponderação de Beta pelo fluxo CAR. ( % ) = Mínima  (   .0 ) Máxima (100.0 )
+
+ 
+ SUMÁRIO NO CÁLCULO DA TUSDg ---------------
+
+ 
+ Consideradas TUSDg de usinas existentes.                                                                                                                                                               
+   IGP-M utilizado na atualização (%):            -4,468                                                                                                                                                
+ Receita anual com a TUSDg ( 1000 R$ ) =    8.408.421,00                                                                                                                                                
+ Carga total (MW):                                   0,0                                                                                                                                                
+
+ Elementos no cálculo da TUSDg : 4222
+ 
+ Definido como RU exportadora aquela com fluxo líquido nas barras de fronteira saindo desta RU.
+
+ Parcela TUSDg-ONS (1000 R$):          59.338,91                                                                                                                                                        
+ Parcela TUSDg-T   (1000 R$):          75.859,51                                                                                                                                                        
+
+
+ Totais de MUST e MUSD considerados no cálculo, agregados por Distribuidora conforme arquivo (.DC), em MW
+
+ --------------------------------------------------------------------
+ Distribuidora                        MUST-hp      MUSD    Diferença
+ --------------------------------------------------------------------
+                                          .00      972.50     -972.50
+ AMAZONAS ENERGIA                     1429.50     1419.72        9.78
+ CEA                                   291.22      278.20       13.02
+ CEEE-D                               2285.21     2213.28       71.93
+ CELESC-DIS                           6021.43     6318.35     -296.92
+ CEMIG-D                             11046.15    10401.21      644.94
+ CEMIRIM                                20.10         .00       20.10
+ CERILUZ                                47.00       47.00         .00
+ CERTEL ENERGIA                        100.00      100.00         .00
+ CONSUMIDOR LIVRE                     8162.50         .00     8162.50
+ COOPERLUZ                                .00      419.25     -419.25
+ COPEL-DIS                            8192.90     7563.99      628.91
+ COPREL                                181.25       53.25      128.00
+ CPFL PAULISTA                        6699.47     6531.59      167.88
+ CPFL PIRATININGA                     2499.18     2468.88       30.30
+ CPFL SANTA CRUZ                       700.36      700.42        -.06
+ DMED                                     .00       85.81      -85.81
+ EDP ES                               1745.24     1791.95      -46.71
+ EDP SAO PAULO                        1789.12     1633.78      155.34
+ ELFSM (SANTA MARIA)                      .00      193.80     -193.80
+ ENEL CEARA                           2558.18     2504.30       53.88
+ ENEL RIO                             4617.82     3509.52     1108.30
+ ENEL SAO PAULO                       8883.12     7817.87     1065.25
+ ENERGISA ACRE                         197.83      179.88       17.95
+ ENERGISA M.G. DO SUL - EMS           1197.50     1391.90     -194.40
+ ENERGISA MATO GROSSO - EMT           1932.36     2199.68     -267.32
+ ENERGISA MINAS GERAIS - EMG           257.50      296.08      -38.58
+ ENERGISA NOVA FRIBURGO - ENF             .00       19.47      -19.47
+ ENERGISA PARAIBA - EPB               1020.46      941.46       79.00
+ ENERGISA RONDONIA                     891.85      706.35      185.50
+ ENERGISA SERGIPE - ESE                523.07      523.07         .00
+ ENERGISA SUL SUDESTE - ESS            853.54      552.20      301.34
+ ENERGISA TOCANTINS - ETO              601.25      780.10     -178.85
+ EQUATORIAL ALAGOAS                   1237.60     1173.35       64.25
+ EQUATORIAL GOIAS                     3963.67     2607.79     1355.88
+ EQUATORIAL MARANHAO                  1999.14     1896.74      102.40
+ EQUATORIAL PARA                      2821.35     1826.85      994.50
+ EQUATORIAL PIAUI                      711.22      594.34      116.88
+ LIGHT                                3999.02     5747.63    -1748.61
+ NEOENEGIA BRASILIA                    638.80     1646.26    -1007.46
+ NEOENERGIA COELBA                    4865.80     3879.87      985.93
+ NEOENERGIA COSERN                    1036.51      952.46       84.05
+ NEOENERGIA ELEKTRO                   4766.35     3981.61      784.74
+ NEOENERGIA PE                        2841.61     2741.57      100.04
+ RGE SUL                              4312.92     4183.85      129.07
+ SULGIPE                                78.00       78.00         .00
+ --------------------------------------------------------------------
+                                    108017.10    95925.18    12091.91

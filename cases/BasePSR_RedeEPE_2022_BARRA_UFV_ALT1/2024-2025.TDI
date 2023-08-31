@@ -1,0 +1,54 @@
+ PROGRAMA NODAL - SIMULAÇÃO DE TARIFAS DE USO DO SISTEMA ELÉTRICO - v6.1(07/23)  
+
+ 2023 ONS * CICLO 2024-2025 * (Simulação realizada em 31/08/2023 - 14:10:10)                                                                                                                             
+                                                             
+ RELATÓRIO DE TUST-RB E TUST-FR POR DISTRIBUIDORA
+
+ X-----------------------------------X--------X--------X--------X--------X---------X---------X---------X---------X
+        DISTRIBUIDORA                |             TUST (R$/kW.mês)      |                 MUST (MW)
+                                     |RB-ponta  RB-fora FR-ponta  FR-fora| RB-ponta   RB-fora  FR-ponta   FR-fora
+ X-----------------------------------X--------X--------X--------X--------X---------X---------X---------X---------X
+  AMAZONAS ENERGIA                       8.079    7.918                      1429.5    1497.7
+  CEA                                    6.724    6.362                       291.2     297.6
+  CEEE-D                                 7.749    8.494                      2285.2    2519.9
+  CELESC-DIS                             7.764    8.464                      6021.4    6875.3
+  CEMIG-D                                7.313    7.031                     11046.2   11524.9
+  CEMIRIM                                7.988    7.975                        20.1      28.1
+  CERILUZ                                7.272    8.037                        47.0      47.0
+  CERTEL ENERGIA                         7.988    8.764                       100.0     100.0
+  CONSUMIDOR LIVRE                       7.863    7.797                      8162.5    8910.7
+  COPEL-DIS                              7.917    8.357                      8199.9    9003.2
+  COPREL                                 7.426    8.136                       181.3     214.1
+  CPFL PAULISTA                          7.600    7.555                      6699.5    7242.1
+  CPFL PIRATININGA                       8.283    8.308                      2589.2    2754.7
+  CPFL SANTA CRUZ                        8.266    8.368                       700.4     720.3
+  EDP ES                                 7.738    7.471                      1745.2    1818.2
+  EDP SAO PAULO                          8.345    8.366                      1789.1    1807.2
+  ENEL CEARA                             7.302    7.012                      2558.2    2752.3
+  ENEL RIO                               7.816    7.633                      4617.8    4694.8
+  ENEL SAO PAULO                         8.490    8.553                      8883.1    9081.0
+  ENERGISA ACRE                          6.357    5.425                       197.8     202.9
+  ENERGISA M.G. DO SUL - EMS             7.284    7.262                      1190.5    1282.0
+  ENERGISA MATO GROSSO - EMT             6.269    5.975                      1932.4    2238.2
+  ENERGISA MINAS GERAIS - EMG            7.885    7.656                       257.5     257.5
+  ENERGISA PARAIBA - EPB                 7.609    7.379                      1020.5    1102.7
+  ENERGISA RONDONIA                      6.020    5.185                       891.8     883.9
+  ENERGISA SERGIPE - ESE                 7.675    7.453                       523.1     560.2
+  ENERGISA SUL SUDESTE - ESS             7.473    7.426                       853.5     910.1
+  ENERGISA TOCANTINS - ETO               6.675    6.311                       601.3     695.6
+  EQUATORIAL ALAGOAS                     8.350    8.267                      1237.6    1369.6
+  EQUATORIAL GOIAS                       7.130    6.877                      3963.7    4261.7
+  EQUATORIAL MARANHAO                    7.731    7.474                      1999.1    2131.6
+  EQUATORIAL PARA                        8.116    7.910                      2821.4    2946.7
+  EQUATORIAL PIAUI                       7.157    6.816                       711.2     740.8
+  LIGHT                                  7.898    7.776                      3999.0    4163.6
+  NEOENEGIA BRASILIA                     7.019    6.744                       638.8     647.7
+  NEOENERGIA COELBA                      8.351    8.123                      4865.8    5331.4
+  NEOENERGIA COSERN                      6.900    6.516                      1036.5    1160.9
+  NEOENERGIA ELEKTRO                     7.941    7.921                      4766.3    5182.7
+  NEOENERGIA PE                          7.823    7.608                      2841.6    2975.3
+  RGE SUL                                7.422    8.138                      4312.9    4861.3
+  SULGIPE                                8.705    8.775                        78.0      81.0
+ X-----------------------------------X--------X--------X--------X--------X---------X---------X---------X---------X
+
+ T O T A I S :                                                             108107.1  115876.5        .0        .0

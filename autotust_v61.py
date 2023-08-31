@@ -274,7 +274,7 @@ def load_base(DB_PATH):
 
 
 def create_dashboard():
-    BASE_DIR = r"cases"
+    BASE_DIR = r"bases"
     base_options = [name for name in os.listdir(BASE_DIR) if os.path.isdir(os.path.join(BASE_DIR, name))]
     base_selection = st.sidebar.selectbox("Select case:", base_options)
     CASE_PATH = os.path.join(BASE_DIR, base_selection)

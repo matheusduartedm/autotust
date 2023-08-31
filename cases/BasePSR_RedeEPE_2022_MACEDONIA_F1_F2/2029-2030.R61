@@ -1,0 +1,45 @@
+ PROGRAMA NODAL - SIMULAÇÃO DE TARIFAS DE USO DO SISTEMA ELÉTRICO - v6.1(07/23)  
+
+ ** EPE CICLO 22-31 ** CARGA MÁXIMA ** CT29-30 (Simulação realizada em 31/08/2023 - 11:31:14)                                                                                                            
+
+
+            Geração             Consumo             Consumo_P          Consumo_FP             Total            %P                                               
+     --------------------------------------------------------------------------------------------------------------                                             
+ RAP    23.996.683.095,00   23.996.683.095,00   23.996.683.095,00                0,00   47.993.366.190,00
+ MUST          187.120,91                              122.436,23                                            100,00
+     --------------------------------------------------------------------------------------------------------------                                             
+
+    Piso tarifário G:  50,00% da TEU                                                                                                                            
+    Piso tarifário C:  50,00% da TEU                                                                                                                            
+
+
+        TEU      Piso    (R$/kW.mês)                                                                                    
+     -----------------                                                                                                  
+ Ger   10,687    5,343                                                                                                                                          
+ C_p   16,333    8,166                                                                                                                                          
+     -----------------                                                                                                  
+
+
+    Redução na TUST dos geradores devido a TUSDg:               0,00 R$/ano                                                                                     
+    Parcela de ajuste nas TUSTg:                               0,000 R$/kW.mês                                                                                  
+
+    Risco:               5,00 %                                                                                                                                 
+    IAT:                 2,98 %                                                                                                                                 
+    PTC:                80,00 %                                                                                                                                 
+    PDR:                50,00 %                                                                                                                                 
+
+
+    Envoltória considerada. Repasse para Consumo:                    0,00 R$/ano                                                                                
+    Parcela aditiva para o segmento consumo devido a envoltória:    0,000 R$/kW.mês                                                                             
+
+
+    Repasse da geração com TUST estabilizada/controlada para o consumo de:                6.764.573,61 R$/ano
+    Parcela de ajuste nas TUST no segmento    0,005 R$/kW.mês
+
+    EUST após ajuste na TUST da Geração e do Consumo (R$/ano)                                                                                                   
+
+              Geração     Consumo Ponta     Consumo ForaP             Total                                                                                     
+ --------------------------------------------------------------------------                                                                                     
+    23.989.918.779,80 24.003.447.668,62              0,00 47.993.366.448,42
+ -------------------------------------------------------------------------- 
+    23.989.918.779,80 24.003.447.668,62              0,00 47.993.366.448,42 (Incluindo parcelas da TUSDg)  

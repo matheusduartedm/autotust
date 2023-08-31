@@ -1,0 +1,32 @@
+
+ **  Usinas com desconto no EUST                                
+
+ X------------------------------------------------------X- Calculado -X---X--------- Reduzido a % ---------X- Efetivo -X--------X
+               USINA                   TUST      MUST         EUST      UF     TUST      MUST      Ciclo        EUST      CEG
+                                    R$/kW.mes     MW       1000R$/ano       Desconto  Equivalent Após Julho 1000R$/ano
+ X--------------------------------X-----------X---------X-------------X---X----------X----------X----------X-----------X--------X
+  EOL VENTOS DE SANTA ROSALIA 05         9.085     42.00        4578.7  CE                             66.7       3052. 049895-5
+  EOL VENTOS DE SANTA ROSALIA 06         9.085     42.00        4578.7  CE                             66.7       3052. 049896-3
+  EOL VENTOS DE SANTA ROSALIA 07         9.085     42.00        4578.7  CE                             66.7       3052. 049897-1
+  UFV CRUZEIRO DO SUL I                  9.698     49.80        5795.2  GO                             83.3       4829. 051068-8
+  UFV CRUZEIRO DO SUL II                 9.698     49.80        5795.2  GO                             83.3       4829. 051069-6
+  UFV TURVANIA I                        10.604     49.80        6337.1  GO                             83.3       5281. 054841-3
+  UFV TURVANIA II                       10.604     49.80        6337.1  GO                             83.3       5281. 054842-1
+  UFV TURVANIA III                      10.604     49.80        6337.1  GO                             83.3       5281. 054843-0
+  UFV TURVANIA IV                       10.604     49.80        6337.1  GO                             83.3       5281. 054844-8
+  UFV TURVANIA V                        10.604     49.80        6337.1  GO                             83.3       5281. 054845-6
+  UFV TURVANIA VI                       10.604     31.00        3944.8  GO                             83.3       3287. 054846-4
+ X--------------------------------X-----------X---------X-------------X---X----------X----------X----------X-----------X--------X
+                                                                   .00            .00        .00   12448.78         .00
+
+ **  Usinas com repasse de MUST parcial                         
+
+ X------------------------------------------------------X- Calculado -X---X--------- Reduzido a % ---------X- Efetivo -X--------X
+               USINA                   TUST      MUST         EUST      UF     TUST      MUST      Ciclo        EUST      CEG
+                                    R$/kW.mes     MW       1000R$/ano       Desconto  Equivalent Após Julho 1000R$/ano
+ X--------------------------------X-----------X---------X-------------X---X----------X----------X----------X-----------X--------X
+ X--------------------------------X-----------X---------X-------------X---X----------X----------X----------X-----------X--------X
+                                                                   .00            .00        .00        .00         .00
+
+                                                           ============                                     ============
+  T O T A I S                                                       0.                                               0.
