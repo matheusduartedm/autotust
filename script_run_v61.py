@@ -9,5 +9,5 @@ pdr_alt2a = [0, 0, 0, 0, 0, 0, 0, 0]
 
 rap_edf = [41244217.19, 42416358.11, 42951646.92, 45702000.44, 44201906.72, 45366869.76, 45472930.51, 45525730.77]
 
-BASE_PATH = r'D:\dev\auto_tust\bases\BasePSR_RedeEPE_2022_ALT1'
+BASE_PATH = r'D:\dev\auto_tust\cases\BasePSR_RedeEPE_2022_Auren_Retificada_Alt1'
 tust.run_nodal61(BASE_PATH, rap23, pdr_alt1)

@@ -16,12 +16,22 @@ class Generator:
         self.uf = ""
 
 
-class Bus:
+class BusOns:
     def __init__(self):
         self.num = 0
         self.name = ""
         self.area = 0
         self.circuits = {}
+        self.tust = {}
+
+
+class BusEpe:
+    def __init__(self):
+        self.num = 0
+        self.name = ""
+        self.area = 0
+        self.circuits = {}
+        self.tust = {}
 
 
 def _is_comment(line):
@@ -157,6 +167,7 @@ def load_ger(DB_PATH, year):
 
 def load_base(DB_PATH):
     generators = {}
+    buses = {}
     r61_data = {
         "rap": {},
         "mustg": {},
@@ -171,6 +182,7 @@ def load_base(DB_PATH):
         ger_file = DB_PATH + f"\\{year}-{year+1}.GER"
         tuh_file = DB_PATH + f"\\{year}-{year+1}.TUH"
         r61_file = DB_PATH + f"\\{year}-{year+1}.R61"
+        nos_file = DB_PATH + f"\\{year}-{year+1}.NOS"
 
         if os.path.exists(ger_file):
             with open(ger_file, "r") as file:
@@ -222,16 +234,43 @@ def load_base(DB_PATH):
                             generators[name].tust[year] = tust
                             generators[name].uf = generators[name].uf if generators[name].uf else uf
 
-
                         else:
                             print(f"Gerador {name} não encontrado na lista de geradores.")
 
-        # Load .R61 data
         if os.path.exists(r61_file):
             year_data = _load_r61_data(r61_file)
             for key in r61_data.keys():
                 r61_data[key][year] = year_data[key]
-    
+
+        if os.path.exists(nos_file):
+            with open(nos_file, "r") as file:
+                line_number = 0
+
+                for line in file:
+                    line_number += 1
+
+                    if line_number <= 11:
+                        continue
+
+                    if _is_comment(line):
+                        continue
+
+                    if _is_end_of_file(line):
+                        break
+
+                    if len(line) > 0:
+                        name = line[8:21].strip()
+                        tust = float(line[37:43].strip()) if line[37:43].strip() else 0
+                        if name not in buses:
+                            bus = BusOns() if year <= 2026 else BusEpe()
+                            bus.num = int(line[2:7].strip())
+                            bus.name = line[8:20].strip()
+                            bus.tust[year] = tust
+                            buses[name] = bus
+                        else:
+                            buses[name].tust[year] = tust
+
+    # Ordenar os geradores por nome  
     generators = sorted(generators.items(), key=lambda x: x[0])
     generators = dict(generators)
 
@@ -257,8 +296,8 @@ def load_base(DB_PATH):
                 tust = generator.tust.get(year, 0)
                 row.extend([tust])
             writer.writerow(row)
-            
-    return generators, r61_data
+
+    return generators, buses, r61_data
    
 
 def _read_param61(file_path):
@@ -282,7 +321,7 @@ def _write_param61(params, file_path):
 			elif iparam == 4:
 				param_file.write(f"{value:013.2f}\n")
 			elif iparam == 5:
-				param_file.write(f"{value}")
+				param_file.write(f"{value}\n")
 			elif 6 <= iparam <= 10:
 				param_file.write(f"{value:05.1f}\n")
 			elif iparam <= 11:

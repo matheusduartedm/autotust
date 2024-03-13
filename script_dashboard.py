@@ -12,7 +12,7 @@ base_options = [name for name in os.listdir(BASE_DIR) if os.path.isdir(os.path.j
 base_selection = st.sidebar.selectbox("Select case:", base_options)
 BASE_PATH = os.path.join(BASE_DIR, base_selection)
 
-generators, r61_data = autotust.load_base(BASE_PATH)
+generators, _, r61_data = autotust.load_base(BASE_PATH)
 
 ss = {
     'AP': 'N', 'AM': 'N', 'PA': 'N', 'RR': 'N', 'TO': 'N','MA': 'N', 
@@ -29,7 +29,6 @@ def calculate_color(value, min_val, max_val):
     b = max(0, min(255, int(b*255)))
     return f"rgb({r},{g},{b})"
 
-# Sidebar
 st.sidebar.title("Navigation")
 tab_names = ["Assumptions", "General Results", "Results"]
 tab = st.sidebar.radio("", tab_names)
@@ -43,13 +42,11 @@ if tab == "Results":
 
         years = list(generator.tust.keys())
         tust_values = list(generator.tust.values())
-        years = [int(year) for year in years]  # Convert years to integers
+        years = [int(year) for year in years]
 
-        # Calculate the average of tust_values for the specific generator
         average_generator = np.mean(tust_values)
         average_generator_line = [average_generator] * len(years)
 
-        # Calculate the global average of all generators
         all_tust_values = []
         for g in generators.values():
             all_tust_values.extend(list(g.tust.values()))
@@ -57,17 +54,16 @@ if tab == "Results":
         average_global_line = [average_global] * len(years)
 
         fig = go.Figure()
-        fig.add_trace(go.Scatter(x=years, y=tust_values, mode='markers+lines', name='TUST'))
+        fig.add_trace(go.Scatter(x=years, y=tust_values, mode='markers+lines+text', text=[f"{value:.2f}" for value in tust_values], textposition='top center', name='TUST'))
         fig.add_trace(go.Scatter(x=years, y=average_generator_line, mode='lines', name='Average (Generator)'))
         fig.add_trace(go.Scatter(x=years, y=average_global_line, mode='lines', name='Average (Global)'))
 
         fig.update_layout(title=f"TUST per Tariff Cycle for {generator_id}", xaxis_title='Tariff Cycle', yaxis_title='TUST [R$/kW.month - ref. Jun/2023]')
         st.plotly_chart(fig)
 
-        # Calculate the nominal TUST
         iat = st.number_input("Enter the value of IAT (%):", value=4.0, step=0.5)
         risk_expansion = st.number_input("Enter the value of Risk Expansion (%):", value=5.0, step=0.5)
-        limit = iat + risk_expansion  # define limit
+        limit = iat + risk_expansion
 
         cumulative_iat = 1 + (iat / 100)
         tust_nominal_values = []
@@ -80,18 +76,17 @@ if tab == "Results":
             tust_nominal = generator.tust[year] * cumulative_iat
             tust_nominal_values.append(tust_nominal)
 
-            if i == 0:  # for the first year
+            if i == 0:
                 controlled_tust.append(tust_nominal)
                 limit_upper_values.append(tust_nominal)
                 limit_lower_values.append(tust_nominal)
-            else:  # for subsequent years
+            else:
                 controlled_tust_prev = controlled_tust[i-1]
                 limit_upper = (controlled_tust_prev * 0.8 + tust_nominal * 0.2) * (1 + limit / 100)
                 limit_lower = (controlled_tust_prev * 0.8 + tust_nominal * 0.2) * (1 - limit / 100)
                 limit_upper_values.append(limit_upper)
                 limit_lower_values.append(limit_lower)
 
-                # The controlled_tust for the current year will be between the upper and lower limits
                 controlled_tust_current = max(min(tust_nominal, limit_upper), limit_lower)
                 controlled_tust.append(controlled_tust_current)
 
@@ -99,17 +94,15 @@ if tab == "Results":
         fig_nominal.add_trace(go.Scatter(x=years, y=limit_upper_values, mode='lines', name='Upper Limit', line=dict(width=0)))
         fig_nominal.add_trace(go.Scatter(x=years, y=limit_lower_values, mode='lines', name='Lower Limit', line=dict(width=0), fill='tonexty'))
         fig_nominal.add_trace(go.Scatter(x=years, y=tust_nominal_values, mode='markers+lines', name='TUST Nominal'))
-        fig_nominal.add_trace(go.Scatter(x=years, y=controlled_tust, mode='markers+lines', name='TUST Controlled'))
+        fig_nominal.add_trace(go.Scatter(x=years, y=controlled_tust, mode='markers+lines+text', textposition='top center',text=[f"{value:.2f}" for value in tust_nominal_values], name='TUST Controlled'))
         fig_nominal.update_layout(title=f"TUST Nominal per Tariff Cycle for {generator_id} (IAT = {iat}%)", xaxis_title='Tariff Cycle', yaxis_title='TUST Nominal [R$/kW.month - ref. Jun/Cycle]')
         st.plotly_chart(fig_nominal)
 
-        # Create a download button for the selected generator
         data = pd.DataFrame.from_dict(generator.tust, orient='index', columns=['TUST'])
         data.index.name = 'Year'
         csv = data.to_csv().encode()
         st.download_button(label="Download generator data", data=csv, file_name=f"{generator_id}_tust_data.csv", mime="text/csv")
 
-        # Create a download button for all generators
         all_data = pd.concat([pd.DataFrame.from_dict(g.tust, orient='index', columns=['TUST']).assign(Generator_id=gid) for gid, g in generators.items()])
         all_data.index.name = 'Year'
         all_csv = all_data.to_csv().encode()
@@ -120,6 +113,8 @@ if tab == "Results":
 
 elif tab == "General Results":
     st.write("# General Results")
+    
+    VALID_YEARS = set(range(2023, 2032))
     
     total_tust_by_ss = defaultdict(lambda: defaultdict(float))
     generator_count_by_ss = defaultdict(lambda: defaultdict(int))
@@ -133,6 +128,8 @@ elif tab == "General Results":
     for generator in generators.values():
         subsystem = ss.get(generator.uf, '')
         for year, tust in generator.tust.items():
+            if year not in VALID_YEARS:
+                continue
             if tust > 0:
                 total_tust_by_ss[subsystem][year] += tust
                 generator_count_by_ss[subsystem][year] += 1
@@ -201,39 +198,32 @@ elif tab == "Assumptions":
     st.write("### GER File")
 
     if generators.values():
-        # Get the list of years
         must_total_years = list(generators.values())[0].must.keys()
         
-        # Create a dictionary to store MUST values by type
         must_values_by_type = defaultdict(lambda: defaultdict(int))
 
-        # Iterate over all generators and add MUST values to the corresponding type and year
         for generator in generators.values():
             for year in must_total_years:
                 must_values_by_type[generator.type][year] += generator.must.get(year, 0)
 
-        # Calculate the total MUST values for each year
         must_total_values = {year: sum(values[year] for values in must_values_by_type.values()) for year in must_total_years}
 
-        # Get the list of types in reverse sorted order
-        types_sorted = sorted(must_values_by_type.keys(), reverse=True)  # Reverse order
+        types_sorted = sorted(must_values_by_type.keys(), reverse=True)
 
-        # Plot a separate bar for each type
         fig_must_total = go.Figure()
         for type_ in types_sorted:
             must_values = must_values_by_type[type_]
             fig_must_total.add_trace(go.Bar(
                 x=list(must_total_years),
-                y=[value / 1e3 for value in must_values.values()],  # Convert to GW
+                y=[value / 1e3 for value in must_values.values()],
                 text=[f"{float(value/1e3):4.2f} GW" for value in must_values.values()],
                 textposition='inside',
                 name=type_
             ))
 
-        # Add total values as a separate trace
         fig_must_total.add_trace(go.Scatter(
             x=list(must_total_years),
-            y=[value / 1e3 for value in must_total_values.values()],  # Convert to GW
+            y=[value / 1e3 for value in must_total_values.values()],
             mode='text',
             text=[f"{float(value/1e3):4.2f} GW" for value in must_total_values.values()],
             textposition='top center',
@@ -248,7 +238,7 @@ elif tab == "Assumptions":
                 dtick=1
             ),
             title_x=0.5,
-            barmode='stack'  # Stack bars for different types
+            barmode='stack'
         )
         fig_must_total.update_yaxes(visible=False)
         st.plotly_chart(fig_must_total)
@@ -257,7 +247,6 @@ elif tab == "Assumptions":
         st.write("O dicionário 'generators' está vazio.")
 
     st.write("### R61 File")
-    # Display the RAP data
     rap_years = list(r61_data["rap"].keys())
     rap_values = list(r61_data["rap"].values())
 
@@ -269,7 +258,6 @@ elif tab == "Assumptions":
     fig_rap.update_yaxes(visible=False)
     st.plotly_chart(fig_rap)
 
-    # Display the MUST data
     must_years = list(r61_data["mustg"].keys())
     must_ger_values = list(r61_data["mustg"].values())
     must_cp_values = list(r61_data["mustp"].values())
@@ -296,7 +284,6 @@ elif tab == "Assumptions":
     st.plotly_chart(fig_must)
 
 
-    # Display the TEU data
     teu_years = list(r61_data["teug"].keys())
     teu_g_values = list(r61_data["teug"].values())
     teu_cp_values = list(r61_data["teup"].values())
