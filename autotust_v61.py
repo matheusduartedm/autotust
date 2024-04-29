@@ -1,6 +1,7 @@
 import os
 import csv
 import subprocess
+import argparse
 
 class Generator:
     def __init__(self):
@@ -369,3 +370,30 @@ def run_nodal61(case_path,
                 print(file_content)
         else:
             print("O arquivo #ER_nod#.TX1 não foi encontrado.")
+
+
+def read_autotust_csv(csv_path):
+    with open(csv_path, newline='') as csvfile:
+        reader = csv.DictReader(csvfile, delimiter='\t')
+        rap_values, pdr_values = [], []
+        for row in reader:
+            rap_values.append(float(row['rap']))
+            pdr_values.append(int(row['pdr']))
+    return rap_values, pdr_values
+
+
+def main():
+    parser = argparse.ArgumentParser(description="AutoTUST - Nodal Automation v1.0")
+    subparsers = parser.add_subparsers(dest='command', help='commands')
+    nodal_parser = subparsers.add_parser('nodal', help='Run Nodal v61')
+    nodal_parser.add_argument('path', type=str, help='Path to the case folder')
+
+    args = parser.parse_args()
+
+    if args.command == 'nodal':
+        csv_path = os.path.join(args.path, "autotust.csv")
+        rap, pdr = read_autotust_csv(csv_path)
+        run_nodal61(args.path, rap, pdr)
+
+if __name__ == "__main__":
+    main()
