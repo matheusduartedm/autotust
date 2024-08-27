@@ -4,10 +4,12 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 from collections import defaultdict
-import autotust_v61 as autotust
+import autotust as autotust
 import colorsys
+from pathlib import Path
 
-BASE_DIR = r"bases"
+BASE_DIR = Path(__file__).parent.parent / "bases"
+
 base_options = [name for name in os.listdir(BASE_DIR) if os.path.isdir(os.path.join(BASE_DIR, name))]
 base_selection = st.sidebar.selectbox("Select case:", base_options)
 BASE_PATH = os.path.join(BASE_DIR, base_selection)

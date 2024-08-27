@@ -1,9 +1,9 @@
 import pandas as pd
 import os
 
-excel_path = r"D:\dev\auto_tust\inputs\usinas_retirar.xlsx"
+excel_path = r"D:\repo\autotust\inputs\usinas_retirar.xlsx"
 excel = pd.ExcelFile(excel_path)
-DB_PATH = r"D:\dev\auto_tust\cases\BasePSR_v2"
+DB_PATH = r"D:\repo\cases\BasePSR_v2"
 years = range(2024, 2032)
 
 geradores_retirados_total = {}
@@ -30,5 +30,5 @@ for year in years:
     print(f"Ano {year}: {len(geradores_retirados)} geradores retirados.")
 
 df_geradores_retirados = pd.DataFrame(dict([(k, pd.Series(v)) for k, v in geradores_retirados_total.items() ]))
-df_geradores_retirados.to_csv(r"D:\dev\auto_tust\outputs\geradores_retirados.csv", index=False)
+df_geradores_retirados.to_csv(r"D:\repo\autotust\outputs\geradores_retirados.csv", index=False)
 

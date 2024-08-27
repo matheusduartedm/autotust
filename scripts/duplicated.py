@@ -1,6 +1,6 @@
 import pandas as pd
 from openpyxl import Workbook
-import autotust_v61 as tust
+import autotust as tust
 
 # INPUTS
 DB_PATH = r'D:\dev\auto_tust\cases\BasePSR'
