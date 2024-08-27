@@ -14,14 +14,7 @@ base_options = [name for name in os.listdir(BASE_DIR) if os.path.isdir(os.path.j
 base_selection = st.sidebar.selectbox("Select case:", base_options)
 BASE_PATH = os.path.join(BASE_DIR, base_selection)
 
-generators, _, r61_data = autotust.load_base(BASE_PATH)
-
-ss = {
-    'AP': 'N', 'AM': 'N', 'PA': 'N', 'RR': 'N', 'TO': 'N','MA': 'N', 
-    'AL': 'NE', 'BA': 'NE', 'CE': 'NE', 'PB': 'NE', 'PE': 'NE', 'PI': 'NE', 'RN': 'NE', 'SE': 'NE',
-    'ES': 'SE', 'MG': 'SE', 'RJ': 'SE', 'SP': 'SE', 'GO': 'SE', 'MS': 'SE', 'MT': 'SE', 'DF': 'SE', 'AC': 'SE', 'RO': 'SE',
-    'PR': 'S', 'RS': 'S', 'SC': 'S'
-}
+generators, buses, r61_data = autotust.load_base(BASE_PATH)
 
 def calculate_color(value, min_val, max_val):
     norm_value = (value - min_val) / (max_val - min_val)
@@ -34,14 +27,14 @@ def calculate_color(value, min_val, max_val):
 st.sidebar.title("Navigation")
 tab_names = ["Assumptions", "General Results", "Results"]
 tab = st.sidebar.radio("", tab_names)
-generator_ids = list(generators.keys())
+generator_ids = [gen.name for gen in generators]
 
 if tab == "Results":
     st.write("# Results")
     generator_id = st.selectbox("Select the generator: ", generator_ids)
-    if generator_id in generators:
-        generator = generators[generator_id]
+    generator = next((gen for gen in generators if gen.name == generator_id), None)
 
+    if generator:
         years = list(generator.tust.keys())
         tust_values = list(generator.tust.values())
         years = [int(year) for year in years]
@@ -49,9 +42,7 @@ if tab == "Results":
         average_generator = np.mean(tust_values)
         average_generator_line = [average_generator] * len(years)
 
-        all_tust_values = []
-        for g in generators.values():
-            all_tust_values.extend(list(g.tust.values()))
+        all_tust_values = [tust for gen in generators for tust in gen.tust.values()]
         average_global = np.mean(all_tust_values)
         average_global_line = [average_global] * len(years)
 
@@ -105,7 +96,7 @@ if tab == "Results":
         csv = data.to_csv().encode()
         st.download_button(label="Download generator data", data=csv, file_name=f"{generator_id}_tust_data.csv", mime="text/csv")
 
-        all_data = pd.concat([pd.DataFrame.from_dict(g.tust, orient='index', columns=['TUST']).assign(Generator_id=gid) for gid, g in generators.items()])
+        all_data = pd.concat([pd.DataFrame.from_dict(gen.tust, orient='index', columns=['TUST']).assign(Generator_id=gen.name) for gen in generators])
         all_data.index.name = 'Year'
         all_csv = all_data.to_csv().encode()
         st.download_button(label="Download all data", data=all_csv, file_name="all_tust_data.csv", mime="text/csv")
@@ -115,20 +106,20 @@ if tab == "Results":
 
 elif tab == "General Results":
     st.write("# General Results")
-    
+
     VALID_YEARS = set(range(2023, 2032))
-    
+
     total_tust_by_ss = defaultdict(lambda: defaultdict(float))
     generator_count_by_ss = defaultdict(lambda: defaultdict(int))
-    
+
     total_tust_by_uf = defaultdict(lambda: defaultdict(float))
     generator_count_by_uf = defaultdict(lambda: defaultdict(int))
-    
+
     total_tust_by_type = defaultdict(lambda: defaultdict(float))
     generator_count_by_type = defaultdict(lambda: defaultdict(int))
 
-    for generator in generators.values():
-        subsystem = ss.get(generator.uf, '')
+    for generator in generators:
+        subsystem = autotust.STATE_TO_SUBSYSTEM.get(generator.uf, '')
         for year, tust in generator.tust.items():
             if year not in VALID_YEARS:
                 continue
@@ -199,12 +190,12 @@ elif tab == "Assumptions":
     st.write("# Assumptions")
     st.write("### GER File")
 
-    if generators.values():
-        must_total_years = list(generators.values())[0].must.keys()
-        
+    if generators:
+        must_total_years = list(generators[0].must.keys())
+
         must_values_by_type = defaultdict(lambda: defaultdict(int))
 
-        for generator in generators.values():
+        for generator in generators:
             for year in must_total_years:
                 must_values_by_type[generator.type][year] += generator.must.get(year, 0)
 
@@ -246,67 +237,66 @@ elif tab == "Assumptions":
         st.plotly_chart(fig_must_total)
 
     else:
-        st.write("O dicionário 'generators' está vazio.")
+        st.write("A lista 'generators' está vazia.")
 
     st.write("### R61 File")
-    rap_years = list(r61_data["rap"].keys())
-    rap_values = list(r61_data["rap"].values())
+    rap_years = [r61.year for r61 in r61_data]
+    rap_values = [r61.rap for r61 in r61_data if r61.rap is not None]
 
-    fig_rap = go.Figure(data=[go.Bar(x=rap_years, y=rap_values, 
-                                    text=[f"{float(value/1e9):4.2f} B" for value in rap_values],
-                                    textposition='outside')])
-    fig_rap.update_layout(title="RAP by Year", xaxis_title="<b>Year</b>", title_x=0.5, 
-                        xaxis=dict(tickmode='linear', dtick=1))
+    fig_rap = go.Figure(data=[go.Bar(x=rap_years, y=rap_values,
+                                     text=[f"{float(value/1e9):4.2f} B" for value in rap_values],
+                                     textposition='outside')])
+    fig_rap.update_layout(title="RAP by Year", xaxis_title="<b>Year</b>", title_x=0.5,
+                          xaxis=dict(tickmode='linear', dtick=1))
     fig_rap.update_yaxes(visible=False)
     st.plotly_chart(fig_rap)
 
-    must_years = list(r61_data["mustg"].keys())
-    must_ger_values = list(r61_data["mustg"].values())
-    must_cp_values = list(r61_data["mustp"].values())
-    must_fp_values = list(r61_data["mustfp"].values())
+    must_years = rap_years
+    must_ger_values = [r61.mustg for r61 in r61_data if r61.mustg is not None]
+    must_cp_values = [r61.mustp for r61 in r61_data if r61.mustp is not None]
+    must_fp_values = [r61.mustfp for r61 in r61_data if r61.mustfp is not None]
 
     fig_must = go.Figure(data=[go.Bar(x=must_years, y=must_ger_values,
-                                    text=[f"{float(value/1e3):4.2f} GW" for value in must_ger_values],
-                                    textposition='outside')])
-    fig_must.update_layout(title="MUSTg by Year", xaxis_title="<b>Year</b>", title_x=0.5, 
-                        xaxis=dict(tickmode='linear', dtick=1))
+                                      text=[f"{float(value/1e3):4.2f} GW" for value in must_ger_values],
+                                      textposition='outside')])
+    fig_must.update_layout(title="MUSTg by Year", xaxis_title="<b>Year</b>", title_x=0.5,
+                           xaxis=dict(tickmode='linear', dtick=1))
     fig_must.update_yaxes(visible=False)
     st.plotly_chart(fig_must)
-    
+
     fig_must = go.Figure()
     fig_must.add_trace(go.Bar(x=must_years, y=must_cp_values, name="P",
-                            text=[f"{float(value/1e3):4.1f}" if value is not None else 0 for value in must_cp_values],
-                            textposition='outside'))
+                              text=[f"{float(value/1e3):4.1f}" if value is not None else 0 for value in must_cp_values],
+                              textposition='outside'))
     fig_must.add_trace(go.Bar(x=must_years, y=must_fp_values, name="FP",
-                            text=[f"{float(value/1e3):4.1f}" if value is not None else 0 for value in must_fp_values],
-                            textposition='outside'))
-    fig_must.update_layout(title="MUSTc by Year", xaxis_title="<b>Year</b>", title_x=0.5, 
-                        xaxis=dict(tickmode='linear', dtick=1))
+                              text=[f"{float(value/1e3):4.1f}" if value is not None else 0 for value in must_fp_values],
+                              textposition='outside'))
+    fig_must.update_layout(title="MUSTc by Year", xaxis_title="<b>Year</b>", title_x=0.5,
+                           xaxis=dict(tickmode='linear', dtick=1))
     fig_must.update_yaxes(visible=False)
     st.plotly_chart(fig_must)
 
-
-    teu_years = list(r61_data["teug"].keys())
-    teu_g_values = list(r61_data["teug"].values())
-    teu_cp_values = list(r61_data["teup"].values())
-    teu_cf_values = list(r61_data["teufp"].values())
+    teu_years = rap_years
+    teu_g_values = [r61.teug for r61 in r61_data if r61.teug is not None]
+    teu_cp_values = [r61.teup for r61 in r61_data if r61.teup is not None]
+    teu_cf_values = [r61.teufp for r61 in r61_data if r61.teufp is not None]
 
     fig_teu = go.Figure(data=[go.Bar(x=teu_years, y=teu_g_values,
-                                    text=[f"{value:3.2f}" for value in teu_g_values],
-                                    textposition='outside')])
-    fig_teu.update_layout(title="TEUg by Year", xaxis_title="<b>Year</b>", title_x=0.5, 
-                        xaxis=dict(tickmode='linear', dtick=1))
+                                     text=[f"{value:3.2f}" for value in teu_g_values],
+                                     textposition='outside')])
+    fig_teu.update_layout(title="TEUg by Year", xaxis_title="<b>Year</b>", title_x=0.5,
+                          xaxis=dict(tickmode='linear', dtick=1))
     fig_teu.update_yaxes(visible=False)
     st.plotly_chart(fig_teu)
 
     fig_teu = go.Figure()
     fig_teu.add_trace(go.Bar(x=teu_years, y=teu_cp_values, name="P",
-                            text=[f"{value:3.2f}" if value is not None else 0 for value in teu_cp_values],
-                            textposition='outside'))
+                             text=[f"{value:3.2f}" if value is not None else 0 for value in teu_cp_values],
+                             textposition='outside'))
     fig_teu.add_trace(go.Bar(x=teu_years, y=teu_cf_values, name="FP",
-                            text=[f"{value:3.2f}" if value is not None else 0 for value in teu_cf_values],
-                            textposition='outside'))
-    fig_teu.update_layout(title="TEUc by Year", xaxis_title="<b>Year</b>", title_x=0.5, 
-                        xaxis=dict(tickmode='linear', dtick=1))
+                             text=[f"{value:3.2f}" if value is not None else 0 for value in teu_cf_values],
+                             textposition='outside'))
+    fig_teu.update_layout(title="TEUc by Year", xaxis_title="<b>Year</b>", title_x=0.5,
+                          xaxis=dict(tickmode='linear', dtick=1))
     fig_teu.update_yaxes(visible=False)
     st.plotly_chart(fig_teu)
