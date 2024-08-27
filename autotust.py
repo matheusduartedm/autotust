@@ -55,6 +55,28 @@ class R61:
     teufp: Optional[float] = None
 
 
+@dataclass
+class Database:
+    generators: List[Generator] = field(default_factory=list)
+    buses: List[Bus] = field(default_factory=list)
+    r61_data: List[R61] = field(default_factory=list)
+
+    def add_generator(self, generator: Generator):
+        self.generators.append(generator)
+
+    def add_bus(self, bus: Bus):
+        self.buses.append(bus)
+
+    def add_r61(self, r61: R61):
+        self.r61_data.append(r61)
+
+    def get_generator_by_name(self, name: str) -> Optional[Generator]:
+        return next((g for g in self.generators if g.name == name), None)
+
+    def get_bus_by_name(self, name: str) -> Optional[Bus]:
+        return next((b for b in self.buses if b.name == name), None)
+
+
 def _is_end_of_file(line):
     return line[:2].strip() == "X"
 
@@ -68,7 +90,7 @@ def _parse_float(value_str):
     return float(value_str) if value_str and not value_str.startswith("-") else None
 
 
-def load_ger_file(file_path: str, year: int, generators: List[Generator]):
+def load_ger_file(file_path: str, year: int, database: Database):
     if not os.path.exists(file_path):
         return
 
@@ -80,14 +102,14 @@ def load_ger_file(file_path: str, year: int, generators: List[Generator]):
                 break
             if len(line) > 0:
                 name = line[0:32].strip()
-                gen = next((g for g in generators if g.name == name), None)
+                gen = database.get_generator_by_name(name)
                 if not gen:
                     gen = Generator()
                     gen.name = name
                     gen.type = name[0:3]
                     gen.ceg = line[52:62].strip()
                     gen.cegnucleo = int(line[55:60]) if line[55:60].strip().isdigit() else line[55:60].strip()
-                    generators.append(gen)
+                    database.add_generator(gen)
                 gen.d[year] = line[42:43].strip()
                 gen.s[year] = line[44:45].strip()
                 gen.must[year] = float(line[32:41].strip())
@@ -95,7 +117,7 @@ def load_ger_file(file_path: str, year: int, generators: List[Generator]):
     print(f"Geradores carregados para o ano {year}-{year + 1}.")
 
 
-def load_tuh_file(file_path: str, year: int, generators: List[Generator]):
+def load_tuh_file(file_path: str, year: int, database: Database):
     if not os.path.exists(file_path):
         return
 
@@ -109,7 +131,7 @@ def load_tuh_file(file_path: str, year: int, generators: List[Generator]):
                 name = line[3:35].strip()
                 tust = float(line[96:102])
                 uf = line[51:53].strip()
-                gen = next((g for g in generators if g.name == name), None)
+                gen = database.get_generator_by_name(name)
                 if gen:
                     gen.tust[year] = tust
                     gen.uf = gen.uf or uf
@@ -117,7 +139,7 @@ def load_tuh_file(file_path: str, year: int, generators: List[Generator]):
                     print(f"Gerador {name} não encontrado na lista de geradores.")
 
 
-def load_r61_file(file_path: str, year: int, r61_data: List[R61]):
+def load_r61_file(file_path: str, year: int, database: Database):
     if not os.path.exists(file_path):
         return
 
@@ -132,18 +154,16 @@ def load_r61_file(file_path: str, year: int, r61_data: List[R61]):
         teu_values = [_parse_float(lines[i][7:14]) if i < len(lines) else None for i in range(17, 20)]
         data.teug, data.teup, data.teufp = teu_values + [None] * (3 - len(teu_values))
 
-    r61_data.append(data)
+    database.add_r61(data)
 
 
-def load_nos_file(file_path: str, year: int, buses: List[Bus]):
+def load_nos_file(file_path: str, year: int, database: Database):
     if not os.path.exists(file_path):
         return
 
     with open(file_path, "r") as file:
         for line_number, line in enumerate(file, 1):
-            if line_number <= 11:
-                continue
-            if _is_comment(line):
+            if line_number <= 11 or _is_comment(line):
                 continue
             if _is_end_of_file(line):
                 break
@@ -151,12 +171,12 @@ def load_nos_file(file_path: str, year: int, buses: List[Bus]):
                 try:
                     name = line[8:21].strip()
                     tust = float(line[37:43].strip()) if line[37:43].strip() else 0
-                    bus = next((b for b in buses if b.name == name), None)
+                    bus = database.get_bus_by_name(name)
                     if not bus:
                         bus = Bus()
                         bus.num = int(line[2:7].strip())
                         bus.name = line[8:20].strip()
-                        buses.append(bus)
+                        database.add_bus(bus)
                     bus.tust[year] = tust
                 except ValueError as e:
                     print(f"Erro ao processar linha {line_number} do arquivo {file_path}: {e}")
@@ -164,9 +184,7 @@ def load_nos_file(file_path: str, year: int, buses: List[Bus]):
 
 
 def load_base(DB_PATH):
-    generators = []
-    buses = []
-    r61_data = []
+    database = Database()
     years = range(2022, 2032)
 
     for year in years:
@@ -175,13 +193,13 @@ def load_base(DB_PATH):
         r61_file = os.path.join(DB_PATH, f"{year}-{year + 1}.R61")
         nos_file = os.path.join(DB_PATH, f"{year}-{year + 1}.NOS")
 
-        load_ger_file(ger_file, year, generators)
-        load_tuh_file(tuh_file, year, generators)
-        load_r61_file(r61_file, year, r61_data)
-        load_nos_file(nos_file, year, buses)
+        load_ger_file(ger_file, year, database)
+        load_tuh_file(tuh_file, year, database)
+        load_r61_file(r61_file, year, database)
+        load_nos_file(nos_file, year, database)
 
-    generators.sort(key=lambda x: x.name)
-    for generator in generators:
+    database.generators.sort(key=lambda x: x.name)
+    for generator in database.generators:
         for year in range(2032, 2040):
             generator.tust[year] = generator.tust.get(year - 1, 0) - 0.02
 
@@ -190,11 +208,11 @@ def load_base(DB_PATH):
     with open(csv_file, mode='w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(["GENERATOR"] + [str(year) for year in years])
-        for generator in generators:
+        for generator in database.generators:
             row = [generator.name] + [generator.tust.get(year, 0) for year in years]
             writer.writerow(row)
 
-    return generators, buses, r61_data
+    return database
 
 
 def _read_param61(file_path):
@@ -261,16 +279,14 @@ def read_autotust_csv(csv_path):
     return rap_values, pdr_values
 
 
-def get_tust_results(case_path):
-    generators, _, _ = load_base(case_path)
-
+def get_tust_results(case_path, database: Database):
     years = range(2023, 2032)
     with open(os.path.join(case_path, "autotust_results.csv"), mode='w', newline='') as file:
         writer = csv.writer(file)
         header = ["USINA", "SUBSISTEMA", "CEG"] + [str(year) for year in years] + ["MUST", "BUS_2023", "BUS_2030"]
         writer.writerow(header)
 
-        for generator in generators:
+        for generator in database.generators:
             row = [generator.name]
             subsistema = STATE_TO_SUBSYSTEM.get(generator.uf, '')
             row.extend([subsistema, generator.ceg])
@@ -286,6 +302,11 @@ def get_tust_results(case_path):
             writer.writerow(row)
 
 
+def run_streamlit_dashboard():
+    dashboard_script = os.path.join(os.path.dirname(__file__), 'scripts', 'dashboard.py')
+    subprocess.run(["streamlit", "run", dashboard_script], check=True)
+
+
 def main():
     parser = argparse.ArgumentParser(description="AutoTUST - Nodal Automation v1.0")
     subparsers = parser.add_subparsers(dest='command', help='commands')
@@ -296,14 +317,21 @@ def main():
     output_parser = subparsers.add_parser('output', help='Get TUST results')
     output_parser.add_argument('path', type=str, help='Path to the case folder')
 
+    dashboard_parser = subparsers.add_parser('dashboard', help='Run Streamlit Dashboard')
+
     args = parser.parse_args()
 
     if args.command == 'nodal':
         csv_path = os.path.join(args.path, "autotust.csv")
         rap, pdr = read_autotust_csv(csv_path)
         run_nodal61(args.path, rap, pdr)
+
     elif args.command == 'output':
-        get_tust_results(args.path)
+        database = load_base(args.path)
+        get_tust_results(args.path, database)
+
+    elif args.command == 'dashboard':
+        run_streamlit_dashboard()
 
 
 if __name__ == "__main__":
