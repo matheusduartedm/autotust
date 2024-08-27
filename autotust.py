@@ -270,8 +270,8 @@ def run_nodal61(case_path,
     params[1] = NODAL_PATH
     for i, icycle in enumerate(range(INITIAL_CYCLE, FINAL_CYCLE)):
         cycle = f"{icycle}-{icycle + 1}"
-        params[2] = case_path + f"\{cycle}.dc"
-        params[3] = case_path + f"\{cycle}"
+        params[2] = case_path + f"\\{cycle}.dc"
+        params[3] = case_path + f"\\{cycle}"
         params[4] = rap[i]
         params[20] = pdr[i]
         _write_param61(params, params_file_path)
