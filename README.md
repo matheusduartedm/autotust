@@ -1,67 +1,77 @@
 # AutoTUST
 
-AutoTUST is a Python-based project for managing, analyzing, and visualizing TUST (Tarifa de Uso do Sistema de Transmissão) data. It provides a suite of tools for processing electrical system data, running simulations, and generating reports.
+AutoTUST is a comprehensive Python-based tool for automating and analyzing TUST (Tarifa de Uso do Sistema de Transmissão) calculations in the Brazilian electrical system. It provides a suite of functionalities for processing electrical system data, running Nodal v61 simulations, and generating insightful reports and visualizations.
 
 ## Features
 
-- Data loading and processing from various file formats (.GER, .DC, .R61, .NOS)
-- Running Nodal v61 simulations
-- Generating CSV and Excel reports
-- Interactive dashboard for data visualization
-- Various analysis scripts for specific use cases
+- Data loading and processing from various file formats (.GER, .TUH, .R61, .NOS)
+- Automated execution of Nodal v61 simulations
+- Generation of CSV reports for TUST results
+- Interactive Streamlit dashboard for data visualization and analysis
+- Various utility scripts for specific data processing tasks
 
-## Project Structure
+## Installation
 
-The project consists of multiple Python scripts, each serving a specific purpose:
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/autotust.git
+   cd autotust
+   ```
 
-- `autotust_v61.py`: Core functionality for data loading, processing, and running simulations
-- `script_dashboard.py`: Creates an interactive dashboard using Streamlit
-- `script_run_v61.py`: Runs the Nodal v61 simulation
-- Various other scripts for specific data processing and analysis tasks
+2. Create and activate a virtual environment:
+   ```
+   make_venv.bat
+   ```
+
+3. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
-### Running Nodal v61 Simulation
+AutoTUST can be used in three main ways:
 
-```python
-import autotust_v61 as tust
+1. Run Nodal v61 simulations:
+   ```
+   autotust nodal path/to/case/folder
+   ```
 
-BASE_PATH = "path/to/your/case/files"
-rap = [...]  # List of RAP values
-pdr = [...]  # List of PDR values
+2. Generate TUST results:
+   ```
+   autotust output path/to/case/folder
+   ```
 
-tust.run_nodal61(BASE_PATH, rap, pdr)
+3. Launch the Streamlit dashboard:
+   ```
+   autotust dashboard
+   ```
+
+## Project Structure
+
+- `autotust.py`: Main script containing core functionality
+- `dashboard.py`: Streamlit dashboard for data visualization
+- `scripts/`: Folder containing various utility scripts
+- `bases/`: Directory for storing case data
+- `make_exe.bat`: Script for building the executable
+- `make_venv.bat`: Script for setting up the virtual environment
+- `requirements.txt`: List of Python dependencies
+- `autotust.spec`: PyInstaller specification file
+
+## Building the Executable
+
+To create a standalone executable:
+
+```
+make_exe.bat
 ```
 
-### Generating Reports
+The executable will be created in the `dist/` directory.
 
-Various scripts are available for generating reports. For example:
+## Contributing
 
-```python
-python script_tust2csv.py
-```
+Contributions to AutoTUST are welcome! Please feel free to submit pull requests, create issues or spread the word.
 
-### Running the Dashboard
+## License
 
-```
-streamlit run script_dashboard.py
-```
-
-## Scripts
-
-The project includes several scripts for different purposes:
-
-- `script_clean_ger.py`: Filters generators based on an Excel file
-- `script_dc2xlsx.py`: Converts DC files to Excel format
-- `script_ger2xlsx.py`: Converts GER files to Excel format
-- `script_insert_gen.py`: Inserts new generators into GER files
-- `script_monta_estudos.py`: Sets up study cases for specific power plants
-- `script_muda_rb.py`: Analyzes changes in generator parameters
-- `script_ralie.py`: Processes RALIE data
-- `script_run_cases.py`: Runs multiple case studies
-- `script_tust2csv.py`: Converts TUST data to CSV format
-- `script_update_bus.py`: Updates bus information for generators
-- `script_usinas_entram.py`: Analyzes new power plants entering the system
-- `script_usinas_saem.py`: Analyzes power plants leaving the system
-
-Each script is designed for a specific analysis or data processing task within the AutoTUST framework.
+This project is licensed under the MIT License - see the LICENSE file for details.
