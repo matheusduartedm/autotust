@@ -259,23 +259,23 @@ def display_assumptions(database):
     else:
         st.write("The 'generators' list is empty.")
 
-    st.write("### R61 File")
-    rap_years = [r61.year for r61 in database.cycle_data]
-    rap_values = [r61.rap for r61 in database.cycle_data if r61.rap is not None]
+    st.write("### Cycle Data")
+    rap_years = [cycle_data.year for cycle_data in database.cycle_data]
+    rap_values = [cycle_data.rap for cycle_data in database.cycle_data if cycle_data.rap is not None]
 
     st.plotly_chart(create_bar_chart(
         rap_years, rap_values, "RAP by Year", "<b>Year</b>",
         text=[f"{value / 1e9:.2f} B" for value in rap_values]
     ))
 
-    must_ger_values = [r61.mustg for r61 in database.cycle_data if r61.mustg is not None]
+    must_ger_values = [cycle_data.mustg for cycle_data in database.cycle_data if cycle_data.mustg is not None]
     st.plotly_chart(create_bar_chart(
         rap_years, must_ger_values, "MUSTg by Year", "<b>Year</b>",
         text=[f"{value / 1e3:.2f} GW" for value in must_ger_values]
     ))
 
-    must_cp_values = [r61.mustp for r61 in database.cycle_data if r61.mustp is not None]
-    must_fp_values = [r61.mustfp for r61 in database.cycle_data if r61.mustfp is not None]
+    must_cp_values = [cycle_data.mustp for cycle_data in database.cycle_data if cycle_data.mustp is not None]
+    must_fp_values = [cycle_data.mustfp for cycle_data in database.cycle_data if cycle_data.mustfp is not None]
 
     st.plotly_chart(go.Figure([
         go.Bar(x=rap_years, y=must_cp_values, name="P",
@@ -289,14 +289,14 @@ def display_assumptions(database):
         xaxis=dict(tickmode='linear', dtick=1)
     ).update_yaxes(visible=False))
 
-    teu_g_values = [r61.teug for r61 in database.cycle_data if r61.teug is not None]
+    teu_g_values = [cycle_data.teug for cycle_data in database.cycle_data if cycle_data.teug is not None]
     st.plotly_chart(create_bar_chart(
         rap_years, teu_g_values, "TEUg by Year", "<b>Year</b>",
         text=[f"{value:.2f}" for value in teu_g_values]
     ))
 
-    teu_cp_values = [r61.teup for r61 in database.cycle_data if r61.teup is not None]
-    teu_cf_values = [r61.teufp for r61 in database.cycle_data if r61.teufp is not None]
+    teu_cp_values = [cycle_data.teup for cycle_data in database.cycle_data if cycle_data.teup is not None]
+    teu_cf_values = [cycle_data.teufp for cycle_data in database.cycle_data if cycle_data.teufp is not None]
 
     st.plotly_chart(go.Figure([
         go.Bar(x=rap_years, y=teu_cp_values, name="P",
