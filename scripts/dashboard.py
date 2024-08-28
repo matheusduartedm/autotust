@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 import streamlit as st
 import pandas as pd
@@ -318,9 +317,9 @@ def main():
     tab_names = ["Assumptions", "General Results", "Results"]
     tab = st.sidebar.radio("", tab_names)
 
-    base_options = [name for name in os.listdir(BASE_DIR) if os.path.isdir(os.path.join(BASE_DIR, name))]
+    base_options = [base.name for base in BASE_DIR.iterdir() if base.is_dir()]
     base_selection = st.sidebar.selectbox("Select case:", base_options)
-    BASE_PATH = os.path.join(BASE_DIR, base_selection)
+    BASE_PATH = BASE_DIR / base_selection
 
     database = load_database(BASE_PATH)
 
