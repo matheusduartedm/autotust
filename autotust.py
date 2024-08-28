@@ -44,7 +44,7 @@ class Bus:
 
 
 @dataclass
-class R61:
+class CycleData:
     year: int = 0
     rap: Optional[float] = None
     mustg: Optional[float] = None
@@ -59,16 +59,16 @@ class R61:
 class Database:
     generators: List[Generator] = field(default_factory=list)
     buses: List[Bus] = field(default_factory=list)
-    r61_data: List[R61] = field(default_factory=list)
+    cycle_data: List[CycleData] = field(default_factory=list)
 
-    def add_generator(self, generator: Generator):
+    def add_generator(self, generator: Generator) -> None:
         self.generators.append(generator)
 
-    def add_bus(self, bus: Bus):
+    def add_bus(self, bus: Bus) -> None:
         self.buses.append(bus)
 
-    def add_r61(self, r61: R61):
-        self.r61_data.append(r61)
+    def add_cycle_data(self, cycle_data: CycleData) -> None:
+        self.cycle_data.append(cycle_data)
 
     def get_generator_by_name(self, name: str) -> Optional[Generator]:
         return next((g for g in self.generators if g.name == name), None)
@@ -90,8 +90,8 @@ def _parse_float(value_str):
     return float(value_str) if value_str and not value_str.startswith("-") else None
 
 
-def load_ger_file(file_path: str, year: int, database: Database):
-    if not os.path.exists(file_path):
+def load_ger_file(file_path: Path, year: int, database: Database) -> None:
+    if not file_path.exists():
         return
 
     with open(file_path, "r") as file:
@@ -114,7 +114,7 @@ def load_ger_file(file_path: str, year: int, database: Database):
                 gen.s[year] = line[44:45].strip()
                 gen.must[year] = float(line[32:41].strip())
                 gen.bus[year] = int(line[70:75].strip())
-    print(f"Geradores carregados para o ano {year}-{year + 1}.")
+    print(f"Geradores carregados para o ciclo {year}-{year + 1}.")
 
 
 def load_tuh_file(file_path: str, year: int, database: Database):
@@ -139,13 +139,13 @@ def load_tuh_file(file_path: str, year: int, database: Database):
                     print(f"Gerador {name} não encontrado na lista de geradores.")
 
 
-def load_r61_file(file_path: str, year: int, database: Database):
+def load_r61_file(file_path: str, year: int, database: Database) -> None:
     if not os.path.exists(file_path):
         return
 
     with open(file_path, 'r', encoding='ISO-8859-1') as file:
         lines = file.readlines()
-        data = R61()
+        data = CycleData()
         data.year = year
         data.rap = _parse_float(lines[7][88:106])
         data.mustg = _parse_float(lines[8][15:26])
@@ -154,7 +154,7 @@ def load_r61_file(file_path: str, year: int, database: Database):
         teu_values = [_parse_float(lines[i][7:14]) if i < len(lines) else None for i in range(17, 20)]
         data.teug, data.teup, data.teufp = teu_values + [None] * (3 - len(teu_values))
 
-    database.add_r61(data)
+    database.add_cycle_data(data)
 
 
 def load_nos_file(file_path: str, year: int, database: Database):
