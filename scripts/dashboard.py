@@ -309,12 +309,49 @@ def display_assumptions(database):
     ).update_yaxes(visible=False))
 
 
+def display_commands(base_path):
+    """Display the commands tab."""
+    st.write("# AutoTUST Commands")
+    
+    command = st.selectbox("Select command to run:", 
+                           ["Run Nodal v62", "Generate TUST Results", "Clean GER Files"])
+    
+    if st.button("Execute Command"):
+        if command == "Run Nodal v62":
+            execute_autotust_command('nodal', base_path)
+        elif command == "Generate TUST Results":
+            execute_autotust_command('output', base_path)
+        elif command == "Clean GER Files":
+            execute_autotust_command('clean', base_path)
+
+
+def execute_autotust_command(command, base_path):
+    if command == 'nodal':
+        csv_path = base_path / "autotust.csv"
+        rap, pdr = autotust.read_autotust_csv(csv_path)
+        autotust.run_nodal62(base_path, rap, pdr)
+        st.success("Nodal v62 execution completed.")
+    elif command == 'output':
+        database = autotust.load_base(base_path)
+        autotust.get_tust_results(base_path, database)
+        st.success("TUST results generated.")
+    elif command == 'clean':
+        excel_path = st.text_input("Enter the path to the Excel file with generators to remove:")
+        output_path = st.text_input("Enter the path to save the output CSV file:")
+        if st.button("Run Clean Command"):
+            if excel_path and output_path:
+                autotust.clean_ger(excel_path, str(base_path), output_path)
+                st.success("GER files cleaned and results saved.")
+            else:
+                st.warning("Please provide both Excel file path and output path.")
+
+
 def main():
     """Main function to run the Streamlit app."""
     st.set_page_config(page_title="AutoTUST Dashboard", layout="wide")
 
     st.sidebar.title("Navigation")
-    tab_names = ["Assumptions", "General Results", "Results"]
+    tab_names = ["Assumptions", "General Results", "Results", "Commands"]
     tab = st.sidebar.radio("", tab_names)
 
     base_options = [base.name for base in BASE_DIR.iterdir() if base.is_dir()]
@@ -329,6 +366,8 @@ def main():
         display_general_results(database)
     elif tab == "Assumptions":
         display_assumptions(database)
+    elif tab == "Commands":
+        display_commands(BASE_PATH)
 
 
 if __name__ == "__main__":
