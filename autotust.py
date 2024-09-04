@@ -10,6 +10,7 @@ import logging
 from typing import List, Dict, Union, Optional, Tuple
 from dataclasses import dataclass, field
 from pathlib import Path
+import pandas as pd
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -338,6 +339,38 @@ def run_streamlit_dashboard() -> None:
         logger.error(f"Error running Streamlit dashboard: {e}")
 
 
+def clean_ger(excel_path: str, db_path: str, output_path: str) -> None:
+    """Clean GER files based on the input Excel file."""
+    excel = pd.ExcelFile(excel_path)
+    years = range(2024, 2032)
+    geradores_retirados_total = {}
+
+    for year in years:
+        ger_file = Path(db_path) / f"{year}-{year+1}.GER"
+        new_ger_file = Path(db_path) / f"{year}-{year+1}_filtered.GER"
+
+        sheet = str(year) if year < 2028 else str(2027)
+        df = excel.parse(sheet)
+        geradores_retirar = set(df[df['Status'] == 'Retirar']['name'])
+        
+        geradores_retirados = []
+        if ger_file.exists():
+            with open(ger_file, "r") as file, open(new_ger_file, "w") as new_file:
+                for line in file:
+                    name = line[0:32].strip()
+                    if name in geradores_retirar:
+                        geradores_retirados.append(name)
+                        new_file.write('(' + line)
+                    else:
+                        new_file.write(line)
+        geradores_retirados_total[year] = geradores_retirados
+        logger.info(f"Ano {year}: {len(geradores_retirados)} geradores retirados.")
+
+    df_geradores_retirados = pd.DataFrame(dict([(k, pd.Series(v)) for k, v in geradores_retirados_total.items()]))
+    df_geradores_retirados.to_csv(Path(output_path) / "geradores_retirados.csv", index=False)
+    logger.info("Cleaning process completed.")
+
+
 def main() -> None:
     """Main function to run the AutoTUST program."""
     parser = argparse.ArgumentParser(description="AutoTUST - Nodal Automation v1.0")
@@ -348,6 +381,11 @@ def main() -> None:
 
     output_parser = subparsers.add_parser('output', help='Get TUST results')
     output_parser.add_argument('path', type=str, help='Path to the case folder')
+
+    clean_parser = subparsers.add_parser('clean', help='Clean GER files')
+    clean_parser.add_argument('excel_path', type=str, help='Path to the Excel file with generators to remove')
+    clean_parser.add_argument('db_path', type=str, help='Path to the database folder')
+    clean_parser.add_argument('output_path', type=str, help='Path to save the output CSV file')
 
     subparsers.add_parser('dashboard', help='Run Streamlit Dashboard')
 
@@ -361,6 +399,9 @@ def main() -> None:
     elif args.command == 'output':
         database = load_base(Path(args.path))
         get_tust_results(Path(args.path), database)
+
+    elif args.command == 'clean':
+        clean_ger(args.excel_path, args.db_path, args.output_path)
 
     elif args.command == 'dashboard':
         run_streamlit_dashboard()
