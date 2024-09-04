@@ -9,7 +9,7 @@ import autotust
 
 # Constants
 BASE_DIR = Path(__file__).parent.parent / "bases"
-VALID_YEARS = set(range(2023, 2032))
+VALID_YEARS = set(range(2023, 2033))
 
 
 @st.cache_data
