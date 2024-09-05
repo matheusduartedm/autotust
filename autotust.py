@@ -356,7 +356,7 @@ def run_streamlit_dashboard() -> None:
 
     try:
         # Use Python executable from sys.executable to ensure we're using the correct Python
-        subprocess.run(["python", "-m", "streamlit", "run", dashboard_script], check=True)
+        subprocess.run([sys.executable, "-m", "streamlit", "run", dashboard_script], check=True)
     except subprocess.CalledProcessError as e:
         logger.error(f"Error running Streamlit dashboard: {e}")
 
