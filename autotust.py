@@ -3,6 +3,8 @@ AutoTUST - Nodal Automation v1.0
 Provides functionality for automating the Nodal v62 process for TUST calculations.
 """
 
+import os
+import sys
 import csv
 import argparse
 import subprocess
@@ -332,9 +334,29 @@ def get_tust_results(case_path: Path, database: Database) -> None:
 
 def run_streamlit_dashboard() -> None:
     """Run the Streamlit dashboard."""
-    dashboard_script = Path(__file__).parent / 'scripts' / 'dashboard.py'
+    if getattr(sys, 'frozen', False):
+        # Running as compiled executable
+        base_path = sys._MEIPASS
+    else:
+        # Running from source
+        base_path = os.path.dirname(os.path.abspath(__file__))
+
+    dashboard_script = os.path.join(base_path, 'dashboard.py')
+
+    logger.info(f"Dashboard script path: {dashboard_script}")
+    logger.info(f"Dashboard script exists: {os.path.exists(dashboard_script)}")
+
+    if not os.path.exists(dashboard_script):
+        logger.error(f"Dashboard script not found at {dashboard_script}")
+        logger.info(f"Contents of {base_path}:")
+        for root, dirs, files in os.walk(base_path):
+            for name in files:
+                logger.info(os.path.join(root, name))
+        return
+
     try:
-        subprocess.run(["streamlit", "run", str(dashboard_script)], check=True)
+        # Use Python executable from sys.executable to ensure we're using the correct Python
+        subprocess.run(["python", "-m", "streamlit", "run", dashboard_script], check=True)
     except subprocess.CalledProcessError as e:
         logger.error(f"Error running Streamlit dashboard: {e}")
 

@@ -1,3 +1,9 @@
+import sys
+import os
+
+# Add the current directory to sys.path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 from pathlib import Path
 import streamlit as st
 import pandas as pd
@@ -7,10 +13,8 @@ from collections import defaultdict
 import colorsys
 import autotust
 
-# Constants
-BASE_DIR = Path(__file__).parent.parent / "bases"
-VALID_YEARS = set(range(2023, 2033))
 
+VALID_YEARS = set(range(2023, 2033))
 
 @st.cache_data
 def load_database(base_path):
@@ -354,11 +358,19 @@ def main():
     tab_names = ["Assumptions", "General Results", "Results", "Commands"]
     tab = st.sidebar.radio("", tab_names)
 
-    base_options = [base.name for base in BASE_DIR.iterdir() if base.is_dir()]
-    base_selection = st.sidebar.selectbox("Select case:", base_options)
-    BASE_PATH = BASE_DIR / base_selection
+    # Allow the user to input the case path directly
+    case_path = st.sidebar.text_input("Enter the case path:", value="./")
+    BASE_PATH = Path(case_path)
 
-    database = load_database(BASE_PATH)
+    if not BASE_PATH.exists():
+        st.error(f"The specified path {BASE_PATH} does not exist. Please check the path.")
+        return
+
+    try:
+        database = load_database(BASE_PATH)
+    except Exception as e:
+        st.error(f"Error loading database: {str(e)}. Please ensure the specified path contains valid case files.")
+        return
 
     if tab == "Results":
         display_results(database)
@@ -368,7 +380,6 @@ def main():
         display_assumptions(database)
     elif tab == "Commands":
         display_commands(BASE_PATH)
-
 
 if __name__ == "__main__":
     main()

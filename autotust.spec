@@ -12,10 +12,8 @@ a = Analysis(
       "./",
       ],
     binaries=[],
-
-    datas=[],
-
-    hiddenimports=[],
+    datas=[('autotust.py', '.'), ('dashboard.py', '.')],
+    hiddenimports=["streamlit"],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -47,7 +45,8 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
     runtime_tmpdir=None,
-	icon='NONE'
+    icon='NONE',
+	uac_admin=True
 )
 if not onefile:
 	coll = COLLECT(
@@ -58,5 +57,5 @@ if not onefile:
       strip=False,
       upx=True,
       upx_exclude=[],
-	    name='autotust',
+	  name='autotust',
 	)
