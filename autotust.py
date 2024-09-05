@@ -310,10 +310,10 @@ def read_autotust_csv(csv_path: Path) -> Tuple[List[float], List[int]]:
 
 def get_tust_results(case_path: Path, database: Database) -> None:
     """Generate TUST results CSV file."""
-    years = range(2023, 2032)
+    years = range(2024, 2033)
     with open(case_path / "autotust_results.csv", mode='w', newline='') as file:
         writer = csv.writer(file)
-        header = ["USINA", "SUBSISTEMA", "CEG"] + [str(year) for year in years] + ["MUST", "BUS_2023", "BUS_2030"]
+        header = ["USINA", "SUBSISTEMA", "CEG"] + [str(year) for year in years] + ["MUST_2032", "BUS_2023", "BUS_2032"]
         writer.writerow(header)
 
         for generator in database.generators:
@@ -323,12 +323,12 @@ def get_tust_results(case_path: Path, database: Database) -> None:
             for year in years:
                 tust_year = generator.tust.get(year, '-')
                 row.extend([tust_year])
-            must = generator.must.get(2030, '-')
-            row.extend([must])
-            bus23 = generator.bus.get(2023, '-')
-            row.extend([bus23])
-            bus30 = generator.bus.get(2030, '-')
-            row.extend([bus30])
+            must31 = generator.must.get(2031, '-')
+            row.extend([must31])
+            bus24 = generator.bus.get(2024, '-')
+            row.extend([bus24])
+            bus31 = generator.bus.get(2031, '-')
+            row.extend([bus31])
             writer.writerow(row)
 
 
@@ -356,7 +356,7 @@ def run_streamlit_dashboard() -> None:
 
     try:
         # Use Python executable from sys.executable to ensure we're using the correct Python
-        subprocess.run([sys.executable, "-m", "streamlit", "run", dashboard_script], check=True)
+        subprocess.run(["python", "-m", "streamlit", "run", dashboard_script], check=True)
     except subprocess.CalledProcessError as e:
         logger.error(f"Error running Streamlit dashboard: {e}")
 

@@ -46,7 +46,6 @@ exe = EXE(
     entitlements_file=None,
     runtime_tmpdir=None,
     icon='NONE',
-	uac_admin=True
 )
 if not onefile:
 	coll = COLLECT(
