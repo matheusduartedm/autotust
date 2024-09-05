@@ -204,7 +204,7 @@ def load_nos_file(file_path: Path, year: int, database: Database) -> None:
 def load_base(db_path: Path) -> Database:
     """Load all data files into the database."""
     database = Database()
-    years = range(2022, 2032)
+    years = range(2024, 2033)
 
     db_path = Path(db_path)  # Ensure DB_PATH is a Path object
 
@@ -221,7 +221,7 @@ def load_base(db_path: Path) -> Database:
 
     database.generators.sort(key=lambda x: x.name)
     for generator in database.generators:
-        for year in range(2032, 2040):
+        for year in range(2033, 2040):
             generator.tust[year] = generator.tust.get(year - 1, 0) - 0.02
 
     csv_file = db_path / "autotust_list.csv"
