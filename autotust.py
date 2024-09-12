@@ -268,13 +268,13 @@ def _write_param62(params: List[Union[str, float]], file_path: Path) -> None:
                 param_file.write(f"{value:05.2f}\n")
 
 
-def run_nodal62(case_path: Path, rap: List[float], pdr: List[float]) -> None:
-    """Run Nodal v62 for all cycles."""
+def run_nodal62(case_path: Path, cycle_years: List[int], rap: List[float], pdr: List[float]) -> None:
+    """Run Nodal v62 for specified cycles."""
     params_file_path = NODAL_PATH / "param.v62"
     params = _read_param62(params_file_path)
     params[1] = str(NODAL_PATH)
 
-    for i, cycle in enumerate(range(INITIAL_CYCLE, FINAL_CYCLE)):
+    for i, cycle in enumerate(cycle_years):
         cycle_str = f"{cycle}-{cycle + 1}"
         params[2] = str(case_path / f"{cycle_str}.dc")
         params[3] = str(case_path / cycle_str)
@@ -297,39 +297,53 @@ def run_nodal62(case_path: Path, rap: List[float], pdr: List[float]) -> None:
             logger.warning("The file #ER_nod#.TX1 was not found.")
 
 
-def read_autotust_csv(csv_path: Path) -> Tuple[List[float], List[int]]:
-    """Read RAP and PDR values from CSV file."""
-    rap_values, pdr_values = [], []
+def read_autotust_csv(csv_path: Path) -> Tuple[List[int], List[float], List[int]]:
+    """Read cycle years, RAP and PDR values from CSV file."""
+    cycle_years, rap_values, pdr_values = [], [], []
     with open(csv_path, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
+            cycle_years.append(int(row['cycle']))
             rap_values.append(float(row['rap']))
             pdr_values.append(int(row['pdr']))
-    return rap_values, pdr_values
+    return cycle_years, rap_values, pdr_values
 
 
 def get_tust_results(case_path: Path, database: Database) -> None:
-    """Generate TUST results CSV file."""
+    """Generate TUST results CSV file for specified generators."""
     years = range(2024, 2033)
+    input_file = case_path / "autotust_input_generators.csv"
+    generator_list = None
+
+    if input_file.exists():
+        with open(input_file, 'r') as f:
+            generator_list = [line.strip() for line in f.readlines()]
+        logger.info(f"Using generator list from {input_file}")
+    else:
+        logger.info(f"File {input_file} not found. Using all generators.")
+
     with open(case_path / "autotust_results.csv", mode='w', newline='') as file:
         writer = csv.writer(file)
         header = ["USINA", "SUBSISTEMA", "CEG"] + [str(year) for year in years] + ["MUST_2032", "BUS_2023", "BUS_2032"]
         writer.writerow(header)
 
         for generator in database.generators:
-            row = [generator.name]
-            subsistema = STATE_TO_SUBSYSTEM.get(generator.uf, '')
-            row.extend([subsistema, generator.ceg])
-            for year in years:
-                tust_year = generator.tust.get(year, '-')
-                row.extend([tust_year])
-            must31 = generator.must.get(2031, '-')
-            row.extend([must31])
-            bus24 = generator.bus.get(2024, '-')
-            row.extend([bus24])
-            bus31 = generator.bus.get(2031, '-')
-            row.extend([bus31])
-            writer.writerow(row)
+            if generator_list is None or generator.name in generator_list:
+                row = [generator.name]
+                subsistema = STATE_TO_SUBSYSTEM.get(generator.uf, '')
+                row.extend([subsistema, generator.ceg])
+                for year in years:
+                    tust_year = generator.tust.get(year, '-')
+                    row.extend([tust_year])
+                must31 = generator.must.get(2031, '-')
+                row.extend([must31])
+                bus24 = generator.bus.get(2024, '-')
+                row.extend([bus24])
+                bus31 = generator.bus.get(2031, '-')
+                row.extend([bus31])
+                writer.writerow(row)
+
+    logger.info(f"TUST results written to {case_path / 'autotust_results.csv'}")
 
 
 def run_streamlit_dashboard() -> None:
@@ -415,8 +429,8 @@ def main() -> None:
 
     if args.command == 'nodal':
         csv_path = Path(args.path) / "autotust.csv"
-        rap, pdr = read_autotust_csv(csv_path)
-        run_nodal62(Path(args.path), rap, pdr)
+        cycle_years, rap, pdr = read_autotust_csv(csv_path)
+        run_nodal62(Path(args.path), cycle_years, rap, pdr)
 
     elif args.command == 'output':
         database = load_base(Path(args.path))

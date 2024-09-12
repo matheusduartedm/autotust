@@ -332,8 +332,8 @@ def display_commands(base_path):
 def execute_autotust_command(command, base_path):
     if command == 'nodal':
         csv_path = base_path / "autotust.csv"
-        rap, pdr = autotust.read_autotust_csv(csv_path)
-        autotust.run_nodal62(base_path, rap, pdr)
+        cycle_years, rap, pdr = autotust.read_autotust_csv(csv_path)
+        autotust.run_nodal62(base_path, cycle_years, rap, pdr)
         st.success("Nodal v62 execution completed.")
     elif command == 'output':
         database = autotust.load_base(base_path)
