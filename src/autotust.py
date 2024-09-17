@@ -6,7 +6,6 @@ Provides functionality for automating the Nodal v62 process for TUST calculation
 import os
 import sys
 import csv
-import argparse
 import subprocess
 import logging
 from typing import List, Dict, Union, Optional, Tuple
@@ -346,7 +345,7 @@ def get_tust_results(case_path: Path, database: Database) -> None:
     logger.info(f"TUST results written to {case_path / 'autotust_results.csv'}")
 
 
-def run_streamlit_dashboard() -> None:
+def run_streamlit() -> None:
     """Run the Streamlit dashboard."""
     if getattr(sys, 'frozen', False):
         # Running as compiled executable
@@ -355,7 +354,7 @@ def run_streamlit_dashboard() -> None:
         # Running from source
         base_path = os.path.dirname(os.path.abspath(__file__))
 
-    dashboard_script = os.path.join(base_path, 'dashboard.py')
+    dashboard_script = os.path.join(base_path, 'gui.py')
 
     logger.info(f"Dashboard script path: {dashboard_script}")
     logger.info(f"Dashboard script exists: {os.path.exists(dashboard_script)}")
@@ -405,43 +404,3 @@ def clean_ger(excel_path: str, db_path: str, output_path: str) -> None:
     df_geradores_retirados = pd.DataFrame(dict([(k, pd.Series(v)) for k, v in geradores_retirados_total.items()]))
     df_geradores_retirados.to_csv(Path(output_path) / "geradores_retirados.csv", index=False)
     logger.info("Cleaning process completed.")
-
-
-def main() -> None:
-    """Main function to run the AutoTUST program."""
-    parser = argparse.ArgumentParser(description="AutoTUST - Nodal Automation v1.0")
-    subparsers = parser.add_subparsers(dest='command', help='commands')
-
-    nodal_parser = subparsers.add_parser('nodal', help='Run Nodal v62')
-    nodal_parser.add_argument('path', type=str, help='Path to the case folder')
-
-    output_parser = subparsers.add_parser('output', help='Get TUST results')
-    output_parser.add_argument('path', type=str, help='Path to the case folder')
-
-    clean_parser = subparsers.add_parser('clean', help='Clean GER files')
-    clean_parser.add_argument('excel_path', type=str, help='Path to the Excel file with generators to remove')
-    clean_parser.add_argument('db_path', type=str, help='Path to the database folder')
-    clean_parser.add_argument('output_path', type=str, help='Path to save the output CSV file')
-
-    subparsers.add_parser('dashboard', help='Run Streamlit Dashboard')
-
-    args = parser.parse_args()
-
-    if args.command == 'nodal':
-        csv_path = Path(args.path) / "autotust.csv"
-        cycle_years, rap, pdr = read_autotust_csv(csv_path)
-        run_nodal62(Path(args.path), cycle_years, rap, pdr)
-
-    elif args.command == 'output':
-        database = load_base(Path(args.path))
-        get_tust_results(Path(args.path), database)
-
-    elif args.command == 'clean':
-        clean_ger(args.excel_path, args.db_path, args.output_path)
-
-    elif args.command == 'dashboard':
-        run_streamlit_dashboard()
-
-
-if __name__ == "__main__":
-    main()

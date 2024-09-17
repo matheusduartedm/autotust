@@ -1,18 +1,18 @@
-import sys
 import os
+import sys
+import colorsys
+from pathlib import Path
+from collections import defaultdict
+
+import numpy as np
+import pandas as pd
+import streamlit as st
+import plotly.graph_objects as go
+
+import autotust
 
 # Add the current directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
-from pathlib import Path
-import streamlit as st
-import pandas as pd
-import numpy as np
-import plotly.graph_objects as go
-from collections import defaultdict
-import colorsys
-import autotust
-
 
 VALID_YEARS = set(range(2023, 2033))
 
@@ -21,17 +21,14 @@ def load_database(base_path):
     """Load the database from the given path."""
     return autotust.load_base(base_path)
 
-
 def normalize(value, min_val, max_val):
     return (value - min_val) / (max_val - min_val)
-
 
 def calculate_color(value, min_val, max_val):
     """Calculate color based on the normalized value."""
     norm_value = normalize(value, min_val, max_val)
     r, g, b = colorsys.hsv_to_rgb(0.3 * (1 - norm_value), 1, 1)
     return f"rgb({int(r * 255)},{int(g * 255)},{int(b * 255)})"
-
 
 def create_line_chart(data, title, x_label, y_label):
     """Create a line chart with the given data and labels."""
@@ -46,14 +43,12 @@ def create_line_chart(data, title, x_label, y_label):
     fig.update_layout(title=title, xaxis_title=x_label, yaxis_title=y_label)
     return fig
 
-
 def create_bar_chart(x_data, y_data, title, x_label, text=None, color=None):
     """Create a bar chart with the given data and labels."""
     fig = go.Figure(data=[go.Bar(x=x_data, y=y_data, text=text, textposition='outside', marker_color=color)])
     fig.update_layout(title=title, xaxis_title=x_label, title_x=0.5, xaxis=dict(tickmode='linear', dtick=1))
     fig.update_yaxes(visible=False)
     return fig
-
 
 def calculate_avg_tust(database):
     """Calculate the average TUST values."""
@@ -75,7 +70,6 @@ def calculate_avg_tust(database):
 
     return avg_tust
 
-
 def calculate_must_values(database):
     """Calculate MUST values by type and total."""
     must_values_by_type = defaultdict(lambda: defaultdict(int))
@@ -89,7 +83,6 @@ def calculate_must_values(database):
     }
 
     return must_values_by_type, must_total_values
-
 
 def display_results(database):
     """Display the results tab."""
@@ -115,7 +108,6 @@ def display_results(database):
         )
     else:
         st.write(f"Generator {generator_id} not found.")
-
 
 def plot_generator_tust(generator, all_generators):
     """Plot TUST values for the selected generator."""
@@ -147,7 +139,6 @@ def plot_generator_tust(generator, all_generators):
         yaxis_title='TUST [R$/kW.month - ref. Jun/2023]'
     )
     st.plotly_chart(fig)
-
 
 def plot_iat_and_risk_expansion(generator):
     """Plot IAT and Risk Expansion for the selected generator."""
@@ -203,13 +194,11 @@ def plot_iat_and_risk_expansion(generator):
     )
     st.plotly_chart(fig_nominal)
 
-
 def convert_to_csv(data_dict):
     """Convert the given data dictionary to a CSV."""
     df = pd.DataFrame.from_dict(data_dict, orient='index')
     df.index.name = 'Year'
     return df.to_csv().encode()
-
 
 def display_general_results(database):
     """Display the general results tab."""
@@ -228,7 +217,6 @@ def display_general_results(database):
                  type_ not in autotust.SUBSYSTEM_MAP and type_ not in autotust.STATE_TO_SUBSYSTEM}
     st.plotly_chart(
         create_line_chart(type_data, "Average TUST by Type", 'Year', 'Average TUST [R$/kW.month - ref. Jun/2023]'))
-
 
 def display_assumptions(database):
     """Display the assumptions tab."""
@@ -312,7 +300,6 @@ def display_assumptions(database):
         xaxis=dict(tickmode='linear', dtick=1)
     ).update_yaxes(visible=False))
 
-
 def display_commands(base_path):
     """Display the commands tab."""
     st.write("# AutoTUST Commands")
@@ -327,7 +314,6 @@ def display_commands(base_path):
             execute_autotust_command('output', base_path)
         elif command == "Clean GER Files":
             execute_autotust_command('clean', base_path)
-
 
 def execute_autotust_command(command, base_path):
     if command == 'nodal':
@@ -349,8 +335,7 @@ def execute_autotust_command(command, base_path):
             else:
                 st.warning("Please provide both Excel file path and output path.")
 
-
-def main():
+def gui():
     """Main function to run the Streamlit app."""
     st.set_page_config(page_title="AutoTUST Dashboard", layout="wide")
 
@@ -382,4 +367,4 @@ def main():
         display_commands(BASE_PATH)
 
 if __name__ == "__main__":
-    main()
+    gui()
