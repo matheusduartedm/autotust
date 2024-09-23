@@ -14,7 +14,6 @@ import autotust
 # Add the current directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-VALID_YEARS = set(range(2023, 2033))
 
 @st.cache_data
 def load_database(base_path):
@@ -50,39 +49,6 @@ def create_bar_chart(x_data, y_data, title, x_label, text=None, color=None):
     fig.update_yaxes(visible=False)
     return fig
 
-def calculate_avg_tust(database):
-    """Calculate the average TUST values."""
-    total_tust = defaultdict(lambda: defaultdict(float))
-    generator_count = defaultdict(lambda: defaultdict(int))
-
-    for generator in database.generators:
-        subsystem = autotust.STATE_TO_SUBSYSTEM.get(generator.uf, '')
-        for year, tust in generator.tust.items():
-            if year in VALID_YEARS and tust > 0:
-                for category in [subsystem, generator.uf, generator.type]:
-                    total_tust[category][year] += tust
-                    generator_count[category][year] += 1
-
-    avg_tust = {
-        category: {year: round(value / generator_count[category][year], 2) for year, value in years.items()}
-        for category, years in total_tust.items()
-    }
-
-    return avg_tust
-
-def calculate_must_values(database):
-    """Calculate MUST values by type and total."""
-    must_values_by_type = defaultdict(lambda: defaultdict(int))
-    for generator in database.generators:
-        for year, must in generator.must.items():
-            must_values_by_type[generator.type][year] += must
-
-    must_total_values = {
-        year: sum(values[year] for values in must_values_by_type.values())
-        for year in must_values_by_type[next(iter(must_values_by_type))].keys()
-    }
-
-    return must_values_by_type, must_total_values
 
 def display_results(database):
     """Display the results tab."""
@@ -203,7 +169,7 @@ def convert_to_csv(data_dict):
 def display_general_results(database):
     """Display the general results tab."""
     st.write("# General Results")
-    avg_tust = calculate_avg_tust(database)
+    avg_tust = database.calculate_avg_tust()
 
     subsystem_data = {ss: tusts for ss, tusts in avg_tust.items() if ss in autotust.SUBSYSTEM_MAP.keys()}
     st.plotly_chart(create_line_chart(subsystem_data, "Average TUST by Subsystem", 'Year',
@@ -224,7 +190,7 @@ def display_assumptions(database):
     st.write("### GER File")
 
     if database.generators:
-        must_values_by_type, must_total_values = calculate_must_values(database)
+        must_values_by_type, must_total_values = database.calculate_must_values()
         must_total_years = list(must_values_by_type[next(iter(must_values_by_type))].keys())
 
         fig_must_total = go.Figure()
