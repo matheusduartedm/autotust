@@ -3,7 +3,7 @@ from typing import Dict, List, Optional, Union
 from collections import defaultdict
 from pathlib import Path
 
-NODAL_PATH = Path(r"C:\Program Files (x86)\Nodal_V62")
+NODAL_PATH = Path(r"C:\Program Files (x86)\Nodal_V63")
 INITIAL_CYCLE = 2024
 FINAL_CYCLE = 2032
 VALID_YEARS = set(range(INITIAL_CYCLE, FINAL_CYCLE + 1))

@@ -6,9 +6,11 @@ import autotust
 def cli():
     """Command-line interface for AutoTUST."""
     parser = argparse.ArgumentParser(description="AutoTUST - Nodal Automation v1.0")
+    parser.add_argument('-n', '--nodal', type=str, default=r"C:\Program Files (x86)\Nodal_V63", 
+                       help='Path to Nodal v63 installation directory')
     subparsers = parser.add_subparsers(dest='command', help='commands')
 
-    nodal_parser = subparsers.add_parser('nodal', help='Run Nodal v62')
+    nodal_parser = subparsers.add_parser('nodal', help='Run Nodal v63')
     nodal_parser.add_argument('path', type=str, help='Path to the case folder')
 
     output_parser = subparsers.add_parser('output', help='Get TUST results')
@@ -24,7 +26,7 @@ def cli():
     if args.command == 'nodal':
         csv_path = Path(args.path) / "autotust.csv"
         cycle_years, rap, pdr = autotust.read_autotust_csv(csv_path)
-        autotust.run_nodal62(Path(args.path), cycle_years, rap, pdr)
+        autotust.run_nodal63(Path(args.path), cycle_years, rap, pdr, nodal_path=Path(args.nodal))
 
     elif args.command == 'output':
         database = autotust.load_base(Path(args.path))

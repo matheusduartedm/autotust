@@ -1,6 +1,6 @@
 """
 AutoTUST - Nodal Automation v1.0
-Provides functionality for automating the Nodal v62 process for TUST calculations.
+Provides functionality for automating the Nodal v63 process for TUST calculations.
 """
 
 import csv
@@ -82,8 +82,8 @@ def load_tuh_file(file_path: Path, year: int, database: Database) -> None:
                     logger.warning(f"Generator {name} not found in the generator list.")
 
 
-def load_r62_file(file_path: Path, year: int, database: Database) -> None:
-    """Load data from a .R62 file into the database."""
+def load_r63_file(file_path: Path, year: int, database: Database) -> None:
+    """Load data from a .R63 file into the database."""
     if not file_path.exists():
         logger.warning(f"File {file_path} does not exist.")
         return
@@ -139,12 +139,12 @@ def load_base(db_path: Path) -> Database:
     for year in years:
         ger_file = db_path / f"{year}-{year + 1}.GER"
         tuh_file = db_path / f"{year}-{year + 1}.TUH"
-        r62_file = db_path / f"{year}-{year + 1}.R62"
+        r63_file = db_path / f"{year}-{year + 1}.R63"
         nos_file = db_path / f"{year}-{year + 1}.NOS"
 
         load_ger_file(ger_file, year, database)
         load_tuh_file(tuh_file, year, database)
-        load_r62_file(r62_file, year, database)
+        load_r63_file(r63_file, year, database)
         load_nos_file(nos_file, year, database)
 
     database.generators.sort(key=lambda x: x.name)
@@ -164,20 +164,20 @@ def load_base(db_path: Path) -> Database:
     return database
 
 
-def _read_param62(file_path: Path) -> List[Union[str, float]]:
-    """Read the param.v62 file."""
+def _read_param63(file_path: Path) -> List[Union[str, float]]:
+    """Read the param.v63 file."""
     param_list = []
     if file_path.exists():
         with open(file_path) as param_file:
             for iline, line in enumerate(param_file):
                 contents = line if (iline <= 3 or line == "\n") else float(line)
                 param_list.append(contents)
-    logger.debug(f"Param62 contents: {param_list}")
+    logger.debug(f"Param63 contents: {param_list}")
     return param_list
 
 
-def _write_param62(params: List[Union[str, float]], file_path: Path) -> None:
-    """Write to the param.v62 file."""
+def _write_param63(params: List[Union[str, float]], file_path: Path) -> None:
+    """Write to the param.v63 file."""
     with open(file_path, "w") as param_file:
         for iparam, value in enumerate(params):
             if iparam == 0:
@@ -196,11 +196,12 @@ def _write_param62(params: List[Union[str, float]], file_path: Path) -> None:
                 param_file.write(f"{value:05.2f}\n")
 
 
-def run_nodal62(case_path: Path, cycle_years: List[int], rap: List[float], pdr: List[float]) -> None:
-    """Run Nodal v62 for specified cycles."""
-    params_file_path = NODAL_PATH / "param.v62"
-    params = _read_param62(params_file_path)
-    params[1] = str(NODAL_PATH)
+def run_nodal63(case_path: Path, cycle_years: List[int], rap: List[float], pdr: List[float], nodal_path: Optional[Path] = None) -> None:
+    """Run Nodal v63 for specified cycles."""
+    effective_nodal_path = nodal_path or NODAL_PATH
+    params_file_path = effective_nodal_path / "param.v63"
+    params = _read_param63(params_file_path)
+    params[1] = str(effective_nodal_path)
 
     for i, cycle in enumerate(cycle_years):
         cycle_str = f"{cycle}-{cycle + 1}"
@@ -208,16 +209,16 @@ def run_nodal62(case_path: Path, cycle_years: List[int], rap: List[float], pdr: 
         params[3] = str(case_path / cycle_str)
         params[4] = rap[i]
         params[20] = pdr[i]
-        _write_param62(params, params_file_path)
+        _write_param63(params, params_file_path)
 
-        command = "Nodal_F62.exe"
+        command = "Nodal_F63.exe"
         try:
-            subprocess.run(command, check=True, shell=True, cwd=NODAL_PATH)
+            subprocess.run(command, check=True, shell=True, cwd=effective_nodal_path)
         except subprocess.CalledProcessError as e:
-            logger.error(f"Error running Nodal_F62.exe: {e}")
+            logger.error(f"Error running Nodal_F63.exe: {e}")
             return
 
-        log_path = NODAL_PATH / "#ER_nod#.TX1"
+        log_path = effective_nodal_path / "#ER_nod#.TX1"
         if log_path.exists():
             with open(log_path, "r") as file:
                 logger.info(file.read())
