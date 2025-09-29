@@ -271,10 +271,10 @@ def display_commands(base_path):
     st.write("# AutoTUST Commands")
     
     command = st.selectbox("Select command to run:", 
-                           ["Run Nodal v62", "Generate TUST Results", "Clean GER Files"])
+                           ["Run Nodal v63", "Generate TUST Results", "Clean GER Files"])
     
     if st.button("Execute Command"):
-        if command == "Run Nodal v62":
+        if command == "Run Nodal v63":
             execute_autotust_command('nodal', base_path)
         elif command == "Generate TUST Results":
             execute_autotust_command('output', base_path)
@@ -285,8 +285,8 @@ def execute_autotust_command(command, base_path):
     if command == 'nodal':
         csv_path = base_path / "autotust.csv"
         cycle_years, rap, pdr = autotust.read_autotust_csv(csv_path)
-        autotust.run_nodal62(base_path, cycle_years, rap, pdr)
-        st.success("Nodal v62 execution completed.")
+        autotust.run_nodal63(base_path, cycle_years, rap, pdr)
+        st.success("Nodal v63 execution completed.")
     elif command == 'output':
         database = autotust.load_base(base_path)
         autotust.get_tust_results(base_path, database)
